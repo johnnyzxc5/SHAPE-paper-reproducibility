@@ -1,0 +1,5 @@
+Method,Measured_q,Measured_dq,Measured_ddq,Commanded_tau,Reference_q,Reference_dq,Reference_ddq,Reference_tau_nom,Nominal_Dynamic_Model,Observer_Internal_State,Numerical_Integration,CWT_Input_Channels,Physical_Domain,Summary_Category
+SHAPE-CWT,No,Yes (Sensory Feedback),No,Yes (Actuator Command),No,Yes (Planned Trajectory),No,Yes (Planned Trajectory),No (Online ID unneeded),None (Pure Algebraic),None,6,Port Power (Watts),Semi-Algebraic Port Observation
+Torque-CWT,No,No,No,Yes (Actuator Command),No,No,No,Yes (Planned Trajectory),No (Online ID unneeded),None (Pure Algebraic),None,6,Parity Torque (N*m),Pure Feedforward Command Parity
+GMO-CWT,Yes (Joint Encoder),Yes (Joint Tachometer/Deriv),No,Yes (Actuator Command),No,No,No,No,"Yes (Full M, g, C^T*dq, fric)",6-DOF Momentum State (xi),Tustin (Trapezoidal 1000 Hz),6,Momentum Residual (N*m),Full Dynamic State Observer
+EO-CWT,Yes (Joint Encoder),Yes (Joint Tachometer/Deriv),No,Yes (Actuator Command),No,No,No,No,"Yes (M, g, fric; Zero Coriolis)",Scalar Energy State (xi_E),Tustin (Trapezoidal 1000 Hz),1,Power Balance (Watts),Scalar Kinetic Energy Observer

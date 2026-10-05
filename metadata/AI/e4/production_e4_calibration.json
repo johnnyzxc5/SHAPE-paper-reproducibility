@@ -1,0 +1,24 @@
+{
+  "state": "PRODUCTION_E4_CALIBRATION_FROZEN",
+  "pooled_velocity_rms": [
+    0.35800257314545786,
+    0.4724081782504716,
+    0.45425351254524188,
+    0.2786438250368124,
+    0.24185344774283182,
+    0.30933243253955911
+  ],
+  "source": "PRIMARY_TRAIN:existing production HDF5",
+  "run_count": 14000,
+  "sample_count_per_joint": 1.40014E+8,
+  "run_uids_sha256": "49e9508588485c1b458dcfb1d8182a28fd063a77e26e0d6f8b053b71dce65622",
+  "scope": "PRIMARY_TRAIN",
+  "units": "rad/s",
+  "input_index_path": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+  "input_index_sha256": "01b5059425b91defdc472c5384934419e67b6b8e033e92f249b19504a0d55ea9",
+  "formula": "sqrt(sum_over_PRIMARY_Train_runs_and_samples(dq_meas.^2)/(14000*10001))",
+  "procedure": "shape.e4_calibration_stats + shape.aggregate_e4_calibration",
+  "code_state_git_sha": "f86ad96327ee278b67c7808074f528b239bc5461",
+  "matlab_version": "26.1.0.3312084 (R2026a) Update 4",
+  "timestamp_utc": "2026-09-26T07:55:04.183Z"
+}

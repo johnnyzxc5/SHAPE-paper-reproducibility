@@ -1,0 +1,12 @@
+{
+  "best_epoch": 39,
+  "best_validation_balanced_accuracy": 0.9936666666666666,
+  "best_validation_loss": 0.03378629175814179,
+  "best_validation_macro_f1": 0.9936610869850588,
+  "elapsed_seconds": 5622.926520499997,
+  "epochs_completed": 49,
+  "representation": "gmo_cwt",
+  "seed": 7919,
+  "status": "PASS",
+  "test_evaluated": false
+}

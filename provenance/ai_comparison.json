@@ -1,0 +1,208 @@
+[
+  {
+    "path": "Fault_Diagnosis/shape_ai/.gitignore",
+    "current_sha256": "e11f1251131051ed33baf6de64a494158ec25183beb00c55f071094abd2a8900",
+    "status": "DIFFERENT"
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/pyproject.toml",
+    "current_sha256": "0ad5bc3163f8ecd2a5d6b98767a2f5df12fbe132b97992bd60384772bc7c384f",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/README.md",
+    "current_sha256": "eddba36d7866a1d2bc0342d5b7cb1d63481e4487cf222ae9dec6ca5b4cc14799",
+    "status": "DIFFERENT",
+    "normalized_text_identical": false
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/requirements.txt",
+    "current_sha256": "695aa34dcf43cdd04ab8eee7232cf3447cd375856cc3e3bf0be3d063e805410c",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/configs/energy_cwt.json",
+    "current_sha256": "daa8b8e8d2d3deb40c1dd2cfae7bf584bb193fe9c863b9324ec205ddd381a15d",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/configs/gmo_cwt.json",
+    "current_sha256": "5e6c3a16af246cd249d403a88fea25b2ea40cd2940d294a1e3ebfa7e0456b237",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/configs/shape_cwt.json",
+    "current_sha256": "11ee43502ccb4110bc3fab0bb84e7ab168509dc8ec17dfcc00b9e074aeb6ab33",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/configs/shape_fft.json",
+    "current_sha256": "9cdecffd169b5a63fbe88cc63177e46612bebadba65a55bbc41bf123e03d1713",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/configs/shape_temporal.json",
+    "current_sha256": "2afb285a71ecaae3f6c7f17970f3853c8a74ebbe4e2ebdc494cfd386fcf1b9ba",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/configs/torque_cwt.json",
+    "current_sha256": "6835704e2e825ae458f1a78cf6cebd275e5f9d7cfc01a60b65da46cc5e912265",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/scripts/run_benchmarks.ps1",
+    "current_sha256": "453452db8a3b53b8b90d5cd8034d2005e51d4af19a796a0bfa233fc39c0ebcec",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/scripts/run_e4_production.ps1",
+    "current_sha256": "9e408cbc11c33d5b43e0a68e18a025de410b55fa9579395b1628b73b5320750c",
+    "status": "ABSENT_AT_COMMIT"
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/scripts/run_evaluation.ps1",
+    "current_sha256": "3fa8a4c47bb7052de5d7873873722e969f2a57d174d9512eea04f3c83dcb74ed",
+    "status": "DIFFERENT",
+    "normalized_text_identical": false
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/scripts/run_preflight.ps1",
+    "current_sha256": "94f7a91f41885b7e2fdb7ff367319b696f4b90cfb63d9480d4917faec7ab46fb",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/scripts/run_training_matrix.ps1",
+    "current_sha256": "5b7b9c500b7339eebd9d87a3716f49c2b48456607d4ac34f8cef51a9bad511fa",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/scripts/setup_windows.ps1",
+    "current_sha256": "baecc04d4b071df765f775cdee5fb301dc063dfdd580cd497c41ac90205d75ec",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/tests/test_contracts.py",
+    "current_sha256": "a2417e7756fdfbd9838032822859ad28d87338af25518e2f1d7a8386a6df18b9",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/tests/test_e4_production.py",
+    "current_sha256": "ed1a3651488ffe2230454afd84000ffaa0059fc355060e045122114b5015fbf3",
+    "status": "ABSENT_AT_COMMIT"
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/tests/test_indexing.py",
+    "current_sha256": "53e25a442e40c314a605ba974bf36723c6d4e72557d35f258aa1a496bca072ed",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/tests/test_models.py",
+    "current_sha256": "80491f59ce6638fe45602f6544ea78d04fdec211f696046155615affa3f56845",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/src/shape_ai/aggregate.py",
+    "current_sha256": "bfd738613ddacbb8cae36a73a860e8dc97d7fb3525f029e43abd202d565d85f6",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/src/shape_ai/analysis.py",
+    "current_sha256": "ef2c28a08c5117c0ca78b74625250dff18997b15d2bed11822bdeba1594461ff",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/src/shape_ai/benchmark.py",
+    "current_sha256": "4568563aa2ff014b163f70c7237327622671ae5030f9cfbaae7763d5ed977603",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/src/shape_ai/compare.py",
+    "current_sha256": "e254d5b3a04abb04eeb143ecb3368b9b44f976e45fd48c9f40c208262cf987d0",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/src/shape_ai/contracts.py",
+    "current_sha256": "6722caee353464812abec160a47dec9212edac5109f22192ad08ae1b26775f2b",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/src/shape_ai/data.py",
+    "current_sha256": "509b83ca5089de3bdbdc053983c5117ad9802d869568ac543240b037630a4dbb",
+    "status": "DIFFERENT",
+    "normalized_text_identical": false
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/src/shape_ai/e4_production.py",
+    "current_sha256": "8c440bfeafc59e0e28dd23def60cf6cdcc122e1439738ee968af8cdd5885eb58",
+    "status": "ABSENT_AT_COMMIT"
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/src/shape_ai/evaluate.py",
+    "current_sha256": "481bbd8fab89a43fe6eef7b854d3e09dd7129e64ef8b764ffd060be23bb2e824",
+    "status": "DIFFERENT",
+    "normalized_text_identical": false
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/src/shape_ai/indexing.py",
+    "current_sha256": "e4436cdedd1c9f3e477c414cce52afccb347863115bc0c3a93e59c00809e587b",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/src/shape_ai/metrics.py",
+    "current_sha256": "0c6422e61491991a8a4a8f33d79f39a28b9358d817cefc77b77ddc13ce447a5a",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/src/shape_ai/models.py",
+    "current_sha256": "62e44aa09d1fbac5b1e353c39bf928c00458433fa03f268f2a841ec9493f18cf",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/src/shape_ai/preflight.py",
+    "current_sha256": "30aef20fdd806e64e3fa19b921a5624d9a20569be6242a1f89a65463f857313b",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/src/shape_ai/train.py",
+    "current_sha256": "6e7b22b421a8de4116795318fd614a74f414c72ebc7c7efd6f2e1a91ad7cf243",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/src/shape_ai/utils.py",
+    "current_sha256": "0b4a2a59ef5a219120065bbd41e7eade1f7d2eb50331250148d74dca67938af3",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Fault_Diagnosis/shape_ai/src/shape_ai/__init__.py",
+    "current_sha256": "b7f9a188390dc3fb85377484e5dc080ddc977862b72142c64ce4d3122d0a54dd",
+    "status": "DIFFERENT",
+    "normalized_text_identical": true
+  }
+]

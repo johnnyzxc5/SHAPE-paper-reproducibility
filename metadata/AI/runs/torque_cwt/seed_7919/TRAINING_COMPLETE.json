@@ -1,0 +1,12 @@
+{
+  "best_epoch": 26,
+  "best_validation_balanced_accuracy": 0.886,
+  "best_validation_loss": 0.3743837074438731,
+  "best_validation_macro_f1": 0.8865176932860579,
+  "elapsed_seconds": 4126.500746699996,
+  "epochs_completed": 36,
+  "representation": "torque_cwt",
+  "seed": 7919,
+  "status": "PASS",
+  "test_evaluated": false
+}

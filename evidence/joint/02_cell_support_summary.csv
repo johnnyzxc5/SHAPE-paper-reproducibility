@@ -1,0 +1,4 @@
+fault_class,min_N,max_N,median_N,N_lt_10_cells,N_lt_20_cells,N_lt_30_cells
+LoE,30,81,46,0,0,0
+Friction,29,67,48.5,0,0,1
+Vibration,35,54,48.5,0,0,0

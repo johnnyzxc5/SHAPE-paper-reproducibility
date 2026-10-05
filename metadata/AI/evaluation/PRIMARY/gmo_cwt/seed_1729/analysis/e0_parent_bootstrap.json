@@ -1,0 +1,12 @@
+{
+  "balanced_accuracy_ci95": [
+    0.9590000000000001,
+    0.9716666666666667
+  ],
+  "cluster": "parent_trajectory_id",
+  "macro_f1_ci95": [
+    0.9586706306804149,
+    0.9714089323268889
+  ],
+  "replicates": 2000
+}

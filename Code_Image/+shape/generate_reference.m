@@ -1,0 +1,13 @@
+function [ref,metadata] = generate_reference(record,models,cfg)
+%GENERATE_REFERENCE Qualification-only generation; physical runs load artifacts.
+[t,q,dq,ddq,tau,metadata]=GenerarTrayectoriaAleatoriaSegura_MR( ...
+ models.Mlist_nom,models.Glist_nom,models.Slist_nom,cfg.target_joint, ...
+ 'Mode',char(record.trajectory_mode),'KSegments',record.K_segments, ...
+ 'Seed',record.trajectory_seed,'Duration',cfg.duration_s,'SampleTime',cfg.telemetry_dt_s, ...
+ 'MaxAttempts',cfg.trajectory_max_attempts);
+if metadata.qualification_status~="PASS"
+    ref=[]; return
+end
+ref=struct('t',t','q',q','dq',dq','ddq',ddq','tau_nom',tau');
+assert(isequal(size(ref.q),[6 cfg.n_time]));
+end

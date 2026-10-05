@@ -1,0 +1,23 @@
+[
+  {
+    "root": "C:\\KinovaProductionBundleComplete\\KINOVA_PRODUCTION_RELEASE_OPERATIONAL_HOST_CONCURRENCY_5b4d099",
+    "manifest_sha256": "30aa2f51cfe238b33134d17e3f5daf3b69731af471c5b882c5d09353ade5f435",
+    "checked": 10218,
+    "mismatches": [],
+    "total_bytes": 9492794194
+  },
+  {
+    "root": "C:\\KinovaProductionBundleComplete\\KINOVA_PRODUCTION_RELEASE_COMPLETE_5b4d099",
+    "manifest_sha256": "592b46a98e4a8ffd0a2553b84abc9c635645698d912ba234f6e710fa54d90ed9",
+    "checked": 10210,
+    "mismatches": [],
+    "total_bytes": 9492744325
+  },
+  {
+    "root": "C:\\KinovaProductionBundleVerification\\host_portable_final2_5b4d099\\KINOVA_PRODUCTION_RELEASE_OPERATIONAL_HOST_CONCURRENCY_5b4d099",
+    "manifest_sha256": "30aa2f51cfe238b33134d17e3f5daf3b69731af471c5b882c5d09353ade5f435",
+    "checked": 10218,
+    "mismatches": [],
+    "total_bytes": 9492794194
+  }
+]

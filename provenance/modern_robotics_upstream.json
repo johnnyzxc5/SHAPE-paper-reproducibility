@@ -1,0 +1,197 @@
+{
+  "retrieved": "2026-10-05",
+  "url": "https://codeload.github.com/NxRLab/ModernRobotics/zip/refs/heads/master",
+  "archive_sha256": "e24f9de7aa275e181e15f93b7dadbc55647bfab2fade707612c4a75102eb1c0b",
+  "license_url": "https://raw.githubusercontent.com/NxRLab/ModernRobotics/master/LICENSE",
+  "license_sha256": "fceef33c97fed32a270a56069bb45c108e473dfd1642c2648fa84779a9455d88",
+  "files": [
+    {
+      "path": "Code_Image/MATLAB/mr/ad.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/Adjoint.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/AxisAng3.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/AxisAng6.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/CartesianTrajectory.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/ComputedTorque.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/CubicTimeScaling.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/DistanceToSE3.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/DistanceToSO3.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/EndEffectorForces.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/EulerStep.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/FKinBody.m",
+      "normalized_upstream_match": false
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/FKinSpace.m",
+      "normalized_upstream_match": false
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/ForwardDynamics.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/ForwardDynamicsTrajectory.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/GravityForces.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/IKinBody.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/IKinSpace.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/InverseDynamics.m",
+      "normalized_upstream_match": false
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/InverseDynamicsTrajectory.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/JacobianBody.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/JacobianSpace.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/JointTrajectory.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/MassMatrix.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/MatrixExp3.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/MatrixExp6.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/MatrixLog3.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/MatrixLog6.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/NearZero.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/Normalize.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/ProjectToSE3.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/ProjectToSO3.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/QuinticTimeScaling.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/RotInv.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/RpToTrans.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/ScrewToAxis.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/ScrewTrajectory.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/se3ToVec.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/SimulateControl.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/so3ToVec.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/TestIfSE3.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/TestIfSO3.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/TransInv.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/TransToRp.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/VecTose3.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/VecToso3.m",
+      "normalized_upstream_match": true
+    },
+    {
+      "path": "Code_Image/MATLAB/mr/VelQuadraticForces.m",
+      "normalized_upstream_match": true
+    }
+  ]
+}

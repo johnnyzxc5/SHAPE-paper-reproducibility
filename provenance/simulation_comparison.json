@@ -1,0 +1,1001 @@
+[
+  {
+    "path": "Code_Image/+shape/build_fault_config.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "7c6e80f0680c21b3569812144f671081217cbe63101cd7d594bb1e7ce0ec73bf",
+    "commit_sha256": "7c6e80f0680c21b3569812144f671081217cbe63101cd7d594bb1e7ce0ec73bf",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/compute_fft.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "ff9cc0a696b9b210e9209a70e3ee98d236087aa7203b4387a07229f7549f7369",
+    "commit_sha256": "ff9cc0a696b9b210e9209a70e3ee98d236087aa7203b4387a07229f7549f7369",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/compute_residuals.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "7d984fc7f02a830de76e401816d87a12c8e575df12d0cc5933c24dbde2d664b5",
+    "commit_sha256": "7d984fc7f02a830de76e401816d87a12c8e575df12d0cc5933c24dbde2d664b5",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/config.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "6bc1deac6d595bf3a77113b90328b6d098b93199448ba1d065d78fa4cdaab0a0",
+    "commit_sha256": "6bc1deac6d595bf3a77113b90328b6d098b93199448ba1d065d78fa4cdaab0a0",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/configure_worker_filegen.m",
+    "status": "ABSENT_AT_COMMIT",
+    "portable_sha256": "57e2ef060c0f6b0f9e7f826f989f3c73f184b6a8f39a3036c1fe0661828084db",
+    "commit_sha256": null
+  },
+  {
+    "path": "Code_Image/+shape/coriolis_transpose_velocity.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "aae5110b55638f82b6ccefe8c7948a5daa20f981b0537df30b3560f4b648d23f",
+    "commit_sha256": "aae5110b55638f82b6ccefe8c7948a5daa20f981b0537df30b3560f4b648d23f",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/ctdq_mex_selftest.m",
+    "status": "DIFFERENT",
+    "portable_sha256": "56acb95fbb6d64f31b835881dfec32d51efc953f46ef4d545c3f404353b944ec",
+    "commit_sha256": "d98583fcc6a0bd3dc8464cc6e272869ccc79dfb7a2270ec13207b57dc5a8615a",
+    "normalized_text_identical": false
+  },
+  {
+    "path": "Code_Image/+shape/cwt_representations.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "4601002e839fbe2f33ba2b5aef4baf671fd2df7b3f2e6a9fb241d7910db970fb",
+    "commit_sha256": "4601002e839fbe2f33ba2b5aef4baf671fd2df7b3f2e6a9fb241d7910db970fb",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/e4_calibration_stats.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "f3ced82abf92708e73681cbdc964061ffcfd9bd78ab5baa842a69d7e21c45d39",
+    "commit_sha256": "f3ced82abf92708e73681cbdc964061ffcfd9bd78ab5baa842a69d7e21c45d39",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/evaluate_ctdq.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "4eab63f29a0de21dec3139c783dc9beaff580f4d7ecddf9afc1abb362ae26673",
+    "commit_sha256": "4eab63f29a0de21dec3139c783dc9beaff580f4d7ecddf9afc1abb362ae26673",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/execute_with_retry.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "ca353aacc26fd6033295d7f7cf46e9a92f8c8bc96f643ee779d189049311532d",
+    "commit_sha256": "ca353aacc26fd6033295d7f7cf46e9a92f8c8bc96f643ee779d189049311532d",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/generate_reference.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "6f5f2d5d08c125e9f63c2fb96b10ffe687d0a3925a08848e67c8b7c60b87c51b",
+    "commit_sha256": "6f5f2d5d08c125e9f63c2fb96b10ffe687d0a3925a08848e67c8b7c60b87c51b",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/initialize_worker_filegen_session.m",
+    "status": "ABSENT_AT_COMMIT",
+    "portable_sha256": "97496f3b45dd659504ae6017d6c7ac6c4a6ebe3fdfe2afcbb58d0e8e860fec3d",
+    "commit_sha256": null
+  },
+  {
+    "path": "Code_Image/+shape/load_frozen_trajectory.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "9cc9c9ce48ae14b4c193ca77adef8914cc87701806ebe94e1f7e7ed8da066264",
+    "commit_sha256": "9cc9c9ce48ae14b4c193ca77adef8914cc87701806ebe94e1f7e7ed8da066264",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/load_models.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "25cbd5e603bc39361e90d054e9db7a52a939aa91333362d2cef19bb5605a1058",
+    "commit_sha256": "25cbd5e603bc39361e90d054e9db7a52a939aa91333362d2cef19bb5605a1058",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/mpc_runtime_context.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "a66ce94849ac90e5373ef65ae610d878d8ce61eef020179316a4342121baca27",
+    "commit_sha256": "a66ce94849ac90e5373ef65ae610d878d8ce61eef020179316a4342121baca27",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/normalize_residuals.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "1cbc236e8e2334a8b3b12d0cb90400114546bba9a7ffb5dae125b127b2d8c978",
+    "commit_sha256": "1cbc236e8e2334a8b3b12d0cb90400114546bba9a7ffb5dae125b127b2d8c978",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/observer_ctdq_environment_policy.m",
+    "status": "ABSENT_AT_COMMIT",
+    "portable_sha256": "9187551bf8e3c2dc2112e7f70374504b0e410822752b1bd83e5de739a2f82d3e",
+    "commit_sha256": null
+  },
+  {
+    "path": "Code_Image/+shape/observer_gold_metrics.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "9c49e85b7ba4d5a059d9c2763690f34f608fdaf6d3fcd883d5bce4ae993b82ce",
+    "commit_sha256": "9c49e85b7ba4d5a059d9c2763690f34f608fdaf6d3fcd883d5bce4ae993b82ce",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/output_path.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "ce475c94cafa566fb00e5dafa0053fb68b564ac2cade48b6b1507e7f3c89597c",
+    "commit_sha256": "ce475c94cafa566fb00e5dafa0053fb68b564ac2cade48b6b1507e7f3c89597c",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/p0_profiler.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "72546db8a45b0930fe924a27f8c3723dd87de9a2e9949a7be8229034597c6da8",
+    "commit_sha256": "72546db8a45b0930fe924a27f8c3723dd87de9a2e9949a7be8229034597c6da8",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/prepare_mpc.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "a46e5e92a075fa5dd19668f84cad21b8fa8add4db035bb97600c69b092952c4e",
+    "commit_sha256": "a46e5e92a075fa5dd19668f84cad21b8fa8add4db035bb97600c69b092952c4e",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/production_assignment.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "5c0f0db2b6c170ce4143c8f89b77c7d5342ba98bc3223f1bab9b085ebed9e3ac",
+    "commit_sha256": "5c0f0db2b6c170ce4143c8f89b77c7d5342ba98bc3223f1bab9b085ebed9e3ac",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/production_environment.m",
+    "status": "DIFFERENT",
+    "portable_sha256": "17749eca53eb747b1a06d7ab8b3a6d2360b9ec05c4640c536cfb0d67b6d477e5",
+    "commit_sha256": "9f706ad736c277047e79f17c9db76d7a1704bb5687927e9d16ec33371ee27855",
+    "normalized_text_identical": false
+  },
+  {
+    "path": "Code_Image/+shape/production_host_identity.m",
+    "status": "ABSENT_AT_COMMIT",
+    "portable_sha256": "8a226feda57094623395d02bd140dc0902730cb8f7e3a5cb28ea130abdc978e1",
+    "commit_sha256": null
+  },
+  {
+    "path": "Code_Image/+shape/production_spec.m",
+    "status": "DIFFERENT",
+    "portable_sha256": "784a8a5a1efa8cdbf2072df3b0980f309497fcaf03101d574668ba03ff3a47d4",
+    "commit_sha256": "7c105a3f75b3024484224170ab6233262265e0161c8a0b0bd14b6c06feadeb08",
+    "normalized_text_identical": false
+  },
+  {
+    "path": "Code_Image/+shape/require_worker_filegen.m",
+    "status": "ABSENT_AT_COMMIT",
+    "portable_sha256": "e67909d497a35ea5e44ef2ede70280562428390a825c999a20548edbc2a9667c",
+    "commit_sha256": null
+  },
+  {
+    "path": "Code_Image/+shape/resample_telemetry.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "6e3c1d5ea5640e764ac810e20a2668a5abf0c23fa3d335ea2bb4dbdb589d2220",
+    "commit_sha256": "6e3c1d5ea5640e764ac810e20a2668a5abf0c23fa3d335ea2bb4dbdb589d2220",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/resume_or_quarantine.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "9ebc1da689ac67f54c2f918a1b50247a48e3fd350dac4a9dc40b1b87e8d4099b",
+    "commit_sha256": "9ebc1da689ac67f54c2f918a1b50247a48e3fd350dac4a9dc40b1b87e8d4099b",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/run_parent.m",
+    "status": "DIFFERENT",
+    "portable_sha256": "d691de8cdca54b0c1c7f0317ac488d96f016e61f642b795f02f7175f65a22f83",
+    "commit_sha256": "805e0406fb556439ae50e3d58a4a1739d64bdf6a16df1ab1b46d6686ead57c1a",
+    "normalized_text_identical": false
+  },
+  {
+    "path": "Code_Image/+shape/run_record.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "ca674f419f912415ee528df3a7a98f146908e1890631619dfcff3917c42d3bca",
+    "commit_sha256": "ca674f419f912415ee528df3a7a98f146908e1890631619dfcff3917c42d3bca",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/serialize_run.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "848d0abe1aa018f92978d5d46b6e99d222e32534f1adf67df2b420b04f129fce",
+    "commit_sha256": "848d0abe1aa018f92978d5d46b6e99d222e32534f1adf67df2b420b04f129fce",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/sha256_canonical.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "57054ccb828968cef8d4490ec1a57f5dc377a22ec743725a8b68a5561d7ea999",
+    "commit_sha256": "57054ccb828968cef8d4490ec1a57f5dc377a22ec743725a8b68a5561d7ea999",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/sha256_file_java_nio.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "1d07ef26790bc602d6dbda0e0185b5c8ab07b547e71d0b51652818a77349b88c",
+    "commit_sha256": "1d07ef26790bc602d6dbda0e0185b5c8ab07b547e71d0b51652818a77349b88c",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/sha256_file.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "f4ed2a15054d33c2d9f1f37ef973020a93c6917856d2e87137662fb57e421f21",
+    "commit_sha256": "f4ed2a15054d33c2d9f1f37ef973020a93c6917856d2e87137662fb57e421f21",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/simulate_run.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "25b0199d69d04c3c20ea8d93fd89c57cf8f6ea6e62715b28f778eece71421851",
+    "commit_sha256": "25b0199d69d04c3c20ea8d93fd89c57cf8f6ea6e62715b28f778eece71421851",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/trajectory_content_hash.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "23900c9d80c4da73b0ba2fdc126249451672592b9d9390b392ee8d720b62e34b",
+    "commit_sha256": "23900c9d80c4da73b0ba2fdc126249451672592b9d9390b392ee8d720b62e34b",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/trajectory_contract.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "6d5e36d0e559936d96788f725a216fe392a3bb76e8b7c33ced870a7a444a6c11",
+    "commit_sha256": "6d5e36d0e559936d96788f725a216fe392a3bb76e8b7c33ced870a7a444a6c11",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/truncated_reachable_box_sample.m",
+    "status": "ABSENT_AT_COMMIT",
+    "portable_sha256": "0b8017628f3d2c4f6562be5ad02788fdb0254f97dcb4ebd66c89b0580e7b9b9b",
+    "commit_sha256": null
+  },
+  {
+    "path": "Code_Image/+shape/validate_manifest.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "732acd85f9313c4236bcfe5bd23e59c79959e44fffb9c6509d495d6952696261",
+    "commit_sha256": "732acd85f9313c4236bcfe5bd23e59c79959e44fffb9c6509d495d6952696261",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/validate_output_gate08_fast_p4.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "d3f0ee40d550949d0f3caf6b88b83f426a058d46078701bc54fc5f64c0737f08",
+    "commit_sha256": "d3f0ee40d550949d0f3caf6b88b83f426a058d46078701bc54fc5f64c0737f08",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/validate_output.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "ead8cc9bbaf04872115215a9f881cd1755ad5466d93a71401707ce65c9c6e636",
+    "commit_sha256": "ead8cc9bbaf04872115215a9f881cd1755ad5466d93a71401707ce65c9c6e636",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/validate_production_shard.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "d536a29f072966409ba9a02a26898486cef29044a8f9eee4ec4ecf5d0bde30c5",
+    "commit_sha256": "d536a29f072966409ba9a02a26898486cef29044a8f9eee4ec4ecf5d0bde30c5",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/verify_frozen_trajectory.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "a69087660fae287ce890b3bf320d9eae066c0bd55b5a125f1243c7aab2db84ff",
+    "commit_sha256": "a69087660fae287ce890b3bf320d9eae066c0bd55b5a125f1243c7aab2db84ff",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/+shape/verify_host_concurrency_receipt.m",
+    "status": "ABSENT_AT_COMMIT",
+    "portable_sha256": "f9f1cb81ae1736f58677aadb9c59345862066ec5daee75701fc9a6feb15c9848",
+    "commit_sha256": null
+  },
+  {
+    "path": "Code_Image/+shape/write_json_atomic.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "d05c71ef08fec947a2dc676fe4562dcc89159b4689ea74404fee635b8ae5e58c",
+    "commit_sha256": "d05c71ef08fec947a2dc676fe4562dcc89159b4689ea74404fee635b8ae5e58c",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/ctdq_finite_difference_batch_mex_source.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "b99e2a6b3185a6af0f4f8db7b720fe5dfa4f90b4bb45c4c6b28b978c6d7e13c0",
+    "commit_sha256": "b99e2a6b3185a6af0f4f8db7b720fe5dfa4f90b4bb45c4c6b28b978c6d7e13c0",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/GenerarTrayectoriaAleatoriaSegura_MR.m",
+    "status": "DIFFERENT",
+    "portable_sha256": "a915575a347fd53837b398c32718cb9457988630f3da9758df0b8daa001ab67a",
+    "commit_sha256": "73ff3a0af7bcf3189cade7a615a85c15a52ffc9e6831b624a028465fb6717add",
+    "normalized_text_identical": false
+  },
+  {
+    "path": "Code_Image/generated/p1_ctdq_mex/ctdq_finite_difference_batch_mex.mexw64",
+    "status": "IDENTICAL",
+    "portable_sha256": "9dda22245d4f649854c9f3b7f9ad04527e288a2342ef5468c5a70020ddf12f5c",
+    "commit_sha256": "9dda22245d4f649854c9f3b7f9ad04527e288a2342ef5468c5a70020ddf12f5c"
+  },
+  {
+    "path": "Code_Image/get_Friction_Nominal.m",
+    "status": "DIFFERENT",
+    "portable_sha256": "93b3fc8d813f2fd96ec7498284515b32b78ca9a7307036db5141dc9db6ae7195",
+    "commit_sha256": "111e1ee01b76a13c0fd5db51e7e8d3f07d825544ce09037fb5339a55e4ecb6cb",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/get_Friction_Sucia.m",
+    "status": "DIFFERENT",
+    "portable_sha256": "841f87acc793af87037d2603a88f27989dd5de54f5283910b72f8a00b3530f63",
+    "commit_sha256": "e20304745b54a8b6a793372e56ff836e4e259b626c28a5f8222bfe3a8c6ba084",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/inverse_dynamics_kinova_MR.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "fddf05158221b047c793086460578277459fb423687ff31dd7bf4c98503616ce",
+    "commit_sha256": "fddf05158221b047c793086460578277459fb423687ff31dd7bf4c98503616ce",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/inverse_dynamics_kinova_runtime_MR.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "787c6c8223d3fa21990763c7d1c8eab7d0d77211f53172a2e7977446013792b9",
+    "commit_sha256": "787c6c8223d3fa21990763c7d1c8eab7d0d77211f53172a2e7977446013792b9",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/InverseDynamicsSharedKinematics_MR.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "199e12af463fac25625da752836b05e9d3051fd97bb64b901b2d61af873ba2a3",
+    "commit_sha256": "199e12af463fac25625da752836b05e9d3051fd97bb64b901b2d61af873ba2a3",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/Kinova_Fault_Simulator.slx",
+    "status": "IDENTICAL",
+    "portable_sha256": "f5503ede8c629736f5de9d4c87bb88fd0cb10b837dbc01ee5f0922dd8b906e1e",
+    "commit_sha256": "f5503ede8c629736f5de9d4c87bb88fd0cb10b837dbc01ee5f0922dd8b906e1e"
+  },
+  {
+    "path": "Code_Image/Kinova_MR_Nominal.mat",
+    "status": "IDENTICAL",
+    "portable_sha256": "534d87131c1d90f8c3b13611e4d3e9087c8e983f22bf51bf41023bcb672fc569",
+    "commit_sha256": "534d87131c1d90f8c3b13611e4d3e9087c8e983f22bf51bf41023bcb672fc569"
+  },
+  {
+    "path": "Code_Image/Kinova_MR_Sucia.mat",
+    "status": "IDENTICAL",
+    "portable_sha256": "cee7776c9ea2b4c62311d789e2f868111c7ade9fbf8acb0ff7ec21548753434e",
+    "commit_sha256": "cee7776c9ea2b4c62311d789e2f868111c7ade9fbf8acb0ff7ec21548753434e"
+  },
+  {
+    "path": "Code_Image/kinova_state_space_sucia_MR.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "4e26440935b5a7a825c038789835cbae380861fe71c371c6e0aba0d21c819f7d",
+    "commit_sha256": "4e26440935b5a7a825c038789835cbae380861fe71c371c6e0aba0d21c819f7d",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MassMatrixSharedKinematics_MR.m",
+    "status": "ABSENT_AT_COMMIT",
+    "portable_sha256": "10e236721b9aa36b92ffc57d30b9410ce6c793c874bbf0e82d66d6365272db74",
+    "commit_sha256": null
+  },
+  {
+    "path": "Code_Image/MassMatrixZeroStateSharedKinematics_MR.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "8a72d91b1c7e7ef17e5830a09cad756f4d6b45c03d793deae2506f888683e68f",
+    "commit_sha256": "8a72d91b1c7e7ef17e5830a09cad756f4d6b45c03d793deae2506f888683e68f",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/ad.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "7cd227fb452916a2d5878b32790641ba2aad9f94eb651b08ed8473b4500d19ad",
+    "commit_sha256": "7cd227fb452916a2d5878b32790641ba2aad9f94eb651b08ed8473b4500d19ad",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/Adjoint.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "fa4837f58760acf8d63a09df12d68ce365d1ccec94e7c772e5b3254de26c33b6",
+    "commit_sha256": "fa4837f58760acf8d63a09df12d68ce365d1ccec94e7c772e5b3254de26c33b6",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/AxisAng3.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "399e0c447dc1be6c9c37d51c7a71a31aae16e1e611ba9f09c00c79b9e9050bdb",
+    "commit_sha256": "399e0c447dc1be6c9c37d51c7a71a31aae16e1e611ba9f09c00c79b9e9050bdb",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/AxisAng6.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "c27b7f5b978d6d5d2aa309b8dc8e599c018edf8584888d6bfe7934aaf277a289",
+    "commit_sha256": "c27b7f5b978d6d5d2aa309b8dc8e599c018edf8584888d6bfe7934aaf277a289",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/CartesianTrajectory.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "0f0ed2bb842cdca42d664cc478ce940fded5d71b95d7d3e346b8df74a4bf94a8",
+    "commit_sha256": "0f0ed2bb842cdca42d664cc478ce940fded5d71b95d7d3e346b8df74a4bf94a8",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/ComputedTorque.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "ddc634f8792b316a47c2be35bd1def18b3f15e33d683f1ee5ac51f363af278e1",
+    "commit_sha256": "ddc634f8792b316a47c2be35bd1def18b3f15e33d683f1ee5ac51f363af278e1",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/CubicTimeScaling.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "54e91f8f95be32ebc33ba4ad5fc68ac9082f672d0b82b04be7d68b1986caa38e",
+    "commit_sha256": "54e91f8f95be32ebc33ba4ad5fc68ac9082f672d0b82b04be7d68b1986caa38e",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/DistanceToSE3.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "15e4c8df548ce0536c5012fa4d00d1cc404f7e7d39549f3da41cd6121a29711f",
+    "commit_sha256": "15e4c8df548ce0536c5012fa4d00d1cc404f7e7d39549f3da41cd6121a29711f",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/DistanceToSO3.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "201a60f3b4c72bf52dc50904a911d9a55ee1205870f895f5981595786103ee91",
+    "commit_sha256": "201a60f3b4c72bf52dc50904a911d9a55ee1205870f895f5981595786103ee91",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/EndEffectorForces.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "b9ea0b1fe724d1308af4238825e8c2b400419dc92a36d1d9b0dfa56d21166458",
+    "commit_sha256": "b9ea0b1fe724d1308af4238825e8c2b400419dc92a36d1d9b0dfa56d21166458",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/EulerStep.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "9fd2aa733909618bd9d259902922d9cb8e7aca4b53b0b2c34e639b62e62ce739",
+    "commit_sha256": "9fd2aa733909618bd9d259902922d9cb8e7aca4b53b0b2c34e639b62e62ce739",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/FKinBody.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "03481040f0979bcc1a788ca63a7de39ca0d8f6848082f5682238960eaf6eac3a",
+    "commit_sha256": "03481040f0979bcc1a788ca63a7de39ca0d8f6848082f5682238960eaf6eac3a",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/FKinSpace.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "67b243218d0672d70d7357118177e40d32dfd064687a9393071e0170bb42b486",
+    "commit_sha256": "67b243218d0672d70d7357118177e40d32dfd064687a9393071e0170bb42b486",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/ForwardDynamics.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "199585d3f5199d0dea3c9083715614e2291d50f19d7a5f999370e19af7a2857d",
+    "commit_sha256": "199585d3f5199d0dea3c9083715614e2291d50f19d7a5f999370e19af7a2857d",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/ForwardDynamicsTrajectory.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "5ffb845d24f30fd8b80bb847b2650d7631174fc77db39d6ac1128221b5ec86ae",
+    "commit_sha256": "5ffb845d24f30fd8b80bb847b2650d7631174fc77db39d6ac1128221b5ec86ae",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/GravityForces.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "a6393a72bd3f3cc919f92b7970022248ef2e25974d48cd56264e3c64631128f3",
+    "commit_sha256": "a6393a72bd3f3cc919f92b7970022248ef2e25974d48cd56264e3c64631128f3",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/IKinBody.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "168e415b388d852dfffca5a5c746efa9be0b765842857f463c697e9a95c33357",
+    "commit_sha256": "168e415b388d852dfffca5a5c746efa9be0b765842857f463c697e9a95c33357",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/IKinSpace.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "d1144e754283765c9c28ad72afb1372a59cb7fe2fb88d79c2edf6da7d7681c41",
+    "commit_sha256": "d1144e754283765c9c28ad72afb1372a59cb7fe2fb88d79c2edf6da7d7681c41",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/InverseDynamics.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "e3ccce7ffe91f997cd2282d8ead64e46e4dd8a10704193c7bff938372fa8d6ed",
+    "commit_sha256": "e3ccce7ffe91f997cd2282d8ead64e46e4dd8a10704193c7bff938372fa8d6ed",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/InverseDynamicsTrajectory.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "f56a683a00cb361ab1efd6cdd57382fc25f27a04c3a4c503545ec419354c2627",
+    "commit_sha256": "f56a683a00cb361ab1efd6cdd57382fc25f27a04c3a4c503545ec419354c2627",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/JacobianBody.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "f0f88877433d420671849b2df6791bf0a4de7f9010379b6df0339941da8ef4dd",
+    "commit_sha256": "f0f88877433d420671849b2df6791bf0a4de7f9010379b6df0339941da8ef4dd",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/JacobianSpace.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "ec35f2c3c2544a702e51076045a70ae878dabf460e59ff771e8df98c14e232cf",
+    "commit_sha256": "ec35f2c3c2544a702e51076045a70ae878dabf460e59ff771e8df98c14e232cf",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/JointTrajectory.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "a02e97a0e4620e16eb07a56d6d0a1df188b0264393d98ba6604d8812f03a2d9f",
+    "commit_sha256": "a02e97a0e4620e16eb07a56d6d0a1df188b0264393d98ba6604d8812f03a2d9f",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/juntar_codigos.py",
+    "status": "DIFFERENT",
+    "portable_sha256": "d352be2da9dca3c60c9558758bd78e8234c4b4e61a236e1fe7d61a964968a259",
+    "commit_sha256": "9d4aba1d8865a9c826053fa3d2668bb3fb2857a1a571d1a82713120a05a057b7"
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/Libreria_ModernRobotics.txt",
+    "status": "DIFFERENT",
+    "portable_sha256": "8d677106a570d9ad0b72bcfc28a573598eefd9880d6dc73b0ce42bc43ba01573",
+    "commit_sha256": "791a27d20b0e017791cc60de1a50eeddea33dc1e87b32512a39a7e2774cffa3d"
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/MassMatrix.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "5d082601c8ae5fe88eba74ec765557abc81e8213f8a7eb184c81cf5da44ae1db",
+    "commit_sha256": "5d082601c8ae5fe88eba74ec765557abc81e8213f8a7eb184c81cf5da44ae1db",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/MatrixExp3.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "cbe84863be13ec583ff02b3944dde806f2da6237201a43130e4777154cfd71a3",
+    "commit_sha256": "cbe84863be13ec583ff02b3944dde806f2da6237201a43130e4777154cfd71a3",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/MatrixExp6.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "748c9a4cca65dc3c6dd063d0f6f080c13c827c7f451bbf16e002902c9bc5c5e3",
+    "commit_sha256": "748c9a4cca65dc3c6dd063d0f6f080c13c827c7f451bbf16e002902c9bc5c5e3",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/MatrixLog3.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "a2f08cdd83713bcc6d3a745d6841b2e4c922ada9fcec50d7004937852283fc02",
+    "commit_sha256": "a2f08cdd83713bcc6d3a745d6841b2e4c922ada9fcec50d7004937852283fc02",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/MatrixLog6.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "74efbfc56ffead9a66732795d1526453e1d48e877cbbfe7ff189396fe91651f9",
+    "commit_sha256": "74efbfc56ffead9a66732795d1526453e1d48e877cbbfe7ff189396fe91651f9",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/NearZero.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "72a9fdccd78f48f527c383b5d0a5bf79539f0e159df71fded215215732e9dacc",
+    "commit_sha256": "72a9fdccd78f48f527c383b5d0a5bf79539f0e159df71fded215215732e9dacc",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/Normalize.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "54b9459dbfb215a61e46443abad0d9faae75595efe73e399af7807a1dcb5bc06",
+    "commit_sha256": "54b9459dbfb215a61e46443abad0d9faae75595efe73e399af7807a1dcb5bc06",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/ProjectToSE3.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "8a43d6be60129c42c70e5706c0c8c6ed80f44d106450a52306821e698e1523d0",
+    "commit_sha256": "8a43d6be60129c42c70e5706c0c8c6ed80f44d106450a52306821e698e1523d0",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/ProjectToSO3.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "311874855951411db7c4850c262d32fb96492b929486b8abbb03acdb15c72a91",
+    "commit_sha256": "311874855951411db7c4850c262d32fb96492b929486b8abbb03acdb15c72a91",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/QuinticTimeScaling.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "8fa8fb952298d7c3ad5a99f16508b45ca5f8512bf5a72362ee3592165c1b7ba0",
+    "commit_sha256": "8fa8fb952298d7c3ad5a99f16508b45ca5f8512bf5a72362ee3592165c1b7ba0",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/RotInv.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "2420ff0890046a49a368eaeaa35907500b1668d9c489de9f14fa217da5ca8edb",
+    "commit_sha256": "2420ff0890046a49a368eaeaa35907500b1668d9c489de9f14fa217da5ca8edb",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/RpToTrans.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "6a274efd03465361ce5f56ec85fb629bdff10e1d71425725702250b4e600358b",
+    "commit_sha256": "6a274efd03465361ce5f56ec85fb629bdff10e1d71425725702250b4e600358b",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/ScrewToAxis.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "05961c5e936f786735750327ccdf8dd631e963bd0e37feea129df9d94e29841e",
+    "commit_sha256": "05961c5e936f786735750327ccdf8dd631e963bd0e37feea129df9d94e29841e",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/ScrewTrajectory.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "124600741c843735c3e92204ee44767babf0f84a0c281f4778fe43443226ddb4",
+    "commit_sha256": "124600741c843735c3e92204ee44767babf0f84a0c281f4778fe43443226ddb4",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/se3ToVec.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "43f906673c8d6b7342ac8bf621ceddf41481ea6e70c91204d02ee99a67701939",
+    "commit_sha256": "43f906673c8d6b7342ac8bf621ceddf41481ea6e70c91204d02ee99a67701939",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/SimulateControl.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "9ce68c2e1ba2f5f74620501b748084e79f2744df3c1466664980527349d7ad69",
+    "commit_sha256": "9ce68c2e1ba2f5f74620501b748084e79f2744df3c1466664980527349d7ad69",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/so3ToVec.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "8ba3abe03e4a6f91a717ce689641947466589db6d33b938652697459cb0f1feb",
+    "commit_sha256": "8ba3abe03e4a6f91a717ce689641947466589db6d33b938652697459cb0f1feb",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/TestIfSE3.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "9c6a4af1cc530e121531847d79d55b43c6dd46ec751901126bd8c96d4fac31de",
+    "commit_sha256": "9c6a4af1cc530e121531847d79d55b43c6dd46ec751901126bd8c96d4fac31de",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/TestIfSO3.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "3b65489edd9fb9def70c337f960aa3dae91946001e23824889f337ddb27aa054",
+    "commit_sha256": "3b65489edd9fb9def70c337f960aa3dae91946001e23824889f337ddb27aa054",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/TransInv.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "bf7130d641eb9e0fff6ed2ba94cb29e145abe18ae24b65e46551ee3a0bde7c0c",
+    "commit_sha256": "bf7130d641eb9e0fff6ed2ba94cb29e145abe18ae24b65e46551ee3a0bde7c0c",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/TransToRp.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "2c95bb8a741c1625514b500ec3b5ef7747f1907a5dac7c4b66838c69baec9a0e",
+    "commit_sha256": "2c95bb8a741c1625514b500ec3b5ef7747f1907a5dac7c4b66838c69baec9a0e",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/VecTose3.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "e2716ef82edd5aec6a44e9a99b28fb5af26783c3f7e3fb3508a021a7e6cfeb7f",
+    "commit_sha256": "e2716ef82edd5aec6a44e9a99b28fb5af26783c3f7e3fb3508a021a7e6cfeb7f",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/VecToso3.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "2d9a30091126feb1435ef5b8e1ade8a99f9ca5c50ea4c7937736d1a0856fad58",
+    "commit_sha256": "2d9a30091126feb1435ef5b8e1ade8a99f9ca5c50ea4c7937736d1a0856fad58",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/MATLAB/mr/VelQuadraticForces.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "b443f58adba0d90bae88ab1746e7afa04e1269b646db8664c5a07c07610c4ab1",
+    "commit_sha256": "b443f58adba0d90bae88ab1746e7afa04e1269b646db8664c5a07c07610c4ab1",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/mpc_exact_invariants_MR.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "42eae4b5af61495e2c9f109939a9b48bbd6d125ff4b501dd34505014afdf0c98",
+    "commit_sha256": "42eae4b5af61495e2c9f109939a9b48bbd6d125ff4b501dd34505014afdf0c98",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/p0_profile_bridge.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "a165699cf6625bb706763d70a79eddee323eae582c7f47d639d79bd788a908fc",
+    "commit_sha256": "a165699cf6625bb706763d70a79eddee323eae582c7f47d639d79bd788a908fc",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/rnea_shared_kinematics_MR.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "618138f82ff473da95a4b5047ed51ddc1e329a37ce03c031c8e75dd657248ccf",
+    "commit_sha256": "618138f82ff473da95a4b5047ed51ddc1e329a37ce03c031c8e75dd657248ccf",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/run_production_host_qualification.m",
+    "status": "DIFFERENT",
+    "portable_sha256": "bc42b5c676ce7b9ef7cca89f18fbfef128e499a35133ea07197440637221cbd2",
+    "commit_sha256": "d0eace855fff25ab002dab415330cbd3ea62aa3b3e0ca02f559151175b57cbec",
+    "normalized_text_identical": false
+  },
+  {
+    "path": "Code_Image/run_production.m",
+    "status": "DIFFERENT",
+    "portable_sha256": "0da4a481bd35793df4cb9841f063db7531baf13eb1f7c863b83cb2a0da617611",
+    "commit_sha256": "55f0aff175e82f5104f89f519efd1a194696dd43b490f052ab662e298deccf72",
+    "normalized_text_identical": false
+  },
+  {
+    "path": "Code_Image/solve_flatness_mpc_runtime_MR.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "805cdbfa1cdfb81cf50d38c8b37b443659e5e2c27137fe1465890a01f5b26252",
+    "commit_sha256": "805cdbfa1cdfb81cf50d38c8b37b443659e5e2c27137fe1465890a01f5b26252",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/solve_flatness_mpc_step_MR.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "1d12979ed026047086b586e50b089965369d2a462f5b0d42724efba376814f32",
+    "commit_sha256": "1d12979ed026047086b586e50b089965369d2a462f5b0d42724efba376814f32",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/validate_production_assignments.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "8b6f9e6822b7bc17b186cbcf9c8232c4f1d425edfffe32a0937089d14b449750",
+    "commit_sha256": "8b6f9e6822b7bc17b186cbcf9c8232c4f1d425edfffe32a0937089d14b449750",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/validate_production_shard.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "f2d8868d5c92157e4cc1c8abc9161cfef50e974b9ba6820c82db0a827d19ab9a",
+    "commit_sha256": "f2d8868d5c92157e4cc1c8abc9161cfef50e974b9ba6820c82db0a827d19ab9a",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "Code_Image/validate_production_union.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "bc7bbbd0868222f99bcf3ff148eec01a05adf75d4ca1f27a796b8797c3d2b148",
+    "commit_sha256": "bc7bbbd0868222f99bcf3ff148eec01a05adf75d4ca1f27a796b8797c3d2b148",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_active/manifests/E2B_PAIRED_MANIFEST_CANDIDATE.parquet",
+    "status": "IDENTICAL",
+    "portable_sha256": "958201c8b598346c801a7df35748331cda6bc7bdb5f8abf68b627ab7dc59518c",
+    "commit_sha256": "958201c8b598346c801a7df35748331cda6bc7bdb5f8abf68b627ab7dc59518c"
+  },
+  {
+    "path": "docs/codex_active/manifests/PILOT24_MANIFEST_CANDIDATE.parquet",
+    "status": "ABSENT_AT_COMMIT",
+    "portable_sha256": "3055262237f62b934e8337dc867ea28ad9e50f178fdddc0be767429eaa57907e",
+    "commit_sha256": null
+  },
+  {
+    "path": "docs/codex_active/manifests/PILOT24_TRAJECTORY_BINDING_CANDIDATE_V2.parquet",
+    "status": "ABSENT_AT_COMMIT",
+    "portable_sha256": "e51122549278d5ae2597605bbeaa75f4f4fff1e244657dad399a2428d85e15ef",
+    "commit_sha256": null
+  },
+  {
+    "path": "docs/codex_active/manifests/PRIMARY_MANIFEST_DRY_RUN.parquet",
+    "status": "IDENTICAL",
+    "portable_sha256": "676a0a412ff00943f65525034ca3c1e3f3614ac9cbfd6f5a62a70edc91a99472",
+    "commit_sha256": "676a0a412ff00943f65525034ca3c1e3f3614ac9cbfd6f5a62a70edc91a99472"
+  },
+  {
+    "path": "docs/codex_active/manifests/PRODUCTION_TRAJECTORY_BINDING.parquet",
+    "status": "IDENTICAL",
+    "portable_sha256": "efb3c729b2bf74277d6f57165ae54b996d6996c389a95612f8751bfa73e16020",
+    "commit_sha256": "efb3c729b2bf74277d6f57165ae54b996d6996c389a95612f8751bfa73e16020"
+  },
+  {
+    "path": "docs/codex_active/manifests/PRODUCTION_TRAJECTORY_FREEZE_RECEIPT.json",
+    "status": "IDENTICAL",
+    "portable_sha256": "3fc02d6b0f45a82267273a66f95e0feb789262f0e2d7de74a441198ce618b699",
+    "commit_sha256": "3fc02d6b0f45a82267273a66f95e0feb789262f0e2d7de74a441198ce618b699",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_final_integrated_production_regression/FINAL_INTEGRATED_PRODUCTION_REGRESSION_RECEIPT.json",
+    "status": "IDENTICAL",
+    "portable_sha256": "cd136a4ba3a5398cf95dbfa2aff204322991d1bc568ca899b3193f3f4f58c7ae",
+    "commit_sha256": "cd136a4ba3a5398cf95dbfa2aff204322991d1bc568ca899b3193f3f4f58c7ae",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_final_integrated_production_regression/FINAL_INTEGRATED_PRODUCTION_REGRESSION_RECEIPT.schema.json",
+    "status": "IDENTICAL",
+    "portable_sha256": "8d6edd805ddbcb47d87989a8e3d5c36b8b36ff1e612353bea720a194bd99d671",
+    "commit_sha256": "8d6edd805ddbcb47d87989a8e3d5c36b8b36ff1e612353bea720a194bd99d671",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_final_integrated_production_regression/README_RUN.md",
+    "status": "IDENTICAL",
+    "portable_sha256": "3e34590af80f1433c1859133cdf8bf97e76c28794e9ffbd7db9ddea5c07127a2",
+    "commit_sha256": "3e34590af80f1433c1859133cdf8bf97e76c28794e9ffbd7db9ddea5c07127a2",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_final_integrated_production_regression/README.md",
+    "status": "IDENTICAL",
+    "portable_sha256": "64b6e4f7582296831c765d8ce5bb3d7a1c82d9ed01ecd38ad9bb6855c6d43eab",
+    "commit_sha256": "64b6e4f7582296831c765d8ce5bb3d7a1c82d9ed01ecd38ad9bb6855c6d43eab",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_p6_worker_topology/P6_FINAL_STORAGE_RECHECK_RECEIPT.json",
+    "status": "IDENTICAL",
+    "portable_sha256": "5c7e29539b47f81506a006e0929c103b2b969f5325f20e6dc7a9e1de96351cdb",
+    "commit_sha256": "5c7e29539b47f81506a006e0929c103b2b969f5325f20e6dc7a9e1de96351cdb",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_p6_worker_topology/p6_resource_monitor.ps1",
+    "status": "IDENTICAL",
+    "portable_sha256": "d65c9b0133a05f6ddeb81884f67cda2a1f89de26ae03f9e39f0002e27b202f25",
+    "commit_sha256": "d65c9b0133a05f6ddeb81884f67cda2a1f89de26ae03f9e39f0002e27b202f25",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_p6_worker_topology/P6_WORKER_TOPOLOGY_RATIFICATION.md",
+    "status": "IDENTICAL",
+    "portable_sha256": "b11f045b3850adc48576bba8af8c1d6a94c70bd07c57eac397b2389caf7353cd",
+    "commit_sha256": "b11f045b3850adc48576bba8af8c1d6a94c70bd07c57eac397b2389caf7353cd",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_p6_worker_topology/run_eof_worker_cache_isolation_qualification.m",
+    "status": "ABSENT_AT_COMMIT",
+    "portable_sha256": "84ce413b36d21aa1d94bba44479ec52b8f1338bad36334655d455d2a57a6c288",
+    "commit_sha256": null
+  },
+  {
+    "path": "docs/codex_postgate_runtime/postgate_compare_equivalence.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "dca45974bdbe6b3121845662cb2f3f0bd81f0739749f25a83461e6c8a9283739",
+    "commit_sha256": "dca45974bdbe6b3121845662cb2f3f0bd81f0739749f25a83461e6c8a9283739",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_postgate_runtime/postgate_isolate_session.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "512b8d8b2f556dd869e54d027be6bb3a6786d2033e0f29ba7782e66adee40296",
+    "commit_sha256": "512b8d8b2f556dd869e54d027be6bb3a6786d2033e0f29ba7782e66adee40296",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_postgate_runtime/postgate_lifecycle_ledger.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "4dba12f1bd81ea89a278177bd5a9c5bc3a8ae1eb3ae65835082bd70aac228df7",
+    "commit_sha256": "4dba12f1bd81ea89a278177bd5a9c5bc3a8ae1eb3ae65835082bd70aac228df7",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_postgate_runtime/postgate_preflight.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "9e06c5da6b0dceb907fe4bd726f2ffc78c6cd5a8df86f0f41a68bf93645459e0",
+    "commit_sha256": "9e06c5da6b0dceb907fe4bd726f2ffc78c6cd5a8df86f0f41a68bf93645459e0",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_postgate_runtime/postgate_simulate_record.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "cea32481cedc8d553e6bbdadd6f293d0d909db72f412f20df4f5fdf20e599466",
+    "commit_sha256": "cea32481cedc8d553e6bbdadd6f293d0d909db72f412f20df4f5fdf20e599466",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_postgate_runtime/postgate_unattributed_diagnostic.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "f75ed1d89b819fb5f6e96a9b1f59848bf9b8d58e361ff1e977c3348d8f107d4c",
+    "commit_sha256": "f75ed1d89b819fb5f6e96a9b1f59848bf9b8d58e361ff1e977c3348d8f107d4c",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_postgate_runtime/README.md",
+    "status": "IDENTICAL",
+    "portable_sha256": "ed9d83c8451305ba72465dcba907231a5110c0981746cdfa4c48402af4d419ac",
+    "commit_sha256": "ed9d83c8451305ba72465dcba907231a5110c0981746cdfa4c48402af4d419ac",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_postgate_runtime/run_runtime_qualification.m",
+    "status": "IDENTICAL",
+    "portable_sha256": "3c0e2474a2d9825ac102154284726041a6fa852d68ca50d02f18763372d8b168",
+    "commit_sha256": "3c0e2474a2d9825ac102154284726041a6fa852d68ca50d02f18763372d8b168",
+    "normalized_text_identical": true
+  },
+  {
+    "path": "docs/codex_production_launcher/HOST_CONCURRENCY_QUALIFICATION.schema.json",
+    "status": "ABSENT_AT_COMMIT",
+    "portable_sha256": "e3f49561c015580fe3631122e89b88d0065f3583f18b06d4424b90acac5b833a",
+    "commit_sha256": null
+  },
+  {
+    "path": "docs/codex_production_launcher/HOST_SPECIFIC_CONCURRENCY_AUTHORITY.md",
+    "status": "ABSENT_AT_COMMIT",
+    "portable_sha256": "61a6847f89f43e13c1a3f1acb9ff4e924fc69f1fa670ea01219e379eb1aca91e",
+    "commit_sha256": null
+  },
+  {
+    "path": "docs/codex_production_launcher/OPERATOR_GUIDE.md",
+    "status": "DIFFERENT",
+    "portable_sha256": "8c363f040bb1a68d8c3eb8c745351adf9f56a20e3b679735fd14a0a31f14af51",
+    "commit_sha256": "935875a5a92e8961aff620e5ccad196c156a3a9a3133b59c10d73996f854e3cb",
+    "normalized_text_identical": false
+  },
+  {
+    "path": "docs/codex_production_launcher/PORTABLE_DEPENDENCY_CLOSURE.md",
+    "status": "ABSENT_AT_COMMIT",
+    "portable_sha256": "119af61946613f952ddf80392de984edcd9c24761be47a746ef6d3b9549884a7",
+    "commit_sha256": null
+  },
+  {
+    "path": "docs/codex_production_launcher/PRODUCTION_RECEIPTS.schema.json",
+    "status": "IDENTICAL",
+    "portable_sha256": "d620e842641c577849349888c072e0eb3f498f988bafc22d80f6dbbd27b9ae6a",
+    "commit_sha256": "d620e842641c577849349888c072e0eb3f498f988bafc22d80f6dbbd27b9ae6a",
+    "normalized_text_identical": true
+  }
+]

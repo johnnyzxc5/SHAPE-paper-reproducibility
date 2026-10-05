@@ -1,0 +1,12 @@
+{
+  "best_epoch": 27,
+  "best_validation_balanced_accuracy": 0.921,
+  "best_validation_loss": 0.22510394910971324,
+  "best_validation_macro_f1": 0.9203409569588707,
+  "elapsed_seconds": 350.07362850001664,
+  "epochs_completed": 37,
+  "representation": "energy_cwt",
+  "seed": 104729,
+  "status": "PASS",
+  "test_evaluated": false
+}

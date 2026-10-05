@@ -1,0 +1,79 @@
+{
+  "timestamp_utc": "2026-10-01T14:28:17.011598+00:00",
+  "source": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\derived\\canonical_e0_primary.parquet",
+  "source_sha256": "dc665cacf02c69be3dd40428debff6034fce6adb3d744900c5096a837c81a13e",
+  "output_directory": "C:\\Users\\Johnny\\Desktop\\KINOVA_JOINT_SEVERITY_EXCITATION_AUDIT",
+  "script": "C:\\Users\\Johnny\\Desktop\\KINOVA_JOINT_SEVERITY_EXCITATION_AUDIT\\run_joint_analysis.py",
+  "script_sha256": "152d60478599c7af7bcbe2905dcf260bdafe59e38ff1fd2c702108b87841bd1d",
+  "python": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\Fault_Diagnosis\\shape_ai\\.venv\\Scripts\\python.exe",
+  "versions": {
+    "python": "3.12.3",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2"
+  },
+  "scientific_authority_record": "5b4d09994fae40e2992d0e118cc9b31cd6cf90a1",
+  "frozen_files_checked": 721,
+  "frozen_changed_files": [],
+  "frozen_added_files": [],
+  "final_report_sha256_before": "c96c8ec6ae8581a912cde11488b67af7a0636bcc9d431db4bad44ada121af497",
+  "final_report_sha256_after": "c96c8ec6ae8581a912cde11488b67af7a0636bcc9d431db4bad44ada121af497",
+  "marginal_max_absolute_discrepancy_proportion": 2.220446049250313e-16,
+  "marginal_tolerance": 1e-12,
+  "confusion_fraction_sum_max_error": 2.220446049250313e-16,
+  "integrity": {
+    "status": "PASS",
+    "errors": [],
+    "prediction_rows": 45000,
+    "unique_runs": 2250,
+    "runs_by_fault": {
+      "Friction": 750,
+      "LoE": 750,
+      "Vibration": 750
+    },
+    "methods": [
+      "shape_cwt",
+      "torque_cwt",
+      "gmo_cwt",
+      "energy_cwt"
+    ],
+    "seeds": [
+      1729,
+      2027,
+      4099,
+      7919,
+      104729
+    ],
+    "frozen_workspace_files_hashed": 721,
+    "source_sha256": "dc665cacf02c69be3dd40428debff6034fce6adb3d744900c5096a837c81a13e"
+  },
+  "count_support": [
+    {
+      "fault_class": "LoE",
+      "min_N": 30,
+      "max_N": 81,
+      "median_N": 46.0,
+      "N_lt_10_cells": 0,
+      "N_lt_20_cells": 0,
+      "N_lt_30_cells": 0
+    },
+    {
+      "fault_class": "Friction",
+      "min_N": 29,
+      "max_N": 67,
+      "median_N": 48.5,
+      "N_lt_10_cells": 0,
+      "N_lt_20_cells": 0,
+      "N_lt_30_cells": 1
+    },
+    {
+      "fault_class": "Vibration",
+      "min_N": 35,
+      "max_N": 54,
+      "median_N": 48.5,
+      "N_lt_10_cells": 0,
+      "N_lt_20_cells": 0,
+      "N_lt_30_cells": 0
+    }
+  ]
+}

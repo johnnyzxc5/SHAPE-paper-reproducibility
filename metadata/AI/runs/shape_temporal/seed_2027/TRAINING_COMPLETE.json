@@ -1,0 +1,12 @@
+{
+  "best_epoch": 47,
+  "best_validation_balanced_accuracy": 0.8946666666666667,
+  "best_validation_loss": 0.30081271048386893,
+  "best_validation_macro_f1": 0.8949501270185282,
+  "elapsed_seconds": 735.5711587999976,
+  "epochs_completed": 50,
+  "representation": "shape_temporal",
+  "seed": 2027,
+  "status": "PASS",
+  "test_evaluated": false
+}

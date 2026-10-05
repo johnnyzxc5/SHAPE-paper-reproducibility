@@ -1,0 +1,151 @@
+{
+  "batch_size": 32,
+  "calibration_path": "C:\\KinovaProduction\\AI\\e4\\production_e4_calibration.json",
+  "calibration_sha": "b925fc064ceb26696444deff1de1cc51cf9d8536b407249fbd140ec97d3bed30",
+  "checkpoints": [
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\shape_cwt\\seed_1729\\best.pt",
+      "checkpoint_sha": "bdd487594e7b9195cefd31083feef4901ce85dcbb8021b263074da39c6a69fb9",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\shape_cwt\\seed_1729",
+      "representation": "shape_cwt",
+      "seed": 1729
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\shape_cwt\\seed_2027\\best.pt",
+      "checkpoint_sha": "cd4c43e27954616f8b2599b6f5d30ad68f6b7f04ee1fb55767f681cf444e594c",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\shape_cwt\\seed_2027",
+      "representation": "shape_cwt",
+      "seed": 2027
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\shape_cwt\\seed_4099\\best.pt",
+      "checkpoint_sha": "10176f5cd8a5ba7e8ad1a4bd253d756fb5583e005de638699f1b544d08219ac6",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\shape_cwt\\seed_4099",
+      "representation": "shape_cwt",
+      "seed": 4099
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\shape_cwt\\seed_7919\\best.pt",
+      "checkpoint_sha": "fdfd9a9d08866103454edab66ea66b1f642de79ca13d06b127cd8f41e2017da2",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\shape_cwt\\seed_7919",
+      "representation": "shape_cwt",
+      "seed": 7919
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\shape_cwt\\seed_104729\\best.pt",
+      "checkpoint_sha": "197896626bb05d95c9b48e6c6835ba18ed124b8b2cdf80d35c5ad6c3ce60242d",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\shape_cwt\\seed_104729",
+      "representation": "shape_cwt",
+      "seed": 104729
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\torque_cwt\\seed_1729\\best.pt",
+      "checkpoint_sha": "9455fb6da88f20114be95196eeade53a579d675fe2939c6a6ffe136384a43ebd",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\torque_cwt\\seed_1729",
+      "representation": "torque_cwt",
+      "seed": 1729
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\torque_cwt\\seed_2027\\best.pt",
+      "checkpoint_sha": "ea4f03b196ab09d893e0602b90ff6d62f8369f047f03761a4f9b13a37f2bbc57",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\torque_cwt\\seed_2027",
+      "representation": "torque_cwt",
+      "seed": 2027
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\torque_cwt\\seed_4099\\best.pt",
+      "checkpoint_sha": "ec3cfe0d8ad54c750e9f79df0a6468699a080c1532eb80fcbe5f11f5d99bd737",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\torque_cwt\\seed_4099",
+      "representation": "torque_cwt",
+      "seed": 4099
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\torque_cwt\\seed_7919\\best.pt",
+      "checkpoint_sha": "355b2c47c21ccb70f1592d3347e3ba8b52eda8ccdd007df5ded203d73fcab008",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\torque_cwt\\seed_7919",
+      "representation": "torque_cwt",
+      "seed": 7919
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\torque_cwt\\seed_104729\\best.pt",
+      "checkpoint_sha": "338df26b8ba9157368741303b63f6ffd6fa8a52ac12294d12edb064818cd17bd",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\torque_cwt\\seed_104729",
+      "representation": "torque_cwt",
+      "seed": 104729
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\gmo_cwt\\seed_1729\\best.pt",
+      "checkpoint_sha": "882990292dc9d7905fa1cab5cec695ec0c6fc4bd846e9d06a012736ebfc06b57",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\gmo_cwt\\seed_1729",
+      "representation": "gmo_cwt",
+      "seed": 1729
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\gmo_cwt\\seed_2027\\best.pt",
+      "checkpoint_sha": "62dfa2b0d97c7ee9f358f45034036fe9b1f6e2b5de467667fc7cf317ac4827dd",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\gmo_cwt\\seed_2027",
+      "representation": "gmo_cwt",
+      "seed": 2027
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\gmo_cwt\\seed_4099\\best.pt",
+      "checkpoint_sha": "dd3134db5cfcd2525a1f6b4d296922a1cd5530f016c565ed60f489f5232a55bc",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\gmo_cwt\\seed_4099",
+      "representation": "gmo_cwt",
+      "seed": 4099
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\gmo_cwt\\seed_7919\\best.pt",
+      "checkpoint_sha": "4cd59e72b0f815f255a05bc15844ec2895e6bf8d2b4457e9ff33c70e13f6d631",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\gmo_cwt\\seed_7919",
+      "representation": "gmo_cwt",
+      "seed": 7919
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\gmo_cwt\\seed_104729\\best.pt",
+      "checkpoint_sha": "5b36cb096a3bb46ca26d7424368d810448b07dab278d740add28ca0768127e5d",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\gmo_cwt\\seed_104729",
+      "representation": "gmo_cwt",
+      "seed": 104729
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\energy_cwt\\seed_1729\\best.pt",
+      "checkpoint_sha": "a4426d4af97d99a34dad4ac8a2eb1e5a24f9b09a9585f100901797cf3ba695e5",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\energy_cwt\\seed_1729",
+      "representation": "energy_cwt",
+      "seed": 1729
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\energy_cwt\\seed_2027\\best.pt",
+      "checkpoint_sha": "f0a8c0582826161e1ae486c19c111365485671a1fdf46aad086e8b75dd546633",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\energy_cwt\\seed_2027",
+      "representation": "energy_cwt",
+      "seed": 2027
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\energy_cwt\\seed_4099\\best.pt",
+      "checkpoint_sha": "c9fd964278054dd9d2c1bd885385b1e24c24fce7adb935f987e41cdab3414dd1",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\energy_cwt\\seed_4099",
+      "representation": "energy_cwt",
+      "seed": 4099
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\energy_cwt\\seed_7919\\best.pt",
+      "checkpoint_sha": "68a3be097aa70c99db0dc2f248b15f6b4b1c1527b8bf0d0f017818a58249a39c",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\energy_cwt\\seed_7919",
+      "representation": "energy_cwt",
+      "seed": 7919
+    },
+    {
+      "checkpoint": "C:\\KinovaProduction\\AI\\runs\\energy_cwt\\seed_104729\\best.pt",
+      "checkpoint_sha": "eaeb101927245ca24fd6c99ae10e1b09b157eee7bb1d8f24ebb8d601bb7fc5e2",
+      "destination": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\energy_cwt\\seed_104729",
+      "representation": "energy_cwt",
+      "seed": 104729
+    }
+  ],
+  "chunk_sha": "125dcd5b2f11ea263f5aa5fef1c0e46dd7c470c97eb2dd6828e104eae3a60d99",
+  "index_file": "C:\\KinovaProduction\\AI\\evaluation\\E4\\_chunks\\chunk_0000\\index.parquet",
+  "stage_dir": "C:\\KinovaProduction\\AI\\e4\\stage\\chunk_0000",
+  "workers": 4
+}

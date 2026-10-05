@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kinova Production Control Receipts",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": ["schema_version", "status", "cohort", "shard_id", "parent_ids", "production_authorized"],
+      "properties": {
+        "schema_version": {"enum": ["production-shard-preflight-v1", "production-shard-final-v1", "production-shard-validation-v1"]},
+        "production_authorized": {"const": false}
+      }
+    },
+    {
+      "type": "object",
+      "required": ["schema_version", "status", "pass", "hostname", "production_authorized"],
+      "properties": {
+        "schema_version": {"const": "production-host-qualification-v1"},
+        "production_authorized": {"const": false}
+      }
+    },
+    {
+      "type": "object",
+      "required": ["schema_version", "status", "pass", "production_authorized"],
+      "properties": {
+        "schema_version": {"enum": ["production-assignment-plan-v1", "production-union-validation-v1"]},
+        "production_authorized": {"const": false}
+      }
+    }
+  ]
+}

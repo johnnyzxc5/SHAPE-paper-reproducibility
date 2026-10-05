@@ -1,0 +1,136 @@
+{
+  "accuracy": 0.8396666666666667,
+  "balanced_accuracy": 0.8396666666666667,
+  "checkpoint_sha256": "f0a8c0582826161e1ae486c19c111365485671a1fdf46aad086e8b75dd546633",
+  "classification_report": {
+    "Friction": {
+      "f1-score": 0.7119341563786008,
+      "precision": 0.7330508474576272,
+      "recall": 0.692,
+      "support": 750.0
+    },
+    "LoE": {
+      "f1-score": 0.7729323308270677,
+      "precision": 0.8862068965517241,
+      "recall": 0.6853333333333333,
+      "support": 750.0
+    },
+    "Nominal": {
+      "f1-score": 0.8618075801749271,
+      "precision": 0.7658031088082902,
+      "recall": 0.9853333333333333,
+      "support": 750.0
+    },
+    "Vibration": {
+      "f1-score": 0.9979959919839679,
+      "precision": 1.0,
+      "recall": 0.996,
+      "support": 750.0
+    },
+    "accuracy": 0.8396666666666667,
+    "macro avg": {
+      "f1-score": 0.8361675148411408,
+      "precision": 0.8462652132044104,
+      "recall": 0.8396666666666667,
+      "support": 3000.0
+    },
+    "weighted avg": {
+      "f1-score": 0.8361675148411409,
+      "precision": 0.8462652132044104,
+      "recall": 0.8396666666666667,
+      "support": 3000.0
+    }
+  },
+  "cohort": "PRIMARY",
+  "confusion_matrix": [
+    [
+      739,
+      2,
+      9,
+      0
+    ],
+    [
+      56,
+      514,
+      180,
+      0
+    ],
+    [
+      168,
+      63,
+      519,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      747
+    ]
+  ],
+  "fault_missed_detection_rate": 0.10044444444444445,
+  "index_sha256": "01b5059425b91defdc472c5384934419e67b6b8e033e92f249b19504a0d55ea9",
+  "macro_f1": 0.8361675148411408,
+  "macro_roc_auc_ovr": 0.9571339259259259,
+  "nominal_false_alarm_rate": 0.014666666666666666,
+  "normalized_confusion_matrix": [
+    [
+      0.9853333333333333,
+      0.0026666666666666666,
+      0.012,
+      0.0
+    ],
+    [
+      0.07466666666666667,
+      0.6853333333333333,
+      0.24,
+      0.0
+    ],
+    [
+      0.224,
+      0.084,
+      0.692,
+      0.0
+    ],
+    [
+      0.0026666666666666666,
+      0.0013333333333333333,
+      0.0,
+      0.996
+    ]
+  ],
+  "per_class": {
+    "Friction": {
+      "f1": 0.7119341563786008,
+      "precision": 0.7330508474576272,
+      "recall": 0.692,
+      "specificity": 0.916,
+      "support": 750
+    },
+    "LoE": {
+      "f1": 0.7729323308270677,
+      "precision": 0.8862068965517241,
+      "recall": 0.6853333333333333,
+      "specificity": 0.9706666666666667,
+      "support": 750
+    },
+    "Nominal": {
+      "f1": 0.8618075801749271,
+      "precision": 0.7658031088082902,
+      "recall": 0.9853333333333333,
+      "specificity": 0.8995555555555556,
+      "support": 750
+    },
+    "Vibration": {
+      "f1": 0.9979959919839679,
+      "precision": 1.0,
+      "recall": 0.996,
+      "specificity": 1.0,
+      "support": 750
+    }
+  },
+  "representation": "energy_cwt",
+  "samples": 3000,
+  "seed": 2027,
+  "split": "test"
+}

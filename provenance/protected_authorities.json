@@ -1,0 +1,83 @@
+{
+  "protected": [
+    {
+      "path": "Code_Image/solve_flatness_mpc_step_MR.m",
+      "expected": "1d12979ed026047086b586e50b089965369d2a462f5b0d42724efba376814f32",
+      "actual": "1d12979ed026047086b586e50b089965369d2a462f5b0d42724efba376814f32",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/+shape/compute_residuals.m",
+      "expected": "7d984fc7f02a830de76e401816d87a12c8e575df12d0cc5933c24dbde2d664b5",
+      "actual": "7d984fc7f02a830de76e401816d87a12c8e575df12d0cc5933c24dbde2d664b5",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/+shape/cwt_representations.m",
+      "expected": "4601002e839fbe2f33ba2b5aef4baf671fd2df7b3f2e6a9fb241d7910db970fb",
+      "actual": "4601002e839fbe2f33ba2b5aef4baf671fd2df7b3f2e6a9fb241d7910db970fb",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/kinova_state_space_sucia_MR.m",
+      "expected": "4e26440935b5a7a825c038789835cbae380861fe71c371c6e0aba0d21c819f7d",
+      "actual": "4e26440935b5a7a825c038789835cbae380861fe71c371c6e0aba0d21c819f7d",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/+shape/serialize_run.m",
+      "expected": "848d0abe1aa018f92978d5d46b6e99d222e32534f1adf67df2b420b04f129fce",
+      "actual": "848d0abe1aa018f92978d5d46b6e99d222e32534f1adf67df2b420b04f129fce",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/rnea_shared_kinematics_MR.m",
+      "expected": "618138f82ff473da95a4b5047ed51ddc1e329a37ce03c031c8e75dd657248ccf",
+      "actual": "618138f82ff473da95a4b5047ed51ddc1e329a37ce03c031c8e75dd657248ccf",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/InverseDynamicsSharedKinematics_MR.m",
+      "expected": "199e12af463fac25625da752836b05e9d3051fd97bb64b901b2d61af873ba2a3",
+      "actual": "199e12af463fac25625da752836b05e9d3051fd97bb64b901b2d61af873ba2a3",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/MassMatrixZeroStateSharedKinematics_MR.m",
+      "expected": "8a72d91b1c7e7ef17e5830a09cad756f4d6b45c03d793deae2506f888683e68f",
+      "actual": "8a72d91b1c7e7ef17e5830a09cad756f4d6b45c03d793deae2506f888683e68f",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/inverse_dynamics_kinova_runtime_MR.m",
+      "expected": "787c6c8223d3fa21990763c7d1c8eab7d0d77211f53172a2e7977446013792b9",
+      "actual": "787c6c8223d3fa21990763c7d1c8eab7d0d77211f53172a2e7977446013792b9",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/inverse_dynamics_kinova_MR.m",
+      "expected": "fddf05158221b047c793086460578277459fb423687ff31dd7bf4c98503616ce",
+      "actual": "fddf05158221b047c793086460578277459fb423687ff31dd7bf4c98503616ce",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/generated/p1_ctdq_mex/ctdq_finite_difference_batch_mex.mexw64",
+      "expected": "9dda22245d4f649854c9f3b7f9ad04527e288a2342ef5468c5a70020ddf12f5c",
+      "actual": "9dda22245d4f649854c9f3b7f9ad04527e288a2342ef5468c5a70020ddf12f5c",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/ctdq_finite_difference_batch_mex_source.m",
+      "expected": "b99e2a6b3185a6af0f4f8db7b720fe5dfa4f90b4bb45c4c6b28b978c6d7e13c0",
+      "actual": "b99e2a6b3185a6af0f4f8db7b720fe5dfa4f90b4bb45c4c6b28b978c6d7e13c0",
+      "matches": true
+    }
+  ],
+  "qualification_receipts": 5030,
+  "generator_counts": {
+    "809483cef2eb13d099938ced21c254dcc33fe01e473415e261057e5a614c46fd": 5030
+  },
+  "qualification_status_counts": {
+    "PASS": 5030
+  }
+}

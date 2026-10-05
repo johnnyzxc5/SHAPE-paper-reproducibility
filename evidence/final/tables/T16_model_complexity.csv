@@ -1,0 +1,7 @@
+Representation,rep_key,Architecture_Family,Input_Dimensions,Input_Channels,Parameter_Count,Checkpoint_Seed,Checkpoint_Size_Bytes,Checkpoint_Size_MB
+SHAPE-CWT,shape_cwt,2D,"(224, 448)",6,623604,1729,7518650,7.51865
+Torque-CWT,torque_cwt,2D,"(224, 448)",6,623604,1729,7518650,7.51865
+GMO-CWT,gmo_cwt,2D,"(224, 448)",6,623604,1729,7518650,7.51865
+EO-CWT,energy_cwt,2D,"(224, 448)",1,459764,1729,5552570,5.55257
+SHAPE-Temporal,shape_temporal,1D,"(10001,)",6,536532,1729,6473658,6.473658
+SHAPE-FFT,shape_fft,1D,"(1001,)",6,536532,1729,6473658,6.473658

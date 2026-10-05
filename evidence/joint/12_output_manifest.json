@@ -1,0 +1,189 @@
+{
+  "outputs": [
+    {
+      "file": "00_analysis_protocol.md",
+      "sha256": "0a4446829fe41292a4c8a3d8569609eb7e242eea6fb8e9e7cfc0dec6f4cc4951",
+      "bytes": 2520
+    },
+    {
+      "file": "00_source_and_output_provenance.json",
+      "sha256": "e004bb095dd10c4903da38989c266adc02448ef55e4410149814f0f0dd06af92",
+      "bytes": 2496
+    },
+    {
+      "file": "01_population_integrity_report.md",
+      "sha256": "7b9892cf48da2c43bed902514079377e56626d3097546189be77302a2a7a9d37",
+      "bytes": 826
+    },
+    {
+      "file": "02_cell_counts.csv",
+      "sha256": "8543c1ffba8940e8b47d40d9d5cc88c58d5552d39810f38e3611fc22bb3fea52",
+      "bytes": 2102
+    },
+    {
+      "file": "02_cell_support_summary.csv",
+      "sha256": "b96da5f030e369c110696c82788b9fd15e8ec677cfea8d029138d3b8b4dfc5ae",
+      "bytes": 151
+    },
+    {
+      "file": "02_Friction_count_matrix.csv",
+      "sha256": "0729386c7c28260ba10f16ca3ee4395670f6a823a76305b25bc12a3fd7740f62",
+      "bytes": 187
+    },
+    {
+      "file": "02_LoE_count_matrix.csv",
+      "sha256": "0918cd0b670f69bdc81079d771aac33db999b3bbaeecfa2764472b0b32212523",
+      "bytes": 187
+    },
+    {
+      "file": "02_Vibration_count_matrix.csv",
+      "sha256": "3c0e2436c594edc6e5a7732827f35731bb075788ea71eb4a410c6e739d027057",
+      "bytes": 187
+    },
+    {
+      "file": "03_joint_metrics_by_seed.csv",
+      "sha256": "570aab0d73c1528b1f1f113d323584af7f49a46447cc30bb88b92609bc1be58c",
+      "bytes": 99509
+    },
+    {
+      "file": "03_joint_multiclass_recall.csv",
+      "sha256": "56af48e667e9f51b20a0cf7790d59f0c148e955cd3bd6d51a10e2e83b60307e8",
+      "bytes": 13137
+    },
+    {
+      "file": "04_joint_binary_detection.csv",
+      "sha256": "9eece33c950d194a4f9a1c30c906fe01019e4642639480cc2672962a25c24dc7",
+      "bytes": 12024
+    },
+    {
+      "file": "05_detection_identification_gaps.csv",
+      "sha256": "72e0ac478d708e6bc693400a4678129d97245cbc7629ad341f098aa850aa0ed9",
+      "bytes": 14995
+    },
+    {
+      "file": "05_joint_confusion_destinations.csv",
+      "sha256": "6a0ef30b07d9536c459f038e8ed46a2ec746445ada28a948422e37e321a0fe36",
+      "bytes": 24247
+    },
+    {
+      "file": "06_severity_composition_by_Q.csv",
+      "sha256": "f28b21868acbae0d734e4cd95a540165066f677be1909832c7bbc643a87b7395",
+      "bytes": 3565
+    },
+    {
+      "file": "07_marginal_reconstruction_check.csv",
+      "sha256": "e9440d071a1ba45ca4f0f0d0bbf3723b29f484bf6785eab0a9cad4aad29cd7e3",
+      "bytes": 34266
+    },
+    {
+      "file": "08_within_severity_Q_deltas.csv",
+      "sha256": "b8cf98ab71fde38169577e97c878d7d7ebbd1987953328c3e28d5e37d4391212",
+      "bytes": 9448
+    },
+    {
+      "file": "08_within_severity_Q_trajectories.md",
+      "sha256": "33c9bd4fbdedff515d253d149b4c3c55c6e22ccec71a26418aa767b0de5ce3e0",
+      "bytes": 8013
+    },
+    {
+      "file": "09_scientific_interpretation.md",
+      "sha256": "60efb7b57c08297fa977534bb24a6fed5bc698f718e2695913b6090a2c5b9b51",
+      "bytes": 20145
+    },
+    {
+      "file": "10_descriptive_composition_accounting.csv",
+      "sha256": "418585bd627312516fd1aead0a53756077570c432403cb3e9d8c88e3d07d89c4",
+      "bytes": 1255
+    },
+    {
+      "file": "11_visual_quality_check.json",
+      "sha256": "83525f5ac976475e46d70b86a270fd1e3f4904cd82efb502408dd67e3a0e411f",
+      "bytes": 3221
+    },
+    {
+      "file": "figures\\Friction_counts.pdf",
+      "sha256": "a8df6f586be6c16582a34fe9c4ac4a21f8e369b71ec59b59706aa812e291ae24",
+      "bytes": 36698
+    },
+    {
+      "file": "figures\\Friction_counts.png",
+      "sha256": "62971d37e1a9d8e7549b04f3c857219fa51b8ef5c5c13a437d21135ea693cec6",
+      "bytes": 81182
+    },
+    {
+      "file": "figures\\Friction_joint_recall.pdf",
+      "sha256": "65cdbf88c204d106b8318fb9b5fcededd2417c93dd3aa88400b5bb308be1b3ef",
+      "bytes": 44442
+    },
+    {
+      "file": "figures\\Friction_joint_recall.png",
+      "sha256": "d4792187e6964870fd477810869fb3f583711c0bfbde48f7ff5d5920129373dc",
+      "bytes": 304760
+    },
+    {
+      "file": "figures\\Friction_within_severity_Q.pdf",
+      "sha256": "f110fbb4610898b48245d84f09f321be23b6c7cedd87c83c42907eed3c8bc2a8",
+      "bytes": 47003
+    },
+    {
+      "file": "figures\\Friction_within_severity_Q.png",
+      "sha256": "0c65bf1b331b2be71df06141f0de86d83119672831c43ef38741a1dfc6e3e6b2",
+      "bytes": 195674
+    },
+    {
+      "file": "figures\\LoE_counts.pdf",
+      "sha256": "c35372d421c94f8a35e85b686e7acf7fe9653118f636cb947c12b8de40eef5e6",
+      "bytes": 37630
+    },
+    {
+      "file": "figures\\LoE_counts.png",
+      "sha256": "db71b2715e75d49f56a7a696efa20fbb1b3de268c1c59b71d014a25f2def2e12",
+      "bytes": 72532
+    },
+    {
+      "file": "figures\\LoE_joint_recall.pdf",
+      "sha256": "8ded6e481e4cd7e59520da8963f67671854d6d9653576986c4b692846b212882",
+      "bytes": 46528
+    },
+    {
+      "file": "figures\\LoE_joint_recall.png",
+      "sha256": "ec15b549e04a9de33b9424337a98bcf63815ad1736d8fa779ef33219884454b2",
+      "bytes": 301167
+    },
+    {
+      "file": "figures\\LoE_within_severity_Q.pdf",
+      "sha256": "c140dee9c05e75a1313df764d20b5f10a7ef0177c3176150312e16a9d1c69552",
+      "bytes": 46539
+    },
+    {
+      "file": "figures\\LoE_within_severity_Q.png",
+      "sha256": "41e74bf7fd04c1dadbf6c2c62d42ba13dbcfe68ca6f2b32f844b63d649faf0d1",
+      "bytes": 198073
+    },
+    {
+      "file": "figures\\Vibration_counts.pdf",
+      "sha256": "dcb0b9baa014263895fc32a5a628a488f062f6bbb68b1e9a248b0d658f05fac2",
+      "bytes": 36792
+    },
+    {
+      "file": "figures\\Vibration_counts.png",
+      "sha256": "cfe901a0f3aa0e9d5c5db305bec1207ad8152e0dabbb53bf973ac99ce33df6fa",
+      "bytes": 76571
+    },
+    {
+      "file": "figures\\Vibration_joint_recall.pdf",
+      "sha256": "c4e995a05af6ec546d323b846a9467e41cdfecddb0fd5b8c0d8c2c3270a0bcde",
+      "bytes": 44765
+    },
+    {
+      "file": "figures\\Vibration_joint_recall.png",
+      "sha256": "f9b81dbbcbf356992e5801eedd996a13a9ccbaa32634c0216b0b4be51a3cfa15",
+      "bytes": 263686
+    },
+    {
+      "file": "run_joint_analysis.py",
+      "sha256": "152d60478599c7af7bcbe2905dcf260bdafe59e38ff1fd2c702108b87841bd1d",
+      "bytes": 29155
+    }
+  ]
+}

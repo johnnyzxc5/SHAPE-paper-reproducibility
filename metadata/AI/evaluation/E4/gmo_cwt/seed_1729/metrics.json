@@ -1,0 +1,138 @@
+{
+  "accuracy": 0.3807,
+  "balanced_accuracy": 0.38070000000000004,
+  "calibration_sha256": "b925fc064ceb26696444deff1de1cc51cf9d8536b407249fbd140ec97d3bed30",
+  "checkpoint_sha256": "882990292dc9d7905fa1cab5cec695ec0c6fc4bd846e9d06a012736ebfc06b57",
+  "classification_report": {
+    "Friction": {
+      "f1-score": 0.3006496751624188,
+      "precision": 0.6003992015968064,
+      "recall": 0.20053333333333334,
+      "support": 7500.0
+    },
+    "LoE": {
+      "f1-score": 0.2201056009938917,
+      "precision": 0.49235757295044,
+      "recall": 0.14173333333333332,
+      "support": 7500.0
+    },
+    "Nominal": {
+      "f1-score": 0.4702430311921924,
+      "precision": 0.30904670076297475,
+      "recall": 0.9829333333333333,
+      "support": 7500.0
+    },
+    "Vibration": {
+      "f1-score": 0.3299933199732799,
+      "precision": 1.0,
+      "recall": 0.1976,
+      "support": 7500.0
+    },
+    "accuracy": 0.3807,
+    "macro avg": {
+      "f1-score": 0.3302479068304457,
+      "precision": 0.6004508688275553,
+      "recall": 0.38070000000000004,
+      "support": 30000.0
+    },
+    "weighted avg": {
+      "f1-score": 0.3302479068304457,
+      "precision": 0.6004508688275553,
+      "recall": 0.3807,
+      "support": 30000.0
+    }
+  },
+  "clean_index_sha256": "01b5059425b91defdc472c5384934419e67b6b8e033e92f249b19504a0d55ea9",
+  "cohort": "E4",
+  "confusion_matrix": [
+    [
+      7372,
+      78,
+      50,
+      0
+    ],
+    [
+      5489,
+      1063,
+      948,
+      0
+    ],
+    [
+      5554,
+      442,
+      1504,
+      0
+    ],
+    [
+      5439,
+      576,
+      3,
+      1482
+    ]
+  ],
+  "fault_missed_detection_rate": 0.7325333333333334,
+  "macro_f1": 0.3302479068304457,
+  "macro_roc_auc_ovr": 0.6808213355555556,
+  "nominal_false_alarm_rate": 0.017066666666666667,
+  "normalized_confusion_matrix": [
+    [
+      0.9829333333333333,
+      0.0104,
+      0.006666666666666667,
+      0.0
+    ],
+    [
+      0.7318666666666667,
+      0.14173333333333332,
+      0.1264,
+      0.0
+    ],
+    [
+      0.7405333333333334,
+      0.05893333333333333,
+      0.20053333333333334,
+      0.0
+    ],
+    [
+      0.7252,
+      0.0768,
+      0.0004,
+      0.1976
+    ]
+  ],
+  "per_class": {
+    "Friction": {
+      "f1": 0.3006496751624188,
+      "precision": 0.6003992015968064,
+      "recall": 0.20053333333333334,
+      "specificity": 0.9555111111111111,
+      "support": 7500
+    },
+    "LoE": {
+      "f1": 0.2201056009938917,
+      "precision": 0.49235757295044,
+      "recall": 0.14173333333333332,
+      "specificity": 0.9512888888888889,
+      "support": 7500
+    },
+    "Nominal": {
+      "f1": 0.4702430311921924,
+      "precision": 0.30904670076297475,
+      "recall": 0.9829333333333333,
+      "specificity": 0.2674666666666667,
+      "support": 7500
+    },
+    "Vibration": {
+      "f1": 0.3299933199732799,
+      "precision": 1.0,
+      "recall": 0.1976,
+      "specificity": 1.0,
+      "support": 7500
+    }
+  },
+  "representation": "gmo_cwt",
+  "runs": 30000,
+  "samples": 30000,
+  "seed": 1729,
+  "split": "test"
+}

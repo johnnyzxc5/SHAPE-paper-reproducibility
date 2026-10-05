@@ -1,0 +1,14 @@
+Level,Component,Method,Evidence_Source,Measured_Value,Units,Type,Notes
+Level 1: Simulation,Simulink Plant Simulation,All (Shared),Untraced HDF5 /profile_json claim,UNVERIFIED,UNVERIFIED,UNVERIFIED,"No reproducible file population, sample count, or aggregation path supplied"
+Level 2: Residual,Torque Residual (r_tau),Torque-CWT,compute_residuals.m structural code,NOT_MEASURED,NOT_MEASURED,NOT_MEASURED,Algebraic vector difference; standalone runtime unmeasured
+Level 2: Residual,SHAPE Power Residual (r_SHAPE),SHAPE-CWT,compute_residuals.m structural code,NOT_MEASURED,NOT_MEASURED,NOT_MEASURED,Algebraic port-power difference; standalone runtime unmeasured
+Level 2: Residual,GMO Observer (r_GMO),GMO-CWT,compute_residuals.m structural code,NOT_MEASURED,NOT_MEASURED,NOT_MEASURED,Dynamic observer; standalone runtime unmeasured
+Level 2: Residual,Energy Observer (r_EO),EO-CWT,compute_residuals.m structural code,NOT_MEASURED,NOT_MEASURED,NOT_MEASURED,Dynamic observer; standalone runtime unmeasured
+Level 2: Residual,EO Incremental Cost (Shared),EO-CWT,compute_residuals.m structural code,NOT_MEASURED,NOT_MEASURED,NOT_MEASURED,Shared-dynamics incremental runtime unmeasured
+Level 3: Representation/Serialization,Physical Normalization,All (Shared),Untraced HDF5 /profile_json claim,UNVERIFIED,UNVERIFIED,UNVERIFIED,"No reproducible file population, sample count, or aggregation path supplied"
+Level 3: Representation/Serialization,FFT Spectrum (1D),SHAPE-FFT,Untraced HDF5 /profile_json claim,UNVERIFIED,UNVERIFIED,UNVERIFIED,"No reproducible file population, sample count, or aggregation path supplied"
+Level 3: Representation/Serialization,CWT + 2D Rebinning,CWT Methods,Untraced HDF5 /profile_json claim,UNVERIFIED,UNVERIFIED,UNVERIFIED,"No reproducible file population, sample count, or aggregation path supplied"
+Level 3: Representation/Serialization,HDF5 Serialization,All (Shared),Untraced HDF5 /profile_json claim,UNVERIFIED,UNVERIFIED,UNVERIFIED,"No reproducible file population, sample count, or aggregation path supplied"
+Level 4: CNN Training,Five-seed training wall-clock mean,SHAPE-CWT,TRAINING_COMPLETE.json via T14,84.76406294333334,minutes,MEASURED,n=5 frozen seeds; SD=20.710255 minutes
+Level 4: Training-step throughput,Forward/backward/optimizer throughput,SHAPE-CWT,AI/benchmarks/shape_cwt.csv via T15,444.0436539319304,samples / second,MEASURED,PRIMARY/train; 30 measured steps; batch 32; 960 processed samples
+Level 4: CNN Inference,Inference Throughput,All Methods,No standalone inference benchmark,NOT_MEASURED,NOT_MEASURED,NOT_MEASURED,Training-step benchmark cannot be used as inference

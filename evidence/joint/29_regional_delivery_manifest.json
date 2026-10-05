@@ -1,0 +1,174 @@
+{
+  "files": [
+    {
+      "path": "10_regional_master_table.csv",
+      "sha256": "9a164f918c362b4124e83a0f41fb66f437beaea70be6f2425a1308869287a6cb",
+      "bytes": 48217
+    },
+    {
+      "path": "11_shape_regional_profile.csv",
+      "sha256": "3a3f4716d60101436f5374cf7710e16afcf922b6f6e446a3ffc0156bb9c53163",
+      "bytes": 13838
+    },
+    {
+      "path": "12_torque_regional_profile.csv",
+      "sha256": "2af92f6efde5216bc2a5179c291650b93eae315cbb5351aaebe066d2bf39d220",
+      "bytes": 14776
+    },
+    {
+      "path": "13_gmo_regional_profile.csv",
+      "sha256": "6d4e9cb3f1cd62e72d38bf2347b30d467dd470c9f96606c558371f6db4a8fd37",
+      "bytes": 8796
+    },
+    {
+      "path": "14_eo_regional_profile.csv",
+      "sha256": "1ef93b7be8f6f7eea29c9a8d4b678dcd33fdd0478d453ac7efd152a11a5c2996",
+      "bytes": 12223
+    },
+    {
+      "path": "15_high_performing_regions.csv",
+      "sha256": "4bcaaa138aa290053caf19a90a4146f0530e7a4be76ddfb09fb712e2e25945a1",
+      "bytes": 9808
+    },
+    {
+      "path": "16_ambiguous_regions.csv",
+      "sha256": "185aa5ab6edf2db163f58d87734ad37dca0ebf20e82d4ccf89d9c701459373f8",
+      "bytes": 1716
+    },
+    {
+      "path": "17_weak_observability_regions.csv",
+      "sha256": "45af51e66ea9abf624e9971dc0a63bfb516a57d0449730c27b23bfbdc6b55fdf",
+      "bytes": 5705
+    },
+    {
+      "path": "18_regional_error_destinations.csv",
+      "sha256": "614598390913eb8bfa71e28cbfa8516a0bf3241993cd8109b473b82da887987e",
+      "bytes": 37810
+    },
+    {
+      "path": "19_regional_summary.md",
+      "sha256": "36a0a4e1e845731d5b12781b496e8fe9e0dec98b84fd26102e7045712ca7fbcd",
+      "bytes": 50209
+    },
+    {
+      "path": "run_regional_characterization.py",
+      "sha256": "91eb0b53ba69ae24831b9e90775a0e4658c4c15259bff88f18d113e5afca5a4f",
+      "bytes": 38799
+    },
+    {
+      "path": "20_full_regional_Q_trajectories.csv",
+      "sha256": "ef71d1388768e688aba92ad04a662b2f3465164fe9ef8da4fbf6e2b989f99285",
+      "bytes": 29868
+    },
+    {
+      "path": "21_full_regional_Q_trajectories.md",
+      "sha256": "0c69bec2fe4d4a204b77976f37d240507ad7fe2870ee7aad2d58c4cf970a61f2",
+      "bytes": 26453
+    },
+    {
+      "path": "22_regional_distribution_audit.csv",
+      "sha256": "d6fa329b92ab234c1946bee001bfd4d78d046f2ac6566d3eb3d5d1c9ef034284",
+      "bytes": 772
+    },
+    {
+      "path": "23_cross_method_regional_comparison.csv",
+      "sha256": "1363ecdc5178a0281d1a721f0a7dc01332a645c5cba42ba4afef4f4d81e15f63",
+      "bytes": 14109
+    },
+    {
+      "path": "24_maximum_adjacency_audit.csv",
+      "sha256": "589d6510f01e4bdce1a6e0798aa481939a6f08b0c01cf1f824b7f6ce31440d49",
+      "bytes": 3874
+    },
+    {
+      "path": "25_gmo_ceiling_departures.csv",
+      "sha256": "20f4be45ffb85decc90704b240c7723143330be4f561462cc38715a67a152ce5",
+      "bytes": 5472
+    },
+    {
+      "path": "26_wrong_type_dominant_errors.csv",
+      "sha256": "6f0223aa9e336f1c80cb0a72bd9d2b5fdc3b0602182daa8b3ad69d8220c0c57a",
+      "bytes": 23436
+    },
+    {
+      "path": "27_regional_provenance.json",
+      "sha256": "3d4a2947e5b390c7f9423fca7c2977d48865faf3ec85964479a3e90c1113a609",
+      "bytes": 7226
+    },
+    {
+      "path": "28_regional_visual_quality_check.json",
+      "sha256": "5dbbddf04fa90c3e082780ce741e310a4c1ed8ba160488859d9bbabf3caf8cdc",
+      "bytes": 920
+    },
+    {
+      "path": "figures\\regional\\EO_regional_dashboard.pdf",
+      "sha256": "2bc52657bf2172310f951733208cd00229412997b901e8b133641dca7a3a009e",
+      "bytes": 51970
+    },
+    {
+      "path": "figures\\regional\\EO_regional_dashboard.png",
+      "sha256": "fcc533de37f45b64f186beb29aa3d635050402eec34b28d4aea65d9985da1203",
+      "bytes": 204342
+    },
+    {
+      "path": "figures\\regional\\Friction_regional_comparison.pdf",
+      "sha256": "fbadd483bfc018cd5d933cd0cb38ecfd1a52f75301a0f703e4607f6453fa50cd",
+      "bytes": 51750
+    },
+    {
+      "path": "figures\\regional\\Friction_regional_comparison.png",
+      "sha256": "3d138a8852191fa418d640ea1d5abf66fc9f194bff8a5284280e30e6fec49111",
+      "bytes": 207802
+    },
+    {
+      "path": "figures\\regional\\GMO_regional_dashboard.pdf",
+      "sha256": "87dd95a003c2ca91322247b54c061aef5bb5e2b5dc838425e1d6f4661711a0f7",
+      "bytes": 52473
+    },
+    {
+      "path": "figures\\regional\\GMO_regional_dashboard.png",
+      "sha256": "36255e6a9b4e4af71794c5290d23477f8d4844bda26aaf6760396c04c6e6d933",
+      "bytes": 189408
+    },
+    {
+      "path": "figures\\regional\\LoE_regional_comparison.pdf",
+      "sha256": "195ca1f095f5a4c9953d00403858c5f0026ef75c0839825ea1a36ee860f2292a",
+      "bytes": 53873
+    },
+    {
+      "path": "figures\\regional\\LoE_regional_comparison.png",
+      "sha256": "3e8ed69a2978fdebcc9fc0ef66d4afc2902ce3303a6a66cf7e0a8eac5e138e96",
+      "bytes": 191964
+    },
+    {
+      "path": "figures\\regional\\SHAPE_regional_dashboard.pdf",
+      "sha256": "db4999a2637fb69a5d72b7d55ae6bb7ad4be83bf32081035290633dab8e2f4ed",
+      "bytes": 54248
+    },
+    {
+      "path": "figures\\regional\\SHAPE_regional_dashboard.png",
+      "sha256": "9cbf692c87d5ceb623c7e41952727a96846533e5dc8d7576c169e470336e1f55",
+      "bytes": 204019
+    },
+    {
+      "path": "figures\\regional\\Torque_regional_dashboard.pdf",
+      "sha256": "892b49b825b4cded4449532c90b2a98119e767916c0c67eac6c5783bbd1f37f3",
+      "bytes": 52392
+    },
+    {
+      "path": "figures\\regional\\Torque_regional_dashboard.png",
+      "sha256": "e7ff538cafacf87bfdc52087d04cdeb7ebb4c918dba6f0b9342c95b77f57241d",
+      "bytes": 207515
+    },
+    {
+      "path": "figures\\regional\\Vibration_regional_comparison.pdf",
+      "sha256": "35886d2cacc74a2b524b01bfd164dcfc600e67b49d4ba7a607068d0847864e0d",
+      "bytes": 51821
+    },
+    {
+      "path": "figures\\regional\\Vibration_regional_comparison.png",
+      "sha256": "d0d0241b590ed377f8f6e2d2a35e3393a1756bf685ed49024abb232bc57caf13",
+      "bytes": 183985
+    }
+  ]
+}

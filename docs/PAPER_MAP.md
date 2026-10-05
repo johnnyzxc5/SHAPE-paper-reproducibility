@@ -1,0 +1,21 @@
+# Paper-to-artifact correspondence
+
+Paths below are relative to this repository. `analysis/final/scripts/pNN_*` are identified original postprocessing scripts; their original external inputs are enumerated in `provenance/external_analysis_inventory.json`. They are not automatically runnable in this layout.
+
+| Result/protocol | Source/configuration | Frozen inputs | Included outputs |
+|---|---|---|---|
+| Clean physical campaign, 20,000 PRIMARY + 300 E2B | `Code_Image/run_production.m`; `+shape/config.m`, `production_spec.m`; three manifests/binding under `docs/codex_active/manifests` | External 5,030 qualified trajectories; nominal/dirty matrices; host receipt | Frozen manifests, receipts and index; external HDF5 inventory |
+| Residuals and views | `+shape/compute_residuals.m`, `normalize_residuals.m`, `cwt_representations.m`, `compute_fft.m`, `serialize_run.m` | Clean telemetry, reference signals, models | HDF5 externally; representation contracts in `shape_ai/contracts.py` |
+| E0 clean profiles (paper table `tab:e0_clean_profiles`) | `shape_ai/evaluate.py`; `p04_e0_analysis.py`; six resolved config families | 30 frozen checkpoints; 3,000 PRIMARY test runs; frozen predictions | `evidence/final/tables/T02_E0_overall.csv`, `T03_E0_per_class.csv`, `T04_E0_binary_detection.csv`; run-level metadata |
+| E1 severity | `shape_ai/analysis.py`; `p05_e1_analysis.py` | PRIMARY test predictions + fixed manifest severity bins | `T06_E1_severity.csv` |
+| E2-A amplitude/frequency | `shape_ai/analysis.py`; `p06_e2a_analysis.py` | PRIMARY Vibration test predictions | `T07_E2A_amplitude_frequency.csv` |
+| E2-B paired frequency | `shape_ai/evaluate.py`, `analysis.py`; `p07_e2b_analysis.py` | 30 supplemental parents × ten frequencies; E2B manifest and checkpoints | `T08_E2B_frequency.csv`; `metadata/AI/evaluation/E2B/` |
+| E3 measured excitation/mode | `shape_ai/indexing.py`, `analysis.py`; `p08_e3_analysis.py` | Existing `dq2_rms_post`; train thresholds [0.18778543219222127, 0.2878207449843839, 0.40275050664200907] rad/s; test predictions | `T09_E3_excitation.csv`, `T10_E3_mode.csv`; original threshold JSONs |
+| E4 offline measurement robustness | `shape_ai/e4_production.py`; five added MATLAB E4 helpers; `p09_e4_analysis.py` | Frozen pooled velocity calibration; clean test HDF5; 20 CWT checkpoints; ten conditions | `T11_E4_overall_noise.csv`, `T12_E4_per_class_noise.csv`, `T13_E4_severity_noise.csv`; 20 final metadata records; identity-only E4 index |
+| Joint severity–excitation regions | `analysis/joint/run_joint_analysis.py`, `run_regional_characterization.py` | External `canonical_e0_primary.parquet`, fixed severity/Q assignments; four CWT methods × five seeds | `evidence/joint/02_*.csv` through `26_*.csv`; seven regional PDFs, including `GMO_regional_dashboard.pdf` |
+| Paper joint CWT figure (`fig:e3_joint_severity_excitation`) | `analysis/joint/combined_joint_maps_with_Q/design_combined_maps.py` | `10_regional_master_table.csv`; SHAPE/Torque/EO selected for compact paper layout | `evidence/paper_figures/figures/E3/E3_joint_identification_detection_combined.pdf`; complete GMO maps also included separately |
+| Paper SHAPE representation figure (`fig:shape_joint_identification`) | `analysis/joint/figure_review_representation/build_representation_review.py`, then `combined_joint_maps_with_Q/design_combined_maps.py` | External canonical predictions; copied `evidence/joint/representation/joint_SHAPE_pipeline_summary.csv` | `evidence/paper_figures/figures/E0/SHAPE_joint_identification_detection_combined.pdf` |
+| Runtime/complexity evidence | `p10_compute_cost_analysis.py`; package `benchmark.py` | Historical benchmark records; no new timings | `T14_training_cost.csv`–`T18_sensor_dependencies.csv` |
+| Method/architecture diagrams | Original figure-generation source not established by this assembly | Exported existing PDFs | `Shape_Methodology.pdf`, `Shape_Methodology1.pdf`, `shared_encoder_diagnostic_architectures 2.pdf` in `evidence/paper_figures/` |
+
+Txx names in this table are under `evidence/final/tables/`. The compact paper graphics omit some methods for space; the full regional evidence does not. A source correspondence is not proof that rerunning it now yields identical metrics.

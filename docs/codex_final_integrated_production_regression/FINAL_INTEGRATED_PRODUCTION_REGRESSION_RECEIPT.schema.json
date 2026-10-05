@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Final Integrated Production Regression Receipt",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "status",
+    "production_authorized",
+    "physical_simulations_executed_by_codex",
+    "final_pass"
+  ],
+  "properties": {
+    "schema_version": { "const": "final-integrated-production-regression-v1" },
+    "status": {
+      "enum": [
+        "INITIALIZING",
+        "PREFLIGHT_PASS_EXECUTION_PENDING",
+        "PHASE1_PASS_RESUME_PENDING",
+        "FINAL_INTEGRATED_PRODUCTION_REGRESSION_PASS",
+        "FINAL_INTEGRATED_PRODUCTION_REGRESSION_FAIL"
+      ]
+    },
+    "production_authorized": { "const": false },
+    "physical_simulations_executed_by_codex": { "const": 0 },
+    "expected_total_physical_runs": { "const": 72 },
+    "selected_primary_parent_ids": {
+      "type": "array",
+      "prefixItems": [
+        { "const": 1 }, { "const": 2 }, { "const": 4 }, { "const": 11 },
+        { "const": 9 }, { "const": 13 }, { "const": 3 }, { "const": 6 }
+      ],
+      "minItems": 8,
+      "maxItems": 8
+    },
+    "selected_e2b_parent_ids": {
+      "type": "array",
+      "prefixItems": [ { "const": 5003 }, { "const": 5010 }, { "const": 5001 }, { "const": 5002 } ],
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "final_pass": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}

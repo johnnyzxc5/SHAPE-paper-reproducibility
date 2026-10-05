@@ -1,0 +1,7 @@
+Representation,rep_key,Status,Stage,Source_Split,Benchmark_Steps,Benchmark_Samples,Batch_Size,Num_Workers,AMP,Samples_per_Second,Elapsed_Seconds,Peak_VRAM_GiB,GPU,Notes
+SHAPE-CWT,shape_cwt,MEASURED_TRAINING_STEP_BENCHMARK,TRAINING_STEP_THROUGHPUT,PRIMARY/train,30.0,960.0,32.0,4.0,fp16,444.0436539319304,2.1619495999984792,3.789529800415039,NVIDIA GeForce RTX 4090,"Forward, loss, backward, optimizer step; not an inference benchmark"
+Torque-CWT,torque_cwt,NOT_MEASURED,TRAINING_STEP_THROUGHPUT,NOT_MEASURED,,,,,NOT_MEASURED,,,,NOT_MEASURED,No direct training-step throughput benchmark file
+GMO-CWT,gmo_cwt,NOT_MEASURED,TRAINING_STEP_THROUGHPUT,NOT_MEASURED,,,,,NOT_MEASURED,,,,NOT_MEASURED,No direct training-step throughput benchmark file
+EO-CWT,energy_cwt,MEASURED_TRAINING_STEP_BENCHMARK,TRAINING_STEP_THROUGHPUT,PRIMARY/train,30.0,960.0,32.0,4.0,fp16,2698.8686679999737,0.3557045999987167,0.6520795822143555,NVIDIA GeForce RTX 4090,"Forward, loss, backward, optimizer step; not an inference benchmark"
+SHAPE-Temporal,shape_temporal,MEASURED_TRAINING_STEP_BENCHMARK,TRAINING_STEP_THROUGHPUT,PRIMARY/train,30.0,960.0,32.0,4.0,fp16,1868.5844052220416,0.5137579000002006,1.3850092887878418,NVIDIA GeForce RTX 4090,"Forward, loss, backward, optimizer step; not an inference benchmark"
+SHAPE-FFT,shape_fft,MEASURED_TRAINING_STEP_BENCHMARK,TRAINING_STEP_THROUGHPUT,PRIMARY/train,30.0,960.0,32.0,4.0,fp16,3356.062499603017,0.2860495000059018,0.1597509384155273,NVIDIA GeForce RTX 4090,"Forward, loss, backward, optimizer step; not an inference benchmark"

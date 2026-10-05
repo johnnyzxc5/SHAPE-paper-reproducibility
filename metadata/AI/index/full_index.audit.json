@@ -1,0 +1,23 @@
+{
+  "class_counts": {
+    "Friction": 5000,
+    "LoE": 5000,
+    "Nominal": 5000,
+    "Vibration": 5300
+  },
+  "derive_dq2": true,
+  "e2b_runs": 300,
+  "errors": [],
+  "file_failures": [],
+  "parents": 5030,
+  "pass": true,
+  "primary_runs": 20000,
+  "runs": 20300,
+  "split_counts": {
+    "e2b_supplement": 300,
+    "test": 3000,
+    "train": 14000,
+    "val": 3000
+  },
+  "verify_core": true
+}

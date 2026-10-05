@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "rendered_and_visually_inspected": 7,
+  "page_count_each": 1,
+  "dimensions_inches": [
+    7.16,
+    6.25
+  ],
+  "embedded_raster_images_each": 0,
+  "font_family": "Times New Roman",
+  "font_sizes_pt": {
+    "cell_annotations": 8.5,
+    "panel_titles": 9.5,
+    "axis_labels": 9,
+    "severity_ticks": 8,
+    "figure_title": 10.5
+  },
+  "common_color_limits_percent": [
+    0,
+    100
+  ],
+  "no_clipping_or_overlaps_observed": true,
+  "numerical_check": "All cells show existing five-seed mean values; exact means, sample SDs and N supplied in tables. One decimal used for annotations.",
+  "figures": [
+    "EO_regional_dashboard.pdf",
+    "Friction_regional_comparison.pdf",
+    "GMO_regional_dashboard.pdf",
+    "LoE_regional_comparison.pdf",
+    "SHAPE_regional_dashboard.pdf",
+    "Torque_regional_dashboard.pdf",
+    "Vibration_regional_comparison.pdf"
+  ]
+}

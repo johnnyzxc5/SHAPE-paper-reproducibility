@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "path": "Code_Image/GenerarTrayectoriaAleatoriaSegura_MR.m",
+      "expected": "a915575a347fd53837b398c32718cb9457988630f3da9758df0b8daa001ab67a",
+      "actual": "a915575a347fd53837b398c32718cb9457988630f3da9758df0b8daa001ab67a",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/inverse_dynamics_kinova_MR.m",
+      "expected": "fddf05158221b047c793086460578277459fb423687ff31dd7bf4c98503616ce",
+      "actual": "fddf05158221b047c793086460578277459fb423687ff31dd7bf4c98503616ce",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/get_Friction_Nominal.m",
+      "expected": "93b3fc8d813f2fd96ec7498284515b32b78ca9a7307036db5141dc9db6ae7195",
+      "actual": "93b3fc8d813f2fd96ec7498284515b32b78ca9a7307036db5141dc9db6ae7195",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/+shape/generate_reference.m",
+      "expected": "6f5f2d5d08c125e9f63c2fb96b10ffe687d0a3925a08848e67c8b7c60b87c51b",
+      "actual": "6f5f2d5d08c125e9f63c2fb96b10ffe687d0a3925a08848e67c8b7c60b87c51b",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/+shape/truncated_reachable_box_sample.m",
+      "expected": "0b8017628f3d2c4f6562be5ad02788fdb0254f97dcb4ebd66c89b0580e7b9b9b",
+      "actual": "0b8017628f3d2c4f6562be5ad02788fdb0254f97dcb4ebd66c89b0580e7b9b9b",
+      "matches": true
+    },
+    {
+      "path": "Code_Image/+shape/trajectory_contract.m",
+      "expected": "6d5e36d0e559936d96788f725a216fe392a3bb76e8b7c33ced870a7a444a6c11",
+      "actual": "6d5e36d0e559936d96788f725a216fe392a3bb76e8b7c33ced870a7a444a6c11",
+      "matches": true
+    }
+  ],
+  "computed_generator_sha256": "809483cef2eb13d099938ced21c254dcc33fe01e473415e261057e5a614c46fd",
+  "receipt_generator_sha256": "809483cef2eb13d099938ced21c254dcc33fe01e473415e261057e5a614c46fd",
+  "matches": true
+}

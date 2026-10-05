@@ -1,0 +1,52 @@
+{
+  "schema_version": "shape-trajectory-qualification-receipt-v2",
+  "parent_trajectory_id": 1,
+  "trajectory_seed": 544188,
+  "qualification_status": "PASS",
+  "accepted_attempt": 1,
+  "attempt_count": 1,
+  "failure_counts": {
+    "Q_LIMIT": 0,
+    "DQ_LIMIT": 0,
+    "DDQ_LIMIT": 0,
+    "TORQUE_LIMIT": 0,
+    "OBSERVABILITY": 0,
+    "STATIC_FEASIBILITY": 0,
+    "SPLINE_INVALID": 0,
+    "NONFINITE": 0,
+    "OTHER": 0
+  },
+  "K_segments": 2,
+  "trajectory_mode": "fly",
+  "metrics": {
+    "q_margin_rad": 0.42549666437401434,
+    "dq_margin_rad_s": 0.38533909298744129,
+    "ddq_margin_rad_s2": 4.1264790569058993,
+    "torque_margin_Nm": 1.2712880366319261,
+    "L_q2_rad": 1.7563903648239205
+  },
+  "generator_sha256": "809483cef2eb13d099938ced21c254dcc33fe01e473415e261057e5a614c46fd",
+  "generator_source_files": [
+    "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\Code_Image\\GenerarTrayectoriaAleatoriaSegura_MR.m",
+    "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\Code_Image\\inverse_dynamics_kinova_MR.m",
+    "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\Code_Image\\get_Friction_Nominal.m",
+    "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\Code_Image\\+shape\\generate_reference.m",
+    "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\Code_Image\\+shape\\truncated_reachable_box_sample.m",
+    "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\Code_Image\\+shape\\trajectory_contract.m"
+  ],
+  "generator_source_hashes": [
+    "a915575a347fd53837b398c32718cb9457988630f3da9758df0b8daa001ab67a",
+    "fddf05158221b047c793086460578277459fb423687ff31dd7bf4c98503616ce",
+    "93b3fc8d813f2fd96ec7498284515b32b78ca9a7307036db5141dc9db6ae7195",
+    "6f5f2d5d08c125e9f63c2fb96b10ffe687d0a3925a08848e67c8b7c60b87c51b",
+    "0b8017628f3d2c4f6562be5ad02788fdb0254f97dcb4ebd66c89b0580e7b9b9b",
+    "6d5e36d0e559936d96788f725a216fe392a3bb76e8b7c33ced870a7a444a6c11"
+  ],
+  "constraint_contract_sha256": "b353095eaaca28d6c2cb241b5f2d4b724e7bbc9d2c8998fde67c57d28c05b65a",
+  "model_sha256": "534d87131c1d90f8c3b13611e4d3e9087c8e983f22bf51bf41023bcb672fc569",
+  "timestamp_utc": "2026-09-19T10:30:10.984Z",
+  "qualification_time_s": 1.5475592,
+  "software_version": "26.1.0.3312084 (R2026a) Update 4",
+  "software_release": "2026a",
+  "trajectory_sha256": "be98666b0bb8fdee6dba7a67c9e68de93a885ae809be560a73664bb912f8ef32"
+}

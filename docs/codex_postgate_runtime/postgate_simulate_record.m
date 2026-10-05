@@ -1,0 +1,366 @@
+function result = postgate_simulate_record(record, models, output_dir, cfg, sim_mode, run_label)
+%POSTGATE_SIMULATE_RECORD Isolated physical runner supporting Normal and Accelerator modes.
+% Preserves frozen ode45 continuous solver semantics, tolerances, and controller scheduling.
+% Captures in-memory canonical-precision pre-serialization arrays and serialized HDF5 delivery artifacts.
+% Tracks physical run lifecycle: physical_run_attempted, sim_started, sim_completed, postprocessing_completed.
+
+if nargin < 5 || isempty(sim_mode), sim_mode = 'normal'; end
+if nargin < 6 || isempty(run_label), run_label = char(string(record.run_uid)); end
+
+model = 'Kinova_Fault_Simulator';
+
+% Track physical run lifecycle explicitly via durable ledger (Finding 3)
+postgate_lifecycle_ledger('run_attempted', run_label);
+run_status = struct( ...
+    'physical_run_attempted', true, ...
+    'sim_started', false, ...
+    'sim_completed', false, ...
+    'postprocessing_completed', false);
+
+% 1. Enforce strict fresh-run isolation before every physical run (Blocker 3)
+isolation_receipt = postgate_isolate_session(model);
+if ~isolation_receipt.isolation_verified
+    error('postgate:isolation_failed', 'Session isolation failed before physical simulation.');
+end
+
+% 2. Load frozen reference
+ref = shape.load_frozen_trajectory(record, cfg.trajectory_registry_dir, cfg, models);
+
+% 3. Reset in-memory P0 profiler
+instrument = isfield(cfg, 'performance_instrumentation') && cfg.performance_instrumentation;
+if instrument
+    shape.p0_profiler('reset', char(string(record.run_uid)));
+end
+
+% 4. Prepare MPC runtime context & execute in-context microbenchmark (Blocker 1 & Repair 2)
+setup_tic = tic;
+prep = shape.prepare_mpc(ref.t, ref.q, ref.dq, ref.ddq);
+prep.P0InstrumentationEnabled = instrument;
+prep.P3SharedRNEAEnabled = cfg.mpc_shared_rnea_enabled;
+prep.P3SharedRNEAVersion = cfg.mpc_shared_rnea_version;
+prep.P4BMassBackend = cfg.mpc_mass_backend;
+shape.mpc_runtime_context('clear');
+shape.mpc_runtime_context('set', prep);
+% Immediately install canonical onCleanup guard (Repair 2)
+context_cleanup = onCleanup(@() shape.mpc_runtime_context('clear'));
+
+% Benchmark context access while context is loaded and valid (Blocker 1)
+ctx_bench_runs = 5000;
+ctx_tic = tic;
+for i = 1:ctx_bench_runs
+    shape.mpc_runtime_context('get');
+end
+benchmarked_ctx_call_us = (toc(ctx_tic) / ctx_bench_runs) * 1e6;
+
+fault = shape.build_fault_config(record, cfg);
+
+% 5. Explicitly configure loaded model to canonical parameters BEFORE simulation (Repair 1)
+% Precedent: run_parent.m lines 9-11 and p2_compile_update_selftest.m lines 20-22
+% Model is NOT saved; .slx file remains unmodified permanently
+set_param(model, ...
+    'Solver', 'ode45', ...
+    'RelTol', num2str(cfg.solver_rel_tol, 17), ...
+    'AbsTol', num2str(cfg.solver_abs_tol, 17), ...
+    'MaxStep', num2str(cfg.solver_max_step_s, 17));
+
+% 6. Verify EFFECTIVE solver and scheduling semantics on loaded model BEFORE simulation (Repair 1)
+eff_solver = get_param(model, 'Solver');
+eff_rel_tol = str2double(get_param(model, 'RelTol'));
+eff_abs_tol = str2double(get_param(model, 'AbsTol'));
+eff_max_step = str2double(get_param(model, 'MaxStep'));
+% Resolve Stateflow charts for Flatness-MPC and Computed-Torque (Authoritative Scheduling Gate)
+rt = sfroot();
+charts_mpc = rt.find('-isa', 'Stateflow.EMChart', 'Path', [model '/MATLAB Function1']);
+charts_ct = rt.find('-isa', 'Stateflow.EMChart', 'Path', [model '/MATLAB Function']);
+
+mpc_chart_found = isscalar(charts_mpc) && isa(charts_mpc, 'Stateflow.EMChart');
+ct_chart_found = isscalar(charts_ct) && isa(charts_ct, 'Stateflow.EMChart');
+
+if ~mpc_chart_found
+    error('postgate:mpc_chart_not_found', ...
+        'Failed to uniquely resolve Flatness-MPC Stateflow chart: %s/MATLAB Function1', model);
+end
+if ~ct_chart_found
+    error('postgate:ct_chart_not_found', ...
+        'Failed to uniquely resolve Computed-Torque Stateflow chart: %s/MATLAB Function', model);
+end
+
+try
+    mpc_chart_update = char(string(charts_mpc.ChartUpdate));
+catch ME
+    error('postgate:mpc_chart_update_unreadable', ...
+        'Failed to read ChartUpdate from Flatness-MPC chart: %s', ME.message);
+end
+
+try
+    ct_chart_update = char(string(charts_ct.ChartUpdate));
+catch ME
+    error('postgate:ct_chart_update_unreadable', ...
+        'Failed to read ChartUpdate from Computed-Torque chart: %s', ME.message);
+end
+
+mpc_inherited_valid = strcmp(mpc_chart_update, 'INHERITED');
+ct_inherited_valid = strcmp(ct_chart_update, 'INHERITED');
+
+effective_cfg_check = struct( ...
+    'requested_solver', 'ode45', ...
+    'effective_solver', eff_solver, ...
+    'solver_match', strcmp(eff_solver, 'ode45'), ...
+    'requested_rel_tol', cfg.solver_rel_tol, ...
+    'effective_rel_tol', eff_rel_tol, ...
+    'rel_tol_match', eff_rel_tol == cfg.solver_rel_tol, ...
+    'requested_abs_tol', cfg.solver_abs_tol, ...
+    'effective_abs_tol', eff_abs_tol, ...
+    'abs_tol_match', eff_abs_tol == cfg.solver_abs_tol, ...
+    'requested_max_step', cfg.solver_max_step_s, ...
+    'effective_max_step', eff_max_step, ...
+    'max_step_match', eff_max_step == cfg.solver_max_step_s, ...
+    'mpc_chart_found', mpc_chart_found, ...
+    'mpc_chart_update', mpc_chart_update, ...
+    'mpc_inherited_valid', mpc_inherited_valid, ...
+    'computed_torque_chart_found', ct_chart_found, ...
+    'computed_torque_chart_update', ct_chart_update, ...
+    'computed_torque_inherited_valid', ct_inherited_valid, ...
+    'controller_scheduling_semantics', 'inherited/continuous (historical SampleTime=-1)', ...
+    'sample_time_mpc_valid', mpc_inherited_valid, ...
+    'sample_time_ct_valid', ct_inherited_valid, ...
+    'verification_timing', 'BEFORE_SIMULATION_ON_LOADED_MODEL');
+
+effective_cfg_check.all_valid = effective_cfg_check.solver_match && ...
+    effective_cfg_check.rel_tol_match && ...
+    effective_cfg_check.abs_tol_match && ...
+    effective_cfg_check.max_step_match && ...
+    effective_cfg_check.mpc_inherited_valid && ...
+    effective_cfg_check.computed_torque_inherited_valid;
+
+if ~effective_cfg_check.all_valid
+    error('postgate:effective_config_mismatch', ...
+        'Effective loaded model parameters failed canonical verification before simulation.');
+end
+
+% 7. Configure SimulationInput with redundant overrides
+in = Simulink.SimulationInput(model);
+in = in.setModelParameter('StopTime', num2str(cfg.duration_s, 17), ...
+    'Solver', 'ode45', ...
+    'RelTol', num2str(cfg.solver_rel_tol, 17), ...
+    'AbsTol', num2str(cfg.solver_abs_tol, 17), ...
+    'MaxStep', num2str(cfg.solver_max_step_s, 17), ...
+    'ReturnWorkspaceOutputs', 'on', ...
+    'SimulationMode', sim_mode);
+
+vars = struct('q_ref_ts', [ref.t', ref.q'], 'dq_ref_ts', [ref.t', ref.dq'], ...
+    'ddq_ref_ts', [ref.t', ref.ddq'], 'tau_ref_ts', [ref.t', ref.tau_nom'], ...
+    'q0', ref.q(:,1), 'dq0', ref.dq(:,1), 'x0', [ref.q(:,1); ref.dq(:,1)], ...
+    'uop', prep.uop, 'xop', prep.xop, 'yop', prep.yop, ...
+    'y_ref', prep.y_ref, 't_ref', prep.t, 'yref', prep.y_ref, 'tau_ref', ref.tau_nom, ...
+    'acc_ref', prep.uop, 'Ts', cfg.telemetry_dt_s, 'FaultConfig', fault);
+
+fn = fieldnames(models);
+for k = 1:numel(fn), vars.(fn{k}) = models.(fn{k}); end
+fn = fieldnames(vars);
+for k = 1:numel(fn), in = in.setVariable(fn{k}, vars.(fn{k})); end
+
+model_setup_s = toc(setup_tic);
+
+% 8. Execute physical simulation with lifecycle boundary tracking (Finding 3)
+postgate_lifecycle_ledger('sim_started', run_label);
+run_status.sim_started = true;
+sim_tic = tic;
+out = sim(in);
+sim_wall_s = toc(sim_tic);
+postgate_lifecycle_ledger('sim_completed', run_label);
+run_status.sim_completed = true;
+
+% 9. Extract Authoritative Completed-Run Simulation Metadata & Verify Modes (Blocker 4)
+requested_mode = lower(strtrim(char(string(sim_mode))));
+
+if ~isprop(out, 'SimulationMetadata') || isempty(out.SimulationMetadata)
+    error('postgate:actual_simulation_mode_unavailable', ...
+        'SimulationOutput does not contain a valid SimulationMetadata property.');
+end
+meta = out.SimulationMetadata;
+
+if (~isprop(meta, 'ModelInfo') && ~isfield(meta, 'ModelInfo')) || isempty(meta.ModelInfo)
+    error('postgate:actual_simulation_mode_unavailable', ...
+        'SimulationMetadata does not contain a valid ModelInfo structure.');
+end
+model_info = meta.ModelInfo;
+
+if ~isfield(model_info, 'SimulationMode')
+    error('postgate:actual_simulation_mode_unavailable', ...
+        'SimulationMetadata.ModelInfo does not contain required SimulationMode field.');
+end
+
+try
+    raw_mode = model_info.SimulationMode;
+    actual_mode = lower(strtrim(char(string(raw_mode))));
+catch ME
+    error('postgate:actual_simulation_mode_unavailable', ...
+        'Failed to read SimulationMetadata.ModelInfo.SimulationMode: %s', ME.message);
+end
+
+if isempty(actual_mode)
+    error('postgate:actual_simulation_mode_unavailable', ...
+        'SimulationMetadata.ModelInfo.SimulationMode returned an empty value.');
+end
+
+% Verify exact normalized string equality between requested and actual mode
+mode_match = strcmp(actual_mode, requested_mode);
+fallback_detected = ~mode_match;
+
+effective_cfg_check.requested_mode = requested_mode;
+effective_cfg_check.effective_mode = actual_mode;
+effective_cfg_check.mode_match = mode_match;
+effective_cfg_check.all_valid = effective_cfg_check.all_valid && mode_match;
+
+if fallback_detected
+    error('postgate:simulation_mode_mismatch', ...
+        'Simulation mode mismatch (fallback detected): requested "%s", but actual execution mode was "%s".', ...
+        requested_mode, actual_mode);
+end
+
+% 9. Snapshot P0 instrumentation & Validate non-emptiness (Important 2)
+p0_snap = struct();
+if instrument
+    p0_snap = shape.p0_profiler('snapshot');
+    shape.p0_profiler('disable');
+end
+
+% 10. Telemetry extraction & resampling to 1 ms grid (double precision)
+extract_tic = tic;
+logged_output_points = numel(out.tout);
+raw_tout = out.tout(:);
+raw_q = squeeze(out.q_sim);
+raw_dq = squeeze(out.dq_sim);
+raw_tau = squeeze(out.tau_sim);
+raw_acc = squeeze(out.accel_sim);
+
+telemetry = shape.resample_telemetry(raw_tout, raw_q, raw_dq, raw_tau, cfg);
+telemetry_extraction_s = toc(extract_tic);
+
+% 11. Post-processing pipeline (observer, residuals, FFT, CWT)
+post_tic = tic;
+[res, diagnostics] = shape.compute_residuals(telemetry, ref, models, cfg);
+residuals_s = toc(post_tic);
+
+norm_tic = tic;
+normed = shape.normalize_residuals(res, cfg);
+normalization_s = toc(norm_tic);
+
+fft_tic = tic;
+[fft_amp, fft_freq] = shape.compute_fft(normed.shape, cfg);
+fft_s = toc(fft_tic);
+
+cwt_tic = tic;
+rep = shape.cwt_representations(normed, cfg);
+cwt_s = toc(cwt_tic);
+
+e4_stats = shape.e4_calibration_stats(telemetry, record);
+
+% 12. Authoritative Observer Provenance Verification (Blockers 5 & 6)
+obs_details = diagnostics.ctdq_backend_details;
+obs_provenance_check = struct( ...
+    'requested_backend', 'finite_difference_batch_mex', ...
+    'actual_backend', obs_details.actual_backend, ...
+    'backend_match', strcmp(obs_details.actual_backend, 'finite_difference_batch_mex'), ...
+    'status', obs_details.status, ...
+    'status_active', strcmp(obs_details.status, 'MEX_ACTIVE'), ...
+    'fallback_used', obs_details.fallback_used, ...
+    'fallback_pass', ~obs_details.fallback_used, ...
+    'mex_sha256', obs_details.mex_sha256, ...
+    'mex_hash_match', strcmpi(obs_details.mex_sha256, cfg.observer_ctdq_mex_expected_sha256), ...
+    'source_sha256', obs_details.source_sha256, ...
+    'source_hash_match', strcmpi(obs_details.source_sha256, cfg.observer_ctdq_source_expected_sha256));
+
+obs_provenance_check.all_valid = obs_provenance_check.backend_match && ...
+    obs_provenance_check.status_active && ...
+    obs_provenance_check.fallback_pass && ...
+    obs_provenance_check.mex_hash_match && ...
+    obs_provenance_check.source_hash_match;
+
+% 13. Assemble in-memory canonical-precision pre-serialization arrays (Minor: Terminology)
+in_memory_arrays = struct( ...
+    'q', double(telemetry.q), ...
+    'dq', double(telemetry.dq), ...
+    'tau_cmd', double(telemetry.tau_cmd), ...
+    'timebase', double(telemetry.t), ...
+    'q_ref', double(ref.q), ...
+    'dq_ref', double(ref.dq), ...
+    'ddq_ref', double(ref.ddq), ...
+    'tau_nom', double(ref.tau_nom), ...
+    'shape', double(res.shape), ...
+    'torque', double(res.torque), ...
+    'eo', double(res.energy), ...
+    'gmo', double(res.gmo), ...
+    'normed_shape', double(normed.shape), ...
+    'normed_torque', double(normed.torque), ...
+    'normed_eo', double(normed.energy), ...
+    'normed_gmo', double(normed.gmo));
+
+% 14. Assemble comprehensive runtime profile with compile-inclusive semantics (Important 4)
+profile = struct();
+profile.sim_mode_requested = requested_mode;
+profile.sim_mode_actual = actual_mode;
+profile.fallback_detected = fallback_detected;
+if strcmpi(requested_mode, 'accelerator')
+    profile.timing_semantics = 'FIRST_INVOCATION_COMPILE_INCLUSIVE';
+else
+    profile.timing_semantics = 'NORMAL_INTERPRETED_BASELINE';
+end
+profile.model_setup_compile_s = model_setup_s;
+profile.simulink_wall_s = sim_wall_s;
+profile.telemetry_extraction_s = telemetry_extraction_s;
+profile.residuals_s = residuals_s;
+profile.normalization_s = normalization_s;
+profile.fft_s = fft_s;
+profile.cwt_rebin_s = cwt_s;
+profile.logged_output_points = logged_output_points;
+profile.final_output_points = numel(telemetry.q(1,:));
+profile.p0 = p0_snap;
+profile.benchmarked_ctx_call_us = benchmarked_ctx_call_us;
+profile.residual_breakdown = diagnostics.timing;
+profile.observer_ctdq = obs_details;
+profile.effective_config_check = effective_cfg_check;
+profile.observer_provenance_check = obs_provenance_check;
+
+% 15. Serialize delivery HDF5 artifact
+ser_tic = tic;
+case_output_dir = fullfile(output_dir, [sim_mode '_' run_label]);
+if ~isfolder(case_output_dir), mkdir(case_output_dir); end
+[cand_path, ~] = shape.serialize_run(case_output_dir, record, ref, telemetry, res, normed, rep, fft_amp, fft_freq, profile, cfg);
+serialization_s = toc(ser_tic);
+profile.serialization_s = serialization_s;
+
+h5writeatt(cand_path, '/', 'profile_json', jsonencode(profile));
+cand_sha = char(shape.sha256_file(cand_path));
+
+postgate_lifecycle_ledger('postprocessed', run_label);
+run_status.postprocessing_completed = true;
+
+% Clear context deterministically via onCleanup guard (Repair 2)
+clear context_cleanup;
+
+result = struct( ...
+    'path', cand_path, ...
+    'sha256', cand_sha, ...
+    'profile', profile, ...
+    'telemetry', telemetry, ...
+    'ref', ref, ...
+    'res', res, ...
+    'normed', normed, ...
+    'prep', prep, ...
+    'raw_arrays', in_memory_arrays, ...
+    'in_memory_arrays', in_memory_arrays, ...
+    'sim_wall_s', sim_wall_s, ...
+    'actual_mode', actual_mode, ...
+    'requested_mode', requested_mode, ...
+    'fallback_detected', fallback_detected, ...
+    'raw_tout_count', logged_output_points, ...
+    'effective_cfg_check', effective_cfg_check, ...
+    'obs_provenance_check', obs_provenance_check, ...
+    'run_status', run_status, ...
+    'ledger', postgate_lifecycle_ledger('get'), ...
+    'isolation_receipt', isolation_receipt, ...
+    'production_authorized', false);
+
+end

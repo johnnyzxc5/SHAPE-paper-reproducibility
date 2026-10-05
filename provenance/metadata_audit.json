@@ -1,0 +1,747 @@
+{
+  "PRIMARY_MANIFEST_DRY_RUN": {
+    "rows": 20000,
+    "columns": [
+      "run_uid",
+      "parent_trajectory_id",
+      "split",
+      "fault_class",
+      "class_label",
+      "target_joint",
+      "fault_joint",
+      "trajectory_mode",
+      "K_segments",
+      "t_fault",
+      "s_LoE",
+      "s_Friction",
+      "A_d",
+      "f_d",
+      "phi_d",
+      "analysis_stratum",
+      "trajectory_seed",
+      "parameter_seed",
+      "fault_seed",
+      "noise_seed"
+    ],
+    "sha256": "676a0a412ff00943f65525034ca3c1e3f3614ac9cbfd6f5a62a70edc91a99472",
+    "parents": 5000
+  },
+  "E2B_PAIRED_MANIFEST_CANDIDATE": {
+    "rows": 300,
+    "columns": [
+      "run_uid",
+      "parent_trajectory_id",
+      "split",
+      "fault_class",
+      "class_label",
+      "target_joint",
+      "fault_joint",
+      "trajectory_mode",
+      "K_segments",
+      "t_fault",
+      "s_LoE",
+      "s_Friction",
+      "A_d",
+      "f_d",
+      "phi_d",
+      "analysis_stratum",
+      "trajectory_seed",
+      "parameter_seed",
+      "fault_seed",
+      "noise_seed"
+    ],
+    "sha256": "958201c8b598346c801a7df35748331cda6bc7bdb5f8abf68b627ab7dc59518c",
+    "parents": 30
+  },
+  "PRODUCTION_TRAJECTORY_BINDING": {
+    "rows": 5030,
+    "columns": [
+      "parent_id",
+      "trajectory_seed",
+      "accepted_attempt",
+      "attempt_count",
+      "trajectory_artifact_path",
+      "trajectory_sha256",
+      "generator_sha256",
+      "constraint_contract_sha256",
+      "model_sha256",
+      "K_segments",
+      "trajectory_mode",
+      "qualification_status",
+      "q_margin_rad",
+      "dq_margin_rad_s",
+      "ddq_margin_rad_s2",
+      "torque_margin_Nm",
+      "L_q2_rad"
+    ],
+    "sha256": "efb3c729b2bf74277d6f57165ae54b996d6996c389a95612f8751bfa73e16020",
+    "parents": null
+  },
+  "index": {
+    "rows": 20300,
+    "sha256": "01b5059425b91defdc472c5384934419e67b6b8e033e92f249b19504a0d55ea9",
+    "cohort_counts": {
+      "PRIMARY": 20000,
+      "E2B": 300
+    },
+    "split_counts": {
+      "train": 14000,
+      "test": 3000,
+      "val": 3000,
+      "e2b_supplement": 300
+    },
+    "all_paths_exist": true,
+    "unique_run_uids": 20300,
+    "calibration_index_matches": true,
+    "calibration_membership_matches": true
+  },
+  "config_comparisons": [
+    {
+      "path": "metadata/AI/runs/energy_cwt/seed_104729/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 104729,
+          "template": 1729
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/energy_cwt/seed_1729/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/energy_cwt/seed_2027/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 2027,
+          "template": 1729
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/energy_cwt/seed_4099/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 4099,
+          "template": 1729
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/energy_cwt/seed_7919/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 7919,
+          "template": 1729
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/gmo_cwt/seed_104729/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 104729,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 32,
+          "template": 16
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/gmo_cwt/seed_1729/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "training.batch_size": {
+          "resolved": 32,
+          "template": 16
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/gmo_cwt/seed_2027/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 2027,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 32,
+          "template": 16
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/gmo_cwt/seed_4099/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 4099,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 32,
+          "template": 16
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/gmo_cwt/seed_7919/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 7919,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 32,
+          "template": 16
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/shape_cwt/seed_104729/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 104729,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 32,
+          "template": 16
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/shape_cwt/seed_1729/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "training.batch_size": {
+          "resolved": 32,
+          "template": 16
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/shape_cwt/seed_2027/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 2027,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 32,
+          "template": 16
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/shape_cwt/seed_4099/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 4099,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 32,
+          "template": 16
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/shape_cwt/seed_7919/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 7919,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 32,
+          "template": 16
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/shape_fft/seed_104729/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 104729,
+          "template": 1729
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/shape_fft/seed_1729/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/shape_fft/seed_2027/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 2027,
+          "template": 1729
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/shape_fft/seed_4099/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 4099,
+          "template": 1729
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/shape_fft/seed_7919/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 7919,
+          "template": 1729
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/shape_temporal/seed_104729/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 104729,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 16,
+          "template": 32
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/shape_temporal/seed_1729/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "training.batch_size": {
+          "resolved": 16,
+          "template": 32
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/shape_temporal/seed_2027/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 2027,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 16,
+          "template": 32
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/shape_temporal/seed_4099/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 4099,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 16,
+          "template": 32
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/shape_temporal/seed_7919/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 7919,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 16,
+          "template": 32
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/torque_cwt/seed_104729/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 104729,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 32,
+          "template": 16
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/torque_cwt/seed_1729/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "training.batch_size": {
+          "resolved": 32,
+          "template": 16
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/torque_cwt/seed_2027/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 2027,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 32,
+          "template": 16
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/torque_cwt/seed_4099/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 4099,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 32,
+          "template": 16
+        }
+      }
+    },
+    {
+      "path": "metadata/AI/runs/torque_cwt/seed_7919/config.resolved.json",
+      "differences": {
+        "index_path": {
+          "resolved": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+          "template": "C:/KinovaProduction/AI/index/full_index.parquet"
+        },
+        "output_root": {
+          "resolved": "C:\\KinovaProduction\\AI\\runs",
+          "template": "C:/KinovaProduction/AI/runs"
+        },
+        "seed": {
+          "resolved": 7919,
+          "template": 1729
+        },
+        "training.batch_size": {
+          "resolved": 32,
+          "template": 16
+        }
+      }
+    }
+  ],
+  "e4_index": {
+    "rows": 30000,
+    "columns": [
+      "run_uid",
+      "parent_trajectory_id",
+      "fault_class",
+      "label",
+      "cohort",
+      "file_size_bytes",
+      "split",
+      "class_label",
+      "target_joint",
+      "fault_joint",
+      "trajectory_mode",
+      "K_segments",
+      "t_fault",
+      "s_LoE",
+      "s_Friction",
+      "A_d",
+      "f_d",
+      "phi_d",
+      "analysis_stratum",
+      "trajectory_seed",
+      "parameter_seed",
+      "fault_seed",
+      "noise_seed",
+      "dq2_rms_post",
+      "clean_run_uid",
+      "e4_condition",
+      "velocity_snr_db",
+      "position_sigma_deg",
+      "position_noise_std_rad"
+    ],
+    "path_exists_count": null,
+    "condition_counts": {
+      "velocity_40dB": 3000,
+      "velocity_30dB": 3000,
+      "velocity_20dB": 3000,
+      "velocity_10dB": 3000,
+      "position_0.01deg": 3000,
+      "position_0.05deg": 3000,
+      "position_0.2deg": 3000,
+      "combined_40dB_0.01deg": 3000,
+      "combined_40dB_0.05deg": 3000,
+      "combined_40dB_0.2deg": 3000
+    }
+  },
+  "sample_hdf5_header": {
+    "path": "C:\\KinovaProduction\\E2B\\shard_hostA_e2b_5001_5030\\outputs\\parent_5001_5100\\run_9c87d3ca-15f8-3e67-83ca-b5ca3e6c36c9.h5",
+    "attributes": {
+      "constraint_contract_sha256": "b353095eaaca28d6c2cb241b5f2d4b724e7bbc9d2c8998fde67c57d28c05b65a",
+      "generator_sha256": "809483cef2eb13d099938ced21c254dcc33fe01e473415e261057e5a614c46fd",
+      "input_manifest_sha256": "958201c8b598346c801a7df35748331cda6bc7bdb5f8abf68b627ab7dc59518c",
+      "observer_ctdq_actual_backend_version": "p1b-fd-central-h1e-6-v1",
+      "observer_ctdq_backend": "finite_difference_batch_mex",
+      "observer_ctdq_backend_version": "p1b-fd-central-h1e-6-v1",
+      "observer_ctdq_mex_sha256": "9dda22245d4f649854c9f3b7f9ad04527e288a2342ef5468c5a70020ddf12f5c",
+      "observer_ctdq_requested_backend_version": "p1b-fd-central-h1e-6-v1",
+      "observer_ctdq_source_sha256": "b99e2a6b3185a6af0f4f8db7b720fe5dfa4f90b4bb45c4c6b28b978c6d7e13c0",
+      "observer_ctdq_source_version": "p1b-fd-central-h1e-6-v1",
+      "schema_version": "shape-generator-v1",
+      "solver": "ode45",
+      "solver_abs_tol": "1e-08",
+      "solver_max_step": "0.001",
+      "solver_rel_tol": "1e-06",
+      "trajectory_binding_sha256": "efb3c729b2bf74277d6f57165ae54b996d6996c389a95612f8751bfa73e16020",
+      "trajectory_model_sha256": "534d87131c1d90f8c3b13611e4d3e9087c8e983f22bf51bf41023bcb672fc569",
+      "trajectory_sha256": "150177bd5172ec4f4bac4c5a256f8452016cff8c237ff47b3878451968253c0b"
+    }
+  },
+  "test_environment_current_only": {
+    "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+    "torch": "2.14.0+cu130",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "h5py": "3.16.0",
+    "pyarrow": "25.0.1",
+    "scikit-learn": "1.9.1",
+    "pytest": "9.1.1",
+    "matplotlib": "3.11.2"
+  }
+}

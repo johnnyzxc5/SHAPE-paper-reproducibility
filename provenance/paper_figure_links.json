@@ -1,0 +1,31 @@
+[
+  {
+    "path": "evidence/paper_figures/Shape_Methodology.pdf",
+    "sha256": "567934dfb104d9d3772eab31f03636c2a8c906b7501b5a44ce1a16c9999b07a5",
+    "identical_joint_workspace_outputs": []
+  },
+  {
+    "path": "evidence/paper_figures/Shape_Methodology1.pdf",
+    "sha256": "26eecdfacc73e200e10f52e4d1e78e5d8d0375b55f30b9257e8125943b62bc08",
+    "identical_joint_workspace_outputs": []
+  },
+  {
+    "path": "evidence/paper_figures/shared_encoder_diagnostic_architectures 2.pdf",
+    "sha256": "205dd9596db604ebf4de89b466cefc5c7c9baefd1350f11fe653f7f6b8fcfdb4",
+    "identical_joint_workspace_outputs": []
+  },
+  {
+    "path": "evidence/paper_figures/figures/E0/SHAPE_joint_identification_detection_combined.pdf",
+    "sha256": "049300a1418f1f7e3517886cbd594fe0fef247b6c9389e09a7d6cc1b5c259a73",
+    "identical_joint_workspace_outputs": [
+      "C:\\Users\\Johnny\\Desktop\\KINOVA_JOINT_SEVERITY_EXCITATION_AUDIT\\combined_joint_maps_with_Q\\combined_SHAPE_pipelines_identification_detection.pdf"
+    ]
+  },
+  {
+    "path": "evidence/paper_figures/figures/E3/E3_joint_identification_detection_combined.pdf",
+    "sha256": "c8d735276a386f4d20fde0a087592471495e1ea60ce54900fa22bf885c6a44ad",
+    "identical_joint_workspace_outputs": [
+      "C:\\Users\\Johnny\\Desktop\\KINOVA_JOINT_SEVERITY_EXCITATION_AUDIT\\combined_joint_maps_with_Q\\combined_CWT_formulations_identification_detection.pdf"
+    ]
+  }
+]

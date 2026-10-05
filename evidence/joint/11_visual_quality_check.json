@@ -1,0 +1,110 @@
+{
+  "visual_inspection": "All eight PDF renderings inspected. No clipping or overlaps observed; severity labels, method labels and annotations readable. Four-method recall panels use a common 0-100 percent color scale; companion count figures accompany interpretation. Line views preserve all Q points and show sample SDs.",
+  "pdf_note": "Plot panels, text and line views are vector elements. Heatmap/count PDFs embed a narrow raster colorbar gradient; they do not embed rasterized plot panels.",
+  "figures": [
+    {
+      "file": "C:\\Users\\Johnny\\Desktop\\KINOVA_JOINT_SEVERITY_EXCITATION_AUDIT\\figures\\Friction_counts.pdf",
+      "pages": 1,
+      "width_in": 3.58,
+      "height_in": 3.3499999999999996,
+      "embedded_images": [
+        {
+          "name": "I1.png",
+          "dimensions": [
+            11,
+            211
+          ]
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\Johnny\\Desktop\\KINOVA_JOINT_SEVERITY_EXCITATION_AUDIT\\figures\\Friction_joint_recall.pdf",
+      "pages": 1,
+      "width_in": 7.16,
+      "height_in": 6.15,
+      "embedded_images": [
+        {
+          "name": "I1.png",
+          "dimensions": [
+            13,
+            369
+          ]
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\Johnny\\Desktop\\KINOVA_JOINT_SEVERITY_EXCITATION_AUDIT\\figures\\Friction_within_severity_Q.pdf",
+      "pages": 1,
+      "width_in": 7.16,
+      "height_in": 5.25,
+      "embedded_images": []
+    },
+    {
+      "file": "C:\\Users\\Johnny\\Desktop\\KINOVA_JOINT_SEVERITY_EXCITATION_AUDIT\\figures\\LoE_counts.pdf",
+      "pages": 1,
+      "width_in": 3.58,
+      "height_in": 3.3499999999999996,
+      "embedded_images": [
+        {
+          "name": "I1.png",
+          "dimensions": [
+            11,
+            211
+          ]
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\Johnny\\Desktop\\KINOVA_JOINT_SEVERITY_EXCITATION_AUDIT\\figures\\LoE_joint_recall.pdf",
+      "pages": 1,
+      "width_in": 7.16,
+      "height_in": 6.15,
+      "embedded_images": [
+        {
+          "name": "I1.png",
+          "dimensions": [
+            13,
+            369
+          ]
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\Johnny\\Desktop\\KINOVA_JOINT_SEVERITY_EXCITATION_AUDIT\\figures\\LoE_within_severity_Q.pdf",
+      "pages": 1,
+      "width_in": 7.16,
+      "height_in": 5.25,
+      "embedded_images": []
+    },
+    {
+      "file": "C:\\Users\\Johnny\\Desktop\\KINOVA_JOINT_SEVERITY_EXCITATION_AUDIT\\figures\\Vibration_counts.pdf",
+      "pages": 1,
+      "width_in": 3.58,
+      "height_in": 3.3499999999999996,
+      "embedded_images": [
+        {
+          "name": "I1.png",
+          "dimensions": [
+            11,
+            211
+          ]
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\Johnny\\Desktop\\KINOVA_JOINT_SEVERITY_EXCITATION_AUDIT\\figures\\Vibration_joint_recall.pdf",
+      "pages": 1,
+      "width_in": 7.16,
+      "height_in": 6.15,
+      "embedded_images": [
+        {
+          "name": "I1.png",
+          "dimensions": [
+            13,
+            369
+          ]
+        }
+      ]
+    }
+  ]
+}

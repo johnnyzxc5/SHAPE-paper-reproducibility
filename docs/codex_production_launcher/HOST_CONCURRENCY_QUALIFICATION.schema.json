@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kinova host-specific production concurrency qualification",
+  "type": "object",
+  "required": [
+    "schema_version", "status", "pass", "production_qualified",
+    "production_authorized", "concurrency_authority", "qualified_workers",
+    "exact_concurrency_only", "worker_profile", "host_identity",
+    "matlab_version", "matlab_release", "architecture", "compiler_name",
+    "compiler_version", "scientific_release_authority", "binding_sha256",
+    "protected_authorities_all_match", "observer_mex_selftest_pass",
+    "observer_mex_sha256", "observer_source_sha256", "cache_isolation_pass",
+    "physical_qualification_pass", "filegen_readback_pass",
+    "repository_root_slprj_used", "physical_population",
+    "physical_runs_attempted", "physical_runs_completed",
+    "scientific_validator_passes", "eof_warning_count", "retries",
+    "quarantines", "failures", "evidence_receipt_path",
+    "evidence_receipt_sha256"
+  ],
+  "properties": {
+    "schema_version": {"const": "production-host-concurrency-qualification-v2"},
+    "status": {"const": "HOST_CONCURRENCY_QUALIFICATION_PASS"},
+    "pass": {"const": true},
+    "production_qualified": {"const": true},
+    "production_authorized": {"const": false},
+    "concurrency_authority": {"const": "HOST_SPECIFIC_QUALIFIED_CONCURRENCY"},
+    "qualified_workers": {"type": "integer", "minimum": 1},
+    "exact_concurrency_only": {"const": true},
+    "worker_profile": {"const": "Processes"},
+    "repository_root_slprj_used": {"const": false},
+    "physical_runs_attempted": {"const": 96},
+    "physical_runs_completed": {"const": 96},
+    "scientific_validator_passes": {"const": 96},
+    "eof_warning_count": {"const": 0},
+    "retries": {"const": 0},
+    "quarantines": {"const": 0},
+    "failures": {"const": 0}
+  },
+  "additionalProperties": true
+}

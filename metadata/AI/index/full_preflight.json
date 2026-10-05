@@ -1,0 +1,48 @@
+{
+  "class_counts": {
+    "Friction": 5000,
+    "LoE": 5000,
+    "Nominal": 5000,
+    "Vibration": 5300
+  },
+  "e2b_runs": 300,
+  "errors": [],
+  "index_path": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+  "index_sha256": "01b5059425b91defdc472c5384934419e67b6b8e033e92f249b19504a0d55ea9",
+  "parents": 5030,
+  "pass": true,
+  "primary_runs": 20000,
+  "runs": 20300,
+  "split_counts": {
+    "e2b_supplement": 300,
+    "test": 3000,
+    "train": 14000,
+    "val": 3000
+  },
+  "tensor_checks": [
+    "c9b8daff-56c1-5135-8fbe-4115453868fc",
+    "4d7f49a6-3046-508c-929f-564adcd1cc67",
+    "6466dc1b-80ab-5704-91d4-98a54435c377",
+    "74f2d109-a203-5e5e-bf19-5dfe7ec909e8",
+    "f5c3994b-9921-560a-abfd-ca45a23cca4f",
+    "3863b399-db4c-5ee7-adaf-a3cca255cb37",
+    "d87363e2-e84d-54c1-bb3c-ed6f13938814",
+    "35f754fd-0374-552b-bde6-091914f4c968",
+    "6856fabc-9dcd-566b-963e-b26481ce82b8",
+    "0c42c4c1-b300-5d56-a4b2-bf6c957992f0",
+    "54792208-5676-5177-b201-e84130cbfa33",
+    "74275f15-2165-524c-8d78-6628ffb33eeb",
+    "126e891e-e347-5574-a7e6-243c2262e412",
+    "abd07961-b6d2-55cf-9bf8-e764a15e64b8",
+    "fd134622-59c2-5dce-a1f5-1914d1fead62",
+    "18f889f1-5f0f-5161-b95a-823f315894c9",
+    "beb92fa2-609a-5cb6-85b3-e063dce020ae",
+    "7ddcca2f-42db-5d24-8c18-ee0588493e8b",
+    "5237e25f-3f28-5709-b364-c16ccbcbe17e",
+    "467a9dca-a28d-515e-83b3-fc7174887cb7",
+    "b33254df-996a-5d5e-b4f1-be489d8f8480",
+    "950f44dc-7f28-5b06-b004-bd36cebd1f54",
+    "aed6a541-32ce-502f-8f1b-16f8e9b55c67",
+    "a1d4c71f-61e8-5894-8445-d625ed0ac02e"
+  ]
+}

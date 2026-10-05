@@ -1,0 +1,925 @@
+Source,Condition,Field,Reconstructed,Reference,Abs_Difference,PASS
+T06,"LoE|[0.02, 0.05)|shape_cwt",N_per_Seed,188,188,0,True
+T06,"LoE|[0.02, 0.05)|shape_cwt",Multiclass_Recall_Mean,0.51489361702127656,0.51489361702127656,0,True
+T06,"LoE|[0.02, 0.05)|shape_cwt",Multiclass_Recall_SD,0.058800057895470131,0.058800057895470097,3.4694469519536142e-17,True
+T06,"LoE|[0.02, 0.05)|shape_cwt",Binary_Detection_Mean,0.72340425531914887,0.72340425531914887,0,True
+T06,"LoE|[0.02, 0.05)|shape_cwt",Binary_Detection_SD,0.048459753080554786,0.048459753080554703,8.3266726846886741e-17,True
+T06,"LoE|[0.02, 0.05)|shape_cwt",Missed_Detection_Mean,0.27659574468085107,0.27659574468085107,0,True
+T06,"LoE|[0.02, 0.05)|shape_cwt",Missed_Detection_SD,0.048459753080554772,0.048459753080554703,6.9388939039072284e-17,True
+T06,"LoE|[0.02, 0.05)|shape_cwt",Mechanism_Confusion_Mean,0.20851063829787236,0.20851063829787231,5.5511151231257827e-17,True
+T06,"LoE|[0.02, 0.05)|shape_cwt",Mechanism_Confusion_SD,0.025895024350293793,0.025895024350293699,9.3675067702747583e-17,True
+T06,"LoE|[0.02, 0.05)|shape_cwt",Destination_Nominal_Mean,0.27659574468085107,0.27659574468085107,0,True
+T06,"LoE|[0.02, 0.05)|shape_cwt",Destination_OtherFault_Mean,0.20851063829787236,0.20851063829787231,5.5511151231257827e-17,True
+T06,"LoE|[0.02, 0.05)|shape_temporal",N_per_Seed,188,188,0,True
+T06,"LoE|[0.02, 0.05)|shape_temporal",Multiclass_Recall_Mean,0.57340425531914885,0.57340425531914885,0,True
+T06,"LoE|[0.02, 0.05)|shape_temporal",Multiclass_Recall_SD,0.057951877446658938,0.057951877446658903,3.4694469519536142e-17,True
+T06,"LoE|[0.02, 0.05)|shape_temporal",Binary_Detection_Mean,0.67978723404255315,0.67978723404255315,0,True
+T06,"LoE|[0.02, 0.05)|shape_temporal",Binary_Detection_SD,0.06815986587081424,0.068159865870814199,4.163336342344337e-17,True
+T06,"LoE|[0.02, 0.05)|shape_temporal",Missed_Detection_Mean,0.3202127659574468,0.3202127659574468,0,True
+T06,"LoE|[0.02, 0.05)|shape_temporal",Missed_Detection_SD,0.068159865870814254,0.068159865870814199,5.5511151231257827e-17,True
+T06,"LoE|[0.02, 0.05)|shape_temporal",Mechanism_Confusion_Mean,0.10638297872340426,0.1063829787234042,5.5511151231257827e-17,True
+T06,"LoE|[0.02, 0.05)|shape_temporal",Mechanism_Confusion_SD,0.032355119842011816,0.032355119842011802,1.3877787807814457e-17,True
+T06,"LoE|[0.02, 0.05)|shape_temporal",Destination_Nominal_Mean,0.3202127659574468,0.3202127659574468,0,True
+T06,"LoE|[0.02, 0.05)|shape_temporal",Destination_OtherFault_Mean,0.10638297872340426,0.1063829787234042,5.5511151231257827e-17,True
+T06,"LoE|[0.02, 0.05)|shape_fft",N_per_Seed,188,188,0,True
+T06,"LoE|[0.02, 0.05)|shape_fft",Multiclass_Recall_Mean,0.0085106382978723406,0.0085106382978723007,3.9898639947466563e-17,True
+T06,"LoE|[0.02, 0.05)|shape_fft",Multiclass_Recall_SD,0.0096627138960558231,0.0096627138960558006,2.2551405187698492e-17,True
+T06,"LoE|[0.02, 0.05)|shape_fft",Binary_Detection_Mean,0.52234042553191495,0.52234042553191495,0,True
+T06,"LoE|[0.02, 0.05)|shape_fft",Binary_Detection_SD,0.085388495190569527,0.085388495190569499,2.7755575615628914e-17,True
+T06,"LoE|[0.02, 0.05)|shape_fft",Missed_Detection_Mean,0.47765957446808505,0.47765957446808499,5.5511151231257827e-17,True
+T06,"LoE|[0.02, 0.05)|shape_fft",Missed_Detection_SD,0.085388495190569499,0.085388495190569499,0,True
+T06,"LoE|[0.02, 0.05)|shape_fft",Mechanism_Confusion_Mean,0.51382978723404249,0.51382978723404249,0,True
+T06,"LoE|[0.02, 0.05)|shape_fft",Mechanism_Confusion_SD,0.084823332500747514,0.0848233325007475,1.3877787807814457e-17,True
+T06,"LoE|[0.02, 0.05)|shape_fft",Destination_Nominal_Mean,0.47765957446808505,0.47765957446808499,5.5511151231257827e-17,True
+T06,"LoE|[0.02, 0.05)|shape_fft",Destination_OtherFault_Mean,0.51382978723404249,0.51382978723404249,0,True
+T06,"LoE|[0.05, 0.10)|shape_cwt",N_per_Seed,187,187,0,True
+T06,"LoE|[0.05, 0.10)|shape_cwt",Multiclass_Recall_Mean,0.80641711229946522,0.80641711229946522,0,True
+T06,"LoE|[0.05, 0.10)|shape_cwt",Multiclass_Recall_SD,0.048630770243378231,0.048630770243378203,2.7755575615628914e-17,True
+T06,"LoE|[0.05, 0.10)|shape_cwt",Binary_Detection_Mean,0.91871657754010694,0.91871657754010683,1.1102230246251565e-16,True
+T06,"LoE|[0.05, 0.10)|shape_cwt",Binary_Detection_SD,0.019793321415317387,0.019793321415317301,8.6736173798840355e-17,True
+T06,"LoE|[0.05, 0.10)|shape_cwt",Missed_Detection_Mean,0.081283422459893048,0.081283422459893007,4.163336342344337e-17,True
+T06,"LoE|[0.05, 0.10)|shape_cwt",Missed_Detection_SD,0.019793321415317377,0.019793321415317301,7.6327832942979512e-17,True
+T06,"LoE|[0.05, 0.10)|shape_cwt",Mechanism_Confusion_Mean,0.11229946524064172,0.1122994652406417,1.3877787807814457e-17,True
+T06,"LoE|[0.05, 0.10)|shape_cwt",Mechanism_Confusion_SD,0.030013294546315041,0.030013294546315,4.163336342344337e-17,True
+T06,"LoE|[0.05, 0.10)|shape_cwt",Destination_Nominal_Mean,0.081283422459893048,0.081283422459893007,4.163336342344337e-17,True
+T06,"LoE|[0.05, 0.10)|shape_cwt",Destination_OtherFault_Mean,0.11229946524064172,0.1122994652406417,1.3877787807814457e-17,True
+T06,"LoE|[0.05, 0.10)|shape_temporal",N_per_Seed,187,187,0,True
+T06,"LoE|[0.05, 0.10)|shape_temporal",Multiclass_Recall_Mean,0.8310160427807487,0.8310160427807487,0,True
+T06,"LoE|[0.05, 0.10)|shape_temporal",Multiclass_Recall_SD,0.029192179815949057,0.029192179815949001,5.5511151231257827e-17,True
+T06,"LoE|[0.05, 0.10)|shape_temporal",Binary_Detection_Mean,0.91978609625668439,0.91978609625668439,0,True
+T06,"LoE|[0.05, 0.10)|shape_temporal",Binary_Detection_SD,0.026737967914438519,0.026737967914438499,2.0816681711721685e-17,True
+T06,"LoE|[0.05, 0.10)|shape_temporal",Missed_Detection_Mean,0.080213903743315523,0.080213903743315496,2.7755575615628914e-17,True
+T06,"LoE|[0.05, 0.10)|shape_temporal",Missed_Detection_SD,0.026737967914438509,0.026737967914438499,1.0408340855860843e-17,True
+T06,"LoE|[0.05, 0.10)|shape_temporal",Mechanism_Confusion_Mean,0.088770053475935834,0.088770053475935806,2.7755575615628914e-17,True
+T06,"LoE|[0.05, 0.10)|shape_temporal",Mechanism_Confusion_SD,0.017573985802304796,0.017573985802304699,9.7144514654701197e-17,True
+T06,"LoE|[0.05, 0.10)|shape_temporal",Destination_Nominal_Mean,0.080213903743315523,0.080213903743315496,2.7755575615628914e-17,True
+T06,"LoE|[0.05, 0.10)|shape_temporal",Destination_OtherFault_Mean,0.088770053475935834,0.088770053475935806,2.7755575615628914e-17,True
+T06,"LoE|[0.05, 0.10)|shape_fft",N_per_Seed,187,187,0,True
+T06,"LoE|[0.05, 0.10)|shape_fft",Multiclass_Recall_Mean,0.10053475935828877,0.10053475935828871,6.9388939039072284e-17,True
+T06,"LoE|[0.05, 0.10)|shape_fft",Multiclass_Recall_SD,0.049792959773196921,0.0497929597731969,2.0816681711721685e-17,True
+T06,"LoE|[0.05, 0.10)|shape_fft",Binary_Detection_Mean,0.6737967914438503,0.6737967914438503,0,True
+T06,"LoE|[0.05, 0.10)|shape_fft",Binary_Detection_SD,0.059548281955401308,0.059548281955401301,6.9388939039072284e-18,True
+T06,"LoE|[0.05, 0.10)|shape_fft",Missed_Detection_Mean,0.32620320855614976,0.3262032085561497,5.5511151231257827e-17,True
+T06,"LoE|[0.05, 0.10)|shape_fft",Missed_Detection_SD,0.059548281955401308,0.059548281955401301,6.9388939039072284e-18,True
+T06,"LoE|[0.05, 0.10)|shape_fft",Mechanism_Confusion_Mean,0.57326203208556148,0.57326203208556148,0,True
+T06,"LoE|[0.05, 0.10)|shape_fft",Mechanism_Confusion_SD,0.034943977011132721,0.0349439770111327,2.0816681711721685e-17,True
+T06,"LoE|[0.05, 0.10)|shape_fft",Destination_Nominal_Mean,0.32620320855614976,0.3262032085561497,5.5511151231257827e-17,True
+T06,"LoE|[0.05, 0.10)|shape_fft",Destination_OtherFault_Mean,0.57326203208556148,0.57326203208556148,0,True
+T06,"LoE|[0.10, 0.20)|shape_cwt",N_per_Seed,188,188,0,True
+T06,"LoE|[0.10, 0.20)|shape_cwt",Multiclass_Recall_Mean,0.90744680851063819,0.90744680851063819,0,True
+T06,"LoE|[0.10, 0.20)|shape_cwt",Multiclass_Recall_SD,0.0080668887702676027,0.0080668887702675992,3.4694469519536142e-18,True
+T06,"LoE|[0.10, 0.20)|shape_cwt",Binary_Detection_Mean,0.98085106382978737,0.98085106382978737,0,True
+T06,"LoE|[0.10, 0.20)|shape_cwt",Binary_Detection_SD,0.0029134178590700518,0.0029134178590700002,5.1608023410310011e-17,True
+T06,"LoE|[0.10, 0.20)|shape_cwt",Missed_Detection_Mean,0.019148936170212762,0.0191489361702127,6.2450045135165055e-17,True
+T06,"LoE|[0.10, 0.20)|shape_cwt",Missed_Detection_SD,0.0029134178590700327,0.0029134178590700002,3.2526065174565133e-17,True
+T06,"LoE|[0.10, 0.20)|shape_cwt",Mechanism_Confusion_Mean,0.073404255319148945,0.073404255319148903,4.163336342344337e-17,True
+T06,"LoE|[0.10, 0.20)|shape_cwt",Mechanism_Confusion_SD,0.0087402535772100991,0.0087402535772100002,9.8879238130678004e-17,True
+T06,"LoE|[0.10, 0.20)|shape_cwt",Destination_Nominal_Mean,0.019148936170212762,0.0191489361702127,6.2450045135165055e-17,True
+T06,"LoE|[0.10, 0.20)|shape_cwt",Destination_OtherFault_Mean,0.073404255319148945,0.073404255319148903,4.163336342344337e-17,True
+T06,"LoE|[0.10, 0.20)|shape_temporal",N_per_Seed,188,188,0,True
+T06,"LoE|[0.10, 0.20)|shape_temporal",Multiclass_Recall_Mean,0.93936170212765957,0.93936170212765957,0,True
+T06,"LoE|[0.10, 0.20)|shape_temporal",Multiclass_Recall_SD,0.025398588055985796,0.025398588055985698,9.7144514654701197e-17,True
+T06,"LoE|[0.10, 0.20)|shape_temporal",Binary_Detection_Mean,0.99255319148936161,0.99255319148936161,0,True
+T06,"LoE|[0.10, 0.20)|shape_temporal",Binary_Detection_SD,0.004757591441488896,0.0047575914414887998,9.6277152916712794e-17,True
+T06,"LoE|[0.10, 0.20)|shape_temporal",Missed_Detection_Mean,0.0074468085106382973,0.0074468085106382002,9.7144514654701197e-17,True
+T06,"LoE|[0.10, 0.20)|shape_temporal",Missed_Detection_SD,0.0047575914414889134,0.0047575914414889004,1.3010426069826053e-17,True
+T06,"LoE|[0.10, 0.20)|shape_temporal",Mechanism_Confusion_Mean,0.053191489361702128,0.0531914893617021,2.7755575615628914e-17,True
+T06,"LoE|[0.10, 0.20)|shape_temporal",Mechanism_Confusion_SD,0.023185632678407838,0.0231856326784078,3.8163916471489756e-17,True
+T06,"LoE|[0.10, 0.20)|shape_temporal",Destination_Nominal_Mean,0.0074468085106382973,0.0074468085106382002,9.7144514654701197e-17,True
+T06,"LoE|[0.10, 0.20)|shape_temporal",Destination_OtherFault_Mean,0.053191489361702128,0.0531914893617021,2.7755575615628914e-17,True
+T06,"LoE|[0.10, 0.20)|shape_fft",N_per_Seed,188,188,0,True
+T06,"LoE|[0.10, 0.20)|shape_fft",Multiclass_Recall_Mean,0.3425531914893617,0.3425531914893617,0,True
+T06,"LoE|[0.10, 0.20)|shape_fft",Multiclass_Recall_SD,0.10813713356637911,0.10813713356637911,0,True
+T06,"LoE|[0.10, 0.20)|shape_fft",Binary_Detection_Mean,0.82446808510638303,0.82446808510638303,0,True
+T06,"LoE|[0.10, 0.20)|shape_fft",Binary_Detection_SD,0.077994033503272248,0.077994033503272206,4.163336342344337e-17,True
+T06,"LoE|[0.10, 0.20)|shape_fft",Missed_Detection_Mean,0.17553191489361702,0.175531914893617,2.7755575615628914e-17,True
+T06,"LoE|[0.10, 0.20)|shape_fft",Missed_Detection_SD,0.077994033503272234,0.077994033503272206,2.7755575615628914e-17,True
+T06,"LoE|[0.10, 0.20)|shape_fft",Mechanism_Confusion_Mean,0.48191489361702128,0.48191489361702128,0,True
+T06,"LoE|[0.10, 0.20)|shape_fft",Mechanism_Confusion_SD,0.059778336583345949,0.059778336583345901,4.8572257327350599e-17,True
+T06,"LoE|[0.10, 0.20)|shape_fft",Destination_Nominal_Mean,0.17553191489361702,0.175531914893617,2.7755575615628914e-17,True
+T06,"LoE|[0.10, 0.20)|shape_fft",Destination_OtherFault_Mean,0.48191489361702128,0.48191489361702128,0,True
+T06,"LoE|[0.20, 0.30]|shape_cwt",N_per_Seed,187,187,0,True
+T06,"LoE|[0.20, 0.30]|shape_cwt",Multiclass_Recall_Mean,0.94010695187165771,0.9401069518716576,1.1102230246251565e-16,True
+T06,"LoE|[0.20, 0.30]|shape_cwt",Multiclass_Recall_SD,0.012194389573252825,0.012194389573252799,2.6020852139652106e-17,True
+T06,"LoE|[0.20, 0.30]|shape_cwt",Binary_Detection_Mean,0.99251336898395726,0.99251336898395714,1.1102230246251565e-16,True
+T06,"LoE|[0.20, 0.30]|shape_cwt",Binary_Detection_SD,0.0029289976337174778,0.0029289976337174002,7.7628875549962117e-17,True
+T06,"LoE|[0.20, 0.30]|shape_cwt",Missed_Detection_Mean,0.0074866310160427805,0.0074866310160426998,8.066464163292153e-17,True
+T06,"LoE|[0.20, 0.30]|shape_cwt",Missed_Detection_SD,0.0029289976337174657,0.0029289976337174002,6.5485811218124468e-17,True
+T06,"LoE|[0.20, 0.30]|shape_cwt",Mechanism_Confusion_Mean,0.052406417112299465,0.052406417112299403,6.2450045135165055e-17,True
+T06,"LoE|[0.20, 0.30]|shape_cwt",Mechanism_Confusion_SD,0.011593306624961929,0.011593306624961899,2.9490299091605721e-17,True
+T06,"LoE|[0.20, 0.30]|shape_cwt",Destination_Nominal_Mean,0.0074866310160427805,0.0074866310160426998,8.066464163292153e-17,True
+T06,"LoE|[0.20, 0.30]|shape_cwt",Destination_OtherFault_Mean,0.052406417112299465,0.052406417112299403,6.2450045135165055e-17,True
+T06,"LoE|[0.20, 0.30]|shape_temporal",N_per_Seed,187,187,0,True
+T06,"LoE|[0.20, 0.30]|shape_temporal",Multiclass_Recall_Mean,0.93903743315508004,0.93903743315508004,0,True
+T06,"LoE|[0.20, 0.30]|shape_temporal",Multiclass_Recall_SD,0.01950222730354061,0.019502227303540599,1.0408340855860843e-17,True
+T06,"LoE|[0.20, 0.30]|shape_temporal",Binary_Detection_Mean,0.99251336898395726,0.99251336898395714,1.1102230246251565e-16,True
+T06,"LoE|[0.20, 0.30]|shape_temporal",Binary_Detection_SD,0.0071745496604271285,0.0071745496604270998,2.8622937353617317e-17,True
+T06,"LoE|[0.20, 0.30]|shape_temporal",Missed_Detection_Mean,0.0074866310160427814,0.0074866310160426998,8.1532003370909933e-17,True
+T06,"LoE|[0.20, 0.30]|shape_temporal",Missed_Detection_SD,0.0071745496604271328,0.0071745496604270998,3.2959746043559335e-17,True
+T06,"LoE|[0.20, 0.30]|shape_temporal",Mechanism_Confusion_Mean,0.053475935828876997,0.053475935828876997,0,True
+T06,"LoE|[0.20, 0.30]|shape_temporal",Mechanism_Confusion_SD,0.014644988168587329,0.0146449881685873,2.9490299091605721e-17,True
+T06,"LoE|[0.20, 0.30]|shape_temporal",Destination_Nominal_Mean,0.0074866310160427814,0.0074866310160426998,8.1532003370909933e-17,True
+T06,"LoE|[0.20, 0.30]|shape_temporal",Destination_OtherFault_Mean,0.053475935828876997,0.053475935828876997,0,True
+T06,"LoE|[0.20, 0.30]|shape_fft",N_per_Seed,187,187,0,True
+T06,"LoE|[0.20, 0.30]|shape_fft",Multiclass_Recall_Mean,0.54224598930481283,0.54224598930481283,0,True
+T06,"LoE|[0.20, 0.30]|shape_fft",Multiclass_Recall_SD,0.062660472018960564,0.062660472018960495,6.9388939039072284e-17,True
+T06,"LoE|[0.20, 0.30]|shape_fft",Binary_Detection_Mean,0.88556149732620337,0.88556149732620337,0,True
+T06,"LoE|[0.20, 0.30]|shape_fft",Binary_Detection_SD,0.060571973217728843,0.060571973217728801,4.163336342344337e-17,True
+T06,"LoE|[0.20, 0.30]|shape_fft",Missed_Detection_Mean,0.11443850267379678,0.1144385026737967,8.3266726846886741e-17,True
+T06,"LoE|[0.20, 0.30]|shape_fft",Missed_Detection_SD,0.060571973217728857,0.060571973217728801,5.5511151231257827e-17,True
+T06,"LoE|[0.20, 0.30]|shape_fft",Mechanism_Confusion_Mean,0.34331550802139044,0.34331550802139038,5.5511151231257827e-17,True
+T06,"LoE|[0.20, 0.30]|shape_fft",Mechanism_Confusion_SD,0.033694083426787945,0.033694083426787903,4.163336342344337e-17,True
+T06,"LoE|[0.20, 0.30]|shape_fft",Destination_Nominal_Mean,0.11443850267379678,0.1144385026737967,8.3266726846886741e-17,True
+T06,"LoE|[0.20, 0.30]|shape_fft",Destination_OtherFault_Mean,0.34331550802139044,0.34331550802139038,5.5511151231257827e-17,True
+T06,"Friction|[0.02, 0.10)|shape_cwt",N_per_Seed,188,188,0,True
+T06,"Friction|[0.02, 0.10)|shape_cwt",Multiclass_Recall_Mean,0.17340425531914891,0.17340425531914891,0,True
+T06,"Friction|[0.02, 0.10)|shape_cwt",Multiclass_Recall_SD,0.044598454928201241,0.044598454928201199,4.163336342344337e-17,True
+T06,"Friction|[0.02, 0.10)|shape_cwt",Binary_Detection_Mean,0.26702127659574465,0.26702127659574459,5.5511151231257827e-17,True
+T06,"Friction|[0.02, 0.10)|shape_cwt",Binary_Detection_SD,0.062644129874201232,0.062644129874201204,2.7755575615628914e-17,True
+T06,"Friction|[0.02, 0.10)|shape_cwt",Missed_Detection_Mean,0.73297872340425529,0.73297872340425529,0,True
+T06,"Friction|[0.02, 0.10)|shape_cwt",Missed_Detection_SD,0.062644129874201204,0.062644129874201204,0,True
+T06,"Friction|[0.02, 0.10)|shape_cwt",Mechanism_Confusion_Mean,0.093617021276595741,0.093617021276595699,4.163336342344337e-17,True
+T06,"Friction|[0.02, 0.10)|shape_cwt",Mechanism_Confusion_SD,0.025398588055985792,0.025398588055985698,9.3675067702747583e-17,True
+T06,"Friction|[0.02, 0.10)|shape_cwt",Destination_Nominal_Mean,0.73297872340425529,0.73297872340425529,0,True
+T06,"Friction|[0.02, 0.10)|shape_cwt",Destination_OtherFault_Mean,0.093617021276595741,0.093617021276595699,4.163336342344337e-17,True
+T06,"Friction|[0.02, 0.10)|shape_temporal",N_per_Seed,188,188,0,True
+T06,"Friction|[0.02, 0.10)|shape_temporal",Multiclass_Recall_Mean,0.073404255319148931,0.073404255319148903,2.7755575615628914e-17,True
+T06,"Friction|[0.02, 0.10)|shape_temporal",Multiclass_Recall_SD,0.036543753270888657,0.036543753270888601,5.5511151231257827e-17,True
+T06,"Friction|[0.02, 0.10)|shape_temporal",Binary_Detection_Mean,0.10531914893617023,0.1053191489361702,2.7755575615628914e-17,True
+T06,"Friction|[0.02, 0.10)|shape_temporal",Binary_Detection_SD,0.047337437151674447,0.047337437151674398,4.8572257327350599e-17,True
+T06,"Friction|[0.02, 0.10)|shape_temporal",Missed_Detection_Mean,0.89468085106382966,0.89468085106382966,0,True
+T06,"Friction|[0.02, 0.10)|shape_temporal",Missed_Detection_SD,0.047337437151674461,0.047337437151674398,6.2450045135165055e-17,True
+T06,"Friction|[0.02, 0.10)|shape_temporal",Mechanism_Confusion_Mean,0.031914893617021281,0.031914893617021198,8.3266726846886741e-17,True
+T06,"Friction|[0.02, 0.10)|shape_temporal",Mechanism_Confusion_SD,0.020254715707084862,0.0202547157070848,6.2450045135165055e-17,True
+T06,"Friction|[0.02, 0.10)|shape_temporal",Destination_Nominal_Mean,0.89468085106382966,0.89468085106382966,0,True
+T06,"Friction|[0.02, 0.10)|shape_temporal",Destination_OtherFault_Mean,0.031914893617021281,0.031914893617021198,8.3266726846886741e-17,True
+T06,"Friction|[0.02, 0.10)|shape_fft",N_per_Seed,188,188,0,True
+T06,"Friction|[0.02, 0.10)|shape_fft",Multiclass_Recall_Mean,0.12127659574468083,0.1212765957446808,2.7755575615628914e-17,True
+T06,"Friction|[0.02, 0.10)|shape_fft",Multiclass_Recall_SD,0.10838540959106409,0.10838540959106401,8.3266726846886741e-17,True
+T06,"Friction|[0.02, 0.10)|shape_fft",Binary_Detection_Mean,0.35531914893617017,0.35531914893617011,5.5511151231257827e-17,True
+T06,"Friction|[0.02, 0.10)|shape_fft",Binary_Detection_SD,0.23574093629409523,0.2357409362940952,2.7755575615628914e-17,True
+T06,"Friction|[0.02, 0.10)|shape_fft",Missed_Detection_Mean,0.64468085106382977,0.64468085106382977,0,True
+T06,"Friction|[0.02, 0.10)|shape_fft",Missed_Detection_SD,0.23574093629409523,0.2357409362940952,2.7755575615628914e-17,True
+T06,"Friction|[0.02, 0.10)|shape_fft",Mechanism_Confusion_Mean,0.23404255319148937,0.23404255319148931,5.5511151231257827e-17,True
+T06,"Friction|[0.02, 0.10)|shape_fft",Mechanism_Confusion_SD,0.31934834196047074,0.31934834196047068,5.5511151231257827e-17,True
+T06,"Friction|[0.02, 0.10)|shape_fft",Destination_Nominal_Mean,0.64468085106382977,0.64468085106382977,0,True
+T06,"Friction|[0.02, 0.10)|shape_fft",Destination_OtherFault_Mean,0.23404255319148937,0.23404255319148931,5.5511151231257827e-17,True
+T06,"Friction|[0.10, 0.30)|shape_cwt",N_per_Seed,187,187,0,True
+T06,"Friction|[0.10, 0.30)|shape_cwt",Multiclass_Recall_Mean,0.62566844919786102,0.62566844919786102,0,True
+T06,"Friction|[0.10, 0.30)|shape_cwt",Multiclass_Recall_SD,0.042613308691201147,0.042613308691201099,4.8572257327350599e-17,True
+T06,"Friction|[0.10, 0.30)|shape_cwt",Binary_Detection_Mean,0.74010695187165776,0.74010695187165776,0,True
+T06,"Friction|[0.10, 0.30)|shape_cwt",Binary_Detection_SD,0.063454104702422784,0.063454104702422701,8.3266726846886741e-17,True
+T06,"Friction|[0.10, 0.30)|shape_cwt",Missed_Detection_Mean,0.25989304812834224,0.25989304812834219,5.5511151231257827e-17,True
+T06,"Friction|[0.10, 0.30)|shape_cwt",Missed_Detection_SD,0.06345410470242277,0.063454104702422701,6.9388939039072284e-17,True
+T06,"Friction|[0.10, 0.30)|shape_cwt",Mechanism_Confusion_Mean,0.11443850267379681,0.11443850267379679,1.3877787807814457e-17,True
+T06,"Friction|[0.10, 0.30)|shape_cwt",Mechanism_Confusion_SD,0.041353187014291345,0.041353187014291297,4.8572257327350599e-17,True
+T06,"Friction|[0.10, 0.30)|shape_cwt",Destination_Nominal_Mean,0.25989304812834224,0.25989304812834219,5.5511151231257827e-17,True
+T06,"Friction|[0.10, 0.30)|shape_cwt",Destination_OtherFault_Mean,0.11443850267379681,0.11443850267379679,1.3877787807814457e-17,True
+T06,"Friction|[0.10, 0.30)|shape_temporal",N_per_Seed,187,187,0,True
+T06,"Friction|[0.10, 0.30)|shape_temporal",Multiclass_Recall_Mean,0.36149732620320857,0.36149732620320851,5.5511151231257827e-17,True
+T06,"Friction|[0.10, 0.30)|shape_temporal",Multiclass_Recall_SD,0.081417002537618202,0.081417002537618202,0,True
+T06,"Friction|[0.10, 0.30)|shape_temporal",Binary_Detection_Mean,0.4406417112299465,0.4406417112299465,0,True
+T06,"Friction|[0.10, 0.30)|shape_temporal",Binary_Detection_SD,0.099872663357679164,0.099872663357679095,6.9388939039072284e-17,True
+T06,"Friction|[0.10, 0.30)|shape_temporal",Missed_Detection_Mean,0.55935828877005345,0.55935828877005345,0,True
+T06,"Friction|[0.10, 0.30)|shape_temporal",Missed_Detection_SD,0.099872663357679164,0.099872663357679095,6.9388939039072284e-17,True
+T06,"Friction|[0.10, 0.30)|shape_temporal",Mechanism_Confusion_Mean,0.079144385026737971,0.079144385026737901,6.9388939039072284e-17,True
+T06,"Friction|[0.10, 0.30)|shape_temporal",Mechanism_Confusion_SD,0.033694083426787945,0.033694083426787903,4.163336342344337e-17,True
+T06,"Friction|[0.10, 0.30)|shape_temporal",Destination_Nominal_Mean,0.55935828877005345,0.55935828877005345,0,True
+T06,"Friction|[0.10, 0.30)|shape_temporal",Destination_OtherFault_Mean,0.079144385026737971,0.079144385026737901,6.9388939039072284e-17,True
+T06,"Friction|[0.10, 0.30)|shape_fft",N_per_Seed,187,187,0,True
+T06,"Friction|[0.10, 0.30)|shape_fft",Multiclass_Recall_Mean,0.24919786096256685,0.2491978609625668,5.5511151231257827e-17,True
+T06,"Friction|[0.10, 0.30)|shape_fft",Multiclass_Recall_SD,0.16811357788515222,0.16811357788515219,2.7755575615628914e-17,True
+T06,"Friction|[0.10, 0.30)|shape_fft",Binary_Detection_Mean,0.4524064171122994,0.4524064171122994,0,True
+T06,"Friction|[0.10, 0.30)|shape_fft",Binary_Detection_SD,0.13824331010385196,0.13824331010385191,5.5511151231257827e-17,True
+T06,"Friction|[0.10, 0.30)|shape_fft",Missed_Detection_Mean,0.54759358288770055,0.54759358288770055,0,True
+T06,"Friction|[0.10, 0.30)|shape_fft",Missed_Detection_SD,0.13824331010385202,0.13824331010385199,2.7755575615628914e-17,True
+T06,"Friction|[0.10, 0.30)|shape_fft",Mechanism_Confusion_Mean,0.20320855614973263,0.2032085561497326,2.7755575615628914e-17,True
+T06,"Friction|[0.10, 0.30)|shape_fft",Mechanism_Confusion_SD,0.27866555937248977,0.27866555937248971,5.5511151231257827e-17,True
+T06,"Friction|[0.10, 0.30)|shape_fft",Destination_Nominal_Mean,0.54759358288770055,0.54759358288770055,0,True
+T06,"Friction|[0.10, 0.30)|shape_fft",Destination_OtherFault_Mean,0.20320855614973263,0.2032085561497326,2.7755575615628914e-17,True
+T06,"Friction|[0.30, 0.75)|shape_cwt",N_per_Seed,188,188,0,True
+T06,"Friction|[0.30, 0.75)|shape_cwt",Multiclass_Recall_Mean,0.88617021276595742,0.88617021276595742,0,True
+T06,"Friction|[0.30, 0.75)|shape_cwt",Multiclass_Recall_SD,0.0148555745146478,0.0148555745146478,0,True
+T06,"Friction|[0.30, 0.75)|shape_cwt",Binary_Detection_Mean,0.97340425531914876,0.97340425531914876,0,True
+T06,"Friction|[0.30, 0.75)|shape_cwt",Binary_Detection_SD,0.007522412565814326,0.0075224125658142999,2.6020852139652106e-17,True
+T06,"Friction|[0.30, 0.75)|shape_cwt",Missed_Detection_Mean,0.026595744680851064,0.026595744680851002,6.2450045135165055e-17,True
+T06,"Friction|[0.30, 0.75)|shape_cwt",Missed_Detection_SD,0.0075224125658143346,0.0075224125658142999,3.4694469519536142e-17,True
+T06,"Friction|[0.30, 0.75)|shape_cwt",Mechanism_Confusion_Mean,0.087234042553191476,0.087234042553191393,8.3266726846886741e-17,True
+T06,"Friction|[0.30, 0.75)|shape_cwt",Mechanism_Confusion_SD,0.01532431945839142,0.015324319458391401,1.9081958235744878e-17,True
+T06,"Friction|[0.30, 0.75)|shape_cwt",Destination_Nominal_Mean,0.026595744680851064,0.026595744680851002,6.2450045135165055e-17,True
+T06,"Friction|[0.30, 0.75)|shape_cwt",Destination_OtherFault_Mean,0.087234042553191476,0.087234042553191393,8.3266726846886741e-17,True
+T06,"Friction|[0.30, 0.75)|shape_temporal",N_per_Seed,188,188,0,True
+T06,"Friction|[0.30, 0.75)|shape_temporal",Multiclass_Recall_Mean,0.81808510638297882,0.81808510638297882,0,True
+T06,"Friction|[0.30, 0.75)|shape_temporal",Multiclass_Recall_SD,0.059159841333613961,0.059159841333613898,6.2450045135165055e-17,True
+T06,"Friction|[0.30, 0.75)|shape_temporal",Binary_Detection_Mean,0.89893617021276595,0.89893617021276595,0,True
+T06,"Friction|[0.30, 0.75)|shape_temporal",Binary_Detection_SD,0.039268146436790947,0.039268146436790899,4.8572257327350599e-17,True
+T06,"Friction|[0.30, 0.75)|shape_temporal",Missed_Detection_Mean,0.10106382978723405,0.10106382978723399,5.5511151231257827e-17,True
+T06,"Friction|[0.30, 0.75)|shape_temporal",Missed_Detection_SD,0.039268146436790954,0.039268146436790899,5.5511151231257827e-17,True
+T06,"Friction|[0.30, 0.75)|shape_temporal",Mechanism_Confusion_Mean,0.080851063829787226,0.080851063829787198,2.7755575615628914e-17,True
+T06,"Friction|[0.30, 0.75)|shape_temporal",Mechanism_Confusion_SD,0.045972958375174254,0.045972958375174199,5.5511151231257827e-17,True
+T06,"Friction|[0.30, 0.75)|shape_temporal",Destination_Nominal_Mean,0.10106382978723405,0.10106382978723399,5.5511151231257827e-17,True
+T06,"Friction|[0.30, 0.75)|shape_temporal",Destination_OtherFault_Mean,0.080851063829787226,0.080851063829787198,2.7755575615628914e-17,True
+T06,"Friction|[0.30, 0.75)|shape_fft",N_per_Seed,188,188,0,True
+T06,"Friction|[0.30, 0.75)|shape_fft",Multiclass_Recall_Mean,0.49787234042553197,0.49787234042553191,5.5511151231257827e-17,True
+T06,"Friction|[0.30, 0.75)|shape_fft",Multiclass_Recall_SD,0.20797804320506935,0.2079780432050693,5.5511151231257827e-17,True
+T06,"Friction|[0.30, 0.75)|shape_fft",Binary_Detection_Mean,0.64468085106382977,0.64468085106382977,0,True
+T06,"Friction|[0.30, 0.75)|shape_fft",Binary_Detection_SD,0.08767726014527466,0.087677260145274605,5.5511151231257827e-17,True
+T06,"Friction|[0.30, 0.75)|shape_fft",Missed_Detection_Mean,0.35531914893617023,0.35531914893617023,0,True
+T06,"Friction|[0.30, 0.75)|shape_fft",Missed_Detection_SD,0.087677260145274633,0.087677260145274605,2.7755575615628914e-17,True
+T06,"Friction|[0.30, 0.75)|shape_fft",Mechanism_Confusion_Mean,0.14680851063829786,0.14680851063829781,5.5511151231257827e-17,True
+T06,"Friction|[0.30, 0.75)|shape_fft",Mechanism_Confusion_SD,0.14791634122642019,0.14791634122642019,0,True
+T06,"Friction|[0.30, 0.75)|shape_fft",Destination_Nominal_Mean,0.35531914893617023,0.35531914893617023,0,True
+T06,"Friction|[0.30, 0.75)|shape_fft",Destination_OtherFault_Mean,0.14680851063829786,0.14680851063829781,5.5511151231257827e-17,True
+T06,"Friction|[0.75, 1.50]|shape_cwt",N_per_Seed,187,187,0,True
+T06,"Friction|[0.75, 1.50]|shape_cwt",Multiclass_Recall_Mean,0.97433155080213896,0.97433155080213896,0,True
+T06,"Friction|[0.75, 1.50]|shape_cwt",Multiclass_Recall_SD,0.010286301637257404,0.010286301637257401,3.4694469519536142e-18,True
+T06,"Friction|[0.75, 1.50]|shape_cwt",Binary_Detection_Mean,0.99358288770053471,0.99358288770053482,1.1102230246251565e-16,True
+T06,"Friction|[0.75, 1.50]|shape_cwt",Binary_Detection_SD,0.0023915165534757203,0.0023915165534756999,2.0383000842727483e-17,True
+T06,"Friction|[0.75, 1.50]|shape_cwt",Missed_Detection_Mean,0.0064171122994652399,0.0064171122994652,3.9898639947466563e-17,True
+T06,"Friction|[0.75, 1.50]|shape_cwt",Missed_Detection_SD,0.0023915165534757112,0.0023915165534756999,1.1275702593849246e-17,True
+T06,"Friction|[0.75, 1.50]|shape_cwt",Mechanism_Confusion_Mean,0.01925133689839572,0.019251336898395699,2.0816681711721685e-17,True
+T06,"Friction|[0.75, 1.50]|shape_cwt",Mechanism_Confusion_SD,0.0097143861628796527,0.0097143861628796006,5.2041704279304213e-17,True
+T06,"Friction|[0.75, 1.50]|shape_cwt",Destination_Nominal_Mean,0.0064171122994652399,0.0064171122994652,3.9898639947466563e-17,True
+T06,"Friction|[0.75, 1.50]|shape_cwt",Destination_OtherFault_Mean,0.01925133689839572,0.019251336898395699,2.0816681711721685e-17,True
+T06,"Friction|[0.75, 1.50]|shape_temporal",N_per_Seed,187,187,0,True
+T06,"Friction|[0.75, 1.50]|shape_temporal",Multiclass_Recall_Mean,0.94759358288770046,0.94759358288770035,1.1102230246251565e-16,True
+T06,"Friction|[0.75, 1.50]|shape_temporal",Multiclass_Recall_SD,0.02084875795681063,0.020848757956810599,3.1225022567582528e-17,True
+T06,"Friction|[0.75, 1.50]|shape_temporal",Binary_Detection_Mean,0.98181818181818181,0.98181818181818181,0,True
+T06,"Friction|[0.75, 1.50]|shape_temporal",Binary_Detection_SD,0.0097143861628796336,0.0097143861628796006,3.2959746043559335e-17,True
+T06,"Friction|[0.75, 1.50]|shape_temporal",Missed_Detection_Mean,0.018181818181818181,0.018181818181818101,7.9797279894933126e-17,True
+T06,"Friction|[0.75, 1.50]|shape_temporal",Missed_Detection_SD,0.0097143861628796527,0.0097143861628796006,5.2041704279304213e-17,True
+T06,"Friction|[0.75, 1.50]|shape_temporal",Mechanism_Confusion_Mean,0.034224598930481284,0.034224598930481201,8.3266726846886741e-17,True
+T06,"Friction|[0.75, 1.50]|shape_temporal",Mechanism_Confusion_SD,0.016307968643825568,0.016307968643825499,6.9388939039072284e-17,True
+T06,"Friction|[0.75, 1.50]|shape_temporal",Destination_Nominal_Mean,0.018181818181818181,0.018181818181818101,7.9797279894933126e-17,True
+T06,"Friction|[0.75, 1.50]|shape_temporal",Destination_OtherFault_Mean,0.034224598930481284,0.034224598930481201,8.3266726846886741e-17,True
+T06,"Friction|[0.75, 1.50]|shape_fft",N_per_Seed,187,187,0,True
+T06,"Friction|[0.75, 1.50]|shape_fft",Multiclass_Recall_Mean,0.63529411764705879,0.63529411764705879,0,True
+T06,"Friction|[0.75, 1.50]|shape_fft",Multiclass_Recall_SD,0.12836452569539911,0.12836452569539911,0,True
+T06,"Friction|[0.75, 1.50]|shape_fft",Binary_Detection_Mean,0.8160427807486631,0.8160427807486631,0,True
+T06,"Friction|[0.75, 1.50]|shape_fft",Binary_Detection_SD,0.096003827123043159,0.096003827123043103,5.5511151231257827e-17,True
+T06,"Friction|[0.75, 1.50]|shape_fft",Missed_Detection_Mean,0.1839572192513369,0.1839572192513369,0,True
+T06,"Friction|[0.75, 1.50]|shape_fft",Missed_Detection_SD,0.096003827123043145,0.096003827123043103,4.163336342344337e-17,True
+T06,"Friction|[0.75, 1.50]|shape_fft",Mechanism_Confusion_Mean,0.18074866310160426,0.1807486631016042,5.5511151231257827e-17,True
+T06,"Friction|[0.75, 1.50]|shape_fft",Mechanism_Confusion_SD,0.079443717801300037,0.079443717801299996,4.163336342344337e-17,True
+T06,"Friction|[0.75, 1.50]|shape_fft",Destination_Nominal_Mean,0.1839572192513369,0.1839572192513369,0,True
+T06,"Friction|[0.75, 1.50]|shape_fft",Destination_OtherFault_Mean,0.18074866310160426,0.1807486631016042,5.5511151231257827e-17,True
+T06,"Vibration|[0.10, 0.50)|shape_cwt",N_per_Seed,187,187,0,True
+T06,"Vibration|[0.10, 0.50)|shape_cwt",Multiclass_Recall_Mean,0.9764705882352942,0.9764705882352942,0,True
+T06,"Vibration|[0.10, 0.50)|shape_cwt",Multiclass_Recall_SD,0.013422353366856814,0.0134223533668568,1.3877787807814457e-17,True
+T06,"Vibration|[0.10, 0.50)|shape_cwt",Binary_Detection_Mean,0.97967914438502679,0.97967914438502679,0,True
+T06,"Vibration|[0.10, 0.50)|shape_cwt",Binary_Detection_SD,0.014838969973809178,0.0148389699738091,7.8062556418956319e-17,True
+T06,"Vibration|[0.10, 0.50)|shape_cwt",Missed_Detection_Mean,0.020320855614973259,0.0203208556149732,5.8980598183211441e-17,True
+T06,"Vibration|[0.10, 0.50)|shape_cwt",Missed_Detection_SD,0.014838969973809204,0.0148389699738092,3.4694469519536142e-18,True
+T06,"Vibration|[0.10, 0.50)|shape_cwt",Mechanism_Confusion_Mean,0.00320855614973262,0.0032085561497326,1.9949319973733282e-17,True
+T06,"Vibration|[0.10, 0.50)|shape_cwt",Mechanism_Confusion_SD,0.0029289976337174657,0.0029289976337174002,6.5485811218124468e-17,True
+T06,"Vibration|[0.10, 0.50)|shape_cwt",Destination_Nominal_Mean,0.020320855614973259,0.0203208556149732,5.8980598183211441e-17,True
+T06,"Vibration|[0.10, 0.50)|shape_cwt",Destination_OtherFault_Mean,0.00320855614973262,0.0032085561497326,1.9949319973733282e-17,True
+T06,"Vibration|[0.10, 0.50)|shape_temporal",N_per_Seed,187,187,0,True
+T06,"Vibration|[0.10, 0.50)|shape_temporal",Multiclass_Recall_Mean,0.98074866310160436,0.98074866310160436,0,True
+T06,"Vibration|[0.10, 0.50)|shape_temporal",Multiclass_Recall_SD,0.0081100272128893629,0.0081100272128893005,6.2450045135165055e-17,True
+T06,"Vibration|[0.10, 0.50)|shape_temporal",Binary_Detection_Mean,0.98074866310160436,0.98074866310160436,0,True
+T06,"Vibration|[0.10, 0.50)|shape_temporal",Binary_Detection_SD,0.0081100272128893629,0.0081100272128893005,6.2450045135165055e-17,True
+T06,"Vibration|[0.10, 0.50)|shape_temporal",Missed_Detection_Mean,0.019251336898395723,0.019251336898395699,2.4286128663675299e-17,True
+T06,"Vibration|[0.10, 0.50)|shape_temporal",Missed_Detection_SD,0.0081100272128893595,0.0081100272128893005,5.8980598183211441e-17,True
+T06,"Vibration|[0.10, 0.50)|shape_temporal",Mechanism_Confusion_Mean,0,0,0,True
+T06,"Vibration|[0.10, 0.50)|shape_temporal",Mechanism_Confusion_SD,0,0,0,True
+T06,"Vibration|[0.10, 0.50)|shape_temporal",Destination_Nominal_Mean,0.019251336898395723,0.019251336898395699,2.4286128663675299e-17,True
+T06,"Vibration|[0.10, 0.50)|shape_temporal",Destination_OtherFault_Mean,0,0,0,True
+T06,"Vibration|[0.10, 0.50)|shape_fft",N_per_Seed,187,187,0,True
+T06,"Vibration|[0.10, 0.50)|shape_fft",Multiclass_Recall_Mean,0.45989304812834231,0.45989304812834231,0,True
+T06,"Vibration|[0.10, 0.50)|shape_fft",Multiclass_Recall_SD,0.33395711221381807,0.33395711221381807,0,True
+T06,"Vibration|[0.10, 0.50)|shape_fft",Binary_Detection_Mean,0.49732620320855608,0.49732620320855608,0,True
+T06,"Vibration|[0.10, 0.50)|shape_fft",Binary_Detection_SD,0.29682757404016935,0.2968275740401693,5.5511151231257827e-17,True
+T06,"Vibration|[0.10, 0.50)|shape_fft",Missed_Detection_Mean,0.50267379679144386,0.50267379679144386,0,True
+T06,"Vibration|[0.10, 0.50)|shape_fft",Missed_Detection_SD,0.2968275740401693,0.2968275740401693,0,True
+T06,"Vibration|[0.10, 0.50)|shape_fft",Mechanism_Confusion_Mean,0.037433155080213901,0.037433155080213901,0,True
+T06,"Vibration|[0.10, 0.50)|shape_fft",Mechanism_Confusion_SD,0.056593610931862902,0.056593610931862902,0,True
+T06,"Vibration|[0.10, 0.50)|shape_fft",Destination_Nominal_Mean,0.50267379679144386,0.50267379679144386,0,True
+T06,"Vibration|[0.10, 0.50)|shape_fft",Destination_OtherFault_Mean,0.037433155080213901,0.037433155080213901,0,True
+T06,"Vibration|[0.50, 1.00)|shape_cwt",N_per_Seed,187,187,0,True
+T06,"Vibration|[0.50, 1.00)|shape_cwt",Multiclass_Recall_Mean,1,1,0,True
+T06,"Vibration|[0.50, 1.00)|shape_cwt",Multiclass_Recall_SD,0,0,0,True
+T06,"Vibration|[0.50, 1.00)|shape_cwt",Binary_Detection_Mean,1,1,0,True
+T06,"Vibration|[0.50, 1.00)|shape_cwt",Binary_Detection_SD,0,0,0,True
+T06,"Vibration|[0.50, 1.00)|shape_cwt",Missed_Detection_Mean,0,0,0,True
+T06,"Vibration|[0.50, 1.00)|shape_cwt",Missed_Detection_SD,0,0,0,True
+T06,"Vibration|[0.50, 1.00)|shape_cwt",Mechanism_Confusion_Mean,0,0,0,True
+T06,"Vibration|[0.50, 1.00)|shape_cwt",Mechanism_Confusion_SD,0,0,0,True
+T06,"Vibration|[0.50, 1.00)|shape_cwt",Destination_Nominal_Mean,0,0,0,True
+T06,"Vibration|[0.50, 1.00)|shape_cwt",Destination_OtherFault_Mean,0,0,0,True
+T06,"Vibration|[0.50, 1.00)|shape_temporal",N_per_Seed,187,187,0,True
+T06,"Vibration|[0.50, 1.00)|shape_temporal",Multiclass_Recall_Mean,0.99037433155080201,0.99037433155080201,0,True
+T06,"Vibration|[0.50, 1.00)|shape_temporal",Multiclass_Recall_SD,0.0023915165534757203,0.0023915165534756999,2.0383000842727483e-17,True
+T06,"Vibration|[0.50, 1.00)|shape_temporal",Binary_Detection_Mean,0.99786096256684487,0.99786096256684476,1.1102230246251565e-16,True
+T06,"Vibration|[0.50, 1.00)|shape_temporal",Binary_Detection_SD,0.0029289976337174778,0.0029289976337174002,7.7628875549962117e-17,True
+T06,"Vibration|[0.50, 1.00)|shape_temporal",Missed_Detection_Mean,0.0021390374331550803,0.002139037433155,8.0230960763927328e-17,True
+T06,"Vibration|[0.50, 1.00)|shape_temporal",Missed_Detection_SD,0.0029289976337174657,0.0029289976337174002,6.5485811218124468e-17,True
+T06,"Vibration|[0.50, 1.00)|shape_temporal",Mechanism_Confusion_Mean,0.0074866310160427805,0.0074866310160426998,8.066464163292153e-17,True
+T06,"Vibration|[0.50, 1.00)|shape_temporal",Mechanism_Confusion_SD,0.0029289976337174657,0.0029289976337174002,6.5485811218124468e-17,True
+T06,"Vibration|[0.50, 1.00)|shape_temporal",Destination_Nominal_Mean,0.0021390374331550803,0.002139037433155,8.0230960763927328e-17,True
+T06,"Vibration|[0.50, 1.00)|shape_temporal",Destination_OtherFault_Mean,0.0074866310160427805,0.0074866310160426998,8.066464163292153e-17,True
+T06,"Vibration|[0.50, 1.00)|shape_fft",N_per_Seed,187,187,0,True
+T06,"Vibration|[0.50, 1.00)|shape_fft",Multiclass_Recall_Mean,0.67058823529411771,0.67058823529411771,0,True
+T06,"Vibration|[0.50, 1.00)|shape_fft",Multiclass_Recall_SD,0.25722981289533448,0.25722981289533448,0,True
+T06,"Vibration|[0.50, 1.00)|shape_fft",Binary_Detection_Mean,0.67700534759358288,0.67700534759358288,0,True
+T06,"Vibration|[0.50, 1.00)|shape_fft",Binary_Detection_SD,0.24788850662362583,0.2478885066236258,2.7755575615628914e-17,True
+T06,"Vibration|[0.50, 1.00)|shape_fft",Missed_Detection_Mean,0.32299465240641712,0.32299465240641712,0,True
+T06,"Vibration|[0.50, 1.00)|shape_fft",Missed_Detection_SD,0.24788850662362583,0.2478885066236258,2.7755575615628914e-17,True
+T06,"Vibration|[0.50, 1.00)|shape_fft",Mechanism_Confusion_Mean,0.0064171122994652417,0.0064171122994652,4.163336342344337e-17,True
+T06,"Vibration|[0.50, 1.00)|shape_fft",Mechanism_Confusion_SD,0.014349099320854267,0.0143490993208542,6.7654215563095477e-17,True
+T06,"Vibration|[0.50, 1.00)|shape_fft",Destination_Nominal_Mean,0.32299465240641712,0.32299465240641712,0,True
+T06,"Vibration|[0.50, 1.00)|shape_fft",Destination_OtherFault_Mean,0.0064171122994652417,0.0064171122994652,4.163336342344337e-17,True
+T06,"Vibration|[1.00, 1.75)|shape_cwt",N_per_Seed,187,187,0,True
+T06,"Vibration|[1.00, 1.75)|shape_cwt",Multiclass_Recall_Mean,1,1,0,True
+T06,"Vibration|[1.00, 1.75)|shape_cwt",Multiclass_Recall_SD,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_cwt",Binary_Detection_Mean,1,1,0,True
+T06,"Vibration|[1.00, 1.75)|shape_cwt",Binary_Detection_SD,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_cwt",Missed_Detection_Mean,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_cwt",Missed_Detection_SD,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_cwt",Mechanism_Confusion_Mean,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_cwt",Mechanism_Confusion_SD,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_cwt",Destination_Nominal_Mean,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_cwt",Destination_OtherFault_Mean,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_temporal",N_per_Seed,187,187,0,True
+T06,"Vibration|[1.00, 1.75)|shape_temporal",Multiclass_Recall_Mean,1,1,0,True
+T06,"Vibration|[1.00, 1.75)|shape_temporal",Multiclass_Recall_SD,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_temporal",Binary_Detection_Mean,1,1,0,True
+T06,"Vibration|[1.00, 1.75)|shape_temporal",Binary_Detection_SD,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_temporal",Missed_Detection_Mean,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_temporal",Missed_Detection_SD,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_temporal",Mechanism_Confusion_Mean,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_temporal",Mechanism_Confusion_SD,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_temporal",Destination_Nominal_Mean,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_temporal",Destination_OtherFault_Mean,0,0,0,True
+T06,"Vibration|[1.00, 1.75)|shape_fft",N_per_Seed,187,187,0,True
+T06,"Vibration|[1.00, 1.75)|shape_fft",Multiclass_Recall_Mean,0.83529411764705885,0.83529411764705885,0,True
+T06,"Vibration|[1.00, 1.75)|shape_fft",Multiclass_Recall_SD,0.17151525896347505,0.171515258963475,5.5511151231257827e-17,True
+T06,"Vibration|[1.00, 1.75)|shape_fft",Binary_Detection_Mean,0.83850267379679144,0.83850267379679144,0,True
+T06,"Vibration|[1.00, 1.75)|shape_fft",Binary_Detection_SD,0.16618028871758581,0.16618028871758581,0,True
+T06,"Vibration|[1.00, 1.75)|shape_fft",Missed_Detection_Mean,0.16149732620320856,0.1614973262032085,5.5511151231257827e-17,True
+T06,"Vibration|[1.00, 1.75)|shape_fft",Missed_Detection_SD,0.16618028871758581,0.16618028871758581,0,True
+T06,"Vibration|[1.00, 1.75)|shape_fft",Mechanism_Confusion_Mean,0.0032085561497326208,0.0032085561497326,2.0816681711721685e-17,True
+T06,"Vibration|[1.00, 1.75)|shape_fft",Mechanism_Confusion_SD,0.0071745496604271337,0.0071745496604270998,3.3827107781547738e-17,True
+T06,"Vibration|[1.00, 1.75)|shape_fft",Destination_Nominal_Mean,0.16149732620320856,0.1614973262032085,5.5511151231257827e-17,True
+T06,"Vibration|[1.00, 1.75)|shape_fft",Destination_OtherFault_Mean,0.0032085561497326208,0.0032085561497326,2.0816681711721685e-17,True
+T06,"Vibration|[1.75, 2.50]|shape_cwt",N_per_Seed,189,189,0,True
+T06,"Vibration|[1.75, 2.50]|shape_cwt",Multiclass_Recall_Mean,0.99682539682539684,0.99682539682539684,0,True
+T06,"Vibration|[1.75, 2.50]|shape_cwt",Multiclass_Recall_SD,0.004732418999999561,0.0047324189999995003,6.0715321659188248e-17,True
+T06,"Vibration|[1.75, 2.50]|shape_cwt",Binary_Detection_Mean,0.99894179894179891,0.9989417989417988,1.1102230246251565e-16,True
+T06,"Vibration|[1.75, 2.50]|shape_cwt",Binary_Detection_SD,0.0023662094999998022,0.0023662094999998,2.1684043449710089e-18,True
+T06,"Vibration|[1.75, 2.50]|shape_cwt",Missed_Detection_Mean,0.0010582010582010581,0.0010582010582009999,5.8113236445223038e-17,True
+T06,"Vibration|[1.75, 2.50]|shape_cwt",Missed_Detection_SD,0.002366209499999777,0.0023662094999996998,7.7195194680967916e-17,True
+T06,"Vibration|[1.75, 2.50]|shape_cwt",Mechanism_Confusion_Mean,0.0021164021164021161,0.0021164021164021001,1.6046192152785466e-17,True
+T06,"Vibration|[1.75, 2.50]|shape_cwt",Mechanism_Confusion_SD,0.0028980029497627834,0.0028980029497627001,8.3266726846886741e-17,True
+T06,"Vibration|[1.75, 2.50]|shape_cwt",Destination_Nominal_Mean,0.0010582010582010581,0.0010582010582009999,5.8113236445223038e-17,True
+T06,"Vibration|[1.75, 2.50]|shape_cwt",Destination_OtherFault_Mean,0.0021164021164021161,0.0021164021164021001,1.6046192152785466e-17,True
+T06,"Vibration|[1.75, 2.50]|shape_temporal",N_per_Seed,189,189,0,True
+T06,"Vibration|[1.75, 2.50]|shape_temporal",Multiclass_Recall_Mean,1,1,0,True
+T06,"Vibration|[1.75, 2.50]|shape_temporal",Multiclass_Recall_SD,0,0,0,True
+T06,"Vibration|[1.75, 2.50]|shape_temporal",Binary_Detection_Mean,1,1,0,True
+T06,"Vibration|[1.75, 2.50]|shape_temporal",Binary_Detection_SD,0,0,0,True
+T06,"Vibration|[1.75, 2.50]|shape_temporal",Missed_Detection_Mean,0,0,0,True
+T06,"Vibration|[1.75, 2.50]|shape_temporal",Missed_Detection_SD,0,0,0,True
+T06,"Vibration|[1.75, 2.50]|shape_temporal",Mechanism_Confusion_Mean,0,0,0,True
+T06,"Vibration|[1.75, 2.50]|shape_temporal",Mechanism_Confusion_SD,0,0,0,True
+T06,"Vibration|[1.75, 2.50]|shape_temporal",Destination_Nominal_Mean,0,0,0,True
+T06,"Vibration|[1.75, 2.50]|shape_temporal",Destination_OtherFault_Mean,0,0,0,True
+T06,"Vibration|[1.75, 2.50]|shape_fft",N_per_Seed,189,189,0,True
+T06,"Vibration|[1.75, 2.50]|shape_fft",Multiclass_Recall_Mean,0.88888888888888895,0.88888888888888895,0,True
+T06,"Vibration|[1.75, 2.50]|shape_fft",Multiclass_Recall_SD,0.10354701476603663,0.1035470147660366,2.7755575615628914e-17,True
+T06,"Vibration|[1.75, 2.50]|shape_fft",Binary_Detection_Mean,0.89100529100529102,0.89100529100529102,0,True
+T06,"Vibration|[1.75, 2.50]|shape_fft",Binary_Detection_SD,0.10022231104805565,0.1002223110480556,5.5511151231257827e-17,True
+T06,"Vibration|[1.75, 2.50]|shape_fft",Missed_Detection_Mean,0.10899470899470898,0.10899470899470889,8.3266726846886741e-17,True
+T06,"Vibration|[1.75, 2.50]|shape_fft",Missed_Detection_SD,0.10022231104805565,0.1002223110480556,5.5511151231257827e-17,True
+T06,"Vibration|[1.75, 2.50]|shape_fft",Mechanism_Confusion_Mean,0.0021164021164021161,0.0021164021164021001,1.6046192152785466e-17,True
+T06,"Vibration|[1.75, 2.50]|shape_fft",Mechanism_Confusion_SD,0.004732418999999554,0.0047324189999995003,5.377642775528102e-17,True
+T06,"Vibration|[1.75, 2.50]|shape_fft",Destination_Nominal_Mean,0.10899470899470898,0.10899470899470889,8.3266726846886741e-17,True
+T06,"Vibration|[1.75, 2.50]|shape_fft",Destination_OtherFault_Mean,0.0021164021164021161,0.0021164021164021001,1.6046192152785466e-17,True
+T09,LoE|Q1|shape_cwt,LoE_Recall_Mean,0.71481481481481479,0.71481481481481479,0,True
+T09,LoE|Q1|shape_cwt,LoE_Recall_SD,0.036099238314107267,0.036099238314107197,6.9388939039072284e-17,True
+T09,LoE|Q1|shape_temporal,LoE_Recall_Mean,0.7777777777777779,0.7777777777777779,0,True
+T09,LoE|Q1|shape_temporal,LoE_Recall_SD,0.028622279307085479,0.028622279307085399,7.9797279894933126e-17,True
+T09,LoE|Q1|shape_fft,LoE_Recall_Mean,0.096296296296296283,0.096296296296296199,8.3266726846886741e-17,True
+T09,LoE|Q1|shape_fft,LoE_Recall_SD,0.044641196868554431,0.044641196868554403,2.7755575615628914e-17,True
+T09,LoE|Q2|shape_cwt,LoE_Recall_Mean,0.78983050847457625,0.78983050847457625,0,True
+T09,LoE|Q2|shape_cwt,LoE_Recall_SD,0.026318225308140385,0.026318225308140299,8.6736173798840355e-17,True
+T09,LoE|Q2|shape_temporal,LoE_Recall_Mean,0.83615819209039555,0.83615819209039555,0,True
+T09,LoE|Q2|shape_temporal,LoE_Recall_SD,0.04132412101222542,0.0413241210122254,2.0816681711721685e-17,True
+T09,LoE|Q2|shape_fft,LoE_Recall_Mean,0.20677966101694914,0.20677966101694911,2.7755575615628914e-17,True
+T09,LoE|Q2|shape_fft,LoE_Recall_SD,0.068685323911544111,0.068685323911544097,1.3877787807814457e-17,True
+T09,LoE|Q3|shape_cwt,LoE_Recall_Mean,0.81857923497267771,0.81857923497267771,0,True
+T09,LoE|Q3|shape_cwt,LoE_Recall_SD,0.030766531716413647,0.030766531716413598,4.8572257327350599e-17,True
+T09,LoE|Q3|shape_temporal,LoE_Recall_Mean,0.80874316939890711,0.80874316939890711,0,True
+T09,LoE|Q3|shape_temporal,LoE_Recall_SD,0.031152334019102165,0.031152334019102099,6.591949208711867e-17,True
+T09,LoE|Q3|shape_fft,LoE_Recall_Mean,0.20874316939890711,0.20874316939890711,0,True
+T09,LoE|Q3|shape_fft,LoE_Recall_SD,0.09179677312364462,0.091796773123644607,1.3877787807814457e-17,True
+T09,LoE|Q4|shape_cwt,LoE_Recall_Mean,0.82719298245614037,0.82719298245614037,0,True
+T09,LoE|Q4|shape_cwt,LoE_Recall_SD,0.020003077633318225,0.020003077633318201,2.4286128663675299e-17,True
+T09,LoE|Q4|shape_temporal,LoE_Recall_Mean,0.84824561403508769,0.84824561403508769,0,True
+T09,LoE|Q4|shape_temporal,LoE_Recall_SD,0.032615776215049498,0.032615776215049498,0,True
+T09,LoE|Q4|shape_fft,LoE_Recall_Mean,0.4201754385964912,0.4201754385964912,0,True
+T09,LoE|Q4|shape_fft,LoE_Recall_SD,0.030920274968446598,0.030920274968446598,0,True
+T09,Friction|Q1|shape_cwt,Friction_Recall_Mean,0.66956521739130437,0.66956521739130437,0,True
+T09,Friction|Q1|shape_cwt,Friction_Recall_SD,0.026086956521739122,0.026086956521739101,2.0816681711721685e-17,True
+T09,Friction|Q1|shape_temporal,Friction_Recall_Mean,0.56086956521739117,0.56086956521739117,0,True
+T09,Friction|Q1|shape_temporal,Friction_Recall_SD,0.041589405368932582,0.041589405368932499,8.3266726846886741e-17,True
+T09,Friction|Q1|shape_fft,Friction_Recall_Mean,0.3373913043478261,0.3373913043478261,0,True
+T09,Friction|Q1|shape_fft,Friction_Recall_SD,0.18200209807885173,0.1820020980788517,2.7755575615628914e-17,True
+T09,Friction|Q2|shape_cwt,Friction_Recall_Mean,0.67544910179640716,0.67544910179640716,0,True
+T09,Friction|Q2|shape_cwt,Friction_Recall_SD,0.027894166943358362,0.027894166943358299,6.2450045135165055e-17,True
+T09,Friction|Q2|shape_temporal,Friction_Recall_Mean,0.56766467065868276,0.56766467065868276,0,True
+T09,Friction|Q2|shape_temporal,Friction_Recall_SD,0.045877799543420285,0.045877799543420202,8.3266726846886741e-17,True
+T09,Friction|Q2|shape_fft,Friction_Recall_Mean,0.38562874251497004,0.38562874251496998,5.5511151231257827e-17,True
+T09,Friction|Q2|shape_fft,Friction_Recall_SD,0.13808855827509503,0.138088558275095,2.7755575615628914e-17,True
+T09,Friction|Q3|shape_cwt,Friction_Recall_Mean,0.66598984771573611,0.66598984771573611,0,True
+T09,Friction|Q3|shape_cwt,Friction_Recall_SD,0.036674907346575539,0.036674907346575497,4.163336342344337e-17,True
+T09,Friction|Q3|shape_temporal,Friction_Recall_Mean,0.5543147208121828,0.5543147208121828,0,True
+T09,Friction|Q3|shape_temporal,Friction_Recall_SD,0.053528634828280505,0.053528634828280498,6.9388939039072284e-18,True
+T09,Friction|Q3|shape_fft,Friction_Recall_Mean,0.39796954314720812,0.39796954314720812,0,True
+T09,Friction|Q3|shape_fft,Friction_Recall_SD,0.12047686263838647,0.1204768626383864,6.9388939039072284e-17,True
+T09,Friction|Q4|shape_cwt,Friction_Recall_Mean,0.64358974358974352,0.64358974358974352,0,True
+T09,Friction|Q4|shape_cwt,Friction_Recall_SD,0.036148390204799215,0.036148390204799201,1.3877787807814457e-17,True
+T09,Friction|Q4|shape_temporal,Friction_Recall_Mean,0.50897435897435894,0.50897435897435894,0,True
+T09,Friction|Q4|shape_temporal,Friction_Recall_SD,0.050596377591464403,0.050596377591464403,0,True
+T09,Friction|Q4|shape_fft,Friction_Recall_Mean,0.39358974358974363,0.39358974358974358,5.5511151231257827e-17,True
+T09,Friction|Q4|shape_fft,Friction_Recall_SD,0.15797088172834334,0.15797088172834331,2.7755575615628914e-17,True
+T09,Vibration|Q1|shape_cwt,Vibration_Recall_Mean,0.99793814432989691,0.9979381443298968,1.1102230246251565e-16,True
+T09,Vibration|Q1|shape_cwt,Vibration_Recall_SD,0.0028233121520884752,0.0028233121520884002,7.5026790335996907e-17,True
+T09,Vibration|Q1|shape_temporal,Vibration_Recall_Mean,0.99587628865979383,0.99587628865979383,0,True
+T09,Vibration|Q1|shape_temporal,Vibration_Recall_SD,0.0023052247190719403,0.0023052247190718999,4.0332320816460765e-17,True
+T09,Vibration|Q1|shape_fft,Vibration_Recall_Mean,0.634020618556701,0.634020618556701,0,True
+T09,Vibration|Q1|shape_fft,Vibration_Recall_SD,0.21999502405024018,0.2199950240502401,8.3266726846886741e-17,True
+T09,Vibration|Q2|shape_cwt,Vibration_Recall_Mean,0.99879518072289153,0.99879518072289164,1.1102230246251565e-16,True
+T09,Vibration|Q2|shape_cwt,Vibration_Recall_SD,0.002694057804216598,0.0026940578042165,9.8011876392689601e-17,True
+T09,Vibration|Q2|shape_temporal,Vibration_Recall_Mean,1,1,0,True
+T09,Vibration|Q2|shape_temporal,Vibration_Recall_SD,0,0,0,True
+T09,Vibration|Q2|shape_fft,Vibration_Recall_Mean,0.68795180722891558,0.68795180722891558,0,True
+T09,Vibration|Q2|shape_fft,Vibration_Recall_SD,0.24184327475795658,0.2418432747579565,8.3266726846886741e-17,True
+T09,Vibration|Q3|shape_cwt,Vibration_Recall_Mean,0.99090909090909096,0.99090909090909096,0,True
+T09,Vibration|Q3|shape_cwt,Vibration_Recall_SD,0.0042255556895660126,0.0042255556895660004,1.214306433183765e-17,True
+T09,Vibration|Q3|shape_temporal,Vibration_Recall_Mean,0.99494949494949481,0.99494949494949481,0,True
+T09,Vibration|Q3|shape_temporal,Vibration_Recall_SD,0.0035712463696290116,0.0035712463696289999,1.1709383462843448e-17,True
+T09,Vibration|Q3|shape_fft,Vibration_Recall_Mean,0.75959595959595971,0.75959595959595971,0,True
+T09,Vibration|Q3|shape_fft,Vibration_Recall_SD,0.18862131969814261,0.18862131969814261,0,True
+T09,Vibration|Q4|shape_cwt,Vibration_Recall_Mean,0.98645833333333344,0.98645833333333344,0,True
+T09,Vibration|Q4|shape_cwt,Vibration_Recall_SD,0.0069877124296868591,0.0069877124296868001,5.8980598183211441e-17,True
+T09,Vibration|Q4|shape_temporal,Vibration_Recall_Mean,0.98124999999999996,0.98124999999999996,0,True
+T09,Vibration|Q4|shape_temporal,Vibration_Recall_SD,0.0046584749531245516,0.0046584749531244996,5.2041704279304213e-17,True
+T09,Vibration|Q4|shape_fft,Vibration_Recall_Mean,0.77083333333333337,0.77083333333333337,0,True
+T09,Vibration|Q4|shape_fft,Vibration_Recall_SD,0.21528127797333732,0.21528127797333729,2.7755575615628914e-17,True
+T09,ALL_FAULTY|Q1|shape_cwt,Fault_Detection_Mean,0.87098976109215021,0.87098976109215021,0,True
+T09,ALL_FAULTY|Q1|shape_cwt,Fault_Detection_SD,0.013789831980093457,0.013789831980093399,5.7245874707234634e-17,True
+T09,ALL_FAULTY|Q1|shape_temporal,Fault_Detection_Mean,0.82798634812286687,0.82798634812286687,0,True
+T09,ALL_FAULTY|Q1|shape_temporal,Fault_Detection_SD,0.03058370896548784,0.030583708965487798,4.163336342344337e-17,True
+T09,ALL_FAULTY|Q1|shape_fft,Fault_Detection_Mean,0.56075085324232088,0.56075085324232088,0,True
+T09,ALL_FAULTY|Q1|shape_fft,Fault_Detection_SD,0.089867117075678293,0.089867117075678293,0,True
+T09,ALL_FAULTY|Q2|shape_cwt,Fault_Detection_Mean,0.88000000000000012,0.88000000000000012,0,True
+T09,ALL_FAULTY|Q2|shape_cwt,Fault_Detection_SD,0.016718489213562528,0.016718489213562501,2.7755575615628914e-17,True
+T09,ALL_FAULTY|Q2|shape_temporal,Fault_Detection_Mean,0.84274509803921571,0.84274509803921571,0,True
+T09,ALL_FAULTY|Q2|shape_temporal,Fault_Detection_SD,0.022416490332592593,0.022416490332592499,9.3675067702747583e-17,True
+T09,ALL_FAULTY|Q2|shape_fft,Fault_Detection_Mean,0.6552941176470588,0.6552941176470588,0,True
+T09,ALL_FAULTY|Q2|shape_fft,Fault_Detection_SD,0.10047369544107708,0.100473695441077,8.3266726846886741e-17,True
+T09,ALL_FAULTY|Q3|shape_cwt,Fault_Detection_Mean,0.88477508650519021,0.88477508650519021,0,True
+T09,ALL_FAULTY|Q3|shape_cwt,Fault_Detection_SD,0.019899954511433369,0.019899954511433299,6.9388939039072284e-17,True
+T09,ALL_FAULTY|Q3|shape_temporal,Fault_Detection_Mean,0.82491349480968856,0.82491349480968856,0,True
+T09,ALL_FAULTY|Q3|shape_temporal,Fault_Detection_SD,0.024264667332772254,0.024264667332772199,5.5511151231257827e-17,True
+T09,ALL_FAULTY|Q3|shape_fft,Fault_Detection_Mean,0.71349480968858126,0.71349480968858126,0,True
+T09,ALL_FAULTY|Q3|shape_fft,Fault_Detection_SD,0.092795517186777768,0.092795517186777698,6.9388939039072284e-17,True
+T09,ALL_FAULTY|Q4|shape_cwt,Fault_Detection_Mean,0.88645833333333335,0.88645833333333335,0,True
+T09,ALL_FAULTY|Q4|shape_cwt,Fault_Detection_SD,0.02008193575127952,0.020081935751279499,2.0816681711721685e-17,True
+T09,ALL_FAULTY|Q4|shape_temporal,Fault_Detection_Mean,0.83506944444444442,0.83506944444444442,0,True
+T09,ALL_FAULTY|Q4|shape_temporal,Fault_Detection_SD,0.021404215288086736,0.021404215288086701,3.4694469519536142e-17,True
+T09,ALL_FAULTY|Q4|shape_fft,Fault_Detection_Mean,0.76319444444444451,0.76319444444444451,0,True
+T09,ALL_FAULTY|Q4|shape_fft,Fault_Detection_SD,0.088197178435314008,0.088197178435313994,1.3877787807814457e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q1|SHAPE",N_unique_runs,48,48,0,True
+Existing_master,"LoE|[0.02, 0.05)|Q1|SHAPE",Identification_Mean,0.50416666666666665,0.50416666666666665,0,True
+Existing_master,"LoE|[0.02, 0.05)|Q1|SHAPE",Identification_SD,0.053925746273103259,0.053925746273103203,5.5511151231257827e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q1|SHAPE",Detection_Mean,0.71666666666666656,0.71666666666666645,1.1102230246251565e-16,True
+Existing_master,"LoE|[0.02, 0.05)|Q1|SHAPE",Detection_SD,0.037845629426218656,0.037845629426218601,5.5511151231257827e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q1|SHAPE",Missed_Detection_Mean,0.28333333333333333,0.28333333333333333,0,True
+Existing_master,"LoE|[0.02, 0.05)|Q1|SHAPE",Missed_Detection_SD,0.037845629426218635,0.037845629426218601,3.4694469519536142e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q1|SHAPE",Wrong_Fault_Type_Mean,0.21249999999999999,0.21249999999999991,8.3266726846886741e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q1|SHAPE",Wrong_Fault_Type_SD,0.034232659844072887,0.034232659844072803,8.3266726846886741e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q2|SHAPE",N_unique_runs,41,41,0,True
+Existing_master,"LoE|[0.02, 0.05)|Q2|SHAPE",Identification_Mean,0.551219512195122,0.551219512195122,0,True
+Existing_master,"LoE|[0.02, 0.05)|Q2|SHAPE",Identification_SD,0.085539892276830162,0.085539892276830107,5.5511151231257827e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q2|SHAPE",Detection_Mean,0.75609756097560976,0.75609756097560965,1.1102230246251565e-16,True
+Existing_master,"LoE|[0.02, 0.05)|Q2|SHAPE",Detection_SD,0.077128723418740955,0.077128723418740802,1.5265566588595902e-16,True
+Existing_master,"LoE|[0.02, 0.05)|Q2|SHAPE",Missed_Detection_Mean,0.24390243902439024,0.24390243902439021,2.7755575615628914e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q2|SHAPE",Missed_Detection_SD,0.077128723418740969,0.077128723418740802,1.6653345369377348e-16,True
+Existing_master,"LoE|[0.02, 0.05)|Q2|SHAPE",Wrong_Fault_Type_Mean,0.20487804878048782,0.20487804878048771,1.1102230246251565e-16,True
+Existing_master,"LoE|[0.02, 0.05)|Q2|SHAPE",Wrong_Fault_Type_SD,0.044307078352646218,0.044307078352646197,2.0816681711721685e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q3|SHAPE",N_unique_runs,48,48,0,True
+Existing_master,"LoE|[0.02, 0.05)|Q3|SHAPE",Identification_Mean,0.50416666666666665,0.50416666666666665,0,True
+Existing_master,"LoE|[0.02, 0.05)|Q3|SHAPE",Identification_SD,0.081223286206741352,0.081223286206741199,1.5265566588595902e-16,True
+Existing_master,"LoE|[0.02, 0.05)|Q3|SHAPE",Detection_Mean,0.76666666666666661,0.76666666666666661,0,True
+Existing_master,"LoE|[0.02, 0.05)|Q3|SHAPE",Detection_SD,0.063190628700429574,0.063190628700429505,6.9388939039072284e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q3|SHAPE",Missed_Detection_Mean,0.23333333333333334,0.23333333333333331,2.7755575615628914e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q3|SHAPE",Missed_Detection_SD,0.063190628700429574,0.063190628700429505,6.9388939039072284e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q3|SHAPE",Wrong_Fault_Type_Mean,0.26250000000000001,0.2624999999999999,1.1102230246251565e-16,True
+Existing_master,"LoE|[0.02, 0.05)|Q3|SHAPE",Wrong_Fault_Type_SD,0.047961935138422236,0.047961935138422201,3.4694469519536142e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q4|SHAPE",N_unique_runs,51,51,0,True
+Existing_master,"LoE|[0.02, 0.05)|Q4|SHAPE",Identification_Mean,0.50588235294117645,0.50588235294117645,0,True
+Existing_master,"LoE|[0.02, 0.05)|Q4|SHAPE",Identification_SD,0.040184120650821983,0.0401841206508219,8.3266726846886741e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q4|SHAPE",Detection_Mean,0.66274509803921577,0.66274509803921555,2.2204460492503131e-16,True
+Existing_master,"LoE|[0.02, 0.05)|Q4|SHAPE",Detection_SD,0.040184120650821976,0.0401841206508219,7.6327832942979512e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q4|SHAPE",Missed_Detection_Mean,0.33725490196078434,0.33725490196078423,1.1102230246251565e-16,True
+Existing_master,"LoE|[0.02, 0.05)|Q4|SHAPE",Missed_Detection_SD,0.040184120650821956,0.0401841206508219,5.5511151231257827e-17,True
+Existing_master,"LoE|[0.02, 0.05)|Q4|SHAPE",Wrong_Fault_Type_Mean,0.15686274509803921,0.15686274509803921,0,True
+Existing_master,"LoE|[0.02, 0.05)|Q4|SHAPE",Wrong_Fault_Type_SD,0.01386483884679505,0.013864838846795,5.0306980803327406e-17,True
+Existing_master,"LoE|[0.05, 0.10)|Q1|SHAPE",N_unique_runs,38,38,0,True
+Existing_master,"LoE|[0.05, 0.10)|Q1|SHAPE",Identification_Mean,0.68947368421052635,0.68947368421052635,0,True
+Existing_master,"LoE|[0.05, 0.10)|Q1|SHAPE",Identification_SD,0.11071412614717174,0.1107141261471717,4.163336342344337e-17,True
+Existing_master,"LoE|[0.05, 0.10)|Q1|SHAPE",Detection_Mean,0.91578947368421049,0.91578947368421038,1.1102230246251565e-16,True
+Existing_master,"LoE|[0.05, 0.10)|Q1|SHAPE",Detection_SD,0.034311591606329697,0.0343115916063296,9.7144514654701197e-17,True
+Existing_master,"LoE|[0.05, 0.10)|Q1|SHAPE",Missed_Detection_Mean,0.084210526315789472,0.084210526315789402,6.9388939039072284e-17,True
+Existing_master,"LoE|[0.05, 0.10)|Q1|SHAPE",Missed_Detection_SD,0.034311591606329732,0.0343115916063296,1.3183898417423734e-16,True
+Existing_master,"LoE|[0.05, 0.10)|Q1|SHAPE",Wrong_Fault_Type_Mean,0.22631578947368419,0.22631578947368411,8.3266726846886741e-17,True
+Existing_master,"LoE|[0.05, 0.10)|Q1|SHAPE",Wrong_Fault_Type_SD,0.088461770073534798,0.088461770073534798,0,True
+Existing_master,"LoE|[0.05, 0.10)|Q2|SHAPE",N_unique_runs,53,53,0,True
+Existing_master,"LoE|[0.05, 0.10)|Q2|SHAPE",Identification_Mean,0.78867924528301903,0.78867924528301891,1.1102230246251565e-16,True
+Existing_master,"LoE|[0.05, 0.10)|Q2|SHAPE",Identification_SD,0.040904685639016634,0.0409046856390166,3.4694469519536142e-17,True
+Existing_master,"LoE|[0.05, 0.10)|Q2|SHAPE",Detection_Mean,0.86037735849056607,0.86037735849056585,2.2204460492503131e-16,True
+Existing_master,"LoE|[0.05, 0.10)|Q2|SHAPE",Detection_SD,0.045439979542612419,0.045439979542612301,1.1796119636642288e-16,True
+Existing_master,"LoE|[0.05, 0.10)|Q2|SHAPE",Missed_Detection_Mean,0.13962264150943399,0.1396226415094339,8.3266726846886741e-17,True
+Existing_master,"LoE|[0.05, 0.10)|Q2|SHAPE",Missed_Detection_SD,0.045439979542612439,0.045439979542612301,1.3877787807814457e-16,True
+Existing_master,"LoE|[0.05, 0.10)|Q2|SHAPE",Wrong_Fault_Type_Mean,0.071698113207547182,0.071698113207547001,1.8041124150158794e-16,True
+Existing_master,"LoE|[0.05, 0.10)|Q2|SHAPE",Wrong_Fault_Type_SD,0.015786038236491991,0.015786038236491998,6.9388939039072284e-18,True
+Existing_master,"LoE|[0.05, 0.10)|Q3|SHAPE",N_unique_runs,46,46,0,True
+Existing_master,"LoE|[0.05, 0.10)|Q3|SHAPE",Identification_Mean,0.90000000000000002,0.90000000000000002,0,True
+Existing_master,"LoE|[0.05, 0.10)|Q3|SHAPE",Identification_SD,0.032969023669789384,0.0329690236697893,8.3266726846886741e-17,True
+Existing_master,"LoE|[0.05, 0.10)|Q3|SHAPE",Detection_Mean,0.96956521739130452,0.96956521739130441,1.1102230246251565e-16,True
+Existing_master,"LoE|[0.05, 0.10)|Q3|SHAPE",Detection_SD,0.011907012119677518,0.0119070121196775,1.7347234759768071e-17,True
+Existing_master,"LoE|[0.05, 0.10)|Q3|SHAPE",Missed_Detection_Mean,0.030434782608695653,0.030434782608695601,5.2041704279304213e-17,True
+Existing_master,"LoE|[0.05, 0.10)|Q3|SHAPE",Missed_Detection_SD,0.011907012119677523,0.0119070121196775,2.2551405187698492e-17,True
+Existing_master,"LoE|[0.05, 0.10)|Q3|SHAPE",Wrong_Fault_Type_Mean,0.069565217391304349,0.069565217391304196,1.5265566588595902e-16,True
+Existing_master,"LoE|[0.05, 0.10)|Q3|SHAPE",Wrong_Fault_Type_SD,0.044551959851998252,0.044551959851998203,4.8572257327350599e-17,True
+Existing_master,"LoE|[0.05, 0.10)|Q4|SHAPE",N_unique_runs,50,50,0,True
+Existing_master,"LoE|[0.05, 0.10)|Q4|SHAPE",Identification_Mean,0.82799999999999996,0.82799999999999985,1.1102230246251565e-16,True
+Existing_master,"LoE|[0.05, 0.10)|Q4|SHAPE",Identification_SD,0.06723094525588641,0.067230945255886201,2.0816681711721685e-16,True
+Existing_master,"LoE|[0.05, 0.10)|Q4|SHAPE",Detection_Mean,0.93599999999999994,0.93600000000000005,1.1102230246251565e-16,True
+Existing_master,"LoE|[0.05, 0.10)|Q4|SHAPE",Detection_SD,0.040987803063838382,0.040987803063838202,1.8041124150158794e-16,True
+Existing_master,"LoE|[0.05, 0.10)|Q4|SHAPE",Missed_Detection_Mean,0.064000000000000001,0.064000000000000001,0,True
+Existing_master,"LoE|[0.05, 0.10)|Q4|SHAPE",Missed_Detection_SD,0.040987803063838396,0.040987803063838202,1.9428902930940239e-16,True
+Existing_master,"LoE|[0.05, 0.10)|Q4|SHAPE",Wrong_Fault_Type_Mean,0.10800000000000001,0.108,1.3877787807814457e-17,True
+Existing_master,"LoE|[0.05, 0.10)|Q4|SHAPE",Wrong_Fault_Type_SD,0.046043457732885359,0.0460434577328852,1.5959455978986625e-16,True
+Existing_master,"LoE|[0.10, 0.20)|Q1|SHAPE",N_unique_runs,46,46,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q1|SHAPE",Identification_Mean,0.86521739130434783,0.86521739130434783,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q1|SHAPE",Identification_SD,0.023814024239355035,0.023814024239355001,3.4694469519536142e-17,True
+Existing_master,"LoE|[0.10, 0.20)|Q1|SHAPE",Detection_Mean,0.96086956521739142,0.96086956521739142,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q1|SHAPE",Detection_SD,0.0097220346847816889,0.0097220346847816004,8.8470897274817162e-17,True
+Existing_master,"LoE|[0.10, 0.20)|Q1|SHAPE",Missed_Detection_Mean,0.039130434782608699,0.039130434782608602,9.7144514654701197e-17,True
+Existing_master,"LoE|[0.10, 0.20)|Q1|SHAPE",Missed_Detection_SD,0.0097220346847816941,0.0097220346847816004,9.3675067702747583e-17,True
+Existing_master,"LoE|[0.10, 0.20)|Q1|SHAPE",Wrong_Fault_Type_Mean,0.095652173913043481,0.095652173913043301,1.8041124150158794e-16,True
+Existing_master,"LoE|[0.10, 0.20)|Q1|SHAPE",Wrong_Fault_Type_SD,0.019444069369563388,0.019444069369563301,8.6736173798840355e-17,True
+Existing_master,"LoE|[0.10, 0.20)|Q2|SHAPE",N_unique_runs,42,42,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q2|SHAPE",Identification_Mean,0.89523809523809528,0.89523809523809506,2.2204460492503131e-16,True
+Existing_master,"LoE|[0.10, 0.20)|Q2|SHAPE",Identification_SD,0.021295885499998023,0.021295885499997901,1.214306433183765e-16,True
+Existing_master,"LoE|[0.10, 0.20)|Q2|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q2|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q2|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q2|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q2|SHAPE",Wrong_Fault_Type_Mean,0.10476190476190476,0.1047619047619047,6.9388939039072284e-17,True
+Existing_master,"LoE|[0.10, 0.20)|Q2|SHAPE",Wrong_Fault_Type_SD,0.021295885499997995,0.021295885499997998,3.4694469519536142e-18,True
+Existing_master,"LoE|[0.10, 0.20)|Q3|SHAPE",N_unique_runs,54,54,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q3|SHAPE",Identification_Mean,0.94074074074074066,0.94074074074074066,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q3|SHAPE",Identification_SD,0.015493704195075449,0.015493704195075401,4.8572257327350599e-17,True
+Existing_master,"LoE|[0.10, 0.20)|Q3|SHAPE",Detection_Mean,0.98518518518518516,0.98518518518518516,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q3|SHAPE",Detection_SD,0.0082817332499992083,0.0082817332499991007,1.0755285551056204e-16,True
+Existing_master,"LoE|[0.10, 0.20)|Q3|SHAPE",Missed_Detection_Mean,0.014814814814814814,0.0148148148148148,1.3877787807814457e-17,True
+Existing_master,"LoE|[0.10, 0.20)|Q3|SHAPE",Missed_Detection_SD,0.0082817332499992204,0.0082817332499991007,1.1969591984239969e-16,True
+Existing_master,"LoE|[0.10, 0.20)|Q3|SHAPE",Wrong_Fault_Type_Mean,0.044444444444444439,0.0444444444444443,1.3877787807814457e-16,True
+Existing_master,"LoE|[0.10, 0.20)|Q3|SHAPE",Wrong_Fault_Type_SD,0.010143010324169742,0.0101430103241696,1.4224732503009818e-16,True
+Existing_master,"LoE|[0.10, 0.20)|Q4|SHAPE",N_unique_runs,46,46,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q4|SHAPE",Identification_Mean,0.92173913043478262,0.92173913043478262,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q4|SHAPE",Identification_SD,0.011907012119677577,0.0119070121196775,7.6327832942979512e-17,True
+Existing_master,"LoE|[0.10, 0.20)|Q4|SHAPE",Detection_Mean,0.97826086956521741,0.97826086956521741,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q4|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q4|SHAPE",Missed_Detection_Mean,0.021739130434782608,0.021739130434782601,6.9388939039072284e-18,True
+Existing_master,"LoE|[0.10, 0.20)|Q4|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"LoE|[0.10, 0.20)|Q4|SHAPE",Wrong_Fault_Type_Mean,0.056521739130434789,0.056521739130434602,1.8735013540549517e-16,True
+Existing_master,"LoE|[0.10, 0.20)|Q4|SHAPE",Wrong_Fault_Type_SD,0.011907012119677523,0.0119070121196775,2.2551405187698492e-17,True
+Existing_master,"LoE|[0.20, 0.30]|Q1|SHAPE",N_unique_runs,30,30,0,True
+Existing_master,"LoE|[0.20, 0.30]|Q1|SHAPE",Identification_Mean,0.85333333333333328,0.85333333333333306,2.2204460492503131e-16,True
+Existing_master,"LoE|[0.20, 0.30]|Q1|SHAPE",Identification_SD,0.029814239699997188,0.029814239699997101,8.6736173798840355e-17,True
+Existing_master,"LoE|[0.20, 0.30]|Q1|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"LoE|[0.20, 0.30]|Q1|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"LoE|[0.20, 0.30]|Q1|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"LoE|[0.20, 0.30]|Q1|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"LoE|[0.20, 0.30]|Q1|SHAPE",Wrong_Fault_Type_Mean,0.14666666666666667,0.14666666666666661,5.5511151231257827e-17,True
+Existing_master,"LoE|[0.20, 0.30]|Q1|SHAPE",Wrong_Fault_Type_SD,0.029814239699997191,0.029814239699997198,6.9388939039072284e-18,True
+Existing_master,"LoE|[0.20, 0.30]|Q2|SHAPE",N_unique_runs,41,41,0,True
+Existing_master,"LoE|[0.20, 0.30]|Q2|SHAPE",Identification_Mean,0.92195121951219505,0.92195121951219505,0,True
+Existing_master,"LoE|[0.20, 0.30]|Q2|SHAPE",Identification_SD,0.020406342110587186,0.020406342110586999,1.8735013540549517e-16,True
+Existing_master,"LoE|[0.20, 0.30]|Q2|SHAPE",Detection_Mean,0.97073170731707314,0.97073170731707314,0,True
+Existing_master,"LoE|[0.20, 0.30]|Q2|SHAPE",Detection_SD,0.01090764867073069,0.0109076486707306,9.0205620750793969e-17,True
+Existing_master,"LoE|[0.20, 0.30]|Q2|SHAPE",Missed_Detection_Mean,0.029268292682926828,0.0292682926829268,2.7755575615628914e-17,True
+Existing_master,"LoE|[0.20, 0.30]|Q2|SHAPE",Missed_Detection_SD,0.010907648670730682,0.0109076486707306,8.1532003370909933e-17,True
+Existing_master,"LoE|[0.20, 0.30]|Q2|SHAPE",Wrong_Fault_Type_Mean,0.04878048780487805,0.048780487804878002,4.8572257327350599e-17,True
+Existing_master,"LoE|[0.20, 0.30]|Q2|SHAPE",Wrong_Fault_Type_SD,0.029871826131502171,0.029871826131502001,1.700029006457271e-16,True
+Existing_master,"LoE|[0.20, 0.30]|Q3|SHAPE",N_unique_runs,35,35,0,True
+Existing_master,"LoE|[0.20, 0.30]|Q3|SHAPE",Identification_Mean,0.95428571428571429,0.95428571428571396,3.3306690738754696e-16,True
+Existing_master,"LoE|[0.20, 0.30]|Q3|SHAPE",Identification_SD,0.038332593899996409,0.038332593899996402,6.9388939039072284e-18,True
+Existing_master,"LoE|[0.20, 0.30]|Q3|SHAPE",Detection_Mean,0.99428571428571433,0.99428571428571444,1.1102230246251565e-16,True
+Existing_master,"LoE|[0.20, 0.30]|Q3|SHAPE",Detection_SD,0.012777531299998804,0.012777531299998601,2.0296264668928643e-16,True
+Existing_master,"LoE|[0.20, 0.30]|Q3|SHAPE",Missed_Detection_Mean,0.0057142857142857143,0.0057142857142857004,1.3877787807814457e-17,True
+Existing_master,"LoE|[0.20, 0.30]|Q3|SHAPE",Missed_Detection_SD,0.012777531299998797,0.012777531299998601,1.960237527853792e-16,True
+Existing_master,"LoE|[0.20, 0.30]|Q3|SHAPE",Wrong_Fault_Type_Mean,0.040000000000000001,0.040000000000000001,0,True
+Existing_master,"LoE|[0.20, 0.30]|Q3|SHAPE",Wrong_Fault_Type_SD,0.032576440717118224,0.032576440717118203,2.0816681711721685e-17,True
+Existing_master,"LoE|[0.20, 0.30]|Q4|SHAPE",N_unique_runs,81,81,0,True
+Existing_master,"LoE|[0.20, 0.30]|Q4|SHAPE",Identification_Mean,0.97530864197530853,0.97530864197530842,1.1102230246251565e-16,True
+Existing_master,"LoE|[0.20, 0.30]|Q4|SHAPE",Identification_SD,0.0087297133479820668,0.0087297133479819003,1.6653345369377348e-16,True
+Existing_master,"LoE|[0.20, 0.30]|Q4|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"LoE|[0.20, 0.30]|Q4|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"LoE|[0.20, 0.30]|Q4|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"LoE|[0.20, 0.30]|Q4|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"LoE|[0.20, 0.30]|Q4|SHAPE",Wrong_Fault_Type_Mean,0.024691358024691357,0.024691358024691301,5.5511151231257827e-17,True
+Existing_master,"LoE|[0.20, 0.30]|Q4|SHAPE",Wrong_Fault_Type_SD,0.0087297133479820668,0.0087297133479819992,6.7654215563095477e-17,True
+Existing_master,"Friction|[0.02, 0.10)|Q1|SHAPE",N_unique_runs,50,50,0,True
+Existing_master,"Friction|[0.02, 0.10)|Q1|SHAPE",Identification_Mean,0.11200000000000002,0.112,1.3877787807814457e-17,True
+Existing_master,"Friction|[0.02, 0.10)|Q1|SHAPE",Identification_SD,0.036331804249169909,0.036331804249169902,6.9388939039072284e-18,True
+Existing_master,"Friction|[0.02, 0.10)|Q1|SHAPE",Detection_Mean,0.22799999999999998,0.2279999999999999,8.3266726846886741e-17,True
+Existing_master,"Friction|[0.02, 0.10)|Q1|SHAPE",Detection_SD,0.050199601592044528,0.0501996015920445,2.7755575615628914e-17,True
+Existing_master,"Friction|[0.02, 0.10)|Q1|SHAPE",Missed_Detection_Mean,0.77200000000000002,0.77200000000000002,0,True
+Existing_master,"Friction|[0.02, 0.10)|Q1|SHAPE",Missed_Detection_SD,0.050199601592044535,0.0501996015920445,3.4694469519536142e-17,True
+Existing_master,"Friction|[0.02, 0.10)|Q1|SHAPE",Wrong_Fault_Type_Mean,0.11599999999999999,0.11600000000000001,1.3877787807814457e-17,True
+Existing_master,"Friction|[0.02, 0.10)|Q1|SHAPE",Wrong_Fault_Type_SD,0.0260768096208106,0.0260768096208105,1.0061396160665481e-16,True
+Existing_master,"Friction|[0.02, 0.10)|Q2|SHAPE",N_unique_runs,43,43,0,True
+Existing_master,"Friction|[0.02, 0.10)|Q2|SHAPE",Identification_Mean,0.22790697674418606,0.227906976744186,5.5511151231257827e-17,True
+Existing_master,"Friction|[0.02, 0.10)|Q2|SHAPE",Identification_SD,0.077828839677588413,0.077828839677588302,1.1102230246251565e-16,True
+Existing_master,"Friction|[0.02, 0.10)|Q2|SHAPE",Detection_Mean,0.25116279069767444,0.25116279069767428,1.6653345369377348e-16,True
+Existing_master,"Friction|[0.02, 0.10)|Q2|SHAPE",Detection_SD,0.07427311359382005,0.074273113593819898,1.5265566588595902e-16,True
+Existing_master,"Friction|[0.02, 0.10)|Q2|SHAPE",Missed_Detection_Mean,0.74883720930232556,0.74883720930232545,1.1102230246251565e-16,True
+Existing_master,"Friction|[0.02, 0.10)|Q2|SHAPE",Missed_Detection_SD,0.07427311359382005,0.074273113593819898,1.5265566588595902e-16,True
+Existing_master,"Friction|[0.02, 0.10)|Q2|SHAPE",Wrong_Fault_Type_Mean,0.023255813953488372,0.023255813953488198,1.7347234759768071e-16,True
+Existing_master,"Friction|[0.02, 0.10)|Q2|SHAPE",Wrong_Fault_Type_SD,0.023255813953488372,0.023255813953488299,7.2858385991025898e-17,True
+Existing_master,"Friction|[0.02, 0.10)|Q3|SHAPE",N_unique_runs,57,57,0,True
+Existing_master,"Friction|[0.02, 0.10)|Q3|SHAPE",Identification_Mean,0.20350877192982453,0.2035087719298245,2.7755575615628914e-17,True
+Existing_master,"Friction|[0.02, 0.10)|Q3|SHAPE",Identification_SD,0.05204349815505728,0.0520434981550571,1.8041124150158794e-16,True
+Existing_master,"Friction|[0.02, 0.10)|Q3|SHAPE",Detection_Mean,0.28421052631578947,0.28421052631578941,5.5511151231257827e-17,True
+Existing_master,"Friction|[0.02, 0.10)|Q3|SHAPE",Detection_SD,0.093986633234939457,0.093986633234939401,5.5511151231257827e-17,True
+Existing_master,"Friction|[0.02, 0.10)|Q3|SHAPE",Missed_Detection_Mean,0.71578947368421053,0.71578947368421053,0,True
+Existing_master,"Friction|[0.02, 0.10)|Q3|SHAPE",Missed_Detection_SD,0.093986633234939457,0.093986633234939401,5.5511151231257827e-17,True
+Existing_master,"Friction|[0.02, 0.10)|Q3|SHAPE",Wrong_Fault_Type_Mean,0.080701754385964913,0.080701754385964802,1.1102230246251565e-16,True
+Existing_master,"Friction|[0.02, 0.10)|Q3|SHAPE",Wrong_Fault_Type_SD,0.042251209048394016,0.042251209048394002,1.3877787807814457e-17,True
+Existing_master,"Friction|[0.02, 0.10)|Q4|SHAPE",N_unique_runs,38,38,0,True
+Existing_master,"Friction|[0.02, 0.10)|Q4|SHAPE",Identification_Mean,0.14736842105263154,0.14736842105263151,2.7755575615628914e-17,True
+Existing_master,"Friction|[0.02, 0.10)|Q4|SHAPE",Identification_SD,0.066052107357953332,0.066052107357953305,2.7755575615628914e-17,True
+Existing_master,"Friction|[0.02, 0.10)|Q4|SHAPE",Detection_Mean,0.31052631578947365,0.31052631578947348,1.6653345369377348e-16,True
+Existing_master,"Friction|[0.02, 0.10)|Q4|SHAPE",Detection_SD,0.073023352239534781,0.0730233522395346,1.8041124150158794e-16,True
+Existing_master,"Friction|[0.02, 0.10)|Q4|SHAPE",Missed_Detection_Mean,0.68947368421052624,0.68947368421052635,1.1102230246251565e-16,True
+Existing_master,"Friction|[0.02, 0.10)|Q4|SHAPE",Missed_Detection_SD,0.073023352239534767,0.0730233522395346,1.6653345369377348e-16,True
+Existing_master,"Friction|[0.02, 0.10)|Q4|SHAPE",Wrong_Fault_Type_Mean,0.16315789473684211,0.16315789473684211,0,True
+Existing_master,"Friction|[0.02, 0.10)|Q4|SHAPE",Wrong_Fault_Type_SD,0.047075115315785038,0.047075115315785003,3.4694469519536142e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q1|SHAPE",N_unique_runs,53,53,0,True
+Existing_master,"Friction|[0.10, 0.30)|Q1|SHAPE",Identification_Mean,0.60754716981132073,0.60754716981132073,0,True
+Existing_master,"Friction|[0.10, 0.30)|Q1|SHAPE",Identification_SD,0.064538231609385141,0.064538231609385002,1.3877787807814457e-16,True
+Existing_master,"Friction|[0.10, 0.30)|Q1|SHAPE",Detection_Mean,0.71698113207547176,0.71698113207547165,1.1102230246251565e-16,True
+Existing_master,"Friction|[0.10, 0.30)|Q1|SHAPE",Detection_SD,0.062577826233120776,0.062577826233120804,2.7755575615628914e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q1|SHAPE",Missed_Detection_Mean,0.28301886792452829,0.28301886792452807,2.2204460492503131e-16,True
+Existing_master,"Friction|[0.10, 0.30)|Q1|SHAPE",Missed_Detection_SD,0.062577826233120734,0.062577826233120706,2.7755575615628914e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q1|SHAPE",Wrong_Fault_Type_Mean,0.10943396226415095,0.10943396226415091,4.163336342344337e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q1|SHAPE",Wrong_Fault_Type_SD,0.06171859333507973,0.061718593335079598,1.3183898417423734e-16,True
+Existing_master,"Friction|[0.10, 0.30)|Q2|SHAPE",N_unique_runs,35,35,0,True
+Existing_master,"Friction|[0.10, 0.30)|Q2|SHAPE",Identification_Mean,0.57714285714285707,0.57714285714285696,1.1102230246251565e-16,True
+Existing_master,"Friction|[0.10, 0.30)|Q2|SHAPE",Identification_SD,0.079282496717209217,0.079282496717209203,1.3877787807814457e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q2|SHAPE",Detection_Mean,0.74285714285714288,0.74285714285714266,2.2204460492503131e-16,True
+Existing_master,"Friction|[0.10, 0.30)|Q2|SHAPE",Detection_SD,0.072843135908468332,0.072843135908468304,2.7755575615628914e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q2|SHAPE",Missed_Detection_Mean,0.25714285714285712,0.25714285714285712,0,True
+Existing_master,"Friction|[0.10, 0.30)|Q2|SHAPE",Missed_Detection_SD,0.072843135908468346,0.072843135908468304,4.163336342344337e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q2|SHAPE",Wrong_Fault_Type_Mean,0.16571428571428573,0.1657142857142857,2.7755575615628914e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q2|SHAPE",Wrong_Fault_Type_SD,0.042378277069118071,0.042378277069118002,6.9388939039072284e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q3|SHAPE",N_unique_runs,47,47,0,True
+Existing_master,"Friction|[0.10, 0.30)|Q3|SHAPE",Identification_Mean,0.67659574468085104,0.67659574468085104,0,True
+Existing_master,"Friction|[0.10, 0.30)|Q3|SHAPE",Identification_SD,0.069597562697004761,0.069597562697004706,5.5511151231257827e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q3|SHAPE",Detection_Mean,0.77446808510638299,0.77446808510638276,2.2204460492503131e-16,True
+Existing_master,"Friction|[0.10, 0.30)|Q3|SHAPE",Detection_SD,0.076121463063822656,0.0761214630638226,5.5511151231257827e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q3|SHAPE",Missed_Detection_Mean,0.22553191489361701,0.22553191489361701,0,True
+Existing_master,"Friction|[0.10, 0.30)|Q3|SHAPE",Missed_Detection_SD,0.076121463063822628,0.0761214630638226,2.7755575615628914e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q3|SHAPE",Wrong_Fault_Type_Mean,0.097872340425531917,0.097872340425531903,1.3877787807814457e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q3|SHAPE",Wrong_Fault_Type_SD,0.041475720616208356,0.0414757206162083,5.5511151231257827e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q4|SHAPE",N_unique_runs,52,52,0,True
+Existing_master,"Friction|[0.10, 0.30)|Q4|SHAPE",Identification_Mean,0.63076923076923086,0.63076923076923075,1.1102230246251565e-16,True
+Existing_master,"Friction|[0.10, 0.30)|Q4|SHAPE",Identification_SD,0.061418151625658932,0.0614181516256588,1.3183898417423734e-16,True
+Existing_master,"Friction|[0.10, 0.30)|Q4|SHAPE",Detection_Mean,0.73076923076923084,0.73076923076923073,1.1102230246251565e-16,True
+Existing_master,"Friction|[0.10, 0.30)|Q4|SHAPE",Detection_SD,0.087071010943628985,0.087071010943628901,8.3266726846886741e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q4|SHAPE",Missed_Detection_Mean,0.26923076923076927,0.26923076923076922,5.5511151231257827e-17,True
+Existing_master,"Friction|[0.10, 0.30)|Q4|SHAPE",Missed_Detection_SD,0.087071010943629013,0.087071010943628901,1.1102230246251565e-16,True
+Existing_master,"Friction|[0.10, 0.30)|Q4|SHAPE",Wrong_Fault_Type_Mean,0.10000000000000001,0.10000000000000001,0,True
+Existing_master,"Friction|[0.10, 0.30)|Q4|SHAPE",Wrong_Fault_Type_SD,0.045912832255051238,0.045912832255051203,3.4694469519536142e-17,True
+Existing_master,"Friction|[0.30, 0.75)|Q1|SHAPE",N_unique_runs,60,60,0,True
+Existing_master,"Friction|[0.30, 0.75)|Q1|SHAPE",Identification_Mean,0.87666666666666671,0.87666666666666637,3.3306690738754696e-16,True
+Existing_master,"Friction|[0.30, 0.75)|Q1|SHAPE",Identification_SD,0.030276503540974917,0.0302765035409749,1.7347234759768071e-17,True
+Existing_master,"Friction|[0.30, 0.75)|Q1|SHAPE",Detection_Mean,0.96333333333333326,0.96333333333333315,1.1102230246251565e-16,True
+Existing_master,"Friction|[0.30, 0.75)|Q1|SHAPE",Detection_SD,0.018257418583505519,0.018257418583505401,1.1796119636642288e-16,True
+Existing_master,"Friction|[0.30, 0.75)|Q1|SHAPE",Missed_Detection_Mean,0.036666666666666667,0.0366666666666665,1.6653345369377348e-16,True
+Existing_master,"Friction|[0.30, 0.75)|Q1|SHAPE",Missed_Detection_SD,0.018257418583505537,0.018257418583505401,1.3530843112619095e-16,True
+Existing_master,"Friction|[0.30, 0.75)|Q1|SHAPE",Wrong_Fault_Type_Mean,0.086666666666666656,0.0866666666666666,5.5511151231257827e-17,True
+Existing_master,"Friction|[0.30, 0.75)|Q1|SHAPE",Wrong_Fault_Type_SD,0.021730674684008831,0.021730674684008799,3.1225022567582528e-17,True
+Existing_master,"Friction|[0.30, 0.75)|Q2|SHAPE",N_unique_runs,51,51,0,True
+Existing_master,"Friction|[0.30, 0.75)|Q2|SHAPE",Identification_Mean,0.88627450980392164,0.88627450980392164,0,True
+Existing_master,"Friction|[0.30, 0.75)|Q2|SHAPE",Identification_SD,0.016405098559491672,0.016405098559491502,1.700029006457271e-16,True
+Existing_master,"Friction|[0.30, 0.75)|Q2|SHAPE",Detection_Mean,0.97647058823529398,0.97647058823529398,0,True
+Existing_master,"Friction|[0.30, 0.75)|Q2|SHAPE",Detection_SD,0.016405098559491658,0.016405098559491502,1.5612511283791264e-16,True
+Existing_master,"Friction|[0.30, 0.75)|Q2|SHAPE",Missed_Detection_Mean,0.023529411764705882,0.023529411764705702,1.8041124150158794e-16,True
+Existing_master,"Friction|[0.30, 0.75)|Q2|SHAPE",Missed_Detection_SD,0.016405098559491679,0.016405098559491502,1.7694179454963432e-16,True
+Existing_master,"Friction|[0.30, 0.75)|Q2|SHAPE",Wrong_Fault_Type_Mean,0.090196078431372534,0.090196078431372506,2.7755575615628914e-17,True
+Existing_master,"Friction|[0.30, 0.75)|Q2|SHAPE",Wrong_Fault_Type_SD,0.010739657990297375,0.0107396579902973,7.4593109467002705e-17,True
+Existing_master,"Friction|[0.30, 0.75)|Q3|SHAPE",N_unique_runs,40,40,0,True
+Existing_master,"Friction|[0.30, 0.75)|Q3|SHAPE",Identification_Mean,0.89000000000000001,0.89000000000000001,0,True
+Existing_master,"Friction|[0.30, 0.75)|Q3|SHAPE",Identification_SD,0.057554322166106703,0.057554322166106703,0,True
+Existing_master,"Friction|[0.30, 0.75)|Q3|SHAPE",Detection_Mean,0.98999999999999999,0.98999999999999999,0,True
+Existing_master,"Friction|[0.30, 0.75)|Q3|SHAPE",Detection_SD,0.013693063937629165,0.013693063937629001,1.6479873021779667e-16,True
+Existing_master,"Friction|[0.30, 0.75)|Q3|SHAPE",Missed_Detection_Mean,0.01,0.01,0,True
+Existing_master,"Friction|[0.30, 0.75)|Q3|SHAPE",Missed_Detection_SD,0.013693063937629153,0.013693063937629001,1.5265566588595902e-16,True
+Existing_master,"Friction|[0.30, 0.75)|Q3|SHAPE",Wrong_Fault_Type_Mean,0.10000000000000001,0.10000000000000001,0,True
+Existing_master,"Friction|[0.30, 0.75)|Q3|SHAPE",Wrong_Fault_Type_SD,0.053033008588991064,0.053033008588991098,3.4694469519536142e-17,True
+Existing_master,"Friction|[0.30, 0.75)|Q4|SHAPE",N_unique_runs,37,37,0,True
+Existing_master,"Friction|[0.30, 0.75)|Q4|SHAPE",Identification_Mean,0.89729729729729735,0.89729729729729735,0,True
+Existing_master,"Friction|[0.30, 0.75)|Q4|SHAPE",Identification_SD,0.040087559389706297,0.0400875593897062,9.7144514654701197e-17,True
+Existing_master,"Friction|[0.30, 0.75)|Q4|SHAPE",Detection_Mean,0.96756756756756757,0.96756756756756757,0,True
+Existing_master,"Friction|[0.30, 0.75)|Q4|SHAPE",Detection_SD,0.012086853932431319,0.0120868539324313,1.9081958235744878e-17,True
+Existing_master,"Friction|[0.30, 0.75)|Q4|SHAPE",Missed_Detection_Mean,0.032432432432432434,0.0324324324324324,3.4694469519536142e-17,True
+Existing_master,"Friction|[0.30, 0.75)|Q4|SHAPE",Missed_Detection_SD,0.012086853932431297,0.0120868539324312,9.7144514654701197e-17,True
+Existing_master,"Friction|[0.30, 0.75)|Q4|SHAPE",Wrong_Fault_Type_Mean,0.070270270270270274,0.070270270270270205,6.9388939039072284e-17,True
+Existing_master,"Friction|[0.30, 0.75)|Q4|SHAPE",Wrong_Fault_Type_SD,0.030815552029706435,0.0308155520297064,3.4694469519536142e-17,True
+Existing_master,"Friction|[0.75, 1.50]|Q1|SHAPE",N_unique_runs,67,67,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q1|SHAPE",Identification_Mean,0.94925373134328361,0.94925373134328361,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q1|SHAPE",Identification_SD,0.020024489350744384,0.020024489350744301,8.3266726846886741e-17,True
+Existing_master,"Friction|[0.75, 1.50]|Q1|SHAPE",Detection_Mean,0.9850746268656716,0.9850746268656716,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q1|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q1|SHAPE",Missed_Detection_Mean,0.014925373134328356,0.014925373134328301,5.5511151231257827e-17,True
+Existing_master,"Friction|[0.75, 1.50]|Q1|SHAPE",Missed_Detection_SD,1.9394798072244321e-18,0,1.9394798072244321e-18,True
+Existing_master,"Friction|[0.75, 1.50]|Q1|SHAPE",Wrong_Fault_Type_Mean,0.035820895522388055,0.035820895522387902,1.5265566588595902e-16,True
+Existing_master,"Friction|[0.75, 1.50]|Q1|SHAPE",Wrong_Fault_Type_SD,0.020024489350744384,0.020024489350744301,8.3266726846886741e-17,True
+Existing_master,"Friction|[0.75, 1.50]|Q2|SHAPE",N_unique_runs,38,38,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q2|SHAPE",Identification_Mean,0.98947368421052639,0.98947368421052639,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q2|SHAPE",Identification_SD,0.01441375151329383,0.014413751513293801,2.9490299091605721e-17,True
+Existing_master,"Friction|[0.75, 1.50]|Q2|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q2|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q2|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q2|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q2|SHAPE",Wrong_Fault_Type_Mean,0.010526315789473684,0.010526315789473601,8.3266726846886741e-17,True
+Existing_master,"Friction|[0.75, 1.50]|Q2|SHAPE",Wrong_Fault_Type_SD,0.014413751513293846,0.014413751513293801,4.5102810375396984e-17,True
+Existing_master,"Friction|[0.75, 1.50]|Q3|SHAPE",N_unique_runs,53,53,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q3|SHAPE",Identification_Mean,0.98490566037735849,0.98490566037735838,1.1102230246251565e-16,True
+Existing_master,"Friction|[0.75, 1.50]|Q3|SHAPE",Identification_SD,0.015786038236491988,0.015786038236491901,8.6736173798840355e-17,True
+Existing_master,"Friction|[0.75, 1.50]|Q3|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q3|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q3|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q3|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q3|SHAPE",Wrong_Fault_Type_Mean,0.01509433962264151,0.0150943396226414,1.0928757898653885e-16,True
+Existing_master,"Friction|[0.75, 1.50]|Q3|SHAPE",Wrong_Fault_Type_SD,0.015786038236491991,0.015786038236491998,6.9388939039072284e-18,True
+Existing_master,"Friction|[0.75, 1.50]|Q4|SHAPE",N_unique_runs,29,29,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q4|SHAPE",Identification_Mean,0.99310344827586206,0.99310344827586206,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q4|SHAPE",Identification_SD,0.015421158465515774,0.0154211584655157,7.4593109467002705e-17,True
+Existing_master,"Friction|[0.75, 1.50]|Q4|SHAPE",Detection_Mean,0.99310344827586206,0.99310344827586206,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q4|SHAPE",Detection_SD,0.015421158465515774,0.0154211584655157,7.4593109467002705e-17,True
+Existing_master,"Friction|[0.75, 1.50]|Q4|SHAPE",Missed_Detection_Mean,0.0068965517241379309,0.0068965517241378,1.3097162243624894e-16,True
+Existing_master,"Friction|[0.75, 1.50]|Q4|SHAPE",Missed_Detection_SD,0.015421158465515792,0.0154211584655157,9.1940344226770776e-17,True
+Existing_master,"Friction|[0.75, 1.50]|Q4|SHAPE",Wrong_Fault_Type_Mean,0,0,0,True
+Existing_master,"Friction|[0.75, 1.50]|Q4|SHAPE",Wrong_Fault_Type_SD,0,0,0,True
+Existing_master,"Vibration|[0.10, 0.50)|Q1|SHAPE",N_unique_runs,46,46,0,True
+Existing_master,"Vibration|[0.10, 0.50)|Q1|SHAPE",Identification_Mean,0.99565217391304339,0.99565217391304317,2.2204460492503131e-16,True
+Existing_master,"Vibration|[0.10, 0.50)|Q1|SHAPE",Identification_SD,0.0097220346847816889,0.0097220346847816004,8.8470897274817162e-17,True
+Existing_master,"Vibration|[0.10, 0.50)|Q1|SHAPE",Detection_Mean,0.99565217391304339,0.99565217391304317,2.2204460492503131e-16,True
+Existing_master,"Vibration|[0.10, 0.50)|Q1|SHAPE",Detection_SD,0.0097220346847816889,0.0097220346847816004,8.8470897274817162e-17,True
+Existing_master,"Vibration|[0.10, 0.50)|Q1|SHAPE",Missed_Detection_Mean,0.0043478260869565218,0.0043478260869565001,2.1684043449710089e-17,True
+Existing_master,"Vibration|[0.10, 0.50)|Q1|SHAPE",Missed_Detection_SD,0.0097220346847816941,0.0097220346847816004,9.3675067702747583e-17,True
+Existing_master,"Vibration|[0.10, 0.50)|Q1|SHAPE",Wrong_Fault_Type_Mean,0,0,0,True
+Existing_master,"Vibration|[0.10, 0.50)|Q1|SHAPE",Wrong_Fault_Type_SD,0,0,0,True
+Existing_master,"Vibration|[0.10, 0.50)|Q2|SHAPE",N_unique_runs,48,48,0,True
+Existing_master,"Vibration|[0.10, 0.50)|Q2|SHAPE",Identification_Mean,0.99583333333333324,0.99583333333333324,0,True
+Existing_master,"Vibration|[0.10, 0.50)|Q2|SHAPE",Identification_SD,0.0093169499062491414,0.0093169499062489992,1.4224732503009818e-16,True
+Existing_master,"Vibration|[0.10, 0.50)|Q2|SHAPE",Detection_Mean,0.99583333333333324,0.99583333333333324,0,True
+Existing_master,"Vibration|[0.10, 0.50)|Q2|SHAPE",Detection_SD,0.0093169499062491414,0.0093169499062489992,1.4224732503009818e-16,True
+Existing_master,"Vibration|[0.10, 0.50)|Q2|SHAPE",Missed_Detection_Mean,0.0041666666666666666,0.0041666666666665001,1.6653345369377348e-16,True
+Existing_master,"Vibration|[0.10, 0.50)|Q2|SHAPE",Missed_Detection_SD,0.0093169499062491241,0.0093169499062489992,1.2490009027033011e-16,True
+Existing_master,"Vibration|[0.10, 0.50)|Q2|SHAPE",Wrong_Fault_Type_Mean,0,0,0,True
+Existing_master,"Vibration|[0.10, 0.50)|Q2|SHAPE",Wrong_Fault_Type_SD,0,0,0,True
+Existing_master,"Vibration|[0.10, 0.50)|Q3|SHAPE",N_unique_runs,51,51,0,True
+Existing_master,"Vibration|[0.10, 0.50)|Q3|SHAPE",Identification_Mean,0.96470588235294108,0.96470588235294075,3.3306690738754696e-16,True
+Existing_master,"Vibration|[0.10, 0.50)|Q3|SHAPE",Identification_SD,0.016405098559491658,0.016405098559491502,1.5612511283791264e-16,True
+Existing_master,"Vibration|[0.10, 0.50)|Q3|SHAPE",Detection_Mean,0.97647058823529398,0.97647058823529398,0,True
+Existing_master,"Vibration|[0.10, 0.50)|Q3|SHAPE",Detection_SD,0.016405098559491658,0.016405098559491502,1.5612511283791264e-16,True
+Existing_master,"Vibration|[0.10, 0.50)|Q3|SHAPE",Missed_Detection_Mean,0.023529411764705882,0.023529411764705702,1.8041124150158794e-16,True
+Existing_master,"Vibration|[0.10, 0.50)|Q3|SHAPE",Missed_Detection_SD,0.016405098559491675,0.016405098559491502,1.7347234759768071e-16,True
+Existing_master,"Vibration|[0.10, 0.50)|Q3|SHAPE",Wrong_Fault_Type_Mean,0.011764705882352941,0.011764705882352801,1.4051260155412137e-16,True
+Existing_master,"Vibration|[0.10, 0.50)|Q3|SHAPE",Wrong_Fault_Type_SD,0.010739657990297375,0.0107396579902973,7.4593109467002705e-17,True
+Existing_master,"Vibration|[0.10, 0.50)|Q4|SHAPE",N_unique_runs,42,42,0,True
+Existing_master,"Vibration|[0.10, 0.50)|Q4|SHAPE",Identification_Mean,0.94761904761904758,0.94761904761904758,0,True
+Existing_master,"Vibration|[0.10, 0.50)|Q4|SHAPE",Identification_SD,0.03104382097715545,0.031043820977155401,4.8572257327350599e-17,True
+Existing_master,"Vibration|[0.10, 0.50)|Q4|SHAPE",Detection_Mean,0.94761904761904758,0.94761904761904758,0,True
+Existing_master,"Vibration|[0.10, 0.50)|Q4|SHAPE",Detection_SD,0.03104382097715545,0.031043820977155401,4.8572257327350599e-17,True
+Existing_master,"Vibration|[0.10, 0.50)|Q4|SHAPE",Missed_Detection_Mean,0.052380952380952375,0.052380952380952202,1.7347234759768071e-16,True
+Existing_master,"Vibration|[0.10, 0.50)|Q4|SHAPE",Missed_Detection_SD,0.031043820977155467,0.031043820977155401,6.591949208711867e-17,True
+Existing_master,"Vibration|[0.10, 0.50)|Q4|SHAPE",Wrong_Fault_Type_Mean,0,0,0,True
+Existing_master,"Vibration|[0.10, 0.50)|Q4|SHAPE",Wrong_Fault_Type_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q1|SHAPE",N_unique_runs,46,46,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q1|SHAPE",Identification_Mean,1,1,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q1|SHAPE",Identification_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q1|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q1|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q1|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q1|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q1|SHAPE",Wrong_Fault_Type_Mean,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q1|SHAPE",Wrong_Fault_Type_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q2|SHAPE",N_unique_runs,46,46,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q2|SHAPE",Identification_Mean,1,1,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q2|SHAPE",Identification_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q2|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q2|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q2|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q2|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q2|SHAPE",Wrong_Fault_Type_Mean,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q2|SHAPE",Wrong_Fault_Type_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q3|SHAPE",N_unique_runs,44,44,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q3|SHAPE",Identification_Mean,1,1,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q3|SHAPE",Identification_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q3|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q3|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q3|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q3|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q3|SHAPE",Wrong_Fault_Type_Mean,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q3|SHAPE",Wrong_Fault_Type_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q4|SHAPE",N_unique_runs,51,51,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q4|SHAPE",Identification_Mean,1,1,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q4|SHAPE",Identification_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q4|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q4|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q4|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q4|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q4|SHAPE",Wrong_Fault_Type_Mean,0,0,0,True
+Existing_master,"Vibration|[0.50, 1.00)|Q4|SHAPE",Wrong_Fault_Type_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q1|SHAPE",N_unique_runs,51,51,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q1|SHAPE",Identification_Mean,1,1,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q1|SHAPE",Identification_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q1|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q1|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q1|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q1|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q1|SHAPE",Wrong_Fault_Type_Mean,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q1|SHAPE",Wrong_Fault_Type_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q2|SHAPE",N_unique_runs,37,37,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q2|SHAPE",Identification_Mean,1,1,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q2|SHAPE",Identification_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q2|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q2|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q2|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q2|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q2|SHAPE",Wrong_Fault_Type_Mean,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q2|SHAPE",Wrong_Fault_Type_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q3|SHAPE",N_unique_runs,49,49,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q3|SHAPE",Identification_Mean,1,1,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q3|SHAPE",Identification_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q3|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q3|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q3|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q3|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q3|SHAPE",Wrong_Fault_Type_Mean,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q3|SHAPE",Wrong_Fault_Type_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q4|SHAPE",N_unique_runs,50,50,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q4|SHAPE",Identification_Mean,1,1,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q4|SHAPE",Identification_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q4|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q4|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q4|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q4|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q4|SHAPE",Wrong_Fault_Type_Mean,0,0,0,True
+Existing_master,"Vibration|[1.00, 1.75)|Q4|SHAPE",Wrong_Fault_Type_SD,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q1|SHAPE",N_unique_runs,51,51,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q1|SHAPE",Identification_Mean,0.99607843137254903,0.99607843137254903,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q1|SHAPE",Identification_SD,0.0087688940294109591,0.0087688940294109001,5.8980598183211441e-17,True
+Existing_master,"Vibration|[1.75, 2.50]|Q1|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q1|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q1|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q1|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q1|SHAPE",Wrong_Fault_Type_Mean,0.0039215686274509803,0.0039215686274507999,1.8041124150158794e-16,True
+Existing_master,"Vibration|[1.75, 2.50]|Q1|SHAPE",Wrong_Fault_Type_SD,0.00876889402941094,0.0087688940294110007,6.0715321659188248e-17,True
+Existing_master,"Vibration|[1.75, 2.50]|Q2|SHAPE",N_unique_runs,35,35,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q2|SHAPE",Identification_Mean,1,1,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q2|SHAPE",Identification_SD,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q2|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q2|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q2|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q2|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q2|SHAPE",Wrong_Fault_Type_Mean,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q2|SHAPE",Wrong_Fault_Type_SD,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q3|SHAPE",N_unique_runs,54,54,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q3|SHAPE",Identification_Mean,1,1,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q3|SHAPE",Identification_SD,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q3|SHAPE",Detection_Mean,1,1,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q3|SHAPE",Detection_SD,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q3|SHAPE",Missed_Detection_Mean,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q3|SHAPE",Missed_Detection_SD,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q3|SHAPE",Wrong_Fault_Type_Mean,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q3|SHAPE",Wrong_Fault_Type_SD,0,0,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q4|SHAPE",N_unique_runs,49,49,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q4|SHAPE",Identification_Mean,0.99183673469387768,0.99183673469387756,1.1102230246251565e-16,True
+Existing_master,"Vibration|[1.75, 2.50]|Q4|SHAPE",Identification_SD,0.011178011377656465,0.011178011377656401,6.4184768611141862e-17,True
+Existing_master,"Vibration|[1.75, 2.50]|Q4|SHAPE",Detection_Mean,0.99591836734693884,0.99591836734693884,0,True
+Existing_master,"Vibration|[1.75, 2.50]|Q4|SHAPE",Detection_SD,0.0091268080714277233,0.0091268080714277007,2.2551405187698492e-17,True
+Existing_master,"Vibration|[1.75, 2.50]|Q4|SHAPE",Missed_Detection_Mean,0.004081632653061224,0.0040816326530611,1.2403272853234171e-16,True
+Existing_master,"Vibration|[1.75, 2.50]|Q4|SHAPE",Missed_Detection_SD,0.0091268080714277128,0.0091268080714277007,1.214306433183765e-17,True
+Existing_master,"Vibration|[1.75, 2.50]|Q4|SHAPE",Wrong_Fault_Type_Mean,0.004081632653061224,0.0040816326530611,1.2403272853234171e-16,True
+Existing_master,"Vibration|[1.75, 2.50]|Q4|SHAPE",Wrong_Fault_Type_SD,0.0091268080714277128,0.0091268080714277007,1.214306433183765e-17,True

@@ -1,0 +1,63 @@
+{
+  "schema_version": "production-trajectory-freeze-receipt-v1",
+  "freeze_status": "FROZEN",
+  "production_trajectory_population_qualified": true,
+  "production_trajectory_registry_frozen": true,
+  "total_qualified_parents": 5030,
+  "primary_qualified_parents": 5000,
+  "paired_e2b_qualified_parents": 30,
+  "preexisting_valid_parents": 0,
+  "newly_generated_parents": 5030,
+  "rejected_generation_attempts": 39785,
+  "parents_hitting_max_attempts": 0,
+  "unique_parent_ids": 5030,
+  "unintended_duplicate_trajectory_sha": 0,
+  "missing_trajectory_artifacts": 0,
+  "provenance_complete": true,
+  "gates": {
+    "duration_timebase_gate": "PASS",
+    "K_gate": "PASS",
+    "fly_stop_contract": "PASS",
+    "joint2_observability_gate": "PASS",
+    "numerical_finite_gate": "PASS",
+    "e2b_pairing_contract": "PASS",
+    "reread_hash_verification": "PASS"
+  },
+  "registry_paths": {
+    "production_registry_dir": "data/trajectory_registry/production",
+    "canonical_manifest_path": "docs/codex_active/manifests/PRODUCTION_TRAJECTORY_BINDING.parquet",
+    "canonical_manifest_sha256": "efb3c729b2bf74277d6f57165ae54b996d6996c389a95612f8751bfa73e16020",
+    "primary_input_manifest_sha256": "676a0a412ff00943f65525034ca3c1e3f3614ac9cbfd6f5a62a70edc91a99472",
+    "e2b_input_manifest_sha256": "958201c8b598346c801a7df35748331cda6bc7bdb5f8abf68b627ab7dc59518c"
+  },
+  "generator_authority": {
+    "generator_sha256": "809483cef2eb13d099938ced21c254dcc33fe01e473415e261057e5a614c46fd",
+    "constraint_contract_sha256": "b353095eaaca28d6c2cb241b5f2d4b724e7bbc9d2c8998fde67c57d28c05b65a",
+    "model_sha256": "534d87131c1d90f8c3b13611e4d3e9087c8e983f22bf51bf41023bcb672fc569",
+    "rng_algorithm": "MATLAB RandStream mt19937ar",
+    "software_version": "26.1.0.3312084 (R2026a) Update 4",
+    "software_release": "2026a"
+  },
+  "attempt_statistics": {
+    "min": 1,
+    "p25": 3,
+    "median": 6,
+    "p75": 12,
+    "p90": 20,
+    "p95": 26,
+    "max": 67,
+    "mean": 8.9095427435387666
+  },
+  "p6_worker_authority": {
+    "status": "RATIFIED/CLOSED",
+    "final_production_worker_count": 8
+  },
+  "gate08_storage_authority": {
+    "status": "RATIFIED/CLOSED",
+    "active_canonical_serializer_sha": "848d0abe1aa018f92978d5d46b6e99d222e32534f1adf67df2b420b04f129fce"
+  },
+  "production_physical_simulations_executed": 0,
+  "production_authorization": false,
+  "commit": false,
+  "push": false
+}

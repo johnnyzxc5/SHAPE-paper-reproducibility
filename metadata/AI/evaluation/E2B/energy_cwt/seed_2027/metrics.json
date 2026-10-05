@@ -1,0 +1,135 @@
+{
+  "accuracy": 0.9966666666666667,
+  "balanced_accuracy": 0.9966666666666667,
+  "checkpoint_sha256": "f0a8c0582826161e1ae486c19c111365485671a1fdf46aad086e8b75dd546633",
+  "classification_report": {
+    "Friction": {
+      "f1-score": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "support": 0.0
+    },
+    "LoE": {
+      "f1-score": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "support": 0.0
+    },
+    "Nominal": {
+      "f1-score": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "support": 0.0
+    },
+    "Vibration": {
+      "f1-score": 0.998330550918197,
+      "precision": 1.0,
+      "recall": 0.9966666666666667,
+      "support": 300.0
+    },
+    "accuracy": 0.9966666666666667,
+    "macro avg": {
+      "f1-score": 0.24958263772954925,
+      "precision": 0.25,
+      "recall": 0.24916666666666668,
+      "support": 300.0
+    },
+    "weighted avg": {
+      "f1-score": 0.9983305509181971,
+      "precision": 1.0,
+      "recall": 0.9966666666666667,
+      "support": 300.0
+    }
+  },
+  "cohort": "E2B",
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      299
+    ]
+  ],
+  "fault_missed_detection_rate": 0.0,
+  "index_sha256": "01b5059425b91defdc472c5384934419e67b6b8e033e92f249b19504a0d55ea9",
+  "macro_f1": 0.4991652754590985,
+  "nominal_false_alarm_rate": null,
+  "normalized_confusion_matrix": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0033333333333333335,
+      0.0,
+      0.9966666666666667
+    ]
+  ],
+  "per_class": {
+    "Friction": {
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "support": 0
+    },
+    "LoE": {
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 0.9966666666666667,
+      "support": 0
+    },
+    "Nominal": {
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "support": 0
+    },
+    "Vibration": {
+      "f1": 0.998330550918197,
+      "precision": 1.0,
+      "recall": 0.9966666666666667,
+      "specificity": null,
+      "support": 300
+    }
+  },
+  "representation": "energy_cwt",
+  "samples": 300,
+  "seed": 2027,
+  "split": null
+}

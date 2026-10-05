@@ -1,0 +1,877 @@
+--- 5b4d09994fae40e2992d0e118cc9b31cd6cf90a1:Code_Image/+shape/ctdq_mex_selftest.m
++++ Code_Image/+shape/ctdq_mex_selftest.m
+@@ -19,7 +19,9 @@
+     cfg.observer_ctdq_backend_version,'expected_version',expected_version, ...
+     'source_path',source,'source_sha256','','mex_path',artifact,'mex_sha256','', ...
+     'max_abs_error_Nm',NaN,'output_shape_ok',false,'finite_output',false, ...
+-    'environment',local_environment(),'environment_qualified',false);
++    'environment',local_environment(),'environment_qualified',false, ...
++    'environment_profile','','requires_fresh_physical_host_qualification',true, ...
++    'environment_policy',struct());
+ if ~cfg.observer_ctdq_mex_enabled || ~isfile(artifact)
+     receipt.reason='MEX artifact unavailable or disabled';
+     receipt.fallback_status='MEX_UNAVAILABLE_GOLD_FALLBACK'; cache(); return
+@@ -28,7 +30,11 @@
+     receipt.reason='Backend version mismatch';
+     receipt.fallback_status='MEX_VERSION_MISMATCH_GOLD_FALLBACK'; cache(); return
+ end
+-receipt.environment_qualified=local_environment_qualified(receipt.environment,cfg);
++policy=shape.observer_ctdq_environment_policy(receipt.environment,cfg);
++receipt.environment_policy=policy;
++receipt.environment_qualified=policy.supported;
++receipt.environment_profile=policy.profile;
++receipt.requires_fresh_physical_host_qualification=policy.requires_fresh_physical_host_qualification;
+ if ~receipt.environment_qualified
+     receipt.reason='Runtime is outside the P1B-qualified environment';
+     receipt.fallback_status='MEX_ENVIRONMENT_UNQUALIFIED_GOLD_FALLBACK'; cache(); return
+@@ -89,11 +95,3 @@
+ catch
+ end
+ end
+-
+-function pass=local_environment_qualified(env,cfg)
+-pass=strcmpi(env.arch,cfg.observer_ctdq_qualified_arch) && ...
+-    strcmp(env.matlab_version,cfg.observer_ctdq_qualified_matlab) && ...
+-    startsWith(env.coder_version,cfg.observer_ctdq_qualified_coder_major_minor) && ...
+-    strcmpi(env.compiler_name,cfg.observer_ctdq_qualified_compiler) && ...
+-    strcmp(env.compiler_version,cfg.observer_ctdq_qualified_compiler_version);
+-end
+--- 5b4d09994fae40e2992d0e118cc9b31cd6cf90a1:Code_Image/+shape/production_environment.m
++++ Code_Image/+shape/production_environment.m
+@@ -13,13 +13,19 @@
+ git=local_git(spec.root);
+ authority=local_hashes(spec);
+ cpu_model=local_cpu_model();
++host_identity=shape.production_host_identity();
+ cfg=shape.config();
++operational=local_operational_dependencies(spec);
+ try
+     models=shape.load_models(spec.code_dir);
+     mex_test=shape.ctdq_mex_selftest(models,cfg);
+ catch ME
+     mex_test=struct('pass',false,'status','SELFTEST_ERROR','reason',ME.message,'identifier',ME.identifier);
+ end
++runtime_env=struct('arch',computer('arch'),'matlab_version',version, ...
++    'coder_version','','compiler_name',cc_name,'compiler_version',cc_version);
++v=products(names=="MATLAB Coder"); if ~isempty(v), runtime_env.coder_version=v(1).Version; end
++environment_policy=shape.observer_ctdq_environment_policy(runtime_env,cfg);
+ report=struct('hostname',local_hostname(),'session_id',char(java.util.UUID.randomUUID()), ...
+     'matlab_version',version,'release',version('-release'),'architecture',computer('arch'), ...
+     'os',char(system_dependent('getos')),'required_toolboxes',{cellstr(required)}, ...
+@@ -28,19 +34,48 @@
+     'parallel_license_available',logical(license_ok),'process_cluster_capacity',cluster_workers, ...
+     'process_cluster_error',cluster_error,'requested_workers',workers, ...
+     'requested_workers_feasible',license_ok && workers>=1 && workers==floor(workers) && workers<=cluster_workers, ...
+-    'compiler_name',cc_name,'compiler_version',cc_version,'cpu_model',cpu_model,'git',git, ...
+-    'protected_authorities',authority,'observer_mex_selftest',mex_test);
++    'compiler_name',cc_name,'compiler_version',cc_version,'cpu_model',cpu_model, ...
++    'host_identity',host_identity,'git',git, ...
++    'protected_authorities',authority,'observer_mex_selftest',mex_test, ...
++    'observer_environment_policy',environment_policy, ...
++    'supported_environment_profile',environment_policy.profile, ...
++    'fresh_physical_host_qualification_required',environment_policy.requires_fresh_physical_host_qualification, ...
++    'operational_dependencies',operational);
+ checks=[ ...
+     local_check('architecture','win64',report.architecture,strcmp(report.architecture,'win64')); ...
+-    local_check('matlab_version',cfg.observer_ctdq_qualified_matlab,report.matlab_version,strcmp(report.matlab_version,cfg.observer_ctdq_qualified_matlab)); ...
++    local_check('supported_environment_profile', ...
++        'Update 4 + MinGW historical authority OR Update 5 + MSVC 2022 candidate', ...
++        sprintf('%s | MATLAB %s | %s %s',environment_policy.profile,report.matlab_version,cc_name,cc_version), ...
++        environment_policy.supported); ...
+     local_check('required_toolboxes','all required products available',sprintf('%d/%d available',sum(present),numel(present)),report.all_required_toolboxes_present); ...
+     local_check('parallel_license','available',string(report.parallel_license_available),report.parallel_license_available); ...
+     local_check('process_worker_capacity',sprintf('>= %d',workers),sprintf('%d',cluster_workers),report.requested_workers_feasible); ...
++    local_check('production_monitor_dependencies','PowerShell + CIM + bundled P6 monitor',operational.summary,operational.pass); ...
+     local_check('protected_authority_hashes','all exact',string(authority.all_match),authority.all_match); ...
+     local_check('observer_mex_selftest','SELFTEST_PASS',string(mex_test.status),logical(mex_test.pass))];
+ report.compatibility_checks=checks;
+ report.failed_check_names={checks(~[checks.pass]).name};
+ report.static_compatibility_pass=all([checks.pass]);
++end
++
++function report=local_operational_dependencies(spec)
++monitor=fullfile(spec.root,'docs','codex_p6_worker_topology','p6_resource_monitor.ps1');
++[ps_status,ps_path]=system('where powershell.exe');
++powershell_available=ps_status==0 && strlength(strtrim(string(ps_path)))>0;
++cim_available=false; cim_detail='PowerShell unavailable';
++if powershell_available
++    [cim_status,cim_output]=system(['powershell.exe -NoProfile -ExecutionPolicy Bypass -Command ' ...
++        '"$x=Get-CimInstance Win32_OperatingSystem -ErrorAction Stop; ' ...
++        'if($null -eq $x){exit 2}else{Write-Output $x.Caption}"']);
++    cim_available=cim_status==0;
++    cim_detail=strtrim(cim_output);
++end
++monitor_present=isfile(monitor);
++report=struct('pass',powershell_available && cim_available && monitor_present, ...
++    'powershell_available',powershell_available,'powershell_path',strtrim(ps_path), ...
++    'cim_available',cim_available,'cim_detail',cim_detail, ...
++    'monitor_script_present',monitor_present,'monitor_script',monitor, ...
++    'summary',sprintf('powershell=%d; cim=%d; monitor=%d',powershell_available,cim_available,monitor_present));
+ end
+ 
+ function checks=local_toolbox_checks(names)
+--- 5b4d09994fae40e2992d0e118cc9b31cd6cf90a1:Code_Image/+shape/production_spec.m
++++ Code_Image/+shape/production_spec.m
+@@ -9,7 +9,9 @@
+     'primary_manifest',fullfile(root,'docs','codex_active','manifests','PRIMARY_MANIFEST_DRY_RUN.parquet'), ...
+     'e2b_manifest',fullfile(root,'docs','codex_active','manifests','E2B_PAIRED_MANIFEST_CANDIDATE.parquet'), ...
+     'freeze_receipt',fullfile(root,'docs','codex_active','manifests','PRODUCTION_TRAJECTORY_FREEZE_RECEIPT.json'), ...
+-    'validator','shape.validate_output_gate08_fast_p4','worker_authority',8, ...
++    'validator','shape.validate_output_gate08_fast_p4', ...
++    'concurrency_authority','HOST_SPECIFIC_QUALIFIED_CONCURRENCY', ...
++    'scientific_release_authority','5b4d09994fae40e2992d0e118cc9b31cd6cf90a1', ...
+     'binding_sha','efb3c729b2bf74277d6f57165ae54b996d6996c389a95612f8751bfa73e16020', ...
+     'primary_sha','676a0a412ff00943f65525034ca3c1e3f3614ac9cbfd6f5a62a70edc91a99472', ...
+     'e2b_sha','958201c8b598346c801a7df35748331cda6bc7bdb5f8abf68b627ab7dc59518c');
+@@ -23,5 +25,7 @@
+  'Code_Image/InverseDynamicsSharedKinematics_MR.m','199e12af463fac25625da752836b05e9d3051fd97bb64b901b2d61af873ba2a3'; ...
+  'Code_Image/MassMatrixZeroStateSharedKinematics_MR.m','8a72d91b1c7e7ef17e5830a09cad756f4d6b45c03d793deae2506f888683e68f'; ...
+  'Code_Image/inverse_dynamics_kinova_runtime_MR.m','787c6c8223d3fa21990763c7d1c8eab7d0d77211f53172a2e7977446013792b9'; ...
+- 'Code_Image/inverse_dynamics_kinova_MR.m','fddf05158221b047c793086460578277459fb423687ff31dd7bf4c98503616ce'};
++ 'Code_Image/inverse_dynamics_kinova_MR.m','fddf05158221b047c793086460578277459fb423687ff31dd7bf4c98503616ce'; ...
++ 'Code_Image/generated/p1_ctdq_mex/ctdq_finite_difference_batch_mex.mexw64','9dda22245d4f649854c9f3b7f9ad04527e288a2342ef5468c5a70020ddf12f5c'; ...
++ 'Code_Image/ctdq_finite_difference_batch_mex_source.m','b99e2a6b3185a6af0f4f8db7b720fe5dfa4f90b4bb45c4c6b28b978c6d7e13c0'};
+ end
+--- 5b4d09994fae40e2992d0e118cc9b31cd6cf90a1:Code_Image/+shape/run_parent.m
++++ Code_Image/+shape/run_parent.m
+@@ -4,6 +4,9 @@
+     numel(unique(rows.K_segments))==1 && numel(unique(string(rows.trajectory_mode)))==1, ...
+     'shape:trajectory:SiblingMismatch','Sibling rows must bind to one identical frozen parent reference.');
+ ref=shape.load_frozen_trajectory(rows(1,:),cfg.trajectory_registry_dir,cfg,models);
++if isfield(cfg,'require_worker_filegen') && cfg.require_worker_filegen
++    shape.require_worker_filegen(char(string(cfg.runtime_session_id)),char(string(cfg.repository_root)));
++end
+ x=tic; model='Kinova_Fault_Simulator'; load_system(model); model_load_s=toc(x);
+ x=tic;
+ set_param(model,'Solver','ode45','RelTol',num2str(cfg.solver_rel_tol,17), ...
+@@ -13,13 +16,69 @@
+ cleanup=onCleanup(@() local_finish(model,cfg.fast_restart));
+ out=cell(height(rows),1);
+ for j=1:height(rows)
+-    out{j}=shape.run_record(rows(j,:),ref,models,output_dir,cfg);
++    out{j}=local_run_record_observed(rows(j,:),ref,models,output_dir,cfg);
+     if isfield(cfg,'performance_instrumentation') && cfg.performance_instrumentation
+         out{j}.profile.model_load_s=model_load_s;
+         out{j}.profile.model_parameter_setup_s=model_parameter_setup_s;
+         out{j}.profile.fast_restart_setup_s=fast_restart_setup_s;
+     end
+ end
++end
++
++function result=local_run_record_observed(record,ref,models,output_dir,cfg)
++if ~isfield(cfg,'operational_log_dir') || strlength(string(cfg.operational_log_dir))==0
++    result=shape.run_record(record,ref,models,output_dir,cfg); return
++end
++log_dir=char(string(cfg.operational_log_dir)); if ~isfolder(log_dir), mkdir(log_dir); end
++uid=char(string(record.run_uid)); console_path=fullfile(log_dir,['run_' uid '_console.log']);
++event_path=fullfile(log_dir,['run_' uid '_runtime.json']);
++worker=shape.require_worker_filegen(char(string(cfg.runtime_session_id)),char(string(cfg.repository_root)));
++event=local_event(record,cfg,worker); event.started_utc=local_now();
++lastwarn(''); diary(console_path); diary_cleanup=onCleanup(@()diary('off'));
++try
++    result=shape.run_record(record,ref,models,output_dir,cfg);
++    [warning_message,warning_identifier]=lastwarn;
++    diary('off'); clear diary_cleanup
++    event.completed_utc=local_now(); event.status='SUCCESS';
++    event.attempt_count=double(result.retry_count)+1;
++    event.warning_identifier=warning_identifier; event.warning_message=warning_message;
++    resumed=isfield(result.profile,'resumed') && logical(result.profile.resumed);
++    event.simulation_returned=~resumed;
++    event.resumed_valid_output=resumed;
++    event.serialization_completed=isfile(char(result.path));
++    event.canonical_validation_pass=event.serialization_completed;
++    event.output_path=char(result.path); event.output_sha256=char(result.sha256);
++    shape.write_json_atomic(event_path,event);
++catch ME
++    [warning_message,warning_identifier]=lastwarn;
++    diary('off'); clear diary_cleanup
++    event.completed_utc=local_now(); event.status='EXCEPTION';
++    event.attempt_count=double(cfg.max_retries)+1;
++    event.warning_identifier=warning_identifier; event.warning_message=warning_message;
++    event.error_identifier=ME.identifier; event.error_message=ME.message;
++    shape.write_json_atomic(event_path,event); rethrow(ME)
++end
++end
++
++function event=local_event(record,cfg,worker)
++event=struct('schema_version','production-run-runtime-event-v1', ...
++    'runtime_session_id',char(string(cfg.runtime_session_id)), ...
++    'host',worker.hostname,'process_pid',worker.process_id, ...
++    'worker_index',worker.worker_index,'worker_identity',worker.worker_identity, ...
++    'parent_id',double(record.parent_trajectory_id),'run_uid',char(string(record.run_uid)), ...
++    'fault_class',local_field(record,'fault_class'),'trajectory_mode',local_field(record,'trajectory_mode'), ...
++    'cache_folder',worker.cache_folder,'codegen_folder',worker.codegen_folder, ...
++    'started_utc','','completed_utc','','status','STARTING','attempt_count',0, ...
++    'warning_identifier','','warning_message','','error_identifier','','error_message','', ...
++    'simulation_returned',false,'resumed_valid_output',false, ...
++    'serialization_completed',false,'canonical_validation_pass',false, ...
++    'output_path','','output_sha256','');
++end
++function value=local_field(record,name)
++if ismember(name,record.Properties.VariableNames), value=char(string(record.(name)(1))); else, value=''; end
++end
++function value=local_now()
++value=char(datetime('now','TimeZone','UTC','Format','yyyy-MM-dd''T''HH:mm:ss.SSSXXX'));
+ end
+ function value=local_max_step(cfg)
+ if isempty(cfg.solver_max_step_s), value='auto';
+--- 5b4d09994fae40e2992d0e118cc9b31cd6cf90a1:Code_Image/GenerarTrayectoriaAleatoriaSegura_MR.m
++++ Code_Image/GenerarTrayectoriaAleatoriaSegura_MR.m
+@@ -1,87 +1,148 @@
+-function [t_traj, q_ref, dq_ref, ddq_ref, tau_ref] = GenerarTrayectoriaAleatoriaSegura_MR(Mlist_nom, Glist_nom, Slist_nom, target_joint)
+-    % GENERARTRAYECTORIAALEATORIASEGURA (OPTIMIZADO PARA CNN Y RNEA)
+-    % Genera trayectorias con TIEMPO FIJO (Tf) para garantizar tensores uniformes.
+-    % Utiliza 'Rejection Sampling': Si no cumple los límites, genera otra ruta.
+-    
+-    Ts = 0.05;  
+-    Tf = 5.0;   % TIEMPO ESTRICTAMENTE FIJO para la IA
+-    
+-    %% 1. Límites Físicos con MARGEN DE SEGURIDAD (85%)
+-    % El generador solo puede usar el 85% de la capacidad del robot.
+-    % El 15% restante se lo dejamos al MPC para que pueda rechazar las fallas.
+-    safety_margin = 0.85;
+-    
+-    q_min = [-pi; -2.25; -2.58; -pi; -2.10; -pi] * 0.9; 
+-    q_max = [ pi;  2.25;  2.58;  pi;  2.10;  pi] * 0.9;
+-    
+-    tau_max_limit = [39.0; 39.0; 39.0; 9.0; 9.0; 9.0] * safety_margin; 
+-    dq_max_limit  = [1.39; 1.39; 1.39; 1.22; 1.22; 1.22] * safety_margin; 
+-    ddq_max_limit = [5.2; 5.2; 5.2; 10.0; 10.0; 10.0] * safety_margin;    
+-    
+-    factible = false;
+-    intentos = 0;
+-    
+-    %% 2. Bucle de "Rejection Sampling" (Tirar los dados hasta ganar)
+-    while ~factible
+-        intentos = intentos + 1;
+-        
+-        % 1. Tirar los dados: Nuevos puntos de inicio y fin (en radianes)
+-        q_start = q_min + rand(6,1) .* (q_max - q_min);
+-        q_end   = q_min + rand(6,1) .* (q_max - q_min);
+-        
+-        % --- NUEVO: FILTRO 1 (Observabilidad del Motor Objetivo "Fail Fast") ---
+-        % El motor que vamos a evaluar DEBE moverse al menos ~45 grados (0.8 radianes).
+-        % Si no se mueve, su velocidad será casi cero y la falla será invisible en la potencia.
+-        if abs(q_end(target_joint) - q_start(target_joint)) < 0.8
+-            continue; 
++function [t_traj,q_ref,dq_ref,ddq_ref,tau_ref,metadata] = GenerarTrayectoriaAleatoriaSegura_MR(Mlist_nom,Glist_nom,Slist_nom,target_joint,varargin)
++%GENERARTRAYECTORIAALEATORIASEGURA_MR Ratified sequential parent generator.
++% One local MT19937 stream is initialized per parent. Every outer attempt
++% consumes exactly 6*50*(K+1) uniforms: a q0 candidate block followed by K
++% sequential next-waypoint blocks. Mode does not alter RNG consumption.
++p=inputParser;
++addParameter(p,'Mode','fly'); addParameter(p,'KSegments',2);
++addParameter(p,'Seed',20260913); addParameter(p,'Duration',10.0);
++addParameter(p,'SampleTime',0.001); addParameter(p,'MaxAttempts',500);
++parse(p,varargin{:}); o=p.Results;
++mode=lower(string(o.Mode)); K=double(o.KSegments);
++assert(any(mode==["fly","stop"]) && any(K==[2 3]));
++assert(o.Duration==10.0 && o.SampleTime==0.001 && o.MaxAttempts==500, ...
++    'shape:trajectory:FrozenContract','Qualification requires T=10, dt=.001, max_attempts=500.');
++
++stream=RandStream('mt19937ar','Seed',double(o.Seed));
++safety=0.85; static_headroom=0.95; proposal_headroom=0.92;
++q_min=[-pi;-2.25;-2.58;-pi;-2.10;-pi]*0.9;
++q_max=[ pi; 2.25; 2.58; pi; 2.10; pi]*0.9;
++tau_limit=[39;39;39;9;9;9]*safety;
++dq_limit=[1.3962634016;1.3962634016;1.3962634016;1.2217304764;1.2217304764;1.2217304764]*safety;
++ddq_limit=[5.2;5.2;5.2;10;10;10]*safety;
++g=[0;0;-9.80665];
++t=(0:o.SampleTime:o.Duration); knot_t=linspace(0,o.Duration,K+1);
++reason_names={'Q_LIMIT','DQ_LIMIT','DDQ_LIMIT','TORQUE_LIMIT','OBSERVABILITY', ...
++    'STATIC_FEASIBILITY','SPLINE_INVALID','NONFINITE','OTHER'};
++counts=zeros(size(reason_names)); accepted=false;
++t_traj=[]; q_ref=[]; dq_ref=[]; ddq_ref=[]; tau_ref=[];
++way=zeros(6,0); vbc=zeros(6,0); abc=zeros(6,0);
++
++for attempt=1:o.MaxAttempts
++    % Fixed draw dimensionality makes attempt consumption independent of
++    % early rejection and of fly/stop branching.
++    U=rand(stream,6,50,K+1);
++    way=zeros(6,K+1); q0=[];
++    for j=1:50
++        cand=q_min+U(:,j,1).*(q_max-q_min);
++        tau_static=GravityForces(cand,g,Mlist_nom,Glist_nom,Slist_nom);
++        if all(isfinite(tau_static)) && all(abs(tau_static)<=static_headroom*tau_limit)
++            q0=cand; break
+         end
+-        % -----------------------------------------------------------------
+-        
+-        t_traj = 0:Ts:Tf;
+-        
+-        % 2. Polinomio Quíntico: Empieza y termina en reposo absoluto
+-        [q_ref, dq_ref, ddq_ref] = quinticpolytraj( ...
+-            [q_start, q_end], [0, Tf], t_traj, ...
+-            'VelocityBoundaryCondition', zeros(6,2), ...
+-            'AccelerationBoundaryCondition', zeros(6,2));
+-            
+-        %% 3. Validación Dinámica y Cinemática
+-        tau_ref = zeros(6, length(t_traj));
+-        trayectoria_ok = true;
+-        
+-        for k = 1:length(t_traj)
+-            q_k   = q_ref(:, k);
+-            dq_k  = dq_ref(:, k);
+-            ddq_k = ddq_ref(:, k);
+-            
+-            % Validar Velocidad y Aceleración con margen
+-            if any(abs(dq_k) > dq_max_limit) || any(abs(ddq_k) > ddq_max_limit)
+-                trayectoria_ok = false;
+-                break; 
+-            end
+-            
+-            % Validar Torque con margen (usando la dinámica nominal)
+-            tau_k = inverse_dynamics_kinova_MR(q_k, dq_k, ddq_k, Mlist_nom, Glist_nom, Slist_nom);
+-            tau_ref(:,k) = tau_k;
+-            
+-            if any(abs(tau_k) > tau_max_limit)
+-                trayectoria_ok = false;
+-                break; 
++    end
++    if isempty(q0), counts=local_count(counts,reason_names,{'STATIC_FEASIBILITY'}); continue, end
++    way(:,1)=q0; seq_ok=true;
++    for s=1:K
++        dt=knot_t(s+1)-knot_t(s);
++        reach=dt*(dq_limit/1.875)*proposal_headroom;
++        next=[];
++        for j=1:50
++            cand=shape.truncated_reachable_box_sample( ...
++                way(:,s),reach,q_min,q_max,U(:,j,s+1));
++            tau_static=GravityForces(cand,g,Mlist_nom,Glist_nom,Slist_nom);
++            if all(isfinite(tau_static)) && all(abs(tau_static)<=static_headroom*tau_limit)
++                next=cand; break
+             end
+         end
+-        
+-        % Si todo salió bien, rompemos el bucle. Si no, vuelve a empezar.
+-        if trayectoria_ok
+-            factible = true;
++        if isempty(next), seq_ok=false; break, end
++        way(:,s+1)=next;
++    end
++    if ~seq_ok, counts=local_count(counts,reason_names,{'STATIC_FEASIBILITY'}); continue, end
++
++    vbc=zeros(6,K+1); abc=zeros(6,K+1);
++    if mode=="fly"
++        for s=2:K
++            tangent=0.5*((way(:,s)-way(:,s-1))/(knot_t(s)-knot_t(s-1)) + ...
++                (way(:,s+1)-way(:,s))/(knot_t(s+1)-knot_t(s)));
++            vbc(:,s)=max(-0.65*dq_limit,min(0.65*dq_limit,tangent));
+         end
+     end
+-    
+-    %% 4. Formateo final
+-    t_traj  = t_traj';
+-    q_ref   = q_ref';
+-    dq_ref  = dq_ref';
+-    ddq_ref = ddq_ref';
+-    tau_ref = tau_ref';
+-    
+-    fprintf('>> Éxito: Trayectoria válida para Joint %d generada en el intento #%d. (Tf = %.1fs)\n', target_joint, intentos, Tf);
+-end+    try
++        [q,dq,ddq]=quinticpolytraj(way,knot_t,t, ...
++            'VelocityBoundaryCondition',vbc,'AccelerationBoundaryCondition',abc);
++    catch
++        counts=local_count(counts,reason_names,{'SPLINE_INVALID'}); continue
++    end
++
++    reasons={};
++    if ~isequal(size(q),[6 10001]) || ~isequal(size(dq),[6 10001]) || ~isequal(size(ddq),[6 10001])
++        reasons{end+1}='SPLINE_INVALID'; %#ok<AGROW>
++    end
++    if any(~isfinite(q),'all') || any(~isfinite(dq),'all') || any(~isfinite(ddq),'all')
++        reasons{end+1}='NONFINITE'; %#ok<AGROW>
++    end
++    if any(q<q_min | q>q_max,'all'), reasons{end+1}='Q_LIMIT'; end %#ok<AGROW>
++    if any(abs(dq)>dq_limit,'all'), reasons{end+1}='DQ_LIMIT'; end %#ok<AGROW>
++    if any(abs(ddq)>ddq_limit,'all'), reasons{end+1}='DDQ_LIMIT'; end %#ok<AGROW>
++    L_q2=trapz(t,abs(dq(target_joint,:)));
++    if ~isfinite(L_q2) || L_q2<0.8, reasons{end+1}='OBSERVABILITY'; end %#ok<AGROW>
++    if ~isempty(reasons), counts=local_count(counts,reason_names,reasons); continue, end
++
++    % Low-cost dynamic rejection precedes, but never replaces, the exact
++    % final 1-kHz torque qualification below.
++    coarse_idx=unique([1:20:numel(t),numel(t)]); torque_coarse_ok=true;
++    for idx=coarse_idx
++        tk=inverse_dynamics_kinova_MR(q(:,idx),dq(:,idx),ddq(:,idx),Mlist_nom,Glist_nom,Slist_nom);
++        if any(~isfinite(tk)) || any(abs(tk)>tau_limit), torque_coarse_ok=false; break, end
++    end
++    if ~torque_coarse_ok, counts=local_count(counts,reason_names,{'TORQUE_LIMIT'}); continue, end
++
++    tau=zeros(6,numel(t)); torque_ok=true;
++    for idx=1:numel(t)
++        tau(:,idx)=inverse_dynamics_kinova_MR(q(:,idx),dq(:,idx),ddq(:,idx),Mlist_nom,Glist_nom,Slist_nom);
++        if any(~isfinite(tau(:,idx))) || any(abs(tau(:,idx))>tau_limit)
++            torque_ok=false; break
++        end
++    end
++    if ~torque_ok, counts=local_count(counts,reason_names,{'TORQUE_LIMIT'}); continue, end
++
++    accepted=true; t_traj=t'; q_ref=q'; dq_ref=dq'; ddq_ref=ddq'; tau_ref=tau';
++    break
++end
++
++metadata=struct('qualification_status',string(local_status(accepted)), ...
++    'accepted_attempt',double(ternary(accepted,attempt,NaN)), ...
++    'attempt_count',double(ternary(accepted,attempt,o.MaxAttempts)), ...
++    'failure_counts',cell2struct(num2cell(counts),reason_names,2), ...
++    'K_segments',K,'trajectory_mode',mode,'trajectory_seed',double(o.Seed), ...
++    'rng_algorithm','MATLAB RandStream mt19937ar','rng_draw_contract','6x50x(K+1) uniforms per attempt; continued parent stream; no mode-dependent draws', ...
++    'q_waypoints',ternary(accepted,way,zeros(6,0)),'t_knots',knot_t, ...
++    'velocity_boundary_conditions',ternary(accepted,vbc,zeros(6,0)), ...
++    'acceleration_boundary_conditions',ternary(accepted,abc,zeros(6,0)), ...
++    'limits',struct('q_min',q_min,'q_max',q_max,'dq',dq_limit,'ddq',ddq_limit,'tau',tau_limit), ...
++    'static_headroom',static_headroom,'proposal_headroom',proposal_headroom);
++if accepted
++    metadata.metrics=struct('q_margin_rad',min([q-q_min;q_max-q],[],'all'), ...
++        'dq_margin_rad_s',min(dq_limit-max(abs(dq),[],2)), ...
++        'ddq_margin_rad_s2',min(ddq_limit-max(abs(ddq),[],2)), ...
++        'torque_margin_Nm',min(tau_limit-max(abs(tau),[],2)), ...
++        'L_q2_rad',L_q2);
++else
++    metadata.metrics=struct('q_margin_rad',NaN,'dq_margin_rad_s',NaN, ...
++        'ddq_margin_rad_s2',NaN,'torque_margin_Nm',NaN,'L_q2_rad',NaN);
++    if nargout<6
++        error('shape:trajectory:NoFeasibleTrajectory', ...
++            'No feasible %s K=%d trajectory after %d deterministic attempts.',mode,K,o.MaxAttempts);
++    end
++end
++end
++
++function counts=local_count(counts,names,reasons)
++for k=1:numel(reasons), counts(strcmp(names,reasons{k}))=counts(strcmp(names,reasons{k}))+1; end
++end
++function value=ternary(condition,a,b)
++if condition, value=a; else, value=b; end
++end
++function value=local_status(accepted)
++if accepted, value='PASS'; else, value='TRAJECTORY_QUALIFICATION_FAIL'; end
++end
+--- 5b4d09994fae40e2992d0e118cc9b31cd6cf90a1:Code_Image/run_production_host_qualification.m
++++ Code_Image/run_production_host_qualification.m
+@@ -5,14 +5,20 @@
+ p=inputParser; p.addParameter('Mode',"STATIC",@(x)ischar(x)||isstring(x));
+ p.addParameter('QualificationRoot',"",@(x)ischar(x)||isstring(x));
+ p.addParameter('TrajectoryRegistry',"",@(x)ischar(x)||isstring(x));
++p.addParameter('Workers',[],@(x)isnumeric(x)&&(isempty(x)||isscalar(x)));
++p.addParameter('EvidenceReceipt',"",@(x)ischar(x)||isstring(x));
++p.addParameter('BaseHostQualificationReceipt',"",@(x)ischar(x)||isstring(x));
+ p.addParameter('Arm',"",@(x)ischar(x)||isstring(x)); p.parse(varargin{:}); o=p.Results;
+-mode=upper(string(o.Mode)); assert(any(mode==["STATIC" "PHYSICAL" "ADOPT_FINAL_REGRESSION"]),'Invalid host qualification mode.');
++mode=upper(string(o.Mode)); assert(any(mode==["STATIC" "PHYSICAL" "ADOPT_FINAL_REGRESSION" "CONCURRENCY_Q2"]),'Invalid host qualification mode.');
+ assert(strlength(string(o.QualificationRoot))>0,'QualificationRoot is required.');
+ code_dir=fileparts(mfilename('fullpath')); addpath(code_dir); addpath(genpath(fullfile(code_dir,'MATLAB','mr')));
+ spec=shape.production_spec('TrajectoryRegistry',o.TrajectoryRegistry); root=char(string(o.QualificationRoot));
+ if ~isfolder(root), mkdir(root); end
+-receipt_path=fullfile(root,'HOST_QUALIFICATION_RECEIPT.json');
+-env=shape.production_environment(spec,1);
++workers=1; if ~isempty(o.Workers), workers=double(o.Workers); end
++assert(isfinite(workers)&&workers>=1&&workers==floor(workers),'Workers must be a positive integer.');
++if mode=="CONCURRENCY_Q2", receipt_path=fullfile(root,sprintf('HOST_CONCURRENCY_QUALIFICATION_W%d.json',workers));
++else, receipt_path=fullfile(root,'HOST_QUALIFICATION_RECEIPT.json'); end
++env=shape.production_environment(spec,workers);
+ receipt=struct('schema_version','production-host-qualification-v1','status','HOST_STATIC_CHECK_RUNNING', ...
+     'pass',false,'production_qualified',false,'production_authorized',false,'mode',char(mode), ...
+     'hostname',env.hostname,'matlab_version',env.matlab_version,'architecture',env.architecture, ...
+@@ -27,16 +33,25 @@
+     if mode=="STATIC"
+         receipt.status='HOST_STATIC_COMPATIBILITY_PASS'; receipt.static_pass=true;
+         receipt.warnings={'Static compatibility does not qualify this host for production. Run PHYSICAL or explicitly adopt this host''s existing final-regression evidence.'};
++    elseif mode=="CONCURRENCY_Q2"
++        assert(string(o.Arm)=="I_ADOPT_INTEGRATED_Q2_HOST_CONCURRENCY", ...
++            'Exact integrated Q2 adoption arming token required.');
++        evidence_path=char(string(o.EvidenceReceipt));
++        q2=local_verify_q2_concurrency_evidence(evidence_path,spec,env,workers);
++        receipt=local_concurrency_receipt(receipt,q2,evidence_path,spec,env,workers);
++        receipt.base_host_qualification=local_verify_base_host_if_required( ...
++            char(string(o.BaseHostQualificationReceipt)),env);
+     elseif mode=="ADOPT_FINAL_REGRESSION"
+         assert(string(o.Arm)=="I_ATTEST_THIS_HOST_RAN_FINAL_REGRESSION",'Exact adoption arming token required.');
+         evidence=local_verify_final_regression(spec,env); receipt.existing_final_regression=evidence.final_regression;
+         receipt.existing_p6=evidence.p6;
+         assert(evidence.pass,'Existing final integrated regression evidence is unavailable or invalid.');
+-        receipt.status='HOST_QUALIFICATION_PASS'; receipt.pass=true; receipt.production_qualified=true;
++        receipt.status='HISTORICAL_HOST_EVIDENCE_PASS'; receipt.pass=true; receipt.production_qualified=false;
+         receipt.host_binding=struct('current_hostname',env.hostname,'historical_hostname_available',false, ...
+             'hardware_fingerprint_match',evidence.p6.hardware_fingerprint_match, ...
+             'binding_method','EXPLICIT_OPERATOR_ATTESTATION_PLUS_P6_HARDWARE_AND_72_RUN_ENVIRONMENT_PROVENANCE');
+         receipt.qualification_basis='EXISTING_LOCAL_P6_W8_AND_72_RUN_FINAL_REGRESSION_PLUS_OPERATOR_HOST_ATTESTATION';
++        receipt.warnings={'Historical evidence does not authorize any active production worker count. Run host-specific concurrency Q2.'};
+     else
+         assert(string(o.Arm)=="I_AUTHORIZE_HOST_QUALIFICATION_SIMULATIONS",'Exact physical qualification arming token required.');
+         local_require_physical_evidence(spec);
+@@ -46,8 +61,9 @@
+         receipt.physical_simulations_executed=double(runtime_receipt.physical_simulations_executed);
+         assert(strcmp(runtime_receipt.status,'QUALIFICATION_PASS') && runtime_receipt.physical_simulations_executed==4, ...
+             'Established C1/C2 runtime qualification did not pass exactly four simulations.');
+-        receipt.status='HOST_QUALIFICATION_PASS'; receipt.pass=true; receipt.production_qualified=true;
++        receipt.status='HOST_SCIENTIFIC_QUALIFICATION_PASS'; receipt.pass=true; receipt.production_qualified=false;
+         receipt.qualification_basis='FRESH_C1_C2_NORMAL_ACCELERATOR_LEVEL1A_LEVEL1B_LEVEL2';
++        receipt.warnings={'Four-run scientific host qualification does not authorize production concurrency. Run host-specific concurrency Q2.'};
+     end
+     receipt.completed_utc=local_now(); shape.write_json_atomic(receipt_path,receipt);
+     fprintf('%s\nReceipt: %s\n',receipt.status,receipt_path);
+@@ -55,6 +71,85 @@
+     receipt.status='HOST_QUALIFICATION_FAIL'; receipt.pass=false; receipt.production_qualified=false;
+     receipt.errors={struct('identifier',ME.identifier,'message',ME.message)}; receipt.completed_utc=local_now();
+     shape.write_json_atomic(receipt_path,receipt); rethrow(ME)
++end
++
++function report=local_verify_base_host_if_required(path,env)
++report=struct('required',logical(env.fresh_physical_host_qualification_required), ...
++    'status','NOT_REQUIRED_HISTORICAL_ENVIRONMENT');
++if ~report.required, return, end
++assert(~isempty(path)&&isfile(path), ...
++    'Candidate environment requires a fresh four-run base host qualification receipt.');
++q=jsondecode(fileread(path));
++assert(strcmp(q.status,'HOST_SCIENTIFIC_QUALIFICATION_PASS') && logical(q.pass) && ...
++    double(q.physical_simulations_executed)==4, ...
++    'Fresh base host qualification receipt did not pass four physical simulations.');
++assert(isfield(q,'environment') && isfield(q.environment,'host_identity') && ...
++    strcmpi(q.environment.host_identity.fingerprint_sha256,env.host_identity.fingerprint_sha256) && ...
++    strcmp(q.matlab_version,env.matlab_version) && strcmp(q.architecture,env.architecture), ...
++    'Fresh base host qualification belongs to a different host/runtime.');
++report=struct('required',true,'status','FRESH_BASE_HOST_QUALIFICATION_PASS', ...
++    'path',path,'sha256',shape.sha256_file(path));
++end
++
++function receipt=local_concurrency_receipt(base,q2,evidence_path,spec,env,workers)
++receipt=base;
++receipt.schema_version='production-host-concurrency-qualification-v2';
++receipt.status='HOST_CONCURRENCY_QUALIFICATION_PASS'; receipt.pass=true;
++receipt.production_qualified=true; receipt.production_authorized=false;
++receipt.concurrency_authority='HOST_SPECIFIC_QUALIFIED_CONCURRENCY';
++receipt.qualified_workers=workers; receipt.exact_concurrency_only=true;
++receipt.worker_profile='Processes'; receipt.host_identity=env.host_identity;
++receipt.matlab_release=env.release; receipt.compiler_name=env.compiler_name;
++receipt.compiler_version=env.compiler_version;
++receipt.scientific_release_authority=spec.scientific_release_authority;
++receipt.protected_authorities_all_match=logical(env.protected_authorities.all_match);
++receipt.protected_authorities=env.protected_authorities;
++receipt.observer_mex_selftest_pass=logical(env.observer_mex_selftest.pass);
++receipt.observer_mex_sha256=env.observer_mex_selftest.mex_sha256;
++receipt.observer_source_sha256=env.observer_mex_selftest.source_sha256;
++receipt.toolbox_license_readiness=struct('all_required_toolboxes_present',env.all_required_toolboxes_present, ...
++    'parallel_license_available',env.parallel_license_available, ...
++    'process_worker_capacity',env.process_cluster_capacity);
++receipt.cache_isolation_pass=true; receipt.physical_qualification_pass=true;
++receipt.filegen_readback_pass=true; receipt.repository_root_slprj_used=false;
++receipt.physical_population=struct('authority','PILOT24_P6_NON_E2B_24X4', ...
++    'parent_ids',9001:9024,'siblings_per_parent',4,'run_count',96);
++receipt.physical_runs_attempted=double(q2.physical_runs_attempted);
++receipt.physical_runs_completed=double(q2.physical_runs_completed);
++receipt.scientific_validator_passes=double(q2.scientific_validator_passes);
++receipt.eof_warning_count=double(q2.eof_warning_count);
++receipt.retries=double(q2.retries); receipt.quarantines=double(q2.quarantines);
++receipt.failures=double(q2.failures);
++receipt.evidence_receipt_path=evidence_path;
++receipt.evidence_receipt_sha256=shape.sha256_file(evidence_path);
++receipt.qualification_basis='INTEGRATED_WORKER_FILEGEN_Q1_PLUS_96_RUN_Q2';
++end
++
++function q2=local_verify_q2_concurrency_evidence(path,spec,env,workers)
++assert(~isempty(path)&&isfile(path),'Integrated Q2 evidence receipt is required.');
++q2=jsondecode(fileread(path));
++assert(strcmp(q2.status,'Q2_COMPLETED_NONPRODUCTION') && double(q2.workers)==workers, ...
++    'Q2 evidence status/concurrency mismatch.');
++assert(double(q2.physical_runs_attempted)==96 && double(q2.physical_runs_completed)==96 && ...
++    double(q2.scientific_validator_passes)==96 && double(q2.eof_warning_count)==0 && ...
++    double(q2.retries)==0 && double(q2.quarantines)==0 && double(q2.failures)==0, ...
++    'Q2 physical acceptance criteria failed.');
++assert(~logical(q2.repository_root_slprj_used) && logical(q2.fast_restart), ...
++    'Q2 file-generation/FastRestart evidence failed.');
++assert(numel(q2.worker_filegen_paths)==workers,'Q2 worker evidence count mismatch.');
++cache=string({q2.worker_filegen_paths.cache_folder}); codegen=string({q2.worker_filegen_paths.codegen_folder});
++assert(numel(unique(cache))==workers && numel(unique(codegen))==workers && ...
++    all([q2.worker_filegen_paths.cache_readback_match]) && ...
++    all([q2.worker_filegen_paths.codegen_readback_match]), ...
++    'Q2 worker file-generation isolation evidence failed.');
++assert(all(strcmpi(string({q2.worker_filegen_paths.hostname}),string(env.hostname))), ...
++    'Q2 evidence was produced on a different host.');
++helper=fullfile(spec.code_dir,'+shape','configure_worker_filegen.m');
++assert(isfile(helper) && isfield(q2,'shared_filegen_helper_sha256') && ...
++    strcmpi(q2.shared_filegen_helper_sha256,shape.sha256_file(helper)), ...
++    'Q2 did not qualify the current shared production file-generation helper.');
++assert(isfield(q2,'protected_authorities') && q2.protected_authorities.all_match && ...
++    env.protected_authorities.all_match,'Q2/current protected authority evidence failed.');
+ end
+ end
+ 
+--- 5b4d09994fae40e2992d0e118cc9b31cd6cf90a1:Code_Image/run_production.m
++++ Code_Image/run_production.m
+@@ -46,6 +46,14 @@
+         error('shape:production:HostStaticCompatibilityFail', ...
+             'Host static compatibility failed checks: %s',strjoin(environment.failed_check_names,', '));
+     end
++    host_qualification=struct('accepted',false,'status','NOT_PROVIDED');
++    if strlength(string(o.HostQualificationReceipt))>0
++        host_qualification=shape.verify_host_concurrency_receipt( ...
++            char(string(o.HostQualificationReceipt)),environment,spec,double(o.Workers));
++    elseif mode=="PRODUCTION"
++        error('shape:production:HostReceiptRequired', ...
++            'PRODUCTION requires a host-specific concurrency qualification receipt.');
++    end
+     [candidate,rows,models,cfg]=shape.production_assignment(spec,o.Cohort,ids,double(o.Workers),string(o.ShardID));
+     candidate.owner_hostname=environment.hostname; candidate.created_utc=local_now(); candidate.git=environment.git;
+     launcher_path=[mfilename('fullpath') '.m'];
+@@ -65,7 +73,11 @@
+         'expected_runs',candidate.expected_run_count,'workers',double(o.Workers),'worker_pool_type','Processes', ...
+         'environment',environment,'assignment_path',assignment_path,'shard_root',shard_root, ...
+         'trajectory_generation_count',0,'canonical_validator',spec.validator,'resume_state',shard_state, ...
+-        'disk',disk,'production_armed',mode=="PRODUCTION",'production_authorized',false, ...
++        'disk',disk,'host_concurrency_qualification',host_qualification, ...
++        'host_specific_concurrency_ready',logical(host_qualification.accepted), ...
++        'concurrency_authority',spec.concurrency_authority, ...
++        'production_armed',mode=="PRODUCTION",'production_authorized',false, ...
++        'physical_simulations_executed',0, ...
+         'created_utc',local_now(),'errors',{{}},'warnings',{{}});
+     shape.write_json_atomic(preflight_path,preflight); receipt=preflight;
+     fprintf('PRODUCTION PREFLIGHT PASS: %s parents %d..%d (%d parents, %d runs), workers=%d\n', ...
+@@ -77,7 +89,6 @@
+ 
+     assert(string(o.Arm)=="I_AUTHORIZE_THIS_PRODUCTION_SHARD", ...
+         'PRODUCTION requires Arm="I_AUTHORIZE_THIS_PRODUCTION_SHARD".');
+-    host_qualification=local_verify_host_qualification(char(string(o.HostQualificationReceipt)),environment,spec);
+     receipt.host_qualification=host_qualification; receipt.status='PRODUCTION_ARMED_EXECUTION_STARTING';
+     shape.write_json_atomic(checkpoint_path,receipt);
+     before_trajectory_sha=string({candidate.trajectories.file_sha256});
+@@ -85,8 +96,13 @@
+     assert(isfile(monitor_script),'P6 resource monitor is missing.');
+     monitor_csv=fullfile(shard_root,'logs',['resource_' session_id '.csv']); stop_file=[monitor_csv '.stop'];
+     mon=local_start_monitor(monitor_script,monitor_csv,stop_file); mon_cleanup=onCleanup(@()local_stop_monitor(mon,stop_file));
++    runtime_root=fullfile(shard_root,'runtime_sessions',session_id,'filegen');
++    shape.initialize_worker_filegen_session(runtime_root,session_id,'PRODUCTION',spec.root);
++    cfg.require_worker_filegen=true; cfg.runtime_session_id=session_id;
++    cfg.repository_root=spec.root; cfg.operational_log_dir=fullfile(shard_root,'logs','runs',session_id);
+     pool_cleanup=onCleanup(@()local_close_pool());
+-    local_prepare_pool(double(o.Workers),spec.code_dir);
++    worker_filegen=local_prepare_pool(double(o.Workers),spec.code_dir,runtime_root,session_id,spec.root);
++    receipt.worker_filegen=worker_filegen; shape.write_json_atomic(checkpoint_path,receipt);
+     wall=tic; results=local_dispatch(rows,models,fullfile(shard_root,'outputs'),cfg); elapsed=toc(wall);
+     local_stop_monitor(mon,stop_file); clear mon_cleanup
+     local_close_pool(); clear pool_cleanup
+@@ -114,7 +130,8 @@
+         'fallbacks',validation.fallbacks,'failures',validation.invalid_outputs,'worker_count',double(o.Workers), ...
+         'hostname',environment.hostname,'session_id',session_id,'elapsed_walltime_s',elapsed, ...
+         'throughput_new_runs_per_hour',3600*(numel(results)-resumed)/max(elapsed,eps), ...
+-        'resource_telemetry',resources,'uid_uniqueness',validation.uid_duplicates==0, ...
++        'resource_telemetry',resources,'worker_filegen',{worker_filegen}, ...
++        'uid_uniqueness',validation.uid_duplicates==0, ...
+         'missing_output_count',validation.missing_outputs,'temporary_residue_count',validation.temporary_residue_count, ...
+         'trajectory_binding_verified',validation.trajectory_sha_mismatches==0, ...
+         'protected_authority_postrun',post_environment.protected_authorities, ...
+@@ -150,18 +167,6 @@
+ assert(string(a.owner_hostname)==string(b.owner_hostname),'Shard belongs to a different host.');
+ end
+ 
+-function report=local_verify_host_qualification(path,env,spec)
+-assert(~isempty(path) && isfile(path),'A HOST_QUALIFICATION_PASS receipt is required.'); q=jsondecode(fileread(path));
+-assert(strcmp(q.status,'HOST_QUALIFICATION_PASS') && logical(q.pass),'Host qualification did not pass.');
+-assert(isfield(q,'production_qualified') && logical(q.production_qualified),'Host receipt is not production-qualified.');
+-assert(string(q.hostname)==string(env.hostname) && string(q.matlab_version)==string(env.matlab_version) && ...
+-    string(q.architecture)==string(env.architecture),'Host qualification does not belong to this runtime host.');
+-assert(strcmpi(q.binding_sha256,spec.binding_sha),'Host qualification binding authority mismatch.');
+-assert(isfield(q,'environment') && q.environment.protected_authorities.all_match, ...
+-    'Host qualification did not verify all protected authorities.');
+-report=struct('path',path,'sha256',shape.sha256_file(path),'status',q.status,'hostname',q.hostname);
+-end
+-
+ function results=local_dispatch(T,models,output_dir,cfg)
+ parents=unique(T.parent_trajectory_id,'stable'); groups=cell(numel(parents),1); tables=cell(numel(parents),1); pr=cell(numel(parents),1);
+ for k=1:numel(parents), groups{k}=find(T.parent_trajectory_id==parents(k)); tables{k}=T(groups{k},:); end
+@@ -169,13 +174,24 @@
+ results=cell(height(T),1); for k=1:numel(parents), results(groups{k})=pr{k}; end
+ end
+ 
+-function local_prepare_pool(n,code_dir)
++function info=local_prepare_pool(n,code_dir,runtime_root,session_id,repository_root)
+ pool=gcp('nocreate'); if isempty(pool)||pool.NumWorkers~=n, if ~isempty(pool), delete(pool); end, pool=parpool('Processes',n); end
+ assert(pool.NumWorkers==n,'Requested process pool size was not established.');
+ q=strrep(code_dir,'''',''''''); mr=strrep(fullfile(code_dir,'MATLAB','mr'),'''','''''');
+-cmd=sprintf(['addpath(''%s''); addpath(genpath(''%s'')); c=shape.config(); m=shape.load_models(''%s''); ' ...
+-    's=shape.ctdq_mex_selftest(m,c); assert(s.pass && strcmp(s.status,''SELFTEST_PASS'')); clear c m s;'],q,mr,q);
+-pctRunOnAll(cmd);
++cmd=sprintf('addpath(''%s''); addpath(genpath(''%s''));',q,mr); pctRunOnAll(cmd);
++spmd
++    per_lab=shape.configure_worker_filegen(runtime_root,session_id,repository_root,spmdIndex,spmdSize);
++    c=shape.config(); m=shape.load_models(code_dir);
++    s=shape.ctdq_mex_selftest(m,c); assert(s.pass && strcmp(s.status,'SELFTEST_PASS'));
++end
++info=repmat(per_lab{1},n,1);
++for k=1:n, info(k)=per_lab{k}; end
++assert(isequal([info.worker_index],1:n),'Worker file-generation indexes are incomplete.');
++assert(numel(unique(string({info.cache_folder})))==n,'Worker CacheFolder collision.');
++assert(numel(unique(string({info.codegen_folder})))==n,'Worker CodeGenFolder collision.');
++assert(all([info.cache_readback_match])&&all([info.codegen_readback_match]), ...
++    'Worker file-generation read-back failed.');
++assert(~any([info.repository_root_slprj_used]),'Repository-root slprj is active on a worker.');
+ end
+ 
+ function disk=local_disk_check(path,pending)
+--- 5b4d09994fae40e2992d0e118cc9b31cd6cf90a1:docs/codex_production_launcher/OPERATOR_GUIDE.md
++++ docs/codex_production_launcher/OPERATOR_GUIDE.md
+@@ -1,112 +1,78 @@
+-# Kinova production launcher
++# Kinova production operator guide
+ 
+-Production remains explicitly armed per shard. Merely cloning the repository, running host checks, or completing `PREFLIGHT` cannot start Simulink.
++Start with the root-level `COLLABORATOR_HOST_SETUP.md`. Production uses
++host-specific exact concurrency authority. There is no universal W6, W8, W10,
++or other worker-count authority.
+ 
+-## Distribution prerequisites
++## Safety and authority
+ 
+-The frozen production registry is **not tracked by Git**. It contains 5,030 MAT files totaling approximately 8.79 GiB. Transfer the directory as an external evidence bundle without changing filenames or contents:
++- Complete parents are the assignment unit; siblings are never split.
++- Production uses Process workers only.
++- Every worker receives a unique session-owned CacheFolder and CodeGenFolder
++  before model loading. Repository-root `slprj` is rejected.
++- A receipt for `Workers=N` authorizes exactly `N`, only on the bound host and
++  runtime environment.
++- Capacity is required but is not authorization.
++- STATIC, Q1, and production PREFLIGHT execute no physical simulation.
++- Q2 and conditional base PHYSICAL qualification require deliberate human
++  arming.
++- Production requires its own separate arming token.
++- Canonical resume validates and skips existing valid UIDs without overwrite.
+ 
+-`data/trajectory_registry/production/parent_XXXX_trajectory.mat`
++## Portable inputs
+ 
+-The canonical binding remains:
++The release contains:
+ 
+-`docs/codex_active/manifests/PRODUCTION_TRAJECTORY_BINDING.parquet`
++- all 5,030 frozen trajectory MAT files and 5,030 qualification JSON files;
++- frozen production binding and Primary/E2-B manifests;
++- frozen observer MEX and source provenance;
++- canonical C1/C2 host-qualification evidence;
++- the production runtime and canonical validators.
+ 
+-After transfer, `run_production_host_qualification('Mode','STATIC',...)` loads and content-hashes all 5,030 artifacts against the binding. A plain file copy is not authority; the resulting static receipt is.
++No trajectory may be generated, substituted, or fetched from another project
++tree. Host receipts and production outputs belong outside the release.
+ 
+-Several currently frozen runtime files are also untracked in the present working tree. Before a collaborator clones, the exact reviewed launcher/runtime files must be included in a controlled Git revision or a separately hashed release bundle. Do not treat the current Git HEAD alone as a complete production distribution.
++## Required host workflow
+ 
+-## Safety model
++The exact commands are maintained in `COLLABORATOR_HOST_SETUP.md`:
+ 
+-- Assignment unit: complete parent only.
+-- Worker pool: process workers only; worker count is operational and may change on resume.
+-- Output: one host-owned shard directory; no live cross-host directory sharing.
+-- Resume: canonical `shape.run_parent -> shape.run_record -> shape.resume_or_quarantine` path with `overwrite=false`.
+-- Production arming token: `I_AUTHORIZE_THIS_PRODUCTION_SHARD`.
+-- Static host compatibility is not host qualification.
+-- Validation/consolidation never copies or overwrites HDF5 files.
++1. Extract release and choose candidate `N`.
++2. Run STATIC (nonphysical).
++3. Run Q1 file-generation concurrency check at `N` (nonphysical).
++4. If required by environment policy, manually run base PHYSICAL qualification.
++5. Manually run the 24-parent/96-run Q2 at exactly `N`.
++6. Issue and inspect the machine-readable concurrency receipt.
++7. Run production PREFLIGHT with the exact receipt (nonphysical).
++8. Manually arm production only after review.
+ 
+-## A. Already-qualified host
++The current host's receipt is intentionally not part of the portable release.
++Historical evidence cannot be auto-discovered as current host authority.
+ 
+-One-time host receipt from the existing local P6 W8 and 72-run evidence. The historical receipts do not store a
+-Windows hostname, so the exact arming token is an explicit operator attestation that those local immutable artifacts
+-were produced on this host. The command independently verifies the P6/final-regression receipt hashes, all 72 output
+-hashes, recorded MATLAB/architecture/MEX provenance, current CPU/OS fingerprint, current protected hashes, current
+-MEX self-test, and all 5,030 frozen trajectories. It executes zero simulations:
++## Multi-host assignment validation
++
++Before execution, prove disjoint complete-parent coverage. Example:
+ 
+ ```powershell
+-Set-Location 'C:\Users\Johnny\Desktop\Git\Image Processing Project'; & matlab -batch "addpath('Code_Image'); q=run_production_host_qualification('Mode','ADOPT_FINAL_REGRESSION','QualificationRoot','C:\KinovaProduction\host_qualification','Arm','I_ATTEST_THIS_HOST_RAN_FINAL_REGRESSION');" 2>&1 | Tee-Object -FilePath 'C:\KinovaProduction\host_qualification\console.log'
++Set-Location $ReleaseRoot
++& matlab -batch "addpath('Code_Image'); r=validate_production_assignments('Cohort','PRIMARY','TargetParentRange',[1 1250],'AssignmentParentSets',{1:800,801:1250},'ShardIDs',{'hostA_primary_0001_0800','hostB_primary_0801_1250'},'ReceiptPath','D:\KinovaCheckpoint\checkpoint_0001_1250_plan.json');"
+ ```
+ 
+-1. Preflight only—zero physical simulations:
+-
+-```powershell
+-Set-Location 'C:\Users\Johnny\Desktop\Git\Image Processing Project'; & matlab -batch "addpath('Code_Image'); r=run_production('Mode','PREFLIGHT','Cohort','PRIMARY','ParentRange',[1 800],'Workers',8,'OutputRoot','D:\KinovaProduction','ShardID','hostA_primary_0001_0800');"
+-```
+-
+-2. Launch the explicitly armed shard:
+-
+-```powershell
+-Set-Location 'C:\Users\Johnny\Desktop\Git\Image Processing Project'; & matlab -batch "addpath('Code_Image'); r=run_production('Mode','PRODUCTION','Cohort','PRIMARY','ParentRange',[1 800],'Workers',8,'OutputRoot','C:\KinovaProduction','ShardID','hostA_primary_0001_0800','HostQualificationReceipt','C:\KinovaProduction\host_qualification\HOST_QUALIFICATION_RECEIPT.json','Arm','I_AUTHORIZE_THIS_PRODUCTION_SHARD');" 2>&1 | Tee-Object -FilePath 'C:\KinovaProduction\PRIMARY\shard_hostA_primary_0001_0800\logs\console.log'
+-```
+-
+-3. Resume after interruption by running the exact same command from step 2. Valid HDF5 files are validated and skipped; only pending work runs.
+-
+-## B. Collaborator host
+-
+-The collaborator must first receive the exact reviewed code revision/release bundle, the production trajectory registry, and the Pilot C1/C2 host-qualification evidence documented by `run_production_host_qualification`.
+-
+-1. Static environment and complete trajectory audit—zero simulations:
+-
+-```powershell
+-Set-Location 'C:\KinovaProject'; & matlab -batch "addpath('Code_Image'); q=run_production_host_qualification('Mode','STATIC','QualificationRoot','E:\KinovaProduction\host_qualification','TrajectoryRegistry','E:\KinovaEvidence\production');"
+-```
+-
+-Then preflight the intended shard:
+-
+-```powershell
+-Set-Location 'C:\KinovaProject'; & matlab -batch "addpath('Code_Image'); r=run_production('Mode','PREFLIGHT','Cohort','PRIMARY','ParentRange',[801 1250],'Workers',4,'OutputRoot','E:\KinovaProduction','ShardID','hostB_primary_0801_1250','TrajectoryRegistry','E:\KinovaEvidence\production');"
+-```
+-
+-2. Explicit four-simulation C1/C2 host qualification:
+-
+-```powershell
+-Set-Location 'C:\KinovaProject'; & matlab -batch "addpath('Code_Image'); q=run_production_host_qualification('Mode','PHYSICAL','QualificationRoot','E:\KinovaProduction\host_qualification','TrajectoryRegistry','E:\KinovaEvidence\production','Arm','I_AUTHORIZE_HOST_QUALIFICATION_SIMULATIONS');" 2>&1 | Tee-Object -FilePath 'E:\KinovaProduction\host_qualification\console.log'
+-```
+-
+-3. Launch with four process workers, only after `HOST_QUALIFICATION_PASS`:
+-
+-```powershell
+-Set-Location 'C:\KinovaProject'; & matlab -batch "addpath('Code_Image'); r=run_production('Mode','PRODUCTION','Cohort','PRIMARY','ParentRange',[801 1250],'Workers',4,'OutputRoot','E:\KinovaProduction','ShardID','hostB_primary_0801_1250','TrajectoryRegistry','E:\KinovaEvidence\production','HostQualificationReceipt','E:\KinovaProduction\host_qualification\HOST_QUALIFICATION_RECEIPT.json','Arm','I_AUTHORIZE_THIS_PRODUCTION_SHARD');" 2>&1 | Tee-Object -FilePath 'E:\KinovaProduction\PRIMARY\shard_hostB_primary_0801_1250\logs\console.log'
+-```
+-
+-4. Two-worker alternative for the same assignment/shard:
+-
+-```powershell
+-Set-Location 'C:\KinovaProject'; & matlab -batch "addpath('Code_Image'); r=run_production('Mode','PRODUCTION','Cohort','PRIMARY','ParentRange',[801 1250],'Workers',2,'OutputRoot','E:\KinovaProduction','ShardID','hostB_primary_0801_1250','TrajectoryRegistry','E:\KinovaEvidence\production','HostQualificationReceipt','E:\KinovaProduction\host_qualification\HOST_QUALIFICATION_RECEIPT.json','Arm','I_AUTHORIZE_THIS_PRODUCTION_SHARD');"
+-```
+-
+-5. Resume by repeating the chosen two- or four-worker production command with the same output root, shard ID, cohort, and parent assignment.
+-
+-## C. Multi-host planning and checkpoint validation
+-
+-1. Prove the planned assignments are disjoint and exactly cover parents 1–1250:
+-
+-```powershell
+-Set-Location 'C:\Users\Johnny\Desktop\Git\Image Processing Project'; & matlab -batch "addpath('Code_Image'); r=validate_production_assignments('Cohort','PRIMARY','TargetParentRange',[1 1250],'AssignmentParentSets',{1:800,801:1250},'ShardIDs',{'hostA_primary_0001_0800','hostB_primary_0801_1250'},'ReceiptPath','D:\KinovaProduction\checkpoint_0001_1250_plan.json');"
+-```
+-
+-2. Validate each completed shard independently:
++Validate completed shards independently:
+ 
+ ```powershell
+ & matlab -batch "addpath('Code_Image'); r=validate_production_shard('ShardRoot','D:\KinovaProduction\PRIMARY\shard_hostA_primary_0001_0800');"
+ & matlab -batch "addpath('Code_Image'); r=validate_production_shard('ShardRoot','E:\KinovaProduction\PRIMARY\shard_hostB_primary_0801_1250');"
+ ```
+ 
+-3. Logically consolidate the union. Both shard roots must be accessible locally or through read-only UNC paths. No HDF5 is copied:
++Logically validate the union without copying HDF5 files:
+ 
+ ```powershell
+-& matlab -batch "addpath('Code_Image'); r=validate_production_union('ShardRoots',{'D:\KinovaProduction\PRIMARY\shard_hostA_primary_0001_0800','E:\KinovaProduction\PRIMARY\shard_hostB_primary_0801_1250'},'Cohort','PRIMARY','TargetParentRange',[1 1250],'ReceiptPath','D:\KinovaProduction\PRIMARY_CHECKPOINT_0001_1250.json');"
++& matlab -batch "addpath('Code_Image'); r=validate_production_union('ShardRoots',{'D:\KinovaProduction\PRIMARY\shard_hostA_primary_0001_0800','E:\KinovaProduction\PRIMARY\shard_hostB_primary_0801_1250'},'Cohort','PRIMARY','TargetParentRange',[1 1250],'ReceiptPath','D:\KinovaCheckpoint\PRIMARY_CHECKPOINT_0001_1250.json');"
+ ```
+ 
+-The same launcher supports Primary tranches `[1251 2500]`, `[2501 3750]`, `[3751 5000]`, and E2-B `[5001 5030]` without a scientific code path change.
++Conflicting duplicate UIDs, missing assignments, differing file hashes, or
++invalid canonical outputs are hard failures. Consolidation never overwrites or
++copies scientific HDF5 files.
++
++The generic launcher supports all Primary tranches and E2-B without separate
++scientific code paths.

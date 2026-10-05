@@ -1,0 +1,9 @@
+Experiment,Split,Physical_Parents,New_Physical_Simulations,Unique_Physical_Run_UID,Offline_Perturbation_Views,New_Canonical_Prediction_Rows,Reused_E0_Prediction_Rows,Seeds_Evaluated,Notes
+PRIMARY,train,3500,14000,14000,0,0,0,0,Training and quartile fitting; physical population from full_index.parquet
+PRIMARY,val,750,3000,3000,0,0,0,0,Model selection; physical population from full_index.parquet
+PRIMARY,test,750,3000,3000,0,90000,0,5,E0 clean evaluation; physical population from full_index.parquet
+E1,PRIMARY/test reused,750,0,2250,0,0,67500,5,Post-hoc severity analysis; no new physical runs or predictions
+E2-A,PRIMARY/test reused,750,0,750,0,0,22500,5,Observational amplitude-frequency analysis; no new physical runs or predictions
+E3,PRIMARY/test reused,750,0,3000,0,0,90000,5,Post-hoc excitation and mode analysis; no new physical runs or predictions
+E2-B,e2b_supplement,30,300,300,0,6000,0,5,30 parents x 10 physical frequency siblings; four CWT representations
+E4,PRIMARY/test offline views,750,0,3000,30000,600000,0,5,Ten diagnostic-side perturbations of each retained PRIMARY Test run; no new simulation

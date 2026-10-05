@@ -1,0 +1,3524 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "name": "combined_CWT_formulations_identification_detection",
+      "source": "C:\\Users\\Johnny\\Desktop\\KINOVA_JOINT_SEVERITY_EXCITATION_AUDIT\\10_regional_master_table.csv",
+      "methods": [
+        "SHAPE",
+        "Torque",
+        "EO"
+      ],
+      "dimensions_inches": [
+        3.4869240348692405,
+        5.76
+      ],
+      "annotations": [
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 50.416666666666664,
+          "annotation": "50.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 55.1219512195122,
+          "annotation": "55.1"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 50.416666666666664,
+          "annotation": "50.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 50.588235294117645,
+          "annotation": "50.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 68.94736842105263,
+          "annotation": "68.9"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 78.8679245283019,
+          "annotation": "78.9"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 90.0,
+          "annotation": "90.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 82.79999999999998,
+          "annotation": "82.8"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 86.52173913043478,
+          "annotation": "86.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 89.52380952380952,
+          "annotation": "89.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 94.07407407407406,
+          "annotation": "94.1"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 92.17391304347827,
+          "annotation": "92.2"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 85.33333333333331,
+          "annotation": "85.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 92.1951219512195,
+          "annotation": "92.2"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 95.42857142857142,
+          "annotation": "95.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 97.53086419753085,
+          "annotation": "97.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 11.200000000000001,
+          "annotation": "11.2"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 22.7906976744186,
+          "annotation": "22.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 20.35087719298245,
+          "annotation": "20.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 14.73684210526315,
+          "annotation": "14.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 60.75471698113207,
+          "annotation": "60.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 57.71428571428571,
+          "annotation": "57.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 67.65957446808511,
+          "annotation": "67.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 63.07692307692307,
+          "annotation": "63.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 87.66666666666664,
+          "annotation": "87.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 88.62745098039217,
+          "annotation": "88.6"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 89.0,
+          "annotation": "89.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 89.72972972972974,
+          "annotation": "89.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 94.92537313432837,
+          "annotation": "94.9"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 98.94736842105264,
+          "annotation": "98.9"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 98.49056603773583,
+          "annotation": "98.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Identification_Mean",
+          "value_percent": 99.3103448275862,
+          "annotation": "99.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 71.66666666666664,
+          "annotation": "71.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 75.60975609756096,
+          "annotation": "75.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 76.66666666666666,
+          "annotation": "76.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 66.27450980392156,
+          "annotation": "66.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 91.57894736842104,
+          "annotation": "91.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 86.0377358490566,
+          "annotation": "86.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 96.95652173913044,
+          "annotation": "97.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 93.60000000000001,
+          "annotation": "93.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 96.08695652173914,
+          "annotation": "96.1"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 98.51851851851852,
+          "annotation": "98.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 97.82608695652173,
+          "annotation": "97.8"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 97.07317073170731,
+          "annotation": "97.1"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 99.42857142857144,
+          "annotation": "99.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 22.79999999999999,
+          "annotation": "22.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 25.11627906976744,
+          "annotation": "25.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 28.42105263157894,
+          "annotation": "28.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 31.05263157894736,
+          "annotation": "31.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 71.69811320754717,
+          "annotation": "71.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 74.28571428571428,
+          "annotation": "74.3"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 77.44680851063829,
+          "annotation": "77.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 73.07692307692307,
+          "annotation": "73.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 96.33333333333331,
+          "annotation": "96.3"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 97.64705882352939,
+          "annotation": "97.6"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 99.0,
+          "annotation": "99.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 96.75675675675676,
+          "annotation": "96.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q1",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 98.50746268656717,
+          "annotation": "98.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q2",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q3",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q4",
+          "method": "SHAPE",
+          "field": "Detection_Mean",
+          "value_percent": 99.3103448275862,
+          "annotation": "99.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 35.83333333333332,
+          "annotation": "35.8"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 37.073170731707314,
+          "annotation": "37.1"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 35.83333333333333,
+          "annotation": "35.8"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 37.64705882352941,
+          "annotation": "37.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 51.57894736842105,
+          "annotation": "51.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 68.67924528301886,
+          "annotation": "68.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 78.69565217391305,
+          "annotation": "78.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 80.80000000000001,
+          "annotation": "80.8"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 86.08695652173913,
+          "annotation": "86.1"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 93.33333333333333,
+          "annotation": "93.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 90.74074074074075,
+          "annotation": "90.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 92.17391304347827,
+          "annotation": "92.2"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 85.33333333333331,
+          "annotation": "85.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 91.21951219512195,
+          "annotation": "91.2"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 92.57142857142856,
+          "annotation": "92.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 98.2716049382716,
+          "annotation": "98.3"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 10.0,
+          "annotation": "10.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 19.534883720930228,
+          "annotation": "19.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 22.10526315789473,
+          "annotation": "22.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 10.52631578947368,
+          "annotation": "10.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 57.35849056603774,
+          "annotation": "57.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 50.28571428571428,
+          "annotation": "50.3"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 59.148936170212764,
+          "annotation": "59.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 53.846153846153854,
+          "annotation": "53.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 92.66666666666664,
+          "annotation": "92.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 90.98039215686275,
+          "annotation": "91.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 92.5,
+          "annotation": "92.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 89.72972972972974,
+          "annotation": "89.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 91.04477611940298,
+          "annotation": "91.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 94.73684210526316,
+          "annotation": "94.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 93.58490566037736,
+          "annotation": "93.6"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Identification_Mean",
+          "value_percent": 95.86206896551724,
+          "annotation": "95.9"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 57.08333333333333,
+          "annotation": "57.1"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 70.24390243902438,
+          "annotation": "70.2"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 58.33333333333333,
+          "annotation": "58.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 57.6470588235294,
+          "annotation": "57.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 82.63157894736842,
+          "annotation": "82.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 80.75471698113208,
+          "annotation": "80.8"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 90.43478260869564,
+          "annotation": "90.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 95.6,
+          "annotation": "95.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 97.39130434782608,
+          "annotation": "97.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 96.66666666666664,
+          "annotation": "96.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 99.13043478260867,
+          "annotation": "99.1"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 96.0,
+          "annotation": "96.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 98.53658536585364,
+          "annotation": "98.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 99.42857142857144,
+          "annotation": "99.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 99.75308641975307,
+          "annotation": "99.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 16.400000000000002,
+          "annotation": "16.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 21.86046511627906,
+          "annotation": "21.9"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 26.315789473684198,
+          "annotation": "26.3"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 11.57894736842105,
+          "annotation": "11.6"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 68.30188679245282,
+          "annotation": "68.3"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 57.14285714285714,
+          "annotation": "57.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 65.53191489361701,
+          "annotation": "65.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 59.61538461538461,
+          "annotation": "59.6"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 97.0,
+          "annotation": "97.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 98.82352941176472,
+          "annotation": "98.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 98.0,
+          "annotation": "98.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 93.51351351351353,
+          "annotation": "93.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q1",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 96.4179104477612,
+          "annotation": "96.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q2",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 97.89473684210527,
+          "annotation": "97.9"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q3",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q4",
+          "method": "Torque",
+          "field": "Detection_Mean",
+          "value_percent": 98.62068965517243,
+          "annotation": "98.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 21.66666666666666,
+          "annotation": "21.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 31.70731707317073,
+          "annotation": "31.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 40.416666666666664,
+          "annotation": "40.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 43.52941176470588,
+          "annotation": "43.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 38.94736842105263,
+          "annotation": "38.9"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 65.66037735849056,
+          "annotation": "65.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 73.47826086956522,
+          "annotation": "73.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 82.0,
+          "annotation": "82.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 66.95652173913041,
+          "annotation": "67.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 90.47619047619048,
+          "annotation": "90.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 84.44444444444444,
+          "annotation": "84.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 96.52173913043478,
+          "annotation": "96.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 82.66666666666667,
+          "annotation": "82.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 95.60975609756096,
+          "annotation": "95.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 98.28571428571428,
+          "annotation": "98.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 98.51851851851852,
+          "annotation": "98.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 16.400000000000002,
+          "annotation": "16.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 32.093023255813954,
+          "annotation": "32.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 37.19298245614035,
+          "annotation": "37.2"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 35.78947368421052,
+          "annotation": "35.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 54.339622641509436,
+          "annotation": "54.3"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 63.42857142857142,
+          "annotation": "63.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 68.08510638297871,
+          "annotation": "68.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 83.46153846153847,
+          "annotation": "83.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 83.33333333333333,
+          "annotation": "83.3"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 94.90196078431372,
+          "annotation": "94.9"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 95.0,
+          "annotation": "95.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 94.59459459459461,
+          "annotation": "94.6"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 93.43283582089552,
+          "annotation": "93.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 95.78947368421052,
+          "annotation": "95.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 97.35849056603773,
+          "annotation": "97.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Identification_Mean",
+          "value_percent": 95.86206896551724,
+          "annotation": "95.9"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 71.66666666666666,
+          "annotation": "71.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 84.87804878048782,
+          "annotation": "84.9"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 84.58333333333331,
+          "annotation": "84.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 70.58823529411764,
+          "annotation": "70.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 88.42105263157895,
+          "annotation": "88.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 91.32075471698113,
+          "annotation": "91.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 98.0,
+          "annotation": "98.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 97.82608695652173,
+          "annotation": "97.8"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 99.33333333333334,
+          "annotation": "99.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 25.6,
+          "annotation": "25.6"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 42.79069767441861,
+          "annotation": "42.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 47.36842105263157,
+          "annotation": "47.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 41.57894736842105,
+          "annotation": "41.6"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 72.45283018867926,
+          "annotation": "72.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 75.42857142857142,
+          "annotation": "75.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 80.0,
+          "annotation": "80.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 90.76923076923076,
+          "annotation": "90.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 97.66666666666663,
+          "annotation": "97.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 98.03921568627449,
+          "annotation": "98.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 98.0,
+          "annotation": "98.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q1",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 97.01492537313432,
+          "annotation": "97.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q2",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q3",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q4",
+          "method": "EO",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        }
+      ],
+      "annotation_font_pt": 7.8,
+      "B_Q_font_pt": 7,
+      "header_font_pt": 8.6,
+      "metric_heading_font_pt": 8.2,
+      "severity_label_to_B_gap_pt": [
+        3.140000000000001,
+        3.140000000000001,
+        3.140000000000001,
+        3.140000000000001
+      ],
+      "scale_percent": [
+        0,
+        100
+      ],
+      "colormap": "cividis",
+      "source_metric_recalculation": false
+    },
+    {
+      "name": "combined_SHAPE_pipelines_identification_detection",
+      "source": "C:\\Users\\Johnny\\Desktop\\KINOVA_JOINT_SEVERITY_EXCITATION_AUDIT\\figure_review_representation\\joint_SHAPE_pipeline_summary.csv",
+      "methods": [
+        "shape_cwt",
+        "shape_temporal",
+        "shape_fft"
+      ],
+      "dimensions_inches": [
+        3.4869240348692405,
+        5.76
+      ],
+      "annotations": [
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 50.416666666666664,
+          "annotation": "50.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 55.1219512195122,
+          "annotation": "55.1"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 50.416666666666664,
+          "annotation": "50.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 50.588235294117645,
+          "annotation": "50.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 68.94736842105263,
+          "annotation": "68.9"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 78.8679245283019,
+          "annotation": "78.9"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 90.0,
+          "annotation": "90.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 82.8,
+          "annotation": "82.8"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 86.52173913043478,
+          "annotation": "86.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 89.52380952380953,
+          "annotation": "89.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 94.07407407407406,
+          "annotation": "94.1"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 92.17391304347827,
+          "annotation": "92.2"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 85.33333333333333,
+          "annotation": "85.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 92.1951219512195,
+          "annotation": "92.2"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 95.42857142857143,
+          "annotation": "95.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 97.53086419753086,
+          "annotation": "97.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 11.200000000000001,
+          "annotation": "11.2"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 22.790697674418606,
+          "annotation": "22.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 20.350877192982452,
+          "annotation": "20.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 14.736842105263154,
+          "annotation": "14.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 60.75471698113207,
+          "annotation": "60.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 57.71428571428571,
+          "annotation": "57.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 67.65957446808511,
+          "annotation": "67.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 63.07692307692309,
+          "annotation": "63.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 87.66666666666667,
+          "annotation": "87.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 88.62745098039217,
+          "annotation": "88.6"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 89.0,
+          "annotation": "89.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 89.72972972972974,
+          "annotation": "89.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 94.92537313432837,
+          "annotation": "94.9"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 98.94736842105264,
+          "annotation": "98.9"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 98.49056603773585,
+          "annotation": "98.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Identification_Mean",
+          "value_percent": 99.3103448275862,
+          "annotation": "99.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 71.66666666666666,
+          "annotation": "71.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 75.60975609756098,
+          "annotation": "75.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 76.66666666666666,
+          "annotation": "76.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 66.27450980392157,
+          "annotation": "66.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 91.57894736842105,
+          "annotation": "91.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 86.0377358490566,
+          "annotation": "86.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 96.95652173913045,
+          "annotation": "97.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 93.6,
+          "annotation": "93.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 96.08695652173914,
+          "annotation": "96.1"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 98.51851851851852,
+          "annotation": "98.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 97.82608695652173,
+          "annotation": "97.8"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 97.07317073170731,
+          "annotation": "97.1"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 99.42857142857143,
+          "annotation": "99.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 22.799999999999997,
+          "annotation": "22.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 25.116279069767444,
+          "annotation": "25.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 28.421052631578945,
+          "annotation": "28.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 31.052631578947366,
+          "annotation": "31.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 71.69811320754718,
+          "annotation": "71.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 74.28571428571429,
+          "annotation": "74.3"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 77.4468085106383,
+          "annotation": "77.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 73.07692307692308,
+          "annotation": "73.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 96.33333333333333,
+          "annotation": "96.3"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 97.64705882352939,
+          "annotation": "97.6"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 99.0,
+          "annotation": "99.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 96.75675675675676,
+          "annotation": "96.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q1",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 98.50746268656717,
+          "annotation": "98.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q2",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q3",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q4",
+          "representation": "shape_cwt",
+          "field": "Detection_Mean",
+          "value_percent": 99.3103448275862,
+          "annotation": "99.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 65.41666666666666,
+          "annotation": "65.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 60.48780487804879,
+          "annotation": "60.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 53.333333333333336,
+          "annotation": "53.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 50.980392156862756,
+          "annotation": "51.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 73.68421052631578,
+          "annotation": "73.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 86.0377358490566,
+          "annotation": "86.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 84.34782608695653,
+          "annotation": "84.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 86.0,
+          "annotation": "86.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 89.56521739130434,
+          "annotation": "89.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 92.38095238095238,
+          "annotation": "92.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 93.7037037037037,
+          "annotation": "93.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 84.66666666666667,
+          "annotation": "84.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 94.6341463414634,
+          "annotation": "94.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 94.28571428571428,
+          "annotation": "94.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 96.79012345679013,
+          "annotation": "96.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 9.6,
+          "annotation": "9.6"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 6.046511627906977,
+          "annotation": "6.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 5.964912280701754,
+          "annotation": "6.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 7.894736842105263,
+          "annotation": "7.9"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 30.566037735849054,
+          "annotation": "30.6"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 37.71428571428571,
+          "annotation": "37.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 43.40425531914893,
+          "annotation": "43.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 34.23076923076923,
+          "annotation": "34.2"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 80.0,
+          "annotation": "80.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 83.52941176470588,
+          "annotation": "83.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 83.0,
+          "annotation": "83.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 81.08108108108108,
+          "annotation": "81.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 89.55223880597015,
+          "annotation": "89.6"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 95.78947368421052,
+          "annotation": "95.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 98.49056603773585,
+          "annotation": "98.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Identification_Mean",
+          "value_percent": 98.62068965517243,
+          "annotation": "98.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 76.25,
+          "annotation": "76.2"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 69.7560975609756,
+          "annotation": "69.8"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 64.16666666666669,
+          "annotation": "64.2"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 62.35294117647059,
+          "annotation": "62.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 88.42105263157893,
+          "annotation": "88.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 91.69811320754718,
+          "annotation": "91.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 93.4782608695652,
+          "annotation": "93.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 93.6,
+          "annotation": "93.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 98.69565217391305,
+          "annotation": "98.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 98.51851851851852,
+          "annotation": "98.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 98.00000000000001,
+          "annotation": "98.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 99.02439024390245,
+          "annotation": "99.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 98.85714285714286,
+          "annotation": "98.9"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 14.400000000000002,
+          "annotation": "14.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 8.837209302325581,
+          "annotation": "8.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 9.12280701754386,
+          "annotation": "9.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 9.473684210526317,
+          "annotation": "9.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 41.509433962264154,
+          "annotation": "41.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 45.714285714285715,
+          "annotation": "45.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 48.93617021276596,
+          "annotation": "48.9"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 41.15384615384616,
+          "annotation": "41.2"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 88.33333333333331,
+          "annotation": "88.3"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 91.76470588235294,
+          "annotation": "91.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 92.5,
+          "annotation": "92.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 87.02702702702702,
+          "annotation": "87.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q1",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 96.11940298507461,
+          "annotation": "96.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q2",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 98.42105263157896,
+          "annotation": "98.4"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q3",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 100.0,
+          "annotation": "100.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q4",
+          "representation": "shape_temporal",
+          "field": "Detection_Mean",
+          "value_percent": 99.3103448275862,
+          "annotation": "99.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 1.6666666666666667,
+          "annotation": "1.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 0.0,
+          "annotation": "0.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 1.25,
+          "annotation": "1.2"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 0.39215686274509803,
+          "annotation": "0.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 4.7368421052631575,
+          "annotation": "4.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 9.811320754716983,
+          "annotation": "9.8"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 8.695652173913045,
+          "annotation": "8.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 15.6,
+          "annotation": "15.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 20.434782608695652,
+          "annotation": "20.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 33.80952380952381,
+          "annotation": "33.8"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 31.851851851851855,
+          "annotation": "31.9"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 51.304347826086946,
+          "annotation": "51.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 12.000000000000002,
+          "annotation": "12.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 41.951219512195124,
+          "annotation": "42.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 46.85714285714286,
+          "annotation": "46.9"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 79.25925925925925,
+          "annotation": "79.3"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 9.6,
+          "annotation": "9.6"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 7.906976744186048,
+          "annotation": "7.9"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 12.280701754385962,
+          "annotation": "12.3"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 20.0,
+          "annotation": "20.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 15.849056603773587,
+          "annotation": "15.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 24.000000000000004,
+          "annotation": "24.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 31.48936170212766,
+          "annotation": "31.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 28.84615384615385,
+          "annotation": "28.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 39.0,
+          "annotation": "39.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 54.117647058823536,
+          "annotation": "54.1"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 53.0,
+          "annotation": "53.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 57.837837837837846,
+          "annotation": "57.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 61.19402985074627,
+          "annotation": "61.2"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 65.78947368421053,
+          "annotation": "65.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 66.79245283018867,
+          "annotation": "66.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Identification_Mean",
+          "value_percent": 60.0,
+          "annotation": "60.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 42.5,
+          "annotation": "42.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 50.73170731707317,
+          "annotation": "50.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 50.83333333333333,
+          "annotation": "50.8"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.02, 0.05)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 63.921568627450974,
+          "annotation": "63.9"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 54.210526315789465,
+          "annotation": "54.2"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 64.52830188679245,
+          "annotation": "64.5"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 74.78260869565216,
+          "annotation": "74.8"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.05, 0.10)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 73.6,
+          "annotation": "73.6"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 68.26086956521739,
+          "annotation": "68.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 82.3809523809524,
+          "annotation": "82.4"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 89.25925925925927,
+          "annotation": "89.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.10, 0.20)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 88.69565217391305,
+          "annotation": "88.7"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 69.33333333333333,
+          "annotation": "69.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 88.29268292682926,
+          "annotation": "88.3"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 88.00000000000001,
+          "annotation": "88.0"
+        },
+        {
+          "fault_class": "LoE",
+          "severity_bin": "[0.20, 0.30]",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 96.04938271604938,
+          "annotation": "96.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 26.0,
+          "annotation": "26.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 33.95348837209302,
+          "annotation": "34.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 36.84210526315789,
+          "annotation": "36.8"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.02, 0.10)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 47.89473684210526,
+          "annotation": "47.9"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 34.716981132075475,
+          "annotation": "34.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 42.857142857142854,
+          "annotation": "42.9"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 51.48936170212767,
+          "annotation": "51.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.10, 0.30)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 51.92307692307693,
+          "annotation": "51.9"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 50.66666666666666,
+          "annotation": "50.7"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 65.49019607843137,
+          "annotation": "65.5"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 73.0,
+          "annotation": "73.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.30, 0.75)",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 76.21621621621621,
+          "annotation": "76.2"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q1",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 71.04477611940298,
+          "annotation": "71.0"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q2",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 77.89473684210526,
+          "annotation": "77.9"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q3",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 91.32075471698113,
+          "annotation": "91.3"
+        },
+        {
+          "fault_class": "Friction",
+          "severity_bin": "[0.75, 1.50]",
+          "excitation_quartile": "Q4",
+          "representation": "shape_fft",
+          "field": "Detection_Mean",
+          "value_percent": 93.10344827586206,
+          "annotation": "93.1"
+        }
+      ],
+      "annotation_font_pt": 7.8,
+      "B_Q_font_pt": 7,
+      "header_font_pt": 8.6,
+      "metric_heading_font_pt": 8.2,
+      "severity_label_to_B_gap_pt": [
+        3.140000000000001,
+        3.140000000000001,
+        3.140000000000001,
+        3.140000000000001
+      ],
+      "scale_percent": [
+        0,
+        100
+      ],
+      "colormap": "cividis",
+      "source_metric_recalculation": false
+    }
+  ],
+  "annotations_verified": 384
+}

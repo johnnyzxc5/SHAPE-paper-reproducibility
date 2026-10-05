@@ -1,0 +1,135 @@
+{
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "checkpoint_sha256": "5b36cb096a3bb46ca26d7424368d810448b07dab278d740add28ca0768127e5d",
+  "classification_report": {
+    "Friction": {
+      "f1-score": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "support": 0.0
+    },
+    "LoE": {
+      "f1-score": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "support": 0.0
+    },
+    "Nominal": {
+      "f1-score": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "support": 0.0
+    },
+    "Vibration": {
+      "f1-score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 300.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "f1-score": 0.25,
+      "precision": 0.25,
+      "recall": 0.25,
+      "support": 300.0
+    },
+    "weighted avg": {
+      "f1-score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 300.0
+    }
+  },
+  "cohort": "E2B",
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      300
+    ]
+  ],
+  "fault_missed_detection_rate": 0.0,
+  "index_sha256": "01b5059425b91defdc472c5384934419e67b6b8e033e92f249b19504a0d55ea9",
+  "macro_f1": 1.0,
+  "nominal_false_alarm_rate": null,
+  "normalized_confusion_matrix": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "per_class": {
+    "Friction": {
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "support": 0
+    },
+    "LoE": {
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "support": 0
+    },
+    "Nominal": {
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "support": 0
+    },
+    "Vibration": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "specificity": null,
+      "support": 300
+    }
+  },
+  "representation": "gmo_cwt",
+  "samples": 300,
+  "seed": 104729,
+  "split": null
+}

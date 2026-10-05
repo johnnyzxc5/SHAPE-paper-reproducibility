@@ -1,0 +1,271 @@
+--- f7f183fcc808474ee2269501c728896db89f1f8a:Fault_Diagnosis/shape_ai/README.md
++++ Fault_Diagnosis/shape_ai/README.md
+@@ -28,8 +28,8 @@
+ - PRIMARY test, E2B and E4 are evaluated only by `shape-evaluate` from a frozen `best.pt`.
+ - E1, E2-A and E3 are analyses of frozen predictions; they do not retrain a model.
+ - E2B is evaluation-only: 30 parents (`5001..5030`) x 10 frequencies = 300 runs.
+-- E4 must be indexed with an explicit `E4=PATH` root. It must preserve unique run identities and the
+-  canonical tensor contract.
++- Production E4 is regenerated in bounded temporary HDF5 chunks from PRIMARY Test. Its own E4 index
++  and predictions are retained under `AI/evaluation/E4`; no permanent 30,000-file E4Root is required.
+ 
+ ## Installation on the production PC
+ 
+@@ -45,7 +45,10 @@
+ The setup script intentionally requires the PyTorch CUDA index as an argument; it does not guess a
+ CUDA build. Confirm that the final line reports `cuda=True` and the RTX 4090.
+ 
+-## Required execution order
++## Initial campaign execution order
++
++Production E4 uses the existing completed index and trained checkpoints; begin at the E4 section
++below when operating on the completed campaign.
+ 
+ ### 1. Full scientific index and preflight
+ 
+@@ -53,11 +56,10 @@
+ .\scripts\run_preflight.ps1 `
+   -PrimaryRoot 'C:\KinovaProduction\PRIMARY' `
+   -E2BRoot 'C:\KinovaProduction\E2B' `
+-  -E4Root 'C:\KinovaProduction\E4' `
+   -AiRoot 'C:\KinovaProduction\AI'
+ ```
+ 
+-Omit `-E4Root` if E4 has not been materialized using the canonical HDF5 schema. This stage scans the
++Do not pass `-E4Root` for the bounded production E4 workflow. This stage scans the
+ actual files, validates the 20,000 + 300 campaign counts, verifies all 25 datasets and 40 root
+ attributes, detects split leakage, checks E2B frequencies, and derives `dq2_rms_post` from Train and
+ Test telemetry for E3. Training refuses a nonconforming PRIMARY index.
+@@ -141,13 +143,100 @@
+ ```powershell
+ .\scripts\run_evaluation.ps1 `
+   -Seeds @(1729,2027,4099,7919,104729) `
+-  -IncludeE2B `
+-  -IncludeE4
++  -IncludeE2B
+ ```
+ 
+ Omit an optional switch when that cohort is absent. The command writes per-run probabilities and
+ predictions, E0 metrics and confusion matrices, E1 severity tables, E2-A/E2-B tables, E3 mode and
+ Train-fitted excitation-quartile tables, and parent-cluster bootstrap intervals.
++
++### Production E4: offline calibration and zero-shot evaluation
++
++Use the already completed `C:\KinovaProduction\AI\index\full_index.parquet`. The calibration step
++selects exactly 14,000 `PRIMARY/train` rows, reads only their existing `/telemetry/dq_meas`, and calls
++`shape.e4_calibration_stats` and `shape.aggregate_e4_calibration`. It verifies membership, HDF5 files,
++six finite RMS values, index SHA-256 and the frozen artifact before reuse. It does not promote a pilot
++candidate. Run once from `Fault_Diagnosis\shape_ai`:
++
++```powershell
++.\scripts\run_e4_production.ps1 -Step Calibrate
++.\scripts\run_e4_production.ps1 -Step Verify
++```
++
++For a one-run, ten-condition smoke test, use a separate output and stage root:
++
++```powershell
++.\scripts\run_e4_production.ps1 -Step Evaluate -SmokeRuns 1 -ChunkRuns 1 `
++  -OutputRoot 'C:\KinovaProduction\AI\evaluation\E4_smoke' `
++  -StageRoot 'C:\KinovaProduction\AI\e4\stage_smoke'
++```
++
++The host-measured full production E4 command (print here; launch only after operator review) is:
++
++```powershell
++.\scripts\run_e4_production.ps1 -Step Evaluate -ChunkRuns 20 -BatchSize 32 -Workers 4 -MatlabWorkers 10
++```
++
++The launcher checks exactly 3,000 `PRIMARY/test` clean inputs for the full run, generates the four
++velocity-only, three position-only and three combined conditions with `shape.offline_e4`, then calls
++`shape.represent_e4_view`. It never calls Simulink or a training command. The same staged tensors are
++evaluated by the four CWT methods with all five frozen `best.pt` checkpoints. The clean input files
++and checkpoints are read-only.
++
++Each chunk keeps its index, evaluator job receipt, predictions and metrics in
++`AI/evaluation/E4/_chunks/chunk_NNNN/`. MATLAB stages each E4 condition once per clean run.
++`-MatlabWorkers` controls a MATLAB **process** pool across independent clean Test runs; `-Workers`
++controls the separate Python DataLoader. With `-MatlabWorkers 10`, one MATLAB Engine process and
++its pool remain alive across chunks. MATLAB finishes staging a chunk before Python inference
++begins; the next chunk starts only after that inference finishes. Omitting the MATLAB parameter
++retains the sequential MATLAB staging path. R2026a's bundled MATLAB Engine for Python is loaded
++from the local MATLAB installation, without installing another Python package.
++One Python/PyTorch/CUDA process per chunk evaluates the 20 checkpoints sequentially, reusing one
++DataLoader across the five seeds of each representation. One model is loaded at a time. The loader
++retains the accepted four-clean-run inference batch boundaries. Completed checkpoint outputs are
++verified against the checkpoint, chunk index, calibration and E4 run_uid membership before reuse;
++conflicts stop the run. Rerun with the same index, output root, stage root, chunk size, batch size
++and both worker counts. An interrupted temporary stage is regenerated; completed checkpoint predictions are
++retained. Staged HDF5 files live only under `AI/e4/stage/chunk_NNNN/` and are removed after all 20
++checkpoint evaluations for that chunk succeed. At ChunkRuns 20, at most 200 copied HDF5 files
++(3.62 GB measured) are staged at once. A retained `e4_index.parquet` contains
++the identities and condition metadata, without tensors. Final files are
++`AI/evaluation/E4/<representation>/seed_<seed>/predictions.parquet`, `metrics.json`, and
++`analysis/e4_noise_robustness.csv`. The calibration receipt is
++`AI/e4/production_e4_calibration.json`.
++
++On the i9-13900K / 32 GB DDR5 / RTX 4090 / MATLAB R2026a Update 4 host, a fixed 50 clean-run
++Test subset took 5,771 s with the accepted 4/32/4 bridge (260 Python launches, 13 MATLAB launches)
++and 2,003 s with 20/32/4 (3 Python launches, 3 MATLAB launches), a 2.88× end-to-end speedup.
++The 20/32/4 run used at most 18.03 GiB system RAM and 4.76 GiB VRAM in 3-second samples. All
++10,000 final prediction rows across 20 checkpoints, probabilities, metrics and E4 robustness CSVs
++matched the accepted bridge exactly. A 50/32/4 run took 2,166 s with a 9.05 GB stage. MATLAB
++generation remained the largest cost and varied between runs; extrapolated full-run time is only
++an estimate. The conservative fallback is ChunkRuns 4, BatchSize 32, Workers 4 with the same
++persistent evaluator. Resume with the exact same command shown above. BatchSize 64 was measured
++on the same subset and rejected: it changed one predicted class, probabilities by up to 0.002546,
++and one robustness CSV because its fp16 inference batch shape differs from the accepted 32+8
++batches. Keep BatchSize 32 for the production campaign.
++
++For the same fixed 50 clean runs with ChunkRuns 20, BatchSize 32 and Python Workers 4,
++sequential MATLAB staging took 2,024 s end to end (1,858 s MATLAB). A persistent process pool
++with 8 MATLAB workers took 714 s (544 s MATLAB); 10 workers took 649 s (480 s MATLAB), a
++3.12× end-to-end speedup. Pool creation took 9.18 s and 8.77 s, respectively, once for all
++three chunks. Process workers default to one numerical thread on this host, whereas the
++sequential MATLAB client uses 24. The launcher sets each worker to the client's numerical
++thread count to preserve exact results. Without that setting, nine CWT magnitude values
++differed by one float32 ULP in three of the 500 staged files, so the default-thread runs were
++rejected. With the setting, all 500 staged HDF5 files for both worker counts matched the
++sequential files byte for byte. Both produced identical 10,000 prediction rows, probabilities,
++metrics and robustness CSVs across all 20 checkpoints.
++
++The 10-worker run peaked at 26.82 GiB of 31.77 GiB physical RAM, leaving at least 4.94 GiB
++free in the sampled trace. Pagefile allocation rose from 249 to 404 MB; there were no worker
++failures or observed sustained paging stalls in this three-chunk benchmark. The equivalence
++benchmark retained all three chunks, reaching 9.05 GB of staged files; normal production
++removes each chunk after evaluation and peaks near 3.62 GB. The recommended MATLAB worker
++count for this host is 10; use 8 if memory headroom is needed. Resume with the exact command
++above. The 50-run timing is a bounded estimate for the full campaign, not a long-run guarantee.
+ 
+ ## Pairwise scientific comparison
+ 
+@@ -198,9 +287,8 @@
+ 
+ - The pipeline reports full-window four-class FAR and fault missed-detection rate. Sequential detection
+   delay relative to `t_fault` requires a separately frozen windowed detector and is not claimed here.
+-- E4 can be evaluated only when its artifacts use a documented HDF5/metadata contract. The historical
+-  handoff snapshot stated that E4 artifacts were pending, so their current on-disk form must pass the
+-  indexer rather than being assumed.
++- `run_evaluation.ps1 -IncludeE4` is disabled because it expects permanently indexed E4 files.
++  Use `run_e4_production.ps1` for E4.
+ - External published architectures can be added as explicitly named baselines later. They must not
+   replace or silently tune the matched six-configuration matrix.
+ 
+--- f7f183fcc808474ee2269501c728896db89f1f8a:Fault_Diagnosis/shape_ai/scripts/run_evaluation.ps1
++++ Fault_Diagnosis/shape_ai/scripts/run_evaluation.ps1
+@@ -15,6 +15,9 @@
+ $Python = Join-Path $ProjectRoot '.venv\Scripts\python.exe'
+ $Representations = @('shape_cwt','torque_cwt','gmo_cwt','energy_cwt','shape_temporal','shape_fft')
+ $CwtRepresentations = @('shape_cwt','torque_cwt','gmo_cwt','energy_cwt')
++if ($IncludeE4) {
++    throw 'Bounded production E4 uses .\scripts\run_e4_production.ps1 -Step Evaluate after calibration; do not use -IncludeE4 with the full index.'
++}
+ 
+ foreach ($Seed in $Seeds) {
+     foreach ($Representation in $Representations) {
+@@ -37,14 +40,5 @@
+                 --index $IndexPath --output (Join-Path $E2BOutput 'analysis')
+             if ($LASTEXITCODE -ne 0) { throw "E2B analysis failed: $Representation seed $Seed" }
+         }
+-        if ($IncludeE4 -and $CwtRepresentations.Contains($Representation)) {
+-            $E4Output = Join-Path $OutputRoot "E4\$Representation\seed_$Seed"
+-            & $Python -m shape_ai.evaluate --checkpoint $Checkpoint --index $IndexPath `
+-                --output $E4Output --cohort E4 --split none --batch-size $BatchSize --num-workers $Workers
+-            if ($LASTEXITCODE -ne 0) { throw "E4 evaluation failed: $Representation seed $Seed" }
+-            & $Python -m shape_ai.analysis --predictions (Join-Path $E4Output 'predictions.parquet') `
+-                --index $IndexPath --output (Join-Path $E4Output 'analysis')
+-            if ($LASTEXITCODE -ne 0) { throw "E4 analysis failed: $Representation seed $Seed" }
+-        }
+     }
+ }
+--- f7f183fcc808474ee2269501c728896db89f1f8a:Fault_Diagnosis/shape_ai/src/shape_ai/data.py
++++ Fault_Diagnosis/shape_ai/src/shape_ai/data.py
+@@ -7,7 +7,7 @@
+ import numpy as np
+ import pandas as pd
+ import torch
+-from torch.utils.data import DataLoader, Dataset
++from torch.utils.data import DataLoader, Dataset, Sampler
+ 
+ from .contracts import REPRESENTATIONS, RepresentationSpec, to_model_array
+ from .utils import seed_worker
+@@ -66,19 +66,21 @@
+     persistent_workers: bool,
+     prefetch_factor: int,
+     drop_last: bool = False,
++    batch_sampler: Sampler[list[int]] | None = None,
+ ) -> DataLoader:
+     generator = torch.Generator()
+     generator.manual_seed(seed)
+     options: dict[str, Any] = {
+         "dataset": dataset,
+-        "batch_size": batch_size,
+-        "shuffle": shuffle,
+         "num_workers": num_workers,
+         "pin_memory": pin_memory,
+-        "drop_last": drop_last,
+         "worker_init_fn": seed_worker,
+         "generator": generator,
+     }
++    if batch_sampler is None:
++        options.update(batch_size=batch_size, shuffle=shuffle, drop_last=drop_last)
++    else:
++        options["batch_sampler"] = batch_sampler
+     if num_workers > 0:
+         options["persistent_workers"] = persistent_workers
+         options["prefetch_factor"] = prefetch_factor
+--- f7f183fcc808474ee2269501c728896db89f1f8a:Fault_Diagnosis/shape_ai/src/shape_ai/evaluate.py
++++ Fault_Diagnosis/shape_ai/src/shape_ai/evaluate.py
+@@ -6,6 +6,7 @@
+ import numpy as np
+ import pandas as pd
+ import torch
++from torch.utils.data import DataLoader
+ from tqdm import tqdm
+ 
+ from .contracts import CLASS_NAMES
+@@ -24,23 +25,32 @@
+     batch_size: int,
+     num_workers: int,
+     amp: str,
++    *,
++    prepared_frame: pd.DataFrame | None = None,
++    prepared_loader: DataLoader | None = None,
+ ) -> None:
++    if (prepared_frame is None) != (prepared_loader is None):
++        raise ValueError("A prepared frame and loader must be supplied together")
+     checkpoint = torch.load(checkpoint_path, map_location="cpu")
+     representation = str(checkpoint["representation"])
+     seed = int(checkpoint["seed"])
+     seed_everything(seed, deterministic=True)
+-    frame = load_index(index_path, cohort=cohort, split=split)
+-    dataset = ShapeH5Dataset(frame, representation)
+-    loader = make_loader(
+-        dataset,
+-        batch_size=batch_size,
+-        shuffle=False,
+-        num_workers=num_workers,
+-        seed=seed,
+-        pin_memory=True,
+-        persistent_workers=True,
+-        prefetch_factor=2,
+-    )
++    if prepared_frame is None:
++        frame = load_index(index_path, cohort=cohort, split=split)
++        dataset = ShapeH5Dataset(frame, representation)
++        loader = make_loader(
++            dataset,
++            batch_size=batch_size,
++            shuffle=False,
++            num_workers=num_workers,
++            seed=seed,
++            pin_memory=True,
++            persistent_workers=True,
++            prefetch_factor=2,
++        )
++    else:
++        frame = prepared_frame
++        loader = prepared_loader
+     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+     model_config = checkpoint["model_config"]
+     model = build_model(

@@ -1,0 +1,28 @@
+{
+  "allow_cpu": false,
+  "data": {
+    "num_workers": 4,
+    "persistent_workers": true,
+    "pin_memory": true,
+    "prefetch_factor": 2
+  },
+  "deterministic": true,
+  "index_path": "C:\\KinovaProduction\\AI\\index\\full_index.parquet",
+  "model": {
+    "dropout": 0.5,
+    "embedding_dim": 128,
+    "head_dim": 256
+  },
+  "output_root": "C:\\KinovaProduction\\AI\\runs",
+  "representation": "gmo_cwt",
+  "seed": 104729,
+  "training": {
+    "amp": "fp16",
+    "batch_size": 32,
+    "compile": false,
+    "early_stopping_patience": 10,
+    "epochs": 50,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001
+  }
+}

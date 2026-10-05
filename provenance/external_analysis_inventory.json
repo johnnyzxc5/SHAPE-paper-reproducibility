@@ -1,0 +1,3481 @@
+[
+  {
+    "category": "derived_frozen_predictions",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\derived\\canonical_e0_primary.parquet",
+    "size_bytes": 3302771,
+    "sha256": "dc665cacf02c69be3dd40428debff6034fce6adb3d744900c5096a837c81a13e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "derived_frozen_predictions",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\derived\\canonical_e2b.parquet",
+    "size_bytes": 185979,
+    "sha256": "cb7bc89e856edd2fe448dfb2b12caa64cef102b1afcd91f9a5b50e48b2bd3afe",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "derived_frozen_predictions",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\derived\\canonical_e4.parquet",
+    "size_bytes": 58026154,
+    "sha256": "52255acccb990fe4f9afcd857a5a20660e07efef7370f64cb65b74b6e7ca21a8",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "derived_frozen_predictions",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\derived\\e0_binary_by_seed.csv",
+    "size_bytes": 6356,
+    "sha256": "c55d92b1a4cf007ab9fc791287624fe8cc807e04eedf9e59bf7e2eec8e28d5e0",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "derived_frozen_predictions",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\derived\\e0_metrics_by_seed.csv",
+    "size_bytes": 2193,
+    "sha256": "a200650aa488f9072f994259c25fff6c8b2ff22827ea2d24b6890946492888b3",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "derived_frozen_predictions",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\derived\\e0_per_class_by_seed.csv",
+    "size_bytes": 9062,
+    "sha256": "0d775df2781894bb56bc8441a7c184d3691f236f56bd40073d9eb1d7d9c99503",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\energy_cwt\\seed_104729\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 998,
+    "sha256": "d2bd78560a2941d83ea0a6f10e9b75a6c6ec5add394e3de9cdb5f8ae7f866ab4",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\energy_cwt\\seed_104729\\metrics.json",
+    "size_bytes": 3283,
+    "sha256": "ff001852698ca82ada22c5cce6dbaada633b12005ada1f4484553a39c5d7dad5",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\energy_cwt\\seed_104729\\predictions.parquet",
+    "size_bytes": 3342067,
+    "sha256": "0be3e2a09ffc7f06f0e20623d41f7930e1db3ad0b75a41cc4d2a8fc453e8e363",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\energy_cwt\\seed_1729\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1075,
+    "sha256": "20b6b114e2f5c8615e2000d59d7d6bf6418ba3cd76f75c7f0b0c3e62c64b3aea",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\energy_cwt\\seed_1729\\metrics.json",
+    "size_bytes": 3222,
+    "sha256": "60e45c7f88b93f75600a87d30d122cc6e536d8d0bd1ae34dea7853287427ee1f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\energy_cwt\\seed_1729\\predictions.parquet",
+    "size_bytes": 3420638,
+    "sha256": "178d8e4d919f4ea3c43cdde55dd831b518d2e9bfbcab587fc860efcc005574e7",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\energy_cwt\\seed_2027\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1021,
+    "sha256": "d673bffc0ad1e97b226d064816d1c5a3b6c1730d1cc3f0e218604bfd75a3a26d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\energy_cwt\\seed_2027\\metrics.json",
+    "size_bytes": 3306,
+    "sha256": "5e2e60849a9b8be23f8c797cc21205caa508f2e2e6eed2cd7a3e62fa34b92970",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\energy_cwt\\seed_2027\\predictions.parquet",
+    "size_bytes": 3387746,
+    "sha256": "f82f477a7aad2083359bade75bea9e3bf66755ebc06b5a3373256f7d7387b464",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\energy_cwt\\seed_4099\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1001,
+    "sha256": "a192d99fbbc57b96e64bfa529efaa3f40e9a5ed4ce78fde353399c76ecbe689b",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\energy_cwt\\seed_4099\\metrics.json",
+    "size_bytes": 3229,
+    "sha256": "929c3d7d33212407600ad6313541c4e43bacd8faafd329af823514100e33e6ca",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\energy_cwt\\seed_4099\\predictions.parquet",
+    "size_bytes": 3328045,
+    "sha256": "79853381afaa57d790364e148358d7513cbec67dcbb0e00a2a520d8dfe5ebf53",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\energy_cwt\\seed_7919\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 975,
+    "sha256": "4b5830670479abe532eae0aa7bfcd5c507b3c5c101c975cfa408768e78749973",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\energy_cwt\\seed_7919\\metrics.json",
+    "size_bytes": 3313,
+    "sha256": "ebbd9fa2d124356d6d283040ebc65f257c2c4e847dd27e3f267859a925a619e5",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\energy_cwt\\seed_7919\\predictions.parquet",
+    "size_bytes": 3345925,
+    "sha256": "022e05344debb99270472320edacb5ad9e2329f776da944cf5d10583d77109b9",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\gmo_cwt\\seed_104729\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1058,
+    "sha256": "bca2cd0f623586786f7f7965b9fcbd66adf36b4f46f2e504e93975e29f9f6317",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\gmo_cwt\\seed_104729\\metrics.json",
+    "size_bytes": 3193,
+    "sha256": "ddab1601ef13e32fe4319abb101a4ad0d4c1b4e7cbe98190f712770f34895cd6",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\gmo_cwt\\seed_104729\\predictions.parquet",
+    "size_bytes": 3206064,
+    "sha256": "d8e9fe777702036d5952967a490c66c4403b38823b1ba8236484fb9154012c3e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\gmo_cwt\\seed_1729\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1043,
+    "sha256": "46f04234a184f5e572f17bfc35d59676352be14dedbe3ab1c7a03bbf8d89ba48",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\gmo_cwt\\seed_1729\\metrics.json",
+    "size_bytes": 3172,
+    "sha256": "d89557bab9f4ee0af32aa1b82f1e26f57cc3b8d34497a2db6abb220d32e08e1a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\gmo_cwt\\seed_1729\\predictions.parquet",
+    "size_bytes": 3436956,
+    "sha256": "872d5a6db7343675e8f6ce50252776835f3b1e8d9f82ff83e34a25a4bd870eff",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\gmo_cwt\\seed_2027\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1001,
+    "sha256": "7abab395487b79f39ff7be95d0de525c2fac26ff2bdc481e56774fe251e05bbb",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\gmo_cwt\\seed_2027\\metrics.json",
+    "size_bytes": 3219,
+    "sha256": "aa11febe7debfa5c50bc698942f5e6891495ad2dd7bfc6b7cd9d1aad69fe18d1",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\gmo_cwt\\seed_2027\\predictions.parquet",
+    "size_bytes": 3420552,
+    "sha256": "5161533535daf721cc942efe92a11a18dde595c47164b6dda293a8e40070c732",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\gmo_cwt\\seed_4099\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 861,
+    "sha256": "bf7e241194bc04d8e35dc83088641566f31ee5064eb44677138ac93c6954d617",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\gmo_cwt\\seed_4099\\metrics.json",
+    "size_bytes": 3042,
+    "sha256": "77dfaecfaad6b0953f411869a37635fba38c1c387cb5a187d17e64dc6f1a5fd6",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\gmo_cwt\\seed_4099\\predictions.parquet",
+    "size_bytes": 3423222,
+    "sha256": "4eeafe44e0db17a715b122847d82e6f2ac46ee1568f9a719669e6c593155bf9c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\gmo_cwt\\seed_7919\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1023,
+    "sha256": "90a2a1d136314d3d9cd76c407a487f457419aaaed1d8eb638caeb35054fdc3b9",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\gmo_cwt\\seed_7919\\metrics.json",
+    "size_bytes": 3170,
+    "sha256": "5735a1ebbddc02f2c53a9a56707741b8123dec40ba4c55bcf101f40d026bd3ed",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\gmo_cwt\\seed_7919\\predictions.parquet",
+    "size_bytes": 3354962,
+    "sha256": "899a29ba4c4959f92e30e61f41ae83ec4c8f6c5f0809359df7650944d24168d0",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\shape_cwt\\seed_104729\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1145,
+    "sha256": "bf62441dc1fcd5847f1b7fb1cf54a4eea0f240de3b0c39307bd4660a6c666800",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\shape_cwt\\seed_104729\\metrics.json",
+    "size_bytes": 3275,
+    "sha256": "518fc4fec3b6e36603a87012e0064309ebbc2f6dd5e76be1f8238c8bd780be72",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\shape_cwt\\seed_104729\\predictions.parquet",
+    "size_bytes": 3289733,
+    "sha256": "a6375f3f220a9e5ceaeacf4d2c1b1aeb82f1f577b249bf0955be526c7882b677",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\shape_cwt\\seed_1729\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1176,
+    "sha256": "ff1df9b67e0fe08ceca0099d4e20a2e73a35f6ed5b685f07d42f5be82ea4a8e7",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\shape_cwt\\seed_1729\\metrics.json",
+    "size_bytes": 3231,
+    "sha256": "79ed215625e11558de4da7944e7ed9743754a35e91c1ebf07fc30424fc743cae",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\shape_cwt\\seed_1729\\predictions.parquet",
+    "size_bytes": 3138818,
+    "sha256": "b2d6a56a30e6f75d7a362eea7e7d41d5b08c26ad111ad670f7b53c54da92704c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\shape_cwt\\seed_2027\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1159,
+    "sha256": "9e9b89981fdc183a548d56c772b74e569bde4d772739b288a4dc0c4b0f89e59f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\shape_cwt\\seed_2027\\metrics.json",
+    "size_bytes": 3236,
+    "sha256": "268b006780a69f48f0056af4bc9b04b2daa554bc7317cfd0b3a44061aad61627",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\shape_cwt\\seed_2027\\predictions.parquet",
+    "size_bytes": 3184552,
+    "sha256": "f56a85c37f74129b12596b08436a64bf1cc8d525fff0ad685f12263c909abf69",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\shape_cwt\\seed_4099\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1175,
+    "sha256": "8ee446171143a717ba13912cd818b6c144ee8c08b269a81324033faf91445590",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\shape_cwt\\seed_4099\\metrics.json",
+    "size_bytes": 3242,
+    "sha256": "c1d47a78306856238be85d6b46d85cb641e1d3f15c64986dbba669296da5f05e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\shape_cwt\\seed_4099\\predictions.parquet",
+    "size_bytes": 3278778,
+    "sha256": "d3d866548be951f189589c40970dfcaad2607ac68fb4a83e1db03cea870d7bf7",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\shape_cwt\\seed_7919\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1032,
+    "sha256": "83c621e9cb88187552126c6b5ee96d836b7430987ae837662c375f73cc6f6b6d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\shape_cwt\\seed_7919\\metrics.json",
+    "size_bytes": 3247,
+    "sha256": "9d067b45d70c86adf9232a5b482eb9f2f099011eec59344b45684eaffd923220",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\shape_cwt\\seed_7919\\predictions.parquet",
+    "size_bytes": 3083531,
+    "sha256": "ae3584b5ca559c199bae318b3dff8188685bca3b91536e8b5d818f847f44174d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\torque_cwt\\seed_104729\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 928,
+    "sha256": "ceef32a3506bd8060244e2a51873bb658b083e16c0e9662bd53062718337beb8",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\torque_cwt\\seed_104729\\metrics.json",
+    "size_bytes": 3243,
+    "sha256": "fe211687cd0b6b60610c181f2a3e77b04af9b60f2da15973c9531fc4f8c0ac95",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\torque_cwt\\seed_104729\\predictions.parquet",
+    "size_bytes": 2877524,
+    "sha256": "dbc9e777b486c6eb6f796cccbe7275f4a709315ac716173adf6f662652833e93",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\torque_cwt\\seed_1729\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1188,
+    "sha256": "57cc5bc2edc40b142f0dbb2da8a9c7d4430c69617d6ad35ca1292c8c065c5da4",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\torque_cwt\\seed_1729\\metrics.json",
+    "size_bytes": 3271,
+    "sha256": "a6cb9fbd72bdd4037f55ae0b3c5b3bfc5ef911354b4e554062db942bb438f026",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\torque_cwt\\seed_1729\\predictions.parquet",
+    "size_bytes": 2876602,
+    "sha256": "76548375b888e3586cc476b38724a957cb3dae3b7790c328e6c8dc61d7719f01",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\torque_cwt\\seed_2027\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1188,
+    "sha256": "4c97394c14ac76e3795b1fed91a374cffb6c97ddb54b4443e5c148bb635a3c8d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\torque_cwt\\seed_2027\\metrics.json",
+    "size_bytes": 3210,
+    "sha256": "c5b9c2bd1d1ab3da54d027234f486902acf145610b65d1a1cfe3a8af6e2884ea",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\torque_cwt\\seed_2027\\predictions.parquet",
+    "size_bytes": 2881795,
+    "sha256": "f170a2d3e3bdd01b28715713a3c553f42714c50b6371636f88aa77e530709f3c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\torque_cwt\\seed_4099\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1188,
+    "sha256": "2886da816cb23740a9b8bd914b8702ce1cdc326d7c2ad801d9278af1a0a5d89a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\torque_cwt\\seed_4099\\metrics.json",
+    "size_bytes": 3364,
+    "sha256": "1db16995ffc78794712dc00c3ef25b13683ec9f498ae1f25413f9bb484048cc2",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\torque_cwt\\seed_4099\\predictions.parquet",
+    "size_bytes": 2879639,
+    "sha256": "ddc102fde059ab285b90a141e91dadb10ef9dba8424dee8f7e16298b485282fc",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\torque_cwt\\seed_7919\\analysis\\e4_noise_robustness.csv",
+    "size_bytes": 1058,
+    "sha256": "92dd579e9d93c1b0901db5e39aaf358f898d514fc9b42e4b7ff73220a0930372",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\torque_cwt\\seed_7919\\metrics.json",
+    "size_bytes": 3264,
+    "sha256": "ab70dfa5c009bbc448d9ff9a48a55ee3e6935921b8fabf80e4e4bb9406ba2d3e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\e4_zip\\torque_cwt\\seed_7919\\predictions.parquet",
+    "size_bytes": 2881950,
+    "sha256": "5108535d94bfbcb49e186361fe028e5827b8fc06ebb7bf7ffddca6ce2a9c532f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\00_INDEX\\full_index.audit.json",
+    "size_bytes": 417,
+    "sha256": "778d5d7717471992e9b81a0a84f9aeba25d86cd8b2955ddf31d53580ff57f237",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\00_INDEX\\full_index.parquet",
+    "size_bytes": 2554850,
+    "sha256": "01b5059425b91defdc472c5384934419e67b6b8e033e92f249b19504a0d55ea9",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\00_INDEX\\full_preflight.json",
+    "size_bytes": 1612,
+    "sha256": "a7b28fd479997b255137e6d5473224c6d1b00dfcd2cd1f70f8c401581672cedc",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_AGGREGATE\\metrics_across_seeds.csv",
+    "size_bytes": 9290,
+    "sha256": "761c6369bb5fb14165869ddb328d2df3956073745b2496fb1ad12cccc699b726",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_AGGREGATE\\metrics_by_seed.csv",
+    "size_bytes": 14732,
+    "sha256": "023582fee5de2c1b76aa7fe8b36e23886e9821be36edbbdd0d2e431cb35de9c0",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_104729\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 214,
+    "sha256": "ad8061cd3dff7d7953602b5cbeccf2e9bfbe4dd75644c66082e05dc8f504b608",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_104729\\analysis\\e1_severity.csv",
+    "size_bytes": 652,
+    "sha256": "0c23dc10f8041d2624ebc4cc70ea2a0aa896e2edd264b7892e5681792e6562df",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_104729\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1111,
+    "sha256": "f28febc3ba720b91d1ca44d7fed48016b540c9c990bdb75db6950fa044b2a47e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_104729\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 364,
+    "sha256": "80f50023a51325f2bbe75dacfdea479b97534b7ddcec2dccb335cc472a0e5859",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_104729\\analysis\\e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "f03285caa4dec2d8df6a2b2db92b783d75b1951566928380d1f803c25e5eed6b",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_104729\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_104729\\metrics.json",
+    "size_bytes": 3125,
+    "sha256": "e9f6f47d577d7024c3a06ff79c4e9180ec1ecac65d06b31eba785556e468ca44",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_104729\\predictions.parquet",
+    "size_bytes": 460037,
+    "sha256": "78103c1c74f257ec0d889aa2a95a44d8521bfe1fa49bf9c2d179156b7bc1d12b",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_1729\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 213,
+    "sha256": "47977c50074975f46dc6a81670130e0d534f0b278f262f808ce877b56352f289",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_1729\\analysis\\e1_severity.csv",
+    "size_bytes": 654,
+    "sha256": "1b8ec86a954afc7cb429a4b9acc58ddc04b149f6dbe5f120497710829602ba90",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_1729\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1140,
+    "sha256": "fb5db2a80315103be907ee91599c780543f8d2c11107f81009bd3af7e296f200",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_1729\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 372,
+    "sha256": "399b989d7e1df5c34df11be330bdc93aed52bff5340587fccac7c7bd5ccaa323",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_1729\\analysis\\e3_mode.csv",
+    "size_bytes": 214,
+    "sha256": "38e22002c06118674ea1d008ba4186f75afad64e387e1a1deda351ac923cfec2",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_1729\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_1729\\metrics.json",
+    "size_bytes": 3060,
+    "sha256": "04525a0394561ca3c7e05d41506f381cc61174fb1fb8b95aebd365a5cdb16d60",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_1729\\predictions.parquet",
+    "size_bytes": 461929,
+    "sha256": "f1c90e99d765eb121bfa2148d170be795bec45655af20d902f5590a2e4498f40",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_2027\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 226,
+    "sha256": "336a6b9f4f2ef26759bd94d67ccd17227e1fd911a3aab459f3d66bf17ceb3a04",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_2027\\analysis\\e1_severity.csv",
+    "size_bytes": 651,
+    "sha256": "24519887ec3ff3375304e406fbd4733fefd58ecae248d6949feede86d26ed6e9",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_2027\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1125,
+    "sha256": "504ffcea06ae2ae242ced69475dc90dfed79f91ed5dfb96b34854c91e7be41f7",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_2027\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 371,
+    "sha256": "8e912a4575786c0e38805e318566aa4c143a72c4c1704391eb1255429dc36010",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_2027\\analysis\\e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "f1bc71cc6f4a6e344dc1540a1a2abefc4e9b6051826838b9a2a09b5efc747e28",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_2027\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_2027\\metrics.json",
+    "size_bytes": 3012,
+    "sha256": "d280ca45b0244622ccb35cebfde0882435987f5cd39a15b599c2f1decc8d6460",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_2027\\predictions.parquet",
+    "size_bytes": 461073,
+    "sha256": "532a8b0635f06aa4161de3b64559417dfd7f6206795c34ba4919d37e05c8e22d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_4099\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 226,
+    "sha256": "e7f9f092b95df248116a83d313182246780d42b7f1de930e31a521839f5df440",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_4099\\analysis\\e1_severity.csv",
+    "size_bytes": 668,
+    "sha256": "37d6f2e26a294b6649261a1fe1595e3e2ed0acccaf3f565568c12f16f38557e3",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_4099\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1129,
+    "sha256": "60bd93db4cc2ff9b9d3b22b0c2aab852428266072ea583e4abd237c399ec0a50",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_4099\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 361,
+    "sha256": "85792e55934590588a7613754a31c720cf166078d89e65de56d09550f4e1b118",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_4099\\analysis\\e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "9059c5a8c944e59501f336db8d3b1c201f58fd12f172156f983e5b1015f1498f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_4099\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_4099\\metrics.json",
+    "size_bytes": 3009,
+    "sha256": "c8253ee8dc98bbe0d228f1421fdd648744437f50b67cf746e2023709c58e8605",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_4099\\predictions.parquet",
+    "size_bytes": 459503,
+    "sha256": "bed9acc807915355069cf4ed4e396b8b1f1b1a919722566c61287322744ea06e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_7919\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 214,
+    "sha256": "6e3eedd234616f977e06bbb238bcb2cbb98f88f5528bed0cf401e30a99abe700",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_7919\\analysis\\e1_severity.csv",
+    "size_bytes": 652,
+    "sha256": "a9c1e0b1030be28cfd45bd65328101a07dd81b2b9b450cab96ec51b2e1bf9682",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_7919\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1124,
+    "sha256": "9ea6b678eaf2d9f0a569a8415892f78cbd1363d05adc59ada04dd10b6bcd36e5",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_7919\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 371,
+    "sha256": "90d01f638e177a8b1fe52b357fd6c367a9e90f87e1e5da616630f6b121fe09be",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_7919\\analysis\\e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "eb4575bfae2eda25f90c9e235c974b3b2864bf43b946114198779d1dbf036648",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_7919\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_7919\\metrics.json",
+    "size_bytes": 3187,
+    "sha256": "95cd61a324083a767e7db6d11a391c7783aea92b3a9972c5dd0bbab4abba36de",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\energy_cwt\\seed_7919\\predictions.parquet",
+    "size_bytes": 460341,
+    "sha256": "af0150ce6b58d3a907518839522b1d52c9a9f8f791be5a96a0bd9196744bc624",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_104729\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 214,
+    "sha256": "f7a8f0f4679ce723201eb5fbd024090f3c2db0ea7ca689c5a8076dfe659898e3",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_104729\\analysis\\e1_severity.csv",
+    "size_bytes": 593,
+    "sha256": "e2b31fb7db7ff5750b481944365b5d4204705c4e0aea116e71c1cdcaae4fdd14",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_104729\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1093,
+    "sha256": "50d114a90ea80090346e462e68dff1f9459cdd1f6ab818356c0d054615e8bb38",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_104729\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 372,
+    "sha256": "a3d875cc3b3763459c378db61f749f8d9a62d91fb4b42f8d853b44cbe630159e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_104729\\analysis\\e3_mode.csv",
+    "size_bytes": 199,
+    "sha256": "1e5421a54acb001eb44576284c7d8c2a1acae06dfcc091cc2805defaf186e807",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_104729\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_104729\\metrics.json",
+    "size_bytes": 2960,
+    "sha256": "92ccb23b57dbf23b3c34dfd7da18999facd1cd97b9da615cdccde9b2ad82a338",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_104729\\predictions.parquet",
+    "size_bytes": 451617,
+    "sha256": "601da14d8a886dba8658931d723ba78fa2c2e6c9ade4077078a4867d9022f37f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_1729\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 227,
+    "sha256": "923458b5a3beb3103a00aa88ce89314ed1c0b99000c6869ffe55de0cfbaff38f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_1729\\analysis\\e1_severity.csv",
+    "size_bytes": 608,
+    "sha256": "f3b0beb4c0da68afd17dfe5ebb5028d0d29de608c5a394a00bc2770f98690b03",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_1729\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1093,
+    "sha256": "50d114a90ea80090346e462e68dff1f9459cdd1f6ab818356c0d054615e8bb38",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_1729\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 371,
+    "sha256": "b24bc82410419f77a8d8d38d785cdc74f3a5aa772fad45a617b8a57a7193c977",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_1729\\analysis\\e3_mode.csv",
+    "size_bytes": 199,
+    "sha256": "e30a83df45d71f3d13c0a032c867b17a7633a54460a74414028f259a99f7c13c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_1729\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_1729\\metrics.json",
+    "size_bytes": 2993,
+    "sha256": "c3f10189cb1209e081cdc7fb7f78761f0ca3ab3e3d849327891c7ffd88fe0da6",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_1729\\predictions.parquet",
+    "size_bytes": 456055,
+    "sha256": "f2a6df300fda98d31c60edadda62c4351ca6be11fa1a75814ac9c039cea4e264",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_2027\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 227,
+    "sha256": "e88375fd2f1965de1d460d2bacc9f71133c6b898cc461a0a318da2bbd5916101",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_2027\\analysis\\e1_severity.csv",
+    "size_bytes": 578,
+    "sha256": "2059cd0250fa42324920ed1dd4dd3e61c566a1dacdfb6ec1722f8e2141fe9df2",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_2027\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1093,
+    "sha256": "50d114a90ea80090346e462e68dff1f9459cdd1f6ab818356c0d054615e8bb38",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_2027\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 371,
+    "sha256": "4864841b1f1147bc731dc388cd90cbc7dd9ccfe4031f5778cb1833ddad9e8d5a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_2027\\analysis\\e3_mode.csv",
+    "size_bytes": 226,
+    "sha256": "772163a16ede289e898a614416a0b85df13448ee49abbc5fd61d52327bfa5841",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_2027\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_2027\\metrics.json",
+    "size_bytes": 2878,
+    "sha256": "774275a53de2ac365dbd50260f3695e577bcbf8cf9a72e2a90829f23a59e13c5",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_2027\\predictions.parquet",
+    "size_bytes": 452565,
+    "sha256": "5aba39f4879975c09ab2f74219932d19ac877fcc452c70a4984942658e7d7b5f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_4099\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 227,
+    "sha256": "3471cac0add07c818b64125b2024034d1ec46065b77e54897de90bc9f10b4f26",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_4099\\analysis\\e1_severity.csv",
+    "size_bytes": 623,
+    "sha256": "87738df02c2abc196c15a8a8ca7bd57c282e3c5193a1e499845a7ad8a0a6a468",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_4099\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1093,
+    "sha256": "50d114a90ea80090346e462e68dff1f9459cdd1f6ab818356c0d054615e8bb38",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_4099\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 361,
+    "sha256": "4597ad9cf4d4e778e591bf4a3fa8820aaa87bf83f88c55604055ba1d3ce7d387",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_4099\\analysis\\e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "1b620d59d686151caf41b0da3f57e5feeef745afac2300e11017106f20b14a58",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_4099\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_4099\\metrics.json",
+    "size_bytes": 2954,
+    "sha256": "045a819326c35cc4a22438b57081a6997c0b5474cf1519a00e9bb2e2c55904ef",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_4099\\predictions.parquet",
+    "size_bytes": 454587,
+    "sha256": "ef64f23154818be1c73ce4072a282af9ce5f10f46917d470010335aff972b527",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_7919\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 214,
+    "sha256": "1d2e08cf76fc83688382edf9d49fe85db563a31627e1ccef29c341f011cefa34",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_7919\\analysis\\e1_severity.csv",
+    "size_bytes": 608,
+    "sha256": "9bf564bdc22ffa91bf108d149020cf19a06143ae8f474e793a00790837ba746d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_7919\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1093,
+    "sha256": "50d114a90ea80090346e462e68dff1f9459cdd1f6ab818356c0d054615e8bb38",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_7919\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 370,
+    "sha256": "5cf18b45bc29bfafb2ea23c03496c6c123a647751b2bf363dfac1610cde4ae79",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_7919\\analysis\\e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "0060d687ee62980ed51a54bc4ba34e1472bcff8d6227919078679cae22312854",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_7919\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_7919\\metrics.json",
+    "size_bytes": 3015,
+    "sha256": "2a531314c6f3774f1a93e0b3b5693c59e8055b60f096e1f8caf3819b07a6fd23",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\gmo_cwt\\seed_7919\\predictions.parquet",
+    "size_bytes": 449317,
+    "sha256": "27118842a5712bde4ce214c285a0c4dd4d1c46478b96678696f362a0d29e941a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_104729\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 227,
+    "sha256": "9ca0caed734cef3a0f75e1be110ae1599f3cf22333dc32a66207a0c5951a434e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_104729\\analysis\\e1_severity.csv",
+    "size_bytes": 668,
+    "sha256": "62ce04f0521d105f04d3048d5912a09bc31bbc9602deeda4120891557d30dc65",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_104729\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1158,
+    "sha256": "00bbf917f1ff5cc6c80caeec8fa42f6e9473eb252a1c312fd995b681fd78b7d7",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_104729\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 372,
+    "sha256": "b58f3d0a27fa30e7eee6cf53639725353a7f85dd8f2657a7ba88db15d8fbd2e5",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_104729\\analysis\\e3_mode.csv",
+    "size_bytes": 214,
+    "sha256": "b6d2758ceceebd890010a7b3f8c9fd1ad5190052ec4528af22a3c92a36b825cf",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_104729\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_104729\\metrics.json",
+    "size_bytes": 3115,
+    "sha256": "12e0e15b89b159daa54cfedf7aaef580f6e560f9a3b6ce5cda559b4ed0a53de1",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_104729\\predictions.parquet",
+    "size_bytes": 460019,
+    "sha256": "a09c05c4be966e453dabb56d4c92765527287e2db4dcf853d6ce959572ecf32e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_1729\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 214,
+    "sha256": "b129f744daa010b690a2a4d5738611ee239865660bd1ba48aeafc23df4afaf78",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_1729\\analysis\\e1_severity.csv",
+    "size_bytes": 652,
+    "sha256": "de3f4ee6b1c405e3980f07481d07e23dc09a72bccd3674a990498646bf3d1b7a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_1729\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1140,
+    "sha256": "0d2dd56c732d3689415969ea401b8798c2c79ea730d7186b78629234bba8cbf4",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_1729\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 371,
+    "sha256": "ebf94410ebf94f40ef5036cad1d0dd7bddb1f1198c8e0a536302636c7c0f5f7f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_1729\\analysis\\e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "5a85648d56328199925cb50bd6994de48e65316b1eea507d7494e5adb2058102",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_1729\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_1729\\metrics.json",
+    "size_bytes": 3076,
+    "sha256": "f16734db8f00b57ea54aa602929eb3cf9dda06bac39a0f3a53b29f158271a392",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_1729\\predictions.parquet",
+    "size_bytes": 457553,
+    "sha256": "8b277e3537bad36e3a32b0e520043259b574b21ecd595bf0feffb8568e7129c1",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_2027\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 227,
+    "sha256": "d5914a2afde7626cdfcfbaae425a5929343243d54749e6f48ce5e8b7d1e0f6a7",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_2027\\analysis\\e1_severity.csv",
+    "size_bytes": 652,
+    "sha256": "db76b10275427e51d94d8abbe240d3746b4b57df572e6ac0437f7d32cec26e23",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_2027\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1125,
+    "sha256": "9c495b8f83f02eb7b6fe46d0ca7b28bfd4648a29679fe3a95390b18277edd71f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_2027\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 360,
+    "sha256": "c70e4e12df03273630581865df6be8de3b1138c712b1606d628587edce20e612",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_2027\\analysis\\e3_mode.csv",
+    "size_bytes": 200,
+    "sha256": "6c9514d5c2cbe83d075c3ba8884d09d9eb6f06defaf79a9abed11c2eee5e2a5d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_2027\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_2027\\metrics.json",
+    "size_bytes": 2923,
+    "sha256": "93b0f47ccc3fa09cc4610e58a3870efd4b8a13727018e10b8bf7789dde65d4ed",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_2027\\predictions.parquet",
+    "size_bytes": 457813,
+    "sha256": "739612bceedceeb66323c803e5a2889579d5e07f259e593b59b1bd7a43cd5cfc",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_4099\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 226,
+    "sha256": "297bfa8b583b2343741363638c5c882f3fd6773a18bc6f4717382eddec0aaad9",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_4099\\analysis\\e1_severity.csv",
+    "size_bytes": 667,
+    "sha256": "dc28192d2aa64c535e75a7b55d8aba4b3f1e8094b7f19632a2fb16dde2ab0e3a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_4099\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1126,
+    "sha256": "e4de19e622b085cb87df1df4381b02c694b64ab12ba241e1a35f69cd8d76b8d2",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_4099\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 370,
+    "sha256": "379ae50d6631b351c8af6f7181035a3473da48c7fdcdd1aa7e92cf76341def3c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_4099\\analysis\\e3_mode.csv",
+    "size_bytes": 226,
+    "sha256": "9bdc81dccdaa88e7613143a48e241e4862a0e3d4724a9ccdd68115a49132470c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_4099\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_4099\\metrics.json",
+    "size_bytes": 3178,
+    "sha256": "9ce5ee98b0d7f28451187fb2589495b6fb19f7dcf83a612dcd8d588187c5434b",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_4099\\predictions.parquet",
+    "size_bytes": 459467,
+    "sha256": "52879c51f9dcbf473d80edba4c0bd96d0e8f18abf6c1f2d6e4790c4acea893eb",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_7919\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 214,
+    "sha256": "86561826111627ca7f96dee0db9f3a5faff68811b99e1b541c8da7587173c8eb",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_7919\\analysis\\e1_severity.csv",
+    "size_bytes": 653,
+    "sha256": "e9c50fee76518a557ad7b18f8392e976a224ece42bf776d4e4a40e20d1773497",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_7919\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1121,
+    "sha256": "3eaf108499574b74de7ad81fd740a42a1dc89a93b6d2509ab4c5062eeb986f64",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_7919\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 363,
+    "sha256": "81dd3c85f69b7636f38342473b30c47e2254f14fbe6ebbdfdb5096ba42750aee",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_7919\\analysis\\e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "521ba4c6c28d8283380afe170f3f0118b57db32347229bb9361c51bd9f24f112",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_7919\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_7919\\metrics.json",
+    "size_bytes": 3090,
+    "sha256": "732132af5199355807eb0b2ef41e14eca937d17f23e17567c293e1e097ebf9c0",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_cwt\\seed_7919\\predictions.parquet",
+    "size_bytes": 458563,
+    "sha256": "7b41dc9b153db3d886a0f7e1c01a796c0f40176f6eda53882127ff282bcbca5b",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_104729\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 227,
+    "sha256": "4274e1639c2e9265458ad4cf9629c595a1c44277c2faf623b72c431cc715a9fe",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_104729\\analysis\\e1_severity.csv",
+    "size_bytes": 685,
+    "sha256": "a521bf54033d6837afc44ea178c25b9354b464dc36ec14f775a94408d9195bc9",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_104729\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1373,
+    "sha256": "e37deb66a970828dd8d6415b53804ecf83dd5516dc8a73827aea5f5a9b865ed5",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_104729\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 362,
+    "sha256": "ef85cb6a32e9c9d65739456fba4f87d8483a95495b82913753f31b5417864593",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_104729\\analysis\\e3_mode.csv",
+    "size_bytes": 214,
+    "sha256": "fd7176ce211e101d68fd8c0acb9ffae2ecb03e318e0937e8765e3b59aa1e677d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_104729\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_104729\\metrics.json",
+    "size_bytes": 3069,
+    "sha256": "1fb298cb98c9c33d8509333c7102b3602fc9321c5cb844f8d19cb2f5b96833c9",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_104729\\predictions.parquet",
+    "size_bytes": 462335,
+    "sha256": "28e2a4ea04e6972388abbaf3b1f5eacb6c952aeaa15df733b1b44fa1d8f6fcf0",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_1729\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 225,
+    "sha256": "f708b4b9cb82622d719d48ae067b987e3f4cc7bb9eca96b12d259b3f932d398a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_1729\\analysis\\e1_severity.csv",
+    "size_bytes": 688,
+    "sha256": "2062d38b2b07315f7bb7ed6987e637928318a7036bcdc94b39eb51158cb02d08",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_1729\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1372,
+    "sha256": "49ea7cd286c33ea573f9cffbbe4e74865a965f061782a41538719acdcef9d801",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_1729\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 373,
+    "sha256": "a61567e09fad32b23f44f77e8002f896cc169c21d4d38f1e9868a623431f5162",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_1729\\analysis\\e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "78945c830e4182580529d59d460fd68e2c175177751cbbf0807bb0ff73977b27",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_1729\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_1729\\metrics.json",
+    "size_bytes": 3104,
+    "sha256": "4ac19d454debd09be91de1d34c4b194c18675a6bc895dc2b5f32309b1cad6e05",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_1729\\predictions.parquet",
+    "size_bytes": 462321,
+    "sha256": "cdf7ffe8c57f40ed3da2b72b7e86b5a1ff871b20f6fbfc997eb76f1a06421c3e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_2027\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 230,
+    "sha256": "8c95506037a009e5cdd33b2e0fe0617a6b9ec3d88e3c29d5afa621443c134f29",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_2027\\analysis\\e1_severity.csv",
+    "size_bytes": 706,
+    "sha256": "172cac9679acbf958c8b08547f160832d98bafd67d659dd210998a6e13738d49",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_2027\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1300,
+    "sha256": "94d05077e3f997b9f2504a1f028b473f693641e43b3d2d37c8d950006e1e8043",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_2027\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 377,
+    "sha256": "770b3b0c9991e1a5a4fb8d58954c8dcc9f0b3d9c67d2b83fbc0e60b304eef0f4",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_2027\\analysis\\e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "7bcbbc06f3810d0a9561125d4530c5abaf92c3e0722113ce566c5ab4eaa3f95b",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_2027\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_2027\\metrics.json",
+    "size_bytes": 3093,
+    "sha256": "273fa658f72ecbc815f48786261b4e7ed0fa5ce19d0234de91086530ed49eb5d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_2027\\predictions.parquet",
+    "size_bytes": 462331,
+    "sha256": "00da64b449478b0b9835871310882da3195b8a3804e9742f96e40772ddf08680",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_4099\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 212,
+    "sha256": "a2b76488c89dd06889a61a398ed6ee29b3f09f4f0227fc99ed0aa222f88f04bd",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_4099\\analysis\\e1_severity.csv",
+    "size_bytes": 704,
+    "sha256": "84488ac2664e57a322229fecacfed2e709731dd060bf884ea9019da771886966",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_4099\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1360,
+    "sha256": "9725b25eb6a0e01c200b3c566bb20ab2e0393d65df05f86541ec147d5f046a88",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_4099\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 367,
+    "sha256": "c4c4ac34f47aa811c48e7ee6f0aaaaac3007eab7e5dbab8433ff36b561553a8a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_4099\\analysis\\e3_mode.csv",
+    "size_bytes": 204,
+    "sha256": "dbeddfc5ed384cc787badf623fa5977792348b16823c9c8e692d348190e2b18d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_4099\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_4099\\metrics.json",
+    "size_bytes": 3092,
+    "sha256": "4e6b8756ef6820b34856c7d0b68b58831a0d2e20038884657c352248ca4a76d5",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_4099\\predictions.parquet",
+    "size_bytes": 462325,
+    "sha256": "4bfa612e60963eff359710a163d57d2d750d6ffc7aac9661cf7a33fc41d8484c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_7919\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 216,
+    "sha256": "e717b712d336d2f651e7aff2498f3f5b1b4015d6bde17b430e0fcebf4d41aebc",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_7919\\analysis\\e1_severity.csv",
+    "size_bytes": 656,
+    "sha256": "b55962c838398dd19ea9d4b7156e0b0e75fc050605f47aeb2ca40b2701d587c3",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_7919\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1233,
+    "sha256": "54d0860b5e98c888dcf394012b9d0fa060fc73808c38240a9cdb671c471afe07",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_7919\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 376,
+    "sha256": "3386717addcc8a3b8476642abb282ec166a71bafa0be51998b801d793c53f255",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_7919\\analysis\\e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "3dbdcee7e16f8bb1f9147a78964fc1d71e5c9b7c444fb7eabcb2d5829a3103c0",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_7919\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_7919\\metrics.json",
+    "size_bytes": 3178,
+    "sha256": "772265daa6ca18a1aa2287623ccd3b3332901669e4aa71584e87f9b05ee00a57",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_fft\\seed_7919\\predictions.parquet",
+    "size_bytes": 462313,
+    "sha256": "1a0e61f048b20f3e5eef15fbbbc963038f09474377498d947aca5113ad1d6eca",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_104729\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 214,
+    "sha256": "44914631a0e2877f8409231aa24a17a1e562453b4d10bfbdba4b7e2ada2f5be9",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_104729\\analysis\\e1_severity.csv",
+    "size_bytes": 668,
+    "sha256": "ad27b25d531e2e205caba9e260844290aae51b2b8e506bec168a05f1fe6e7eff",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_104729\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1141,
+    "sha256": "46dfc3e03544deee2f05f9a4f2aa815f7a6f51ed5710f5aaf05f6df0779a1824",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_104729\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 372,
+    "sha256": "2a16f2977077b24f0360519b9d4e0e52e8a1d1f9bb86e15df7653f03ca6c0f82",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_104729\\analysis\\e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "96f49a880db9506d6492e31a05d150d11f8543a0803f0f49216ee4d851b3d8ec",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_104729\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_104729\\metrics.json",
+    "size_bytes": 3061,
+    "sha256": "7e997c7b2c7ba233bf4cd6857b0f5c98d1df7b8e7140fc40b7a284e5aa209b5c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_104729\\predictions.parquet",
+    "size_bytes": 458970,
+    "sha256": "32d537f4e6f229538c760a8d70bd442513d9d9ba4497eebe4b4999caf027aeeb",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_1729\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 211,
+    "sha256": "44958b1ea36faab0e6c5bfe812b502d66a768927b744ad5a02b6005eda9cd355",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_1729\\analysis\\e1_severity.csv",
+    "size_bytes": 669,
+    "sha256": "19a2d9666f1153937841c7585d284b7887536bcb8a8486f5814384465784c4ae",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_1729\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1125,
+    "sha256": "403ae3f8c9f4a0e06a74e66a83973d992aae26c02b009b9febdbe20f74d72616",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_1729\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 364,
+    "sha256": "978890a3518a32c52b2efca61cba795138705769289d40918564e40eb7c1bdd0",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_1729\\analysis\\e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "37cd4daeef7b8e77ec4338ceba95e4f289c5e47ad4f54e6490e0a2d5803da6ee",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_1729\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_1729\\metrics.json",
+    "size_bytes": 3143,
+    "sha256": "0d1f73958b7f7f5abea3e168cd5637ff182739e3f512cc008ef0b5f938fcbff6",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_1729\\predictions.parquet",
+    "size_bytes": 458892,
+    "sha256": "e0ab2fb5bf0d13f8c664d02ffd58a9e34feb7cfbc5a07f53a0aabc4708bd4d0b",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_2027\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 217,
+    "sha256": "a13875af8a81e1fbda1db4ede6aacec8d5add6ccbc450229e9535fd4afd98238",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_2027\\analysis\\e1_severity.csv",
+    "size_bytes": 655,
+    "sha256": "448cdb0a05ce28ff20f885e974a9a7f14b4397982859c7acbda9327765938904",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_2027\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1139,
+    "sha256": "e789198e3cdf449aa36be79442886f1b184598c391e1e2111f6eeaf5dc28aff4",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_2027\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 371,
+    "sha256": "3b73482509098f3aefe0065187e1b2c81f35f3a3ffae2b36244c4190035eb842",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_2027\\analysis\\e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "868774df116a79b65e755f169ea7094a615e9e66729be71e652105eb30f4d7cc",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_2027\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_2027\\metrics.json",
+    "size_bytes": 3008,
+    "sha256": "e626711b063c1f4c09c951ecc3aec4cb9a49dfdb42fd88f48585b64c766da664",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_2027\\predictions.parquet",
+    "size_bytes": 458792,
+    "sha256": "22be6437937824a2dafead42fe09e1c03ea4c1d861131fb7148ad9c12f627a74",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_4099\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 227,
+    "sha256": "ee22a60030e6ccc8373e6a65d2fc55de1d29c6de864410b35b37963b3b1f453f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_4099\\analysis\\e1_severity.csv",
+    "size_bytes": 670,
+    "sha256": "8d49871ce3df588656227fc4a31df07a4e35ae6a9c2e396393fe59ff9ea64fac",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_4099\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1126,
+    "sha256": "1d6d640980aad45e480f7a6555cf371051b3b50221e512bcf8381e0ea1e7b2ce",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_4099\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 362,
+    "sha256": "ed685df8f2a16a815a3369dde68c9b5dab82aa767f65d2dfc2b662c35aed3f3d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_4099\\analysis\\e3_mode.csv",
+    "size_bytes": 225,
+    "sha256": "2f61c1ea0974bfe20cf0694d11d1d9fa0a71d017d387b281c4f8f0e30d2c45a0",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_4099\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_4099\\metrics.json",
+    "size_bytes": 3087,
+    "sha256": "2db2dca602210c13483d6a8d6af79a3d4a90aa983e7702fb80494b57425150bf",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_4099\\predictions.parquet",
+    "size_bytes": 459018,
+    "sha256": "b64760ec33011a95127fcf49b9c99da5adbc155941286ee8fcaaba3daad9d37e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_7919\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 214,
+    "sha256": "e34d89ef2c2d4abb249f7dcc1ab99a598af04f208dd2ed5a094e020cf131512d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_7919\\analysis\\e1_severity.csv",
+    "size_bytes": 669,
+    "sha256": "74f5dfcbd09bb7a027952f4074eeaa4b5976682a61fa71cd4e7d8a9a75b45a35",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_7919\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1124,
+    "sha256": "6e88952e2eb5e5c5e816ae516040213b2682e9bb6ac05e8332cd2e56ab131c1f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_7919\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 359,
+    "sha256": "4db3617cc5dc8f11a71bed39d10f2c7a464074493924f707a22b3079c8f7a7e8",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_7919\\analysis\\e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "7b1e9c75a8143be657c272209c2de20ac0431a23d53405e77094652d3d147d31",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_7919\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_7919\\metrics.json",
+    "size_bytes": 3167,
+    "sha256": "6392718bafd2b732ee508416395dfc4516be1627bb66421b00d9d9bb96fff3d2",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\shape_temporal\\seed_7919\\predictions.parquet",
+    "size_bytes": 458930,
+    "sha256": "00be6a63ef30e77792280986e9a951415aeedc4d328efd993666bcde3cb5c927",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_104729\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 227,
+    "sha256": "05e5e8cfba22df252d329520f40303270cc6c01bd1f867a0a5d0d9d4f12bbcfc",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_104729\\analysis\\e1_severity.csv",
+    "size_bytes": 668,
+    "sha256": "8c1ee0ec38b0d904ac47eb69c642cc6ed809bdef077694da5d774c5561e6ec52",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_104729\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1170,
+    "sha256": "2eaf6ece2f5c123139aaba42f50da248a5b3b03051ef24317f6b011ed92c8306",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_104729\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 370,
+    "sha256": "0c589ea3d7cec436ce1419b051a1a5989ff43489ae9ebd70df5674ac9d93f42a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_104729\\analysis\\e3_mode.csv",
+    "size_bytes": 226,
+    "sha256": "62eeba345bd3256859a5f79ef0462491eb7d8dc3fdf95978a62338622c986ab9",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_104729\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_104729\\metrics.json",
+    "size_bytes": 3181,
+    "sha256": "e1fcede8fbfd95636265e80e438930e52fa638bcee043bb0cfa14890986e105e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_104729\\predictions.parquet",
+    "size_bytes": 458999,
+    "sha256": "a088df6e5ad9f75b45ebabaf52ce6dbbc792cd6fc6d83edaef2ad47cb2c0e838",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_1729\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 200,
+    "sha256": "86dd585bbfbdbcbe9a46cfe2ca83392957df37449b0745d944c8e2e20fe31dcf",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_1729\\analysis\\e1_severity.csv",
+    "size_bytes": 667,
+    "sha256": "cb802e9a5ddd19ee4044ab2cc93c3c6b769fbe6f9a7f27153f6d4d1e3f97980f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_1729\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1185,
+    "sha256": "06adfb157f91ed13ae478848649ebccbb3ce76ac536faa337c24e983d0fabcd0",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_1729\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 371,
+    "sha256": "7dee87676cb919e1cdffdb0e4ce6589a51576def771726f19b020960dd4acaed",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_1729\\analysis\\e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "7a5a7122e27bc0632b4e972a20d7c6c6cbf2069d0f0e09b681a1534d6e204b20",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_1729\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_1729\\metrics.json",
+    "size_bytes": 3132,
+    "sha256": "65cbb88725e15f6253903ed1e7a4de309516a9cbba1d67e013c9a8b782a2b01e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_1729\\predictions.parquet",
+    "size_bytes": 459385,
+    "sha256": "38a12b355d96fa466cd7534c819a603009bc5027925f0799593949733a73b5dc",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_2027\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 226,
+    "sha256": "292636fdaa8ef9ef0189c52061bf8928f205bda639bf2d49742237af5e69a0ca",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_2027\\analysis\\e1_severity.csv",
+    "size_bytes": 684,
+    "sha256": "35e5bf49d6813e7e97b658fcd3fd37390f452e4b9efe26a0577e8e0eb00d3b0c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_2027\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1230,
+    "sha256": "daec2b94698b13232ce3186dd3b5a889f4930a95b7befce6184c6812cec73975",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_2027\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 361,
+    "sha256": "e22c6fb907773185f853c15e2db50440005ebd5e05de87718498f39a38e7be21",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_2027\\analysis\\e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "29647bb5793ed162ce6a4f48bf514f3162f7389e7dea3f90f2e8b59ed70bba77",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_2027\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_2027\\metrics.json",
+    "size_bytes": 3073,
+    "sha256": "8e4f2f3c4f4d870e91fbfada5d7718f2cc6625dc3edc0c25b35d7e8bbfb6e4a2",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_2027\\predictions.parquet",
+    "size_bytes": 460985,
+    "sha256": "074ea836f982682a2e07d67386fc725fed0bf3530eae253d05c4408a44648e3b",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_4099\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 226,
+    "sha256": "39bf1ba6cee7b65af0200bb7b4ac6a2f919d038fd275442c265acc0f6d6f3b5b",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_4099\\analysis\\e1_severity.csv",
+    "size_bytes": 668,
+    "sha256": "444bb5c9a860f7c22c1d65ee11ba8ced88a3acf62def6df91bb8b5266c61f779",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_4099\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1156,
+    "sha256": "d6a3013678157187e4882aedaf4b5b0113c8de5d0b0042797a03c046c9ca3698",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_4099\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 370,
+    "sha256": "b35f3204ebab7f2ae00d483d8129df041e1219364332529e535b254cc94047a1",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_4099\\analysis\\e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "8ba60410115f82de90d8a939776596e75194d1b0046e998254411316668ef40d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_4099\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_4099\\metrics.json",
+    "size_bytes": 3210,
+    "sha256": "33547e2c3f7eeacfa4d0a9bf14ccb3231971d53009c5f0f2d74c9d58cf4e55c9",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_4099\\predictions.parquet",
+    "size_bytes": 460201,
+    "sha256": "6322cd0ef362f08e49dcadfa28822e6747d26901172b176c6305ed4cfda420d2",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_7919\\analysis\\e0_parent_bootstrap.json",
+    "size_bytes": 212,
+    "sha256": "7f88cc776d5d21242751e685f8c30197182d3dbdf6fcfdfe3cf3922450f68874",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_7919\\analysis\\e1_severity.csv",
+    "size_bytes": 667,
+    "sha256": "bd3689da6574d8a6b9dfbe6ed4a88942b2fcbd5302e029e2f17609cf8954f010",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_7919\\analysis\\e2a_vibration_grid.csv",
+    "size_bytes": 1184,
+    "sha256": "9c8c9700f46dac5780b892d5f0aa3011e6dba9fa027e8c01127b0f310db8994a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_7919\\analysis\\e3_excitation_quartiles.csv",
+    "size_bytes": 369,
+    "sha256": "09f5c57a769557616c2a61feb46b3f9a880269d2982ce7c40f0d25d878f833e5",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_7919\\analysis\\e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "5512cf2b38e79358c9e1b33f4a1abe8913a78ce90600c7c22db50c0e3959c8c6",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_7919\\analysis\\e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_7919\\metrics.json",
+    "size_bytes": 3127,
+    "sha256": "6067aa887ea44cf42a217639053ad079aa678f97a10ff0df5998339137369e92",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E0_PRIMARY\\torque_cwt\\seed_7919\\predictions.parquet",
+    "size_bytes": 460373,
+    "sha256": "c69d97a56482ada807f253c23583d5fad4c4692ab79b1ae1336cf2070757d15d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\energy_cwt_seed_104729_e1_severity.csv",
+    "size_bytes": 652,
+    "sha256": "0c23dc10f8041d2624ebc4cc70ea2a0aa896e2edd264b7892e5681792e6562df",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\energy_cwt_seed_1729_e1_severity.csv",
+    "size_bytes": 654,
+    "sha256": "1b8ec86a954afc7cb429a4b9acc58ddc04b149f6dbe5f120497710829602ba90",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\energy_cwt_seed_2027_e1_severity.csv",
+    "size_bytes": 651,
+    "sha256": "24519887ec3ff3375304e406fbd4733fefd58ecae248d6949feede86d26ed6e9",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\energy_cwt_seed_4099_e1_severity.csv",
+    "size_bytes": 668,
+    "sha256": "37d6f2e26a294b6649261a1fe1595e3e2ed0acccaf3f565568c12f16f38557e3",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\energy_cwt_seed_7919_e1_severity.csv",
+    "size_bytes": 652,
+    "sha256": "a9c1e0b1030be28cfd45bd65328101a07dd81b2b9b450cab96ec51b2e1bf9682",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\gmo_cwt_seed_104729_e1_severity.csv",
+    "size_bytes": 593,
+    "sha256": "e2b31fb7db7ff5750b481944365b5d4204705c4e0aea116e71c1cdcaae4fdd14",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\gmo_cwt_seed_1729_e1_severity.csv",
+    "size_bytes": 608,
+    "sha256": "f3b0beb4c0da68afd17dfe5ebb5028d0d29de608c5a394a00bc2770f98690b03",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\gmo_cwt_seed_2027_e1_severity.csv",
+    "size_bytes": 578,
+    "sha256": "2059cd0250fa42324920ed1dd4dd3e61c566a1dacdfb6ec1722f8e2141fe9df2",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\gmo_cwt_seed_4099_e1_severity.csv",
+    "size_bytes": 623,
+    "sha256": "87738df02c2abc196c15a8a8ca7bd57c282e3c5193a1e499845a7ad8a0a6a468",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\gmo_cwt_seed_7919_e1_severity.csv",
+    "size_bytes": 608,
+    "sha256": "9bf564bdc22ffa91bf108d149020cf19a06143ae8f474e793a00790837ba746d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\shape_cwt_seed_104729_e1_severity.csv",
+    "size_bytes": 668,
+    "sha256": "62ce04f0521d105f04d3048d5912a09bc31bbc9602deeda4120891557d30dc65",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\shape_cwt_seed_1729_e1_severity.csv",
+    "size_bytes": 652,
+    "sha256": "de3f4ee6b1c405e3980f07481d07e23dc09a72bccd3674a990498646bf3d1b7a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\shape_cwt_seed_2027_e1_severity.csv",
+    "size_bytes": 652,
+    "sha256": "db76b10275427e51d94d8abbe240d3746b4b57df572e6ac0437f7d32cec26e23",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\shape_cwt_seed_4099_e1_severity.csv",
+    "size_bytes": 667,
+    "sha256": "dc28192d2aa64c535e75a7b55d8aba4b3f1e8094b7f19632a2fb16dde2ab0e3a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\shape_cwt_seed_7919_e1_severity.csv",
+    "size_bytes": 653,
+    "sha256": "e9c50fee76518a557ad7b18f8392e976a224ece42bf776d4e4a40e20d1773497",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\shape_fft_seed_104729_e1_severity.csv",
+    "size_bytes": 685,
+    "sha256": "a521bf54033d6837afc44ea178c25b9354b464dc36ec14f775a94408d9195bc9",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\shape_fft_seed_1729_e1_severity.csv",
+    "size_bytes": 688,
+    "sha256": "2062d38b2b07315f7bb7ed6987e637928318a7036bcdc94b39eb51158cb02d08",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\shape_fft_seed_2027_e1_severity.csv",
+    "size_bytes": 706,
+    "sha256": "172cac9679acbf958c8b08547f160832d98bafd67d659dd210998a6e13738d49",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\shape_fft_seed_4099_e1_severity.csv",
+    "size_bytes": 704,
+    "sha256": "84488ac2664e57a322229fecacfed2e709731dd060bf884ea9019da771886966",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\shape_fft_seed_7919_e1_severity.csv",
+    "size_bytes": 656,
+    "sha256": "b55962c838398dd19ea9d4b7156e0b0e75fc050605f47aeb2ca40b2701d587c3",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\shape_temporal_seed_104729_e1_severity.csv",
+    "size_bytes": 668,
+    "sha256": "ad27b25d531e2e205caba9e260844290aae51b2b8e506bec168a05f1fe6e7eff",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\shape_temporal_seed_1729_e1_severity.csv",
+    "size_bytes": 669,
+    "sha256": "19a2d9666f1153937841c7585d284b7887536bcb8a8486f5814384465784c4ae",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\shape_temporal_seed_2027_e1_severity.csv",
+    "size_bytes": 655,
+    "sha256": "448cdb0a05ce28ff20f885e974a9a7f14b4397982859c7acbda9327765938904",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\shape_temporal_seed_4099_e1_severity.csv",
+    "size_bytes": 670,
+    "sha256": "8d49871ce3df588656227fc4a31df07a4e35ae6a9c2e396393fe59ff9ea64fac",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\shape_temporal_seed_7919_e1_severity.csv",
+    "size_bytes": 669,
+    "sha256": "74f5dfcbd09bb7a027952f4074eeaa4b5976682a61fa71cd4e7d8a9a75b45a35",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\torque_cwt_seed_104729_e1_severity.csv",
+    "size_bytes": 668,
+    "sha256": "8c1ee0ec38b0d904ac47eb69c642cc6ed809bdef077694da5d774c5561e6ec52",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\torque_cwt_seed_1729_e1_severity.csv",
+    "size_bytes": 667,
+    "sha256": "cb802e9a5ddd19ee4044ab2cc93c3c6b769fbe6f9a7f27153f6d4d1e3f97980f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\torque_cwt_seed_2027_e1_severity.csv",
+    "size_bytes": 684,
+    "sha256": "35e5bf49d6813e7e97b658fcd3fd37390f452e4b9efe26a0577e8e0eb00d3b0c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\torque_cwt_seed_4099_e1_severity.csv",
+    "size_bytes": 668,
+    "sha256": "444bb5c9a860f7c22c1d65ee11ba8ced88a3acf62def6df91bb8b5266c61f779",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E1_SEVERITY\\torque_cwt_seed_7919_e1_severity.csv",
+    "size_bytes": 667,
+    "sha256": "bd3689da6574d8a6b9dfbe6ed4a88942b2fcbd5302e029e2f17609cf8954f010",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\energy_cwt\\seed_104729\\analysis\\e2b_frequency.csv",
+    "size_bytes": 552,
+    "sha256": "9618e6150bbb8d825805309b1f84b030a3b94ad430c39cf550f1881270697641",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\energy_cwt\\seed_104729\\metrics.json",
+    "size_bytes": 2564,
+    "sha256": "0bd03ca4fa941d34f0c02abcfd20358156c4367a500d6ee99d3221e9bc4abfdf",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\energy_cwt\\seed_104729\\predictions.parquet",
+    "size_bytes": 58322,
+    "sha256": "3139cd5240a54b16f79c84edfd952249017c8a7601695957ddc1ba327556f189",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\energy_cwt\\seed_1729\\analysis\\e2b_frequency.csv",
+    "size_bytes": 552,
+    "sha256": "5fe84a5c127fe46fc585465291111af586088b792814f55382e2c1b922901d47",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\energy_cwt\\seed_1729\\metrics.json",
+    "size_bytes": 2562,
+    "sha256": "97818c65049e0deb10b3f842102837acef9025ebcc1cf6108a1bb9b3c415d9a5",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\energy_cwt\\seed_1729\\predictions.parquet",
+    "size_bytes": 58816,
+    "sha256": "dbfc540eab62a6e2a5f91df21860880641ea7f194ba0d241efa162f62c84b47c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\energy_cwt\\seed_2027\\analysis\\e2b_frequency.csv",
+    "size_bytes": 552,
+    "sha256": "9618e6150bbb8d825805309b1f84b030a3b94ad430c39cf550f1881270697641",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\energy_cwt\\seed_2027\\metrics.json",
+    "size_bytes": 2562,
+    "sha256": "7458ba7811de8c2a4a70a05e0d44e2f75b0ad66d8609c0fe495710de8d62ec65",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\energy_cwt\\seed_2027\\predictions.parquet",
+    "size_bytes": 58606,
+    "sha256": "c03e08bf5ac792d94fe08ede97c2a7848fb4bb790911a1062496ea81bc22a33c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\energy_cwt\\seed_4099\\analysis\\e2b_frequency.csv",
+    "size_bytes": 537,
+    "sha256": "9734e93e090fa8d06e9be711dffb3ef1d0f7bce47c23ad33b78f76c645231d3e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\energy_cwt\\seed_4099\\metrics.json",
+    "size_bytes": 2336,
+    "sha256": "aaa71e1efe67e38a62829983ac4c955ef310793c3f7010ef4ba7b93605c63aba",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\energy_cwt\\seed_4099\\predictions.parquet",
+    "size_bytes": 57937,
+    "sha256": "274f6ee38c5d3171fa1c166b9f1f9d2730a90fe21b8ccde2fdc89d55745df83a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\energy_cwt\\seed_7919\\analysis\\e2b_frequency.csv",
+    "size_bytes": 552,
+    "sha256": "9618e6150bbb8d825805309b1f84b030a3b94ad430c39cf550f1881270697641",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\energy_cwt\\seed_7919\\metrics.json",
+    "size_bytes": 2562,
+    "sha256": "95e4c1878797dda0f21510c12e9e1160c1b329595178a22b3ac5bd097e6bb828",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\energy_cwt\\seed_7919\\predictions.parquet",
+    "size_bytes": 58394,
+    "sha256": "7b7c6f128f8b1b9df0ca98b9894a124de80a97d0fa514d296dbaef907a1f104c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\gmo_cwt\\seed_104729\\analysis\\e2b_frequency.csv",
+    "size_bytes": 537,
+    "sha256": "9734e93e090fa8d06e9be711dffb3ef1d0f7bce47c23ad33b78f76c645231d3e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\gmo_cwt\\seed_104729\\metrics.json",
+    "size_bytes": 2335,
+    "sha256": "f9a8d39578e03f2f96e435144591ad4820184139664e97368382632d38beef59",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\gmo_cwt\\seed_104729\\predictions.parquet",
+    "size_bytes": 57298,
+    "sha256": "f03c710b9762d282a606af03de97e2487b3597f9dc70e5516b2fb7723d5591f1",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\gmo_cwt\\seed_1729\\analysis\\e2b_frequency.csv",
+    "size_bytes": 552,
+    "sha256": "fe907bfbdc512c33e99fa9f8031684e3d1c9c6aab24941e503a2cd02202bde15",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\gmo_cwt\\seed_1729\\metrics.json",
+    "size_bytes": 2559,
+    "sha256": "e85fd5f109af205c6c2fb7ec7ad30f936ea72f71f6f8e8877ff3925bcc41f682",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\gmo_cwt\\seed_1729\\predictions.parquet",
+    "size_bytes": 57607,
+    "sha256": "79e672446486ed881a4954b13f3251d32119f6a1dfc213a7fe7f86968af13d92",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\gmo_cwt\\seed_2027\\analysis\\e2b_frequency.csv",
+    "size_bytes": 537,
+    "sha256": "9734e93e090fa8d06e9be711dffb3ef1d0f7bce47c23ad33b78f76c645231d3e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\gmo_cwt\\seed_2027\\metrics.json",
+    "size_bytes": 2333,
+    "sha256": "4f31dc4200c6886bf5db24e1d71231f5e7d531b45b92ad8a6ad5d339fa18a1f4",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\gmo_cwt\\seed_2027\\predictions.parquet",
+    "size_bytes": 57271,
+    "sha256": "e769e2e8abf820266311e4af8f785e63326e646abd4c5eda067511c1900634db",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\gmo_cwt\\seed_4099\\analysis\\e2b_frequency.csv",
+    "size_bytes": 537,
+    "sha256": "9734e93e090fa8d06e9be711dffb3ef1d0f7bce47c23ad33b78f76c645231d3e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\gmo_cwt\\seed_4099\\metrics.json",
+    "size_bytes": 2333,
+    "sha256": "327224bbb2a1635ae8c4cee94ee103bb11aebdcb135929c852656f86af312b0d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\gmo_cwt\\seed_4099\\predictions.parquet",
+    "size_bytes": 57462,
+    "sha256": "f82610434756cd8ac4cb351f8e0e4df3fa35c13f942e4187e3ca17d6b6f52275",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\gmo_cwt\\seed_7919\\analysis\\e2b_frequency.csv",
+    "size_bytes": 537,
+    "sha256": "9734e93e090fa8d06e9be711dffb3ef1d0f7bce47c23ad33b78f76c645231d3e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\gmo_cwt\\seed_7919\\metrics.json",
+    "size_bytes": 2333,
+    "sha256": "d6f74fb9ef5d40f6b149a3620bc9228814fe7e9082687f446a26333f3d86623c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\gmo_cwt\\seed_7919\\predictions.parquet",
+    "size_bytes": 57268,
+    "sha256": "ab762c9776fcf121b6d2b338da27fd007c9aa714b7096594a0aac28c9758f7db",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\shape_cwt\\seed_104729\\analysis\\e2b_frequency.csv",
+    "size_bytes": 567,
+    "sha256": "955f72f15fd822bc2ca1390f885a8a1a94f1248e2bca53830e5e825e90d76f25",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\shape_cwt\\seed_104729\\metrics.json",
+    "size_bytes": 2598,
+    "sha256": "774c101deb778378f005e999663a028693ab2a7e9cf79b47e354348150dcfdbc",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\shape_cwt\\seed_104729\\predictions.parquet",
+    "size_bytes": 58359,
+    "sha256": "6787f766c909154fc3e9e7f2ea4612bc9154bc86f2acb4c3703bbf265c68182c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\shape_cwt\\seed_1729\\analysis\\e2b_frequency.csv",
+    "size_bytes": 567,
+    "sha256": "955f72f15fd822bc2ca1390f885a8a1a94f1248e2bca53830e5e825e90d76f25",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\shape_cwt\\seed_1729\\metrics.json",
+    "size_bytes": 2596,
+    "sha256": "a24f65c8924c3d197f99a76f0afd4cf37fb77552302cbc0518ae4b736d12a736",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\shape_cwt\\seed_1729\\predictions.parquet",
+    "size_bytes": 57946,
+    "sha256": "6674a548f23c8da9c8040ca4905181d4373a343e3a5df75faa27321ede6e7f7f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\shape_cwt\\seed_2027\\analysis\\e2b_frequency.csv",
+    "size_bytes": 552,
+    "sha256": "fe907bfbdc512c33e99fa9f8031684e3d1c9c6aab24941e503a2cd02202bde15",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\shape_cwt\\seed_2027\\metrics.json",
+    "size_bytes": 2561,
+    "sha256": "7818a1c88574c3245530c70ca6e27451d37356b9d0594dffedf2183a2fa754e8",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\shape_cwt\\seed_2027\\predictions.parquet",
+    "size_bytes": 57774,
+    "sha256": "f76a10625c8728a1ac7f60f7526031faf64c223b46ff9dbf4746c79bcf6f1b4a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\shape_cwt\\seed_4099\\analysis\\e2b_frequency.csv",
+    "size_bytes": 567,
+    "sha256": "203fb1cfa85ddb2800350b885b3d2f664dd168986488ee128c50b6eee72b4080",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\shape_cwt\\seed_4099\\metrics.json",
+    "size_bytes": 2614,
+    "sha256": "4c8472f1c46c9a7ff9d2d94d7f90e27bd7cad6303f2701ddcbe6b3c0706d69d1",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\shape_cwt\\seed_4099\\predictions.parquet",
+    "size_bytes": 58036,
+    "sha256": "e8aa775bd3c2fa4b8e3ba53c84c240ecb2c91791f02b25784b8bbf55c75858f3",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\shape_cwt\\seed_7919\\analysis\\e2b_frequency.csv",
+    "size_bytes": 567,
+    "sha256": "955f72f15fd822bc2ca1390f885a8a1a94f1248e2bca53830e5e825e90d76f25",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\shape_cwt\\seed_7919\\metrics.json",
+    "size_bytes": 2596,
+    "sha256": "122343c1b90425e5e3cdff09a0eff3c92ef472c98fa14ab9f79dbc3e88666978",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\shape_cwt\\seed_7919\\predictions.parquet",
+    "size_bytes": 57938,
+    "sha256": "17f071652fc00c697c1f5e8b4ce11c47b7e038fc655187567859aad1b7f52116",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\torque_cwt\\seed_104729\\analysis\\e2b_frequency.csv",
+    "size_bytes": 567,
+    "sha256": "835997b0d3e58b3d3179656c5d0422a2017dbb98493df113b026df25cbf5c35e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\torque_cwt\\seed_104729\\metrics.json",
+    "size_bytes": 2617,
+    "sha256": "b42d561e99ab81102157a7eec95780aa0d61d254419e2dd8e342643d8fa7fa4e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\torque_cwt\\seed_104729\\predictions.parquet",
+    "size_bytes": 58003,
+    "sha256": "afdeca6bb8cc623665afc9ee4058c668836fb7ea8806c311ce41bd1914b8a3fc",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\torque_cwt\\seed_1729\\analysis\\e2b_frequency.csv",
+    "size_bytes": 582,
+    "sha256": "3f38629e910e081ef0c3b5a37f3114dc8545cf7fd00060923027478379385f85",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\torque_cwt\\seed_1729\\metrics.json",
+    "size_bytes": 2583,
+    "sha256": "8d13966958804787ccfa4aafa0c5988ce09782dd174c4d06deb84e229fd2a303",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\torque_cwt\\seed_1729\\predictions.parquet",
+    "size_bytes": 58085,
+    "sha256": "c9b6f5e74fa6bf9ff2b51929254cda3637fc071d20e577c9c04ea3726d031cee",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\torque_cwt\\seed_2027\\analysis\\e2b_frequency.csv",
+    "size_bytes": 582,
+    "sha256": "510380cd8f6b488c81351df1925ce7833dfe152478bba412cded29aef0b175d8",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\torque_cwt\\seed_2027\\metrics.json",
+    "size_bytes": 2611,
+    "sha256": "732e59f28469bc9c3919305c32a0454b5a9de936fd941119e37ff13aa4768dbc",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\torque_cwt\\seed_2027\\predictions.parquet",
+    "size_bytes": 58487,
+    "sha256": "9ea520fca79fab4e2235a515b76eff3c66c9408eff1bd001efa81d0155ac4e83",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\torque_cwt\\seed_4099\\analysis\\e2b_frequency.csv",
+    "size_bytes": 567,
+    "sha256": "b846ad9d13f258a97e9372b6561ec7cf5b37472168fc391a5b0c16e1d5f3ca79",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\torque_cwt\\seed_4099\\metrics.json",
+    "size_bytes": 2503,
+    "sha256": "eb1b5a65c4aad8e0125da2263a021d1b9fc708df44b7d4f9e1c851577a227a34",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\torque_cwt\\seed_4099\\predictions.parquet",
+    "size_bytes": 58264,
+    "sha256": "da26227e7c367c8d0e35808015310e96b82ffb60e3014d5d0dea9b132621ff44",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\torque_cwt\\seed_7919\\analysis\\e2b_frequency.csv",
+    "size_bytes": 567,
+    "sha256": "1da82b4971d9fff25453b3b0c0ad946d6f6d793c24c7555e4dc071762ad30742",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\torque_cwt\\seed_7919\\metrics.json",
+    "size_bytes": 2494,
+    "sha256": "ea83c0591323490f0b038323a6b21ad392f7048f5eb41d1aa23bb3e69c6d9895",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E2B_FREQUENCY\\torque_cwt\\seed_7919\\predictions.parquet",
+    "size_bytes": 58377,
+    "sha256": "b3fdd2795d4340777c3857c9dd9f0469c9344bebb71b135f8d944ffe06a5c10a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\energy_cwt_seed_104729_e3_excitation_quartiles.csv",
+    "size_bytes": 364,
+    "sha256": "80f50023a51325f2bbe75dacfdea479b97534b7ddcec2dccb335cc472a0e5859",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\energy_cwt_seed_104729_e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "f03285caa4dec2d8df6a2b2db92b783d75b1951566928380d1f803c25e5eed6b",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\energy_cwt_seed_104729_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\energy_cwt_seed_1729_e3_excitation_quartiles.csv",
+    "size_bytes": 372,
+    "sha256": "399b989d7e1df5c34df11be330bdc93aed52bff5340587fccac7c7bd5ccaa323",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\energy_cwt_seed_1729_e3_mode.csv",
+    "size_bytes": 214,
+    "sha256": "38e22002c06118674ea1d008ba4186f75afad64e387e1a1deda351ac923cfec2",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\energy_cwt_seed_1729_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\energy_cwt_seed_2027_e3_excitation_quartiles.csv",
+    "size_bytes": 371,
+    "sha256": "8e912a4575786c0e38805e318566aa4c143a72c4c1704391eb1255429dc36010",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\energy_cwt_seed_2027_e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "f1bc71cc6f4a6e344dc1540a1a2abefc4e9b6051826838b9a2a09b5efc747e28",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\energy_cwt_seed_2027_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\energy_cwt_seed_4099_e3_excitation_quartiles.csv",
+    "size_bytes": 361,
+    "sha256": "85792e55934590588a7613754a31c720cf166078d89e65de56d09550f4e1b118",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\energy_cwt_seed_4099_e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "9059c5a8c944e59501f336db8d3b1c201f58fd12f172156f983e5b1015f1498f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\energy_cwt_seed_4099_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\energy_cwt_seed_7919_e3_excitation_quartiles.csv",
+    "size_bytes": 371,
+    "sha256": "90d01f638e177a8b1fe52b357fd6c367a9e90f87e1e5da616630f6b121fe09be",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\energy_cwt_seed_7919_e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "eb4575bfae2eda25f90c9e235c974b3b2864bf43b946114198779d1dbf036648",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\energy_cwt_seed_7919_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\gmo_cwt_seed_104729_e3_excitation_quartiles.csv",
+    "size_bytes": 372,
+    "sha256": "a3d875cc3b3763459c378db61f749f8d9a62d91fb4b42f8d853b44cbe630159e",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\gmo_cwt_seed_104729_e3_mode.csv",
+    "size_bytes": 199,
+    "sha256": "1e5421a54acb001eb44576284c7d8c2a1acae06dfcc091cc2805defaf186e807",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\gmo_cwt_seed_104729_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\gmo_cwt_seed_1729_e3_excitation_quartiles.csv",
+    "size_bytes": 371,
+    "sha256": "b24bc82410419f77a8d8d38d785cdc74f3a5aa772fad45a617b8a57a7193c977",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\gmo_cwt_seed_1729_e3_mode.csv",
+    "size_bytes": 199,
+    "sha256": "e30a83df45d71f3d13c0a032c867b17a7633a54460a74414028f259a99f7c13c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\gmo_cwt_seed_1729_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\gmo_cwt_seed_2027_e3_excitation_quartiles.csv",
+    "size_bytes": 371,
+    "sha256": "4864841b1f1147bc731dc388cd90cbc7dd9ccfe4031f5778cb1833ddad9e8d5a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\gmo_cwt_seed_2027_e3_mode.csv",
+    "size_bytes": 226,
+    "sha256": "772163a16ede289e898a614416a0b85df13448ee49abbc5fd61d52327bfa5841",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\gmo_cwt_seed_2027_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\gmo_cwt_seed_4099_e3_excitation_quartiles.csv",
+    "size_bytes": 361,
+    "sha256": "4597ad9cf4d4e778e591bf4a3fa8820aaa87bf83f88c55604055ba1d3ce7d387",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\gmo_cwt_seed_4099_e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "1b620d59d686151caf41b0da3f57e5feeef745afac2300e11017106f20b14a58",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\gmo_cwt_seed_4099_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\gmo_cwt_seed_7919_e3_excitation_quartiles.csv",
+    "size_bytes": 370,
+    "sha256": "5cf18b45bc29bfafb2ea23c03496c6c123a647751b2bf363dfac1610cde4ae79",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\gmo_cwt_seed_7919_e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "0060d687ee62980ed51a54bc4ba34e1472bcff8d6227919078679cae22312854",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\gmo_cwt_seed_7919_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_cwt_seed_104729_e3_excitation_quartiles.csv",
+    "size_bytes": 372,
+    "sha256": "b58f3d0a27fa30e7eee6cf53639725353a7f85dd8f2657a7ba88db15d8fbd2e5",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_cwt_seed_104729_e3_mode.csv",
+    "size_bytes": 214,
+    "sha256": "b6d2758ceceebd890010a7b3f8c9fd1ad5190052ec4528af22a3c92a36b825cf",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_cwt_seed_104729_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_cwt_seed_1729_e3_excitation_quartiles.csv",
+    "size_bytes": 371,
+    "sha256": "ebf94410ebf94f40ef5036cad1d0dd7bddb1f1198c8e0a536302636c7c0f5f7f",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_cwt_seed_1729_e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "5a85648d56328199925cb50bd6994de48e65316b1eea507d7494e5adb2058102",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_cwt_seed_1729_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_cwt_seed_2027_e3_excitation_quartiles.csv",
+    "size_bytes": 360,
+    "sha256": "c70e4e12df03273630581865df6be8de3b1138c712b1606d628587edce20e612",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_cwt_seed_2027_e3_mode.csv",
+    "size_bytes": 200,
+    "sha256": "6c9514d5c2cbe83d075c3ba8884d09d9eb6f06defaf79a9abed11c2eee5e2a5d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_cwt_seed_2027_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_cwt_seed_4099_e3_excitation_quartiles.csv",
+    "size_bytes": 370,
+    "sha256": "379ae50d6631b351c8af6f7181035a3473da48c7fdcdd1aa7e92cf76341def3c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_cwt_seed_4099_e3_mode.csv",
+    "size_bytes": 226,
+    "sha256": "9bdc81dccdaa88e7613143a48e241e4862a0e3d4724a9ccdd68115a49132470c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_cwt_seed_4099_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_cwt_seed_7919_e3_excitation_quartiles.csv",
+    "size_bytes": 363,
+    "sha256": "81dd3c85f69b7636f38342473b30c47e2254f14fbe6ebbdfdb5096ba42750aee",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_cwt_seed_7919_e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "521ba4c6c28d8283380afe170f3f0118b57db32347229bb9361c51bd9f24f112",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_cwt_seed_7919_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_fft_seed_104729_e3_excitation_quartiles.csv",
+    "size_bytes": 362,
+    "sha256": "ef85cb6a32e9c9d65739456fba4f87d8483a95495b82913753f31b5417864593",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_fft_seed_104729_e3_mode.csv",
+    "size_bytes": 214,
+    "sha256": "fd7176ce211e101d68fd8c0acb9ffae2ecb03e318e0937e8765e3b59aa1e677d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_fft_seed_104729_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_fft_seed_1729_e3_excitation_quartiles.csv",
+    "size_bytes": 373,
+    "sha256": "a61567e09fad32b23f44f77e8002f896cc169c21d4d38f1e9868a623431f5162",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_fft_seed_1729_e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "78945c830e4182580529d59d460fd68e2c175177751cbbf0807bb0ff73977b27",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_fft_seed_1729_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_fft_seed_2027_e3_excitation_quartiles.csv",
+    "size_bytes": 377,
+    "sha256": "770b3b0c9991e1a5a4fb8d58954c8dcc9f0b3d9c67d2b83fbc0e60b304eef0f4",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_fft_seed_2027_e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "7bcbbc06f3810d0a9561125d4530c5abaf92c3e0722113ce566c5ab4eaa3f95b",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_fft_seed_2027_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_fft_seed_4099_e3_excitation_quartiles.csv",
+    "size_bytes": 367,
+    "sha256": "c4c4ac34f47aa811c48e7ee6f0aaaaac3007eab7e5dbab8433ff36b561553a8a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_fft_seed_4099_e3_mode.csv",
+    "size_bytes": 204,
+    "sha256": "dbeddfc5ed384cc787badf623fa5977792348b16823c9c8e692d348190e2b18d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_fft_seed_4099_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_fft_seed_7919_e3_excitation_quartiles.csv",
+    "size_bytes": 376,
+    "sha256": "3386717addcc8a3b8476642abb282ec166a71bafa0be51998b801d793c53f255",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_fft_seed_7919_e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "3dbdcee7e16f8bb1f9147a78964fc1d71e5c9b7c444fb7eabcb2d5829a3103c0",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_fft_seed_7919_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_temporal_seed_104729_e3_excitation_quartiles.csv",
+    "size_bytes": 372,
+    "sha256": "2a16f2977077b24f0360519b9d4e0e52e8a1d1f9bb86e15df7653f03ca6c0f82",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_temporal_seed_104729_e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "96f49a880db9506d6492e31a05d150d11f8543a0803f0f49216ee4d851b3d8ec",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_temporal_seed_104729_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_temporal_seed_1729_e3_excitation_quartiles.csv",
+    "size_bytes": 364,
+    "sha256": "978890a3518a32c52b2efca61cba795138705769289d40918564e40eb7c1bdd0",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_temporal_seed_1729_e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "37cd4daeef7b8e77ec4338ceba95e4f289c5e47ad4f54e6490e0a2d5803da6ee",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_temporal_seed_1729_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_temporal_seed_2027_e3_excitation_quartiles.csv",
+    "size_bytes": 371,
+    "sha256": "3b73482509098f3aefe0065187e1b2c81f35f3a3ffae2b36244c4190035eb842",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_temporal_seed_2027_e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "868774df116a79b65e755f169ea7094a615e9e66729be71e652105eb30f4d7cc",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_temporal_seed_2027_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_temporal_seed_4099_e3_excitation_quartiles.csv",
+    "size_bytes": 362,
+    "sha256": "ed685df8f2a16a815a3369dde68c9b5dab82aa767f65d2dfc2b662c35aed3f3d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_temporal_seed_4099_e3_mode.csv",
+    "size_bytes": 225,
+    "sha256": "2f61c1ea0974bfe20cf0694d11d1d9fa0a71d017d387b281c4f8f0e30d2c45a0",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_temporal_seed_4099_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_temporal_seed_7919_e3_excitation_quartiles.csv",
+    "size_bytes": 359,
+    "sha256": "4db3617cc5dc8f11a71bed39d10f2c7a464074493924f707a22b3079c8f7a7e8",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_temporal_seed_7919_e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "7b1e9c75a8143be657c272209c2de20ac0431a23d53405e77094652d3d147d31",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\shape_temporal_seed_7919_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\torque_cwt_seed_104729_e3_excitation_quartiles.csv",
+    "size_bytes": 370,
+    "sha256": "0c589ea3d7cec436ce1419b051a1a5989ff43489ae9ebd70df5674ac9d93f42a",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\torque_cwt_seed_104729_e3_mode.csv",
+    "size_bytes": 226,
+    "sha256": "62eeba345bd3256859a5f79ef0462491eb7d8dc3fdf95978a62338622c986ab9",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\torque_cwt_seed_104729_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\torque_cwt_seed_1729_e3_excitation_quartiles.csv",
+    "size_bytes": 371,
+    "sha256": "7dee87676cb919e1cdffdb0e4ce6589a51576def771726f19b020960dd4acaed",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\torque_cwt_seed_1729_e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "7a5a7122e27bc0632b4e972a20d7c6c6cbf2069d0f0e09b681a1534d6e204b20",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\torque_cwt_seed_1729_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\torque_cwt_seed_2027_e3_excitation_quartiles.csv",
+    "size_bytes": 361,
+    "sha256": "e22c6fb907773185f853c15e2db50440005ebd5e05de87718498f39a38e7be21",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\torque_cwt_seed_2027_e3_mode.csv",
+    "size_bytes": 201,
+    "sha256": "29647bb5793ed162ce6a4f48bf514f3162f7389e7dea3f90f2e8b59ed70bba77",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\torque_cwt_seed_2027_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\torque_cwt_seed_4099_e3_excitation_quartiles.csv",
+    "size_bytes": 370,
+    "sha256": "b35f3204ebab7f2ae00d483d8129df041e1219364332529e535b254cc94047a1",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\torque_cwt_seed_4099_e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "8ba60410115f82de90d8a939776596e75194d1b0046e998254411316668ef40d",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\torque_cwt_seed_4099_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\torque_cwt_seed_7919_e3_excitation_quartiles.csv",
+    "size_bytes": 369,
+    "sha256": "09f5c57a769557616c2a61feb46b3f9a880269d2982ce7c40f0d25d878f833e5",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\torque_cwt_seed_7919_e3_mode.csv",
+    "size_bytes": 227,
+    "sha256": "5512cf2b38e79358c9e1b33f4a1abe8913a78ce90600c7c22db50c0e3959c8c6",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\E3_EXCITATION_MODE\\torque_cwt_seed_7919_e3_train_quartile_thresholds.json",
+    "size_bytes": 74,
+    "sha256": "2bd1be723efa4d4a0a21975e64e619cae6eab47f24ae3c6533704e693fc2037c",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\PAIRWISE_COMPARISONS\\seed_104729.json",
+    "size_bytes": 2486,
+    "sha256": "0e4b2875c5440a93155866292a6f37079af6dee7bdb42fd9fc8fc52e7d573595",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\PAIRWISE_COMPARISONS\\seed_1729.json",
+    "size_bytes": 2471,
+    "sha256": "66268b8410e6e0595e69217d18a8987d4381f9fc70ed11cf521c363433d66104",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\PAIRWISE_COMPARISONS\\seed_2027.json",
+    "size_bytes": 2460,
+    "sha256": "f4e157c16baef39201bf2cb9e885fe4513ce1d67ef8d5b334eef2fef60fa1622",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\PAIRWISE_COMPARISONS\\seed_4099.json",
+    "size_bytes": 2451,
+    "sha256": "e579c7f0fbfe85c920b642dab4a75f9e85cd3a95e40883b892554e000b963dc7",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\PAIRWISE_COMPARISONS\\seed_7919.json",
+    "size_bytes": 2468,
+    "sha256": "51901a53b008ce5e9a6baac72a6a3f872fee4ee7d3d5bedae82d7a45545a5584",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  },
+  {
+    "category": "analysis_inputs",
+    "local_path": "C:\\Users\\Johnny\\Desktop\\KINOVA_FINAL_ANALYSIS_ANTIGRAVITY\\inputs\\primary_zip\\RESULTS_INVENTORY.csv",
+    "size_bytes": 57076,
+    "sha256": "272b8e88d832e0b3d172da116617158f48971eb9baa5e7b184faa213bf2a9866",
+    "hash_status": "VERIFIED_BYTES_2026-10-05"
+  }
+]

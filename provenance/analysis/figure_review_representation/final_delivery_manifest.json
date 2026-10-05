@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "created_UTC": "2026-10-04T06:32:38.528412+00:00",
+  "protected_files_unchanged": 900,
+  "visual_review": "All four 96 dpi renders at 7.16 inch IEEE two-column width inspected; legible without clipping/overlap. Manuscript composition not performed.",
+  "files": {
+    "adjacent_Q_descriptive_changes.csv": {
+      "sha256": "4b28a37ce3403dff00bb99e0c7d9f9168ed12e1ba810079a6604fb294e9d6ba6",
+      "bytes": 42433
+    },
+    "build_representation_review.py": {
+      "sha256": "6b3caad204f2781e09ae4791d9390d27248ecfc95db9dcb297d173dc38df572f",
+      "bytes": 25192
+    },
+    "compact_CWT_formulations_joint_detection.pdf": {
+      "sha256": "a4d5d629fc1eec97bf8ebc11989b44d8fb321ebeb11220b900ce276ef2439646",
+      "bytes": 54714
+    },
+    "compact_CWT_formulations_joint_detection.png": {
+      "sha256": "b247c07805cc356a104970761b0ec12d61c522ae879b4c46df067537e2e826e7",
+      "bytes": 248470
+    },
+    "compact_CWT_formulations_joint_identification.pdf": {
+      "sha256": "1cc3da11e9afc6cc2baec0c3d76a7a58b01be76c998e8345e15e8f89f1579991",
+      "bytes": 55059
+    },
+    "compact_CWT_formulations_joint_identification.png": {
+      "sha256": "b9994feea6776834eb28e517728a3ce38ffcc7d25b0b1556b8d46f5cd58902a1",
+      "bytes": 278594
+    },
+    "full_Q_trajectories_mean_SD.md": {
+      "sha256": "5a0c3c137df902ddd3c95f471e477aa27168bddb43d90671a858d860c8af2c86",
+      "bytes": 19186
+    },
+    "integrity_and_provenance.json": {
+      "sha256": "efe56e946d80b40994e7ad9b96e1555477b87be8c6b1e4600d03725160f0539b",
+      "bytes": 185741
+    },
+    "joint_SHAPE_pipeline_seed_metrics.csv": {
+      "sha256": "102deb1d2163c687abc16cccc72df60283b0daa173c892e967785a0349d6690e",
+      "bytes": 74121
+    },
+    "joint_SHAPE_pipeline_summary.csv": {
+      "sha256": "02df1803a1949f9627295f334e072a92f55722291e695ea07a0b9e9772970feb",
+      "bytes": 25807
+    },
+    "marginal_reconstruction_checks.csv": {
+      "sha256": "4472c9724d071ccb454ca1cc87d0cbbbbbd3b4db127f6c82b6dc8a6c49ddfabb",
+      "bytes": 103476
+    },
+    "pdf_render_validation.json": {
+      "sha256": "86c8dccf8d3117cd1e565eb83430f818d1e6f8a09c52d2091b9b969f1862fd6e",
+      "bytes": 4144
+    },
+    "plot_specifications_and_validation.json": {
+      "sha256": "ece9087b439b8f9aebaa473d0b52ecf16363c8ba4e8e5dc1967077c83589d014",
+      "bytes": 142286
+    },
+    "qa\\compact_CWT_formulations_joint_detection_ieee_96dpi.png": {
+      "sha256": "887a46cdefec00784d2ee5a47fcd41a7925e0d38246d603002ec5becd1aa13cf",
+      "bytes": 58002
+    },
+    "qa\\compact_CWT_formulations_joint_identification_ieee_96dpi.png": {
+      "sha256": "2aa966b5e44b3125db6e7a22af4f821d270034827ee72bf729792aea315ff245",
+      "bytes": 65270
+    },
+    "qa\\review_SHAPE_pipelines_joint_detection_ieee_96dpi.png": {
+      "sha256": "3286d562e47a5ccb09483a4ed7f9d95cabcd848f944bf6a33b442e97c1944edd",
+      "bytes": 55570
+    },
+    "qa\\review_SHAPE_pipelines_joint_identification_ieee_96dpi.png": {
+      "sha256": "1111f69755f4cf94522ab35d6c188c4ec963b62c149295b2a56ecd752ec9dea0",
+      "bytes": 55203
+    },
+    "reconstructed_Q_class_marginals.csv": {
+      "sha256": "21dea5ba8772817e47473141c2a762955006eb7170bfcdc42c1fb05866adb340",
+      "bytes": 6877
+    },
+    "reconstructed_severity_marginals.csv": {
+      "sha256": "84468b60db456134a45e5ff3145d96262431a1366792dbfce01a88da9a19bd11",
+      "bytes": 6925
+    },
+    "render_and_verify_pdfs.py": {
+      "sha256": "0585055887ef2f45c26494c16652e0d5e63bf411e68e5ef32bd6a25c5b96d3ad",
+      "bytes": 4237
+    },
+    "review_figure_captions.txt": {
+      "sha256": "0ff72e8d7c2aa210c777cc062545420b7b7cc6e91d889efac17409b33c5b1e39",
+      "bytes": 1682
+    },
+    "review_SHAPE_pipelines_joint_detection.pdf": {
+      "sha256": "4359044f3697b3b1feab84e78f03d96556d32bb360fa97512b2b808da41759a5",
+      "bytes": 52126
+    },
+    "review_SHAPE_pipelines_joint_detection.png": {
+      "sha256": "15175b7b27712f921cadd3f8e30fdcf0ed1e958c93953ad1798ce23ec0959d75",
+      "bytes": 221399
+    },
+    "review_SHAPE_pipelines_joint_identification.pdf": {
+      "sha256": "a60610ec0e4fc4131663bbe922f145c30acf2a672a45ce2d9540a686e1f7862d",
+      "bytes": 52169
+    },
+    "review_SHAPE_pipelines_joint_identification.png": {
+      "sha256": "4e692493af80ec2b883a09c0d95a3dd0c08416dd128e00b97ebc3508b4de2f18",
+      "bytes": 226386
+    },
+    "scientific_review_report.md": {
+      "sha256": "2d51d4ae7b8f37b23357c7825287a2c687df65e8905d85ae87bdbc913977358a",
+      "bytes": 16326
+    },
+    "unique_cell_counts.csv": {
+      "sha256": "d483ae6101b1729c55d36dc6f331f73adc83af4983da1eb69083e8d0c81ac5c1",
+      "bytes": 1484
+    },
+    "within_cell_pipeline_comparisons.csv": {
+      "sha256": "44ce9e9ed701fa5d790e772f47ac9b2ed1b758d6e5362651d4e5b94752fc48aa",
+      "bytes": 26350
+    }
+  }
+}

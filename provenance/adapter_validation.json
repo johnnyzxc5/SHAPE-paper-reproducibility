@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "changed_fields": [
+    "index_path",
+    "output_root"
+  ],
+  "scientific_fields_unchanged": true,
+  "execution": "Only configuration writing; no training/inference"
+}

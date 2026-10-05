@@ -1,0 +1,59 @@
+{
+  "schema_version": "kinova-portable-dependency-closure-v2",
+  "scientific_release_authority": "5b4d09994fae40e2992d0e118cc9b31cd6cf90a1",
+  "operational_revision": "HOST_PORTABLE_WORKER_FILEGEN_AND_EXACT_CONCURRENCY",
+  "static": [
+    "production and host-qualification sources",
+    "production manifests, binding, and freeze receipt",
+    "5030 production trajectory MAT artifacts",
+    "5030 production qualification JSON artifacts",
+    "robot model MAT files",
+    "trajectory-contract source closure",
+    "frozen observer MEX and source",
+    "protected scientific/runtime authority files",
+    "PowerShell/CIM and process-cluster discovery"
+  ],
+  "preflight": [
+    "all STATIC dependencies",
+    "assignment, resume, and shard validators",
+    "disk and output-root checks",
+    "host-specific exact-concurrency receipt verifier"
+  ],
+  "physical": [
+    "official C1/C2 runtime qualification runner and evidence",
+    "24-parent/96-run exact-concurrency Q2 harness",
+    "worker-local CacheFolder and CodeGenFolder helpers",
+    "Pilot manifest, binding, trajectories, and canonical HDF5 evidence",
+    "Simulink model/runtime functions and Modern Robotics sources"
+  ],
+  "production": [
+    "all PREFLIGHT dependencies",
+    "Process pool and per-worker file-generation initialization",
+    "P6 resource monitor",
+    "observer, CWT, FFT, serializer, canonical resume and validation stack",
+    "operational warning/error attribution"
+  ],
+  "historical_metadata_only": [
+    "historical P6 and final integrated regression evidence",
+    "historical absolute paths embedded in immutable receipts",
+    "historical worker-count measurements"
+  ],
+  "excluded": [
+    "production outputs",
+    "current-host qualification receipts and outputs",
+    "repository-root slprj and generated file-generation directories",
+    "development codegen/build trees other than the frozen observer MEX",
+    "benchmarks, archives, scratch, logs, and unrelated reports"
+  ],
+  "external_installed_software_only": [
+    "Windows x64",
+    "supported exact MATLAB environment and required products/licenses",
+    "supported selected C++ compiler",
+    "Windows PowerShell/CIM",
+    "adequate disk, RAM, and process-worker capacity"
+  ],
+  "external_project_or_evidence_dependencies": [],
+  "universal_worker_count_authority": false,
+  "host_specific_exact_concurrency_required": true,
+  "host_receipt_packaged_as_authority": false
+}
