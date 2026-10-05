@@ -29,3 +29,7 @@ python -B -m pytest -ra -p no:cacheprovider Fault_Diagnosis/shape_ai/tests/test_
 Use a fresh temporary path. A test pass does not qualify a host or reproduce paper metrics. `python tools/verify_repository.py` is the standard-library-only check of delivered bytes. No scientific check was disabled to achieve a preflight pass.
 
 The Git whitespace check reports retained source whitespace (and CRLF when CR-at-EOL is not recognized). This is not a scientific or byte-integrity failure. Frozen files were not reformatted to satisfy a whitespace lint rule; their exact upstream bytes take precedence.
+
+## Evidence-completion validation — 2026-10-05
+
+The 669-file baseline seal passed before the addition. Ten files were copied byte for byte: four existing solver records and six frozen prediction/summary tables. The six prediction/summary hashes agree with the assembly-time external analysis inventory. Source and destination hashes are recorded in `provenance/evidence_completion_20261005.json`; only Parquet schemas were inspected, with no metric aggregation. The package seal was refreshed for the added evidence and documentation and is checked by the same standard-library verifier. Original scientific files and manuscript were preserved. No executable code changed, so the 16 historical safe-test passes were not rerun or relabeled as fresh tests. See `docs/EVIDENCE_COMPLETION.md` for remaining publication and execution boundaries.

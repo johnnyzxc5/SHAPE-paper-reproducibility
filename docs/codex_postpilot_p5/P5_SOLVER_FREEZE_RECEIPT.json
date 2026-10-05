@@ -1,0 +1,73 @@
+{
+  "status": "P5_SOLVER_FREEZE_PASS",
+  "ratification_receipt_path": "docs/codex_postpilot_p5/P5_SOLVER_RATIFICATION_RECEIPT.json",
+  "ratification_receipt_sha256": "994f07bd1e761346a22d67f749fd9d2f871aa455482b8ce8bd68b8040ed6138a",
+  "solver": "ode45",
+  "RelTol": 1e-6,
+  "AbsTol": 1e-8,
+  "MaxStep": 1e-3,
+  "controller_SampleTime": -1,
+  "controller_execution_semantics": "inherited / continuous",
+  "mpc_internal_grid_s": 0.05,
+  "mpc_grid_is_controller_schedule": false,
+  "config_status_before": "KEEP_1MS_CANDIDATE_FOR_PILOT",
+  "config_status_after": "PRODUCTION_RATIFIED_FROZEN",
+  "gate01_status_before": "PASS; production solver authority remains OPEN",
+  "gate01_status_after": "PASS; CLOSED / RATIFIED",
+  "production_decision_before": {
+    "closure_state": "OPEN",
+    "production_impact": "BLOCKING",
+    "recommendation": "Retain ode45 1-ms candidate and obtain final production authority"
+  },
+  "production_decision_after": {
+    "closure_state": "CLOSED",
+    "production_impact": "NON_BLOCKING",
+    "recommendation": "Freeze exact ratified solver tuple; solver blocker closed, production not authorized"
+  },
+  "preconditions": {
+    "ratification_receipt_exists": true,
+    "ratification_status_pass": true,
+    "recommended_for_production_freeze": true,
+    "ratification_authority_mutated": false,
+    "ratification_production_authorized": false,
+    "solver_tuple_matches_current_config": true,
+    "config_pre_freeze_status_matches": true,
+    "gate01_pre_freeze_authority_open": true,
+    "production_decision_pre_freeze_open_blocking": true
+  },
+  "files_modified": [
+    {
+      "path": "Code_Image/+shape/config.m",
+      "before_sha256": "ba1008c2b40ceb2db4f55b50fd3572f513367fe95c2555b432f839091042c717"
+    },
+    {
+      "path": "docs/codex_pilot24_v2/16_GATE_MATRIX.csv",
+      "before_sha256": "b6148fb9694fef97ee710d2cb900de2b3941870efdd9a7fda60754540c8204ea"
+    },
+    {
+      "path": "docs/codex_pilot24_v2/16_GATE_MATRIX.md",
+      "before_sha256": "812b1173cfc2f4095bcb133ffb3923165105b49d29c917d647bfea9aeef1ad2a"
+    },
+    {
+      "path": "docs/codex_pilot24_v2/PRODUCTION_DECISION_MATRIX_V2.csv",
+      "before_sha256": "ef3629cebb4dfd9aff403a6a7f755d505363b0626ec2defd7d0ac4eb1ea7be93"
+    },
+    {
+      "path": "docs/codex_postpilot_p5/P5_SOLVER_FREEZE_RECEIPT.json",
+      "change": "CREATED"
+    }
+  ],
+  "authority_mutation_scope": "Solver status/authority only; numerical solver tuple and scheduling unchanged.",
+  "remaining_production_blockers": [
+    "5000 Primary + 30 E2-B trajectory qualification/freeze",
+    "GATE-08",
+    "worker topology",
+    "final integrated production regression",
+    "downstream E4 calibration after its dependencies"
+  ],
+  "production_authorized": false,
+  "physical_simulations_executed": 0,
+  "simulink_simulations_executed": 0,
+  "warnings": [],
+  "errors": []
+}

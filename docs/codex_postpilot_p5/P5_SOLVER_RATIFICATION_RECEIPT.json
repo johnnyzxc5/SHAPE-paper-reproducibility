@@ -1,0 +1,749 @@
+{
+  "status": "P5_SOLVER_RATIFICATION_PASS",
+  "environment": {
+    "MATLAB": "26.1.0.3312084 (R2026a) Update 4",
+    "architecture": "win64",
+    "OS": "Microsoft Windows 11 Pro"
+  },
+  "candidate_solver": {
+    "solver": "ode45",
+    "RelTol": 1E-6,
+    "AbsTol": 1E-8,
+    "MaxStep": 0.001,
+    "controller_SampleTime": -1,
+    "controller_execution_semantics": "inherited / continuous",
+    "mpc_internal_grid_s": 0.05,
+    "mpc_grid_is_controller_schedule": false
+  },
+  "evidence_sources": [
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\00_EXECUTIVE_SUMMARY.md",
+      "relative_path": "docs/codex_pilot24_v2/00_EXECUTIVE_SUMMARY.md",
+      "expected_sha256": "7233d8d4c8109cc51ea68802d4489e592cfb5ef0ea2417a3c3a0d5f6c9dae679",
+      "actual_sha256": "7233d8d4c8109cc51ea68802d4489e592cfb5ef0ea2417a3c3a0d5f6c9dae679",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\03_EXECUTION_REPORT.md",
+      "relative_path": "docs/codex_pilot24_v2/03_EXECUTION_REPORT.md",
+      "expected_sha256": "a271139cddcab82d35b535080f563642e9941b6675a0da8fdc746a7089ec807b",
+      "actual_sha256": "a271139cddcab82d35b535080f563642e9941b6675a0da8fdc746a7089ec807b",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\04_RUN_LEVEL_QA.csv",
+      "relative_path": "docs/codex_pilot24_v2/04_RUN_LEVEL_QA.csv",
+      "expected_sha256": "a5ba0ee6d74e8ea94ac314ae57bd5aade1c9cc8d7ff0ec1068215ededcc379f9",
+      "actual_sha256": "a5ba0ee6d74e8ea94ac314ae57bd5aade1c9cc8d7ff0ec1068215ededcc379f9",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\16_GATE_MATRIX.md",
+      "relative_path": "docs/codex_pilot24_v2/16_GATE_MATRIX.md",
+      "expected_sha256": "812b1173cfc2f4095bcb133ffb3923165105b49d29c917d647bfea9aeef1ad2a",
+      "actual_sha256": "812b1173cfc2f4095bcb133ffb3923165105b49d29c917d647bfea9aeef1ad2a",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\16_GATE_MATRIX.csv",
+      "relative_path": "docs/codex_pilot24_v2/16_GATE_MATRIX.csv",
+      "expected_sha256": "b6148fb9694fef97ee710d2cb900de2b3941870efdd9a7fda60754540c8204ea",
+      "actual_sha256": "b6148fb9694fef97ee710d2cb900de2b3941870efdd9a7fda60754540c8204ea",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\08_SOLVER_SUBSTUDY.md",
+      "relative_path": "docs/codex_pilot24_v2/08_SOLVER_SUBSTUDY.md",
+      "expected_sha256": "1dabd64eee471789b6d58e916b818bc7913e2834e57ba8c43132126dd5598ecd",
+      "actual_sha256": "1dabd64eee471789b6d58e916b818bc7913e2834e57ba8c43132126dd5598ecd",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\solver_substudy\\solver_substudy_metrics.csv",
+      "relative_path": "docs/codex_pilot24_v2/solver_substudy/solver_substudy_metrics.csv",
+      "expected_sha256": "17cbc0ee5af76bd555fcee3815c0fadaa900f8b223125bf3b05a8e61b23da8d2",
+      "actual_sha256": "17cbc0ee5af76bd555fcee3815c0fadaa900f8b223125bf3b05a8e61b23da8d2",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\solver_substudy\\solver_substudy_timings.csv",
+      "relative_path": "docs/codex_pilot24_v2/solver_substudy/solver_substudy_timings.csv",
+      "expected_sha256": "370f416a9388a9ed709102eb32dd8008ad9b0f13fdd8d6275b239e5b767bee8a",
+      "actual_sha256": "370f416a9388a9ed709102eb32dd8008ad9b0f13fdd8d6275b239e5b767bee8a",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_implementation\\15_ODE45_MATCHED_REGRESSION.md",
+      "relative_path": "docs/codex_implementation/15_ODE45_MATCHED_REGRESSION.md",
+      "expected_sha256": "bdf924f8c4fc8e50521ed54f18de629ebb36ff38376416ba2d4d02c0a32c4e9b",
+      "actual_sha256": "bdf924f8c4fc8e50521ed54f18de629ebb36ff38376416ba2d4d02c0a32c4e9b",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_implementation\\round2_solver_regression\\solver_matched_metrics.csv",
+      "relative_path": "docs/codex_implementation/round2_solver_regression/solver_matched_metrics.csv",
+      "expected_sha256": "2f988d3e1721bab159dcc9d584ef758f999d080377d7924ad94bc8804a7f6dba",
+      "actual_sha256": "2f988d3e1721bab159dcc9d584ef758f999d080377d7924ad94bc8804a7f6dba",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_implementation\\round2_solver_regression\\solver_matched_runtimes.csv",
+      "relative_path": "docs/codex_implementation/round2_solver_regression/solver_matched_runtimes.csv",
+      "expected_sha256": "70659bdb0447d38f66851879b87ce7673a156bd4b74eb963da98b3e23b0ac92e",
+      "actual_sha256": "70659bdb0447d38f66851879b87ce7673a156bd4b74eb963da98b3e23b0ac92e",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_postpilot_p4b\\P4B_RESULTS.json",
+      "relative_path": "docs/codex_postpilot_p4b/P4B_RESULTS.json",
+      "expected_sha256": "d91ddb5fd156b18b623692eee2abec3aa010ebbad9e55d856ddc445dc9952251",
+      "actual_sha256": "d91ddb5fd156b18b623692eee2abec3aa010ebbad9e55d856ddc445dc9952251",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_postpilot_p4c_r3\\P4C_R3_RESULTS.json",
+      "relative_path": "docs/codex_postpilot_p4c_r3/P4C_R3_RESULTS.json",
+      "expected_sha256": "45a4d2c73cb934531af4d56e8a531e4d8a0635388325b264dff2c15d44e8b5b3",
+      "actual_sha256": "45a4d2c73cb934531af4d56e8a531e4d8a0635388325b264dff2c15d44e8b5b3",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\PRODUCTION_DECISION_MATRIX_V2.csv",
+      "relative_path": "docs/codex_pilot24_v2/PRODUCTION_DECISION_MATRIX_V2.csv",
+      "expected_sha256": "ef3629cebb4dfd9aff403a6a7f755d505363b0626ec2defd7d0ac4eb1ea7be93",
+      "actual_sha256": "ef3629cebb4dfd9aff403a6a7f755d505363b0626ec2defd7d0ac4eb1ea7be93",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\Code_Image\\+shape\\config.m",
+      "relative_path": "Code_Image/+shape/config.m",
+      "expected_sha256": "ba1008c2b40ceb2db4f55b50fd3572f513367fe95c2555b432f839091042c717",
+      "actual_sha256": "ba1008c2b40ceb2db4f55b50fd3572f513367fe95c2555b432f839091042c717",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_active\\01_FINAL_SCIENTIFIC_DATA_GENERATOR_CONTRACT.md",
+      "relative_path": "docs/codex_active/01_FINAL_SCIENTIFIC_DATA_GENERATOR_CONTRACT.md",
+      "expected_sha256": "dbb87aa7138fe4fec3ef18438f13a74d5cea21c647252345404c8745227662da",
+      "actual_sha256": "dbb87aa7138fe4fec3ef18438f13a74d5cea21c647252345404c8745227662da",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_active\\04_PILOT_AND_PRODUCTION_GATES.md",
+      "relative_path": "docs/codex_active/04_PILOT_AND_PRODUCTION_GATES.md",
+      "expected_sha256": "cc00d5ce563d5a3b0e96aa5eb39538854340e39b45ea6afd6a06147ccbe58b34",
+      "actual_sha256": "cc00d5ce563d5a3b0e96aa5eb39538854340e39b45ea6afd6a06147ccbe58b34",
+      "valid": true
+    }
+  ],
+  "evidence_hashes": [
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\00_EXECUTIVE_SUMMARY.md",
+      "relative_path": "docs/codex_pilot24_v2/00_EXECUTIVE_SUMMARY.md",
+      "expected_sha256": "7233d8d4c8109cc51ea68802d4489e592cfb5ef0ea2417a3c3a0d5f6c9dae679",
+      "actual_sha256": "7233d8d4c8109cc51ea68802d4489e592cfb5ef0ea2417a3c3a0d5f6c9dae679",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\03_EXECUTION_REPORT.md",
+      "relative_path": "docs/codex_pilot24_v2/03_EXECUTION_REPORT.md",
+      "expected_sha256": "a271139cddcab82d35b535080f563642e9941b6675a0da8fdc746a7089ec807b",
+      "actual_sha256": "a271139cddcab82d35b535080f563642e9941b6675a0da8fdc746a7089ec807b",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\04_RUN_LEVEL_QA.csv",
+      "relative_path": "docs/codex_pilot24_v2/04_RUN_LEVEL_QA.csv",
+      "expected_sha256": "a5ba0ee6d74e8ea94ac314ae57bd5aade1c9cc8d7ff0ec1068215ededcc379f9",
+      "actual_sha256": "a5ba0ee6d74e8ea94ac314ae57bd5aade1c9cc8d7ff0ec1068215ededcc379f9",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\16_GATE_MATRIX.md",
+      "relative_path": "docs/codex_pilot24_v2/16_GATE_MATRIX.md",
+      "expected_sha256": "812b1173cfc2f4095bcb133ffb3923165105b49d29c917d647bfea9aeef1ad2a",
+      "actual_sha256": "812b1173cfc2f4095bcb133ffb3923165105b49d29c917d647bfea9aeef1ad2a",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\16_GATE_MATRIX.csv",
+      "relative_path": "docs/codex_pilot24_v2/16_GATE_MATRIX.csv",
+      "expected_sha256": "b6148fb9694fef97ee710d2cb900de2b3941870efdd9a7fda60754540c8204ea",
+      "actual_sha256": "b6148fb9694fef97ee710d2cb900de2b3941870efdd9a7fda60754540c8204ea",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\08_SOLVER_SUBSTUDY.md",
+      "relative_path": "docs/codex_pilot24_v2/08_SOLVER_SUBSTUDY.md",
+      "expected_sha256": "1dabd64eee471789b6d58e916b818bc7913e2834e57ba8c43132126dd5598ecd",
+      "actual_sha256": "1dabd64eee471789b6d58e916b818bc7913e2834e57ba8c43132126dd5598ecd",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\solver_substudy\\solver_substudy_metrics.csv",
+      "relative_path": "docs/codex_pilot24_v2/solver_substudy/solver_substudy_metrics.csv",
+      "expected_sha256": "17cbc0ee5af76bd555fcee3815c0fadaa900f8b223125bf3b05a8e61b23da8d2",
+      "actual_sha256": "17cbc0ee5af76bd555fcee3815c0fadaa900f8b223125bf3b05a8e61b23da8d2",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\solver_substudy\\solver_substudy_timings.csv",
+      "relative_path": "docs/codex_pilot24_v2/solver_substudy/solver_substudy_timings.csv",
+      "expected_sha256": "370f416a9388a9ed709102eb32dd8008ad9b0f13fdd8d6275b239e5b767bee8a",
+      "actual_sha256": "370f416a9388a9ed709102eb32dd8008ad9b0f13fdd8d6275b239e5b767bee8a",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_implementation\\15_ODE45_MATCHED_REGRESSION.md",
+      "relative_path": "docs/codex_implementation/15_ODE45_MATCHED_REGRESSION.md",
+      "expected_sha256": "bdf924f8c4fc8e50521ed54f18de629ebb36ff38376416ba2d4d02c0a32c4e9b",
+      "actual_sha256": "bdf924f8c4fc8e50521ed54f18de629ebb36ff38376416ba2d4d02c0a32c4e9b",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_implementation\\round2_solver_regression\\solver_matched_metrics.csv",
+      "relative_path": "docs/codex_implementation/round2_solver_regression/solver_matched_metrics.csv",
+      "expected_sha256": "2f988d3e1721bab159dcc9d584ef758f999d080377d7924ad94bc8804a7f6dba",
+      "actual_sha256": "2f988d3e1721bab159dcc9d584ef758f999d080377d7924ad94bc8804a7f6dba",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_implementation\\round2_solver_regression\\solver_matched_runtimes.csv",
+      "relative_path": "docs/codex_implementation/round2_solver_regression/solver_matched_runtimes.csv",
+      "expected_sha256": "70659bdb0447d38f66851879b87ce7673a156bd4b74eb963da98b3e23b0ac92e",
+      "actual_sha256": "70659bdb0447d38f66851879b87ce7673a156bd4b74eb963da98b3e23b0ac92e",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_postpilot_p4b\\P4B_RESULTS.json",
+      "relative_path": "docs/codex_postpilot_p4b/P4B_RESULTS.json",
+      "expected_sha256": "d91ddb5fd156b18b623692eee2abec3aa010ebbad9e55d856ddc445dc9952251",
+      "actual_sha256": "d91ddb5fd156b18b623692eee2abec3aa010ebbad9e55d856ddc445dc9952251",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_postpilot_p4c_r3\\P4C_R3_RESULTS.json",
+      "relative_path": "docs/codex_postpilot_p4c_r3/P4C_R3_RESULTS.json",
+      "expected_sha256": "45a4d2c73cb934531af4d56e8a531e4d8a0635388325b264dff2c15d44e8b5b3",
+      "actual_sha256": "45a4d2c73cb934531af4d56e8a531e4d8a0635388325b264dff2c15d44e8b5b3",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_pilot24_v2\\PRODUCTION_DECISION_MATRIX_V2.csv",
+      "relative_path": "docs/codex_pilot24_v2/PRODUCTION_DECISION_MATRIX_V2.csv",
+      "expected_sha256": "ef3629cebb4dfd9aff403a6a7f755d505363b0626ec2defd7d0ac4eb1ea7be93",
+      "actual_sha256": "ef3629cebb4dfd9aff403a6a7f755d505363b0626ec2defd7d0ac4eb1ea7be93",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\Code_Image\\+shape\\config.m",
+      "relative_path": "Code_Image/+shape/config.m",
+      "expected_sha256": "ba1008c2b40ceb2db4f55b50fd3572f513367fe95c2555b432f839091042c717",
+      "actual_sha256": "ba1008c2b40ceb2db4f55b50fd3572f513367fe95c2555b432f839091042c717",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_active\\01_FINAL_SCIENTIFIC_DATA_GENERATOR_CONTRACT.md",
+      "relative_path": "docs/codex_active/01_FINAL_SCIENTIFIC_DATA_GENERATOR_CONTRACT.md",
+      "expected_sha256": "dbb87aa7138fe4fec3ef18438f13a74d5cea21c647252345404c8745227662da",
+      "actual_sha256": "dbb87aa7138fe4fec3ef18438f13a74d5cea21c647252345404c8745227662da",
+      "valid": true
+    },
+    {
+      "path": "C:\\Users\\Johnny\\Desktop\\Git\\Image Processing Project\\docs\\codex_active\\04_PILOT_AND_PRODUCTION_GATES.md",
+      "relative_path": "docs/codex_active/04_PILOT_AND_PRODUCTION_GATES.md",
+      "expected_sha256": "cc00d5ce563d5a3b0e96aa5eb39538854340e39b45ea6afd6a06147ccbe58b34",
+      "actual_sha256": "cc00d5ce563d5a3b0e96aa5eb39538854340e39b45ea6afd6a06147ccbe58b34",
+      "valid": true
+    }
+  ],
+  "physical_simulations_executed": 0,
+  "simulink_simulations_executed": 0,
+  "production_authorized": false,
+  "warnings": [],
+  "errors": [],
+  "gate01_requirements": {
+    "continuous_solver": "ode45",
+    "variable_step_continuous": true,
+    "controller_SampleTime": -1,
+    "execution_semantics": "inherited / continuous",
+    "active_contract_validated": true,
+    "P4B_inherited_continuous_evidence": true,
+    "internal_MPC_grid_s": 0.05,
+    "internal_grid_is_not_execution_period": true
+  },
+  "pilot_evidence": {
+    "validated": true,
+    "reported_physical_runs": 116,
+    "reported_primary_runs": 96,
+    "reported_paired_E2B_runs": 20,
+    "unique_run_uids": 116,
+    "all_finite": true,
+    "gate01_status": "PASS",
+    "gate01_evidence": "Canonical ode45 RelTol=1e-6 AbsTol=1e-8 MaxStep=1e-3; auto alternative rejected by matched differences",
+    "solver_tuple_matches_candidate": true,
+    "terminology": "Pilot qualification retained exactly as recorded; no new bitwise claim added.",
+    "trajectory_binding_sha256": "e51122549278d5ae2597605bbeaa75f4f4fff1e244657dad399a2428d85e15ef"
+  },
+  "solver_substudy_evidence": {
+    "validated": true,
+    "matched_record_count": 8,
+    "alternative_physical_runs_reported": 8,
+    "canonical_1ms_inputs_reused_from_pilot": true,
+    "mean_canonical_simulink_s": 314.787102375,
+    "mean_auto_simulink_s": 60.9870415,
+    "max_differences": {
+      "q": 5.62965869903564E-5,
+      "dq": 0.00145304203033447,
+      "tau_cmd": 2.61842727661133,
+      "shape": 1.67255458528024,
+      "torque": 2.61842672713101,
+      "gmo": 0.913381579332054
+    },
+    "alternative_status": "REJECTED_BY_EXISTING_MATCHED_EVIDENCE"
+  },
+  "matched_regression_evidence": {
+    "validated": true,
+    "reported_physical_executions": 2,
+    "matched_record_count": 1,
+    "runtimes": [
+      {
+        "candidate": "MAXSTEP_1MS",
+        "simulink_s": 211.4654362,
+        "observer_s": 114.7282422,
+        "total_s": 326.9474988,
+        "logged_output_points": 10636
+      },
+      {
+        "candidate": "VARIABLE_STEP_AUTO",
+        "simulink_s": 69.3183107,
+        "observer_s": 116.9635808,
+        "total_s": 186.3504062,
+        "logged_output_points": 2721
+      }
+    ],
+    "max_differences": [
+      {
+        "signal": "q",
+        "max_abs": 2.76020601523985E-5,
+        "rmse": 4.26003556370871E-6,
+        "relative_max": 1.00570412664439E-5,
+        "correlation": 0.999999999993139
+      },
+      {
+        "signal": "dq",
+        "max_abs": 0.000478085631908876,
+        "rmse": 3.2284737748334E-5,
+        "relative_max": 0.000787229314262929,
+        "correlation": 0.999999991032256
+      },
+      {
+        "signal": "tau_cmd",
+        "max_abs": 1.24014099974554,
+        "rmse": 0.035077448004326,
+        "relative_max": 0.0516640071619001,
+        "correlation": 0.999993482895275
+      },
+      {
+        "signal": "tau_nom",
+        "max_abs": 0,
+        "rmse": 0,
+        "relative_max": 0,
+        "correlation": 1
+      },
+      {
+        "signal": "shape",
+        "max_abs": 0.626084864139557,
+        "rmse": 0.0119401556600048,
+        "relative_max": 0.466877944833348,
+        "correlation": 0.997100197421305
+      },
+      {
+        "signal": "torque",
+        "max_abs": 1.24014100432396,
+        "rmse": 0.0350774482230024,
+        "relative_max": 0.427243486307543,
+        "correlation": 0.998547228562459
+      },
+      {
+        "signal": "gmo",
+        "max_abs": 0.214659243822098,
+        "rmse": 0.0102606374908588,
+        "relative_max": 0.190203093668165,
+        "correlation": 0.999766953082347
+      },
+      {
+        "signal": "energy",
+        "max_abs": 0.129707396030426,
+        "rmse": 0.0127418319444503,
+        "relative_max": 0.144376972999059,
+        "correlation": 0.999146413565232
+      }
+    ],
+    "conclusion": "MaxStep=auto not promoted by existing matched evidence."
+  },
+  "p4b_evidence": {
+    "validated": true,
+    "status": "P4B_BITWISE_PASS",
+    "reported_physical_runs": 2,
+    "matched_bitwise_cases": 2,
+    "solver_tuple_matches_candidate": true
+  },
+  "p4c_r3_evidence": {
+    "validated": true,
+    "status": "P4C_PASS",
+    "C1_reused": true,
+    "new_physical_runs": 5,
+    "P4C_cases_passed": 6,
+    "total_optimization_cases_qualified": 8,
+    "direct_bitwise_scope": [
+      "q",
+      "dq",
+      "tau_cmd",
+      "SHAPE",
+      "Torque",
+      "EO",
+      "q_ref",
+      "dq_ref",
+      "ddq_ref",
+      "tau_nom",
+      "timebase"
+    ],
+    "call_topology_valid": true,
+    "warnings_count": 0,
+    "errors_count": 0
+  },
+  "qualified_case_identities": [
+    {
+      "label": "A",
+      "run_uid": "652d8c0c-f42b-39ea-8d81-88e0e687197a",
+      "parent": 9001,
+      "fault": "Nominal",
+      "mode": "fly",
+      "K": 2,
+      "source_receipt": "P4B_RESULTS.json",
+      "verified": true
+    },
+    {
+      "label": "B",
+      "run_uid": "22bc1d79-ab51-3c03-b5e2-c5807af162ae",
+      "parent": 9014,
+      "fault": "Friction",
+      "mode": "stop",
+      "K": 3,
+      "source_receipt": "P4B_RESULTS.json",
+      "verified": true
+    },
+    {
+      "label": "C1",
+      "run_uid": "8167b058-dc6e-3b0a-b6b0-0478265cd56a",
+      "parent": 9002,
+      "fault": "LoE",
+      "mode": "fly",
+      "K": 3,
+      "source_receipt": "P4C_R3_RESULTS.json",
+      "verified": true
+    },
+    {
+      "label": "C2",
+      "run_uid": "216a0075-20d7-34a6-aded-c2198b018f7d",
+      "parent": 9015,
+      "fault": "LoE",
+      "mode": "stop",
+      "K": 2,
+      "source_receipt": "P4C_R3_RESULTS.json",
+      "verified": true
+    },
+    {
+      "label": "C3",
+      "run_uid": "4696a0f1-9ca1-3d47-b636-af515870b113",
+      "parent": 9004,
+      "fault": "Vibration",
+      "mode": "fly",
+      "K": 3,
+      "source_receipt": "P4C_R3_RESULTS.json",
+      "verified": true
+    },
+    {
+      "label": "C4",
+      "run_uid": "3f5356c7-64f2-3dc7-a66c-2466597c482a",
+      "parent": 9017,
+      "fault": "Vibration",
+      "mode": "stop",
+      "K": 2,
+      "source_receipt": "P4C_R3_RESULTS.json",
+      "verified": true
+    },
+    {
+      "label": "C5",
+      "run_uid": "dc1b7247-352a-3acc-84e9-79676c01521e",
+      "parent": 9003,
+      "fault": "Friction",
+      "mode": "fly",
+      "K": 2,
+      "source_receipt": "P4C_R3_RESULTS.json",
+      "verified": true
+    },
+    {
+      "label": "C6",
+      "run_uid": "d2ebff65-dfdf-3e76-973d-b4536430eb79",
+      "parent": 9016,
+      "fault": "Nominal",
+      "mode": "stop",
+      "K": 3,
+      "source_receipt": "P4C_R3_RESULTS.json",
+      "verified": true
+    }
+  ],
+  "run_accounting": {
+    "pilot_reported_physical_runs": 116,
+    "solver_substudy_reported_runs": 8,
+    "solver_substudy_canonical_records_reused": 8,
+    "matched_regression_reported_runs": 2,
+    "p4b_reported_runs": 2,
+    "p4c_r3_new_runs": 5,
+    "p4c_r3_reused_runs": 1,
+    "deduplication_method": "UIDs identify scientific records, while immutable HDF5 identity distinguishes executions. Cross-package machine receipts do not expose a complete common execution ledger; solver alternatives can share a UID with canonical records. Counts are therefore reported by package and overlapping/reused records are not blindly summed.",
+    "globally_unique_physical_runs": "NOT_ASSERTED",
+    "globally_unique_count_asserted": false
+  },
+  "structural_counter_semantics": {
+    "definition": {
+      "raw_tout_count": "logged solver output points",
+      "plant_rhs_entries": "plant RHS evaluations",
+      "controller_entries": "controller invocations",
+      "mpc_entries": "MPC invocations",
+      "quadprog_calls": "QP solves"
+    },
+    "raw_tout_is_not_rhs_mpc_or_qp_count": true,
+    "records": [
+      {
+        "label": "A",
+        "run_uid": "652d8c0c-f42b-39ea-8d81-88e0e687197a",
+        "raw_tout_count": 10593,
+        "plant_rhs_entries": 77655,
+        "controller_entries": 77655,
+        "mpc_entries": 77655,
+        "quadprog_calls": 77655,
+        "equal_call_chain": true
+      },
+      {
+        "label": "B",
+        "run_uid": "22bc1d79-ab51-3c03-b5e2-c5807af162ae",
+        "raw_tout_count": 10272,
+        "plant_rhs_entries": 73566,
+        "controller_entries": 73566,
+        "mpc_entries": 73566,
+        "quadprog_calls": 73566,
+        "equal_call_chain": true
+      },
+      {
+        "label": "C1",
+        "run_uid": "8167b058-dc6e-3b0a-b6b0-0478265cd56a",
+        "raw_tout_count": 10366,
+        "plant_rhs_entries": 74722,
+        "controller_entries": 74722,
+        "mpc_entries": 74722,
+        "quadprog_calls": 74722,
+        "equal_call_chain": true
+      },
+      {
+        "label": "C2",
+        "run_uid": "216a0075-20d7-34a6-aded-c2198b018f7d",
+        "raw_tout_count": 10854,
+        "plant_rhs_entries": 81018,
+        "controller_entries": 81018,
+        "mpc_entries": 81018,
+        "quadprog_calls": 81018,
+        "equal_call_chain": true
+      },
+      {
+        "label": "C3",
+        "run_uid": "4696a0f1-9ca1-3d47-b636-af515870b113",
+        "raw_tout_count": 10513,
+        "plant_rhs_entries": 76639,
+        "controller_entries": 76639,
+        "mpc_entries": 76639,
+        "quadprog_calls": 76639,
+        "equal_call_chain": true
+      },
+      {
+        "label": "C4",
+        "run_uid": "3f5356c7-64f2-3dc7-a66c-2466597c482a",
+        "raw_tout_count": 10598,
+        "plant_rhs_entries": 77780,
+        "controller_entries": 77780,
+        "mpc_entries": 77780,
+        "quadprog_calls": 77780,
+        "equal_call_chain": true
+      },
+      {
+        "label": "C5",
+        "run_uid": "dc1b7247-352a-3acc-84e9-79676c01521e",
+        "raw_tout_count": 10778,
+        "plant_rhs_entries": 80084,
+        "controller_entries": 80084,
+        "mpc_entries": 80084,
+        "quadprog_calls": 80084,
+        "equal_call_chain": true
+      },
+      {
+        "label": "C6",
+        "run_uid": "d2ebff65-dfdf-3e76-973d-b4536430eb79",
+        "raw_tout_count": 10334,
+        "plant_rhs_entries": 74336,
+        "controller_entries": 74336,
+        "mpc_entries": 74336,
+        "quadprog_calls": 74336,
+        "equal_call_chain": true
+      }
+    ],
+    "all_call_chains_equal": true
+  },
+  "rejected_alternatives": {
+    "ode45_MaxStep_auto": "REJECTED_BY_EXISTING_MATCHED_EVIDENCE",
+    "evidence_recovered_from_repository": true,
+    "observed_substudy_max_differences": {
+      "q": 5.62965869903564E-5,
+      "dq": 0.00145304203033447,
+      "tau_cmd": 2.61842727661133,
+      "shape": 1.67255458528024,
+      "torque": 2.61842672713101,
+      "gmo": 0.913381579332054
+    }
+  },
+  "unresolved_solver_alternatives": {
+    "ode4": "NOT_STUDIED",
+    "ode5": "NOT_STUDIED",
+    "ode15s": "NOT_STUDIED",
+    "ode23t": "NOT_STUDIED",
+    "intermediate_MaxStep_values": "OUT_OF_SCOPE",
+    "fixed_step_controller_scheduling": "OUT_OF_SCOPE"
+  },
+  "solver_supersession_check": {
+    "checked": true,
+    "supersedes_candidate": false,
+    "positive_authoritative_matches": [],
+    "rejected_alternative_matches": [
+      {
+        "source_relative_path": "docs/codex_pilot24_v2/PRODUCTION_DECISION_MATRIX_V2.csv",
+        "matched_phrase": "Eight matched auto alternatives differ by up to 5.62966e-5 rad q and 2.61843 Nm torque",
+        "classification": "REJECTED_ALTERNATIVE",
+        "affects_gate": false
+      },
+      {
+        "source_relative_path": "docs/codex_pilot24_v2/16_GATE_MATRIX.csv",
+        "matched_phrase": "Canonical ode45 RelTol=1e-6 AbsTol=1e-8 MaxStep=1e-3; auto alternative rejected by matched differences",
+        "classification": "REJECTED_ALTERNATIVE",
+        "affects_gate": false
+      },
+      {
+        "source_relative_path": "docs/codex_pilot24_v2/16_GATE_MATRIX.md",
+        "matched_phrase": "Canonical ode45 1-ms execution completed; matched auto alternative rejected",
+        "classification": "REJECTED_ALTERNATIVE",
+        "affects_gate": false
+      },
+      {
+        "source_relative_path": "docs/codex_pilot24_v2/08_SOLVER_SUBSTUDY.md",
+        "matched_phrase": "retain the conservative 1-ms candidate; auto is rejected as a drop-in replacement",
+        "classification": "REJECTED_ALTERNATIVE",
+        "affects_gate": false
+      },
+      {
+        "source_relative_path": "docs/codex_implementation/15_ODE45_MATCHED_REGRESSION.md",
+        "matched_phrase": "MaxStep=auto ... is not promoted",
+        "classification": "NEGATED_STATEMENT",
+        "affects_gate": false
+      }
+    ],
+    "non_authoritative_mentions": [
+      {
+        "source_relative_path": "docs/codex_pilot24_v2/PRODUCTION_DECISION_MATRIX_V2.csv",
+        "matched_phrase": "Retain ode45 1-ms candidate and obtain final production authority",
+        "classification": "CANDIDATE_ONLY",
+        "affects_gate": false
+      },
+      {
+        "source_relative_path": "docs/codex_pilot24_v2/PRODUCTION_DECISION_MATRIX_V2.csv",
+        "matched_phrase": "closure_state=OPEN",
+        "classification": "OPEN_DECISION",
+        "affects_gate": false
+      },
+      {
+        "source_relative_path": "docs/codex_pilot24_v2/16_GATE_MATRIX.csv",
+        "matched_phrase": "Canonical ode45 RelTol=1e-6 AbsTol=1e-8 MaxStep=1e-3",
+        "classification": "CANDIDATE_ONLY",
+        "affects_gate": false
+      },
+      {
+        "source_relative_path": "docs/codex_pilot24_v2/16_GATE_MATRIX.csv",
+        "matched_phrase": "Production solver authority remains OPEN",
+        "classification": "OPEN_DECISION",
+        "affects_gate": false
+      },
+      {
+        "source_relative_path": "docs/codex_active/01_FINAL_SCIENTIFIC_DATA_GENERATOR_CONTRACT.md",
+        "matched_phrase": "Solver Coupling: Continuous variable-step ode45",
+        "classification": "CANDIDATE_ONLY",
+        "affects_gate": false
+      },
+      {
+        "source_relative_path": "docs/codex_active/04_PILOT_AND_PRODUCTION_GATES.md",
+        "matched_phrase": "GATE-01: Continuous variable-step ode45; SampleTime=-1; INHERITED",
+        "classification": "CANDIDATE_ONLY",
+        "affects_gate": false
+      },
+      {
+        "source_relative_path": "Code_Image/+shape/config.m",
+        "matched_phrase": "solver_candidate_status=KEEP_1MS_CANDIDATE_FOR_PILOT",
+        "classification": "CANDIDATE_ONLY",
+        "affects_gate": false
+      }
+    ],
+    "decision_basis": "Positive authoritative promotion/replacement plus a different solver configuration is required. Absence of candidate wording, OPEN decisions, rejected alternatives, historical discussion, and negated promotion statements do not supersede.",
+    "legacy_predicate_result": false,
+    "legacy_false_positive_cause": "PRODUCTION_DECISION_MATRIX solver.evidence contains only auto-difference measurements; ode45/1-ms appears in recommendation, so the old absence-based predicate returned false and its negation reported supersession.",
+    "historical_discussion_scanned": true,
+    "rejected_substudy_scanned": true,
+    "authoritative_sources_searched": [
+      "docs/codex_pilot24_v2/16_GATE_MATRIX.md",
+      "docs/codex_pilot24_v2/16_GATE_MATRIX.csv",
+      "docs/codex_pilot24_v2/08_SOLVER_SUBSTUDY.md",
+      "docs/codex_implementation/15_ODE45_MATCHED_REGRESSION.md",
+      "docs/codex_pilot24_v2/PRODUCTION_DECISION_MATRIX_V2.csv",
+      "Code_Image/+shape/config.m",
+      "docs/codex_active/01_FINAL_SCIENTIFIC_DATA_GENERATOR_CONTRACT.md",
+      "docs/codex_active/04_PILOT_AND_PRODUCTION_GATES.md"
+    ],
+    "search_terms": [
+      "formally promoted",
+      "promoted to production",
+      "replace(s) ode45",
+      "supersedes ode45",
+      "production solver is now",
+      "production default",
+      "non-ode45 solver in active contract",
+      "production/frozen/promoted config status with changed tuple"
+    ],
+    "parsing_rule": "Only positive language in structured production/GATE-01 authority, an active contract naming a non-ode45 solver, or a production/frozen/promoted config status with a changed tuple can affect the gate. Explicit negation/rejection/retain/open language is excluded."
+  },
+  "ratification_assessment": {
+    "continuous_solver_semantics_supported": true,
+    "exact_candidate_tuple_supported": true,
+    "scientific_stability_supported": true,
+    "final_stack_regression_supported": true,
+    "tested_auto_alternative_rejected": true,
+    "another_solver_supersedes_candidate": false,
+    "additional_physical_solver_experiment_required": false,
+    "recommended_for_production_freeze": true,
+    "authority_mutated": false,
+    "production_authorized": false,
+    "remaining_production_blockers": [
+      "5000 Primary + 30 E2-B trajectory qualification/freeze",
+      "GATE-08",
+      "worker topology",
+      "final integrated production regression",
+      "downstream E4 calibration after its dependencies"
+    ]
+  }
+}

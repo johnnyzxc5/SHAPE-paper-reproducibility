@@ -1,6 +1,6 @@
 # External artifacts and distribution
 
-All listed files remain at their original local locations. No public download URL, release, upload, LFS configuration or asset archive was created. Sizes below are measured bytes, with decimal GB for comparison.
+The large artifact groups in the following table remain at their original local locations. No public download URL, release, upload, LFS configuration or asset archive was created. Sizes below are measured bytes, with decimal GB for comparison.
 
 | Group | File count | Bytes | GB |
 |---|---:|---:|---:|
@@ -14,7 +14,7 @@ All listed files remain at their original local locations. No public download UR
 
 `provenance/external_portable_inventory.json` records each portable fixture's exact relative restore path, local source, bytes and SHA-256. All bytes were verified against the manifest in all three candidate portable directories. `provenance/external_production_files.csv` contains fresh SHA-256 hashes of all 20,300 PRIMARY/E2B HDF5 files and 30 best checkpoints, read as bytes only. No tensor values or metrics were recalculated. These are selected canonical artifacts, not every duplicate, cache, last checkpoint or benchmark in production storage.
 
-`provenance/external_analysis_inventory.json` inventories the frozen canonical prediction tables and analysis inputs (sizes and freshly computed hashes). They exist locally but are not copied into Git. The retained final aggregate tables and PDFs are sufficient for level A viewing.
+`provenance/external_analysis_inventory.json` is the original inventory of prediction tables and analysis inputs, preserved unchanged. Six of its entries are now also included under `evidence/final/predictions/`: the three canonical prediction tables and the three E0 per-seed summary CSVs. Their delivered paths and hashes are recorded in `provenance/evidence_completion_20261005.json`. Other inventory entries remain external; their presence in the inventory is not a download link. The retained aggregate tables and PDFs remain available for level A viewing.
 
 ## Local access / restoration
 
