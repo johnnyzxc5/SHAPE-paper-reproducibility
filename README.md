@@ -1,6 +1,6 @@
 # SHAPE paper reproducibility — local assembly
 
-Companion code and frozen evidence for *Energy-Based Fault Detection and Isolation Framework for Flat Port-Hamiltonian Mechanical Systems*. This is a local, independently initialized repository assembled on 2026-10-05. No remote or release has been created. The author has not selected a project license.
+Companion code and frozen evidence for *Energy-Based Fault Detection and Isolation Framework for Flat Port-Hamiltonian Mechanical Systems*. This independently initialized repository was assembled on 2026-10-05 and delivered to a private GitHub repository. No public release or DOI has been issued. The author has not selected a project license.
 
 Start with [reproduction scope](docs/REPRODUCTION.md) and the [paper-to-artifact map](docs/PAPER_MAP.md).
 
