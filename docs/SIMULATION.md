@@ -1,5 +1,7 @@
 # Simulation and representations
 
+For the new standalone source/seed route, see [FROM_SEEDS.md](FROM_SEEDS.md) and `Code_Image/run_reproduction.m`. It leaves original manifests/bindings unchanged, generates their trajectory contents locally, and has a separate one-worker reproduction check. The external restoration/host Q2 procedure below describes the original operational launchers.
+
 `Code_Image/Kinova_Fault_Simulator.slx` and the nominal/dirty MAT models are copied from the verified operational portable. `+shape` contains reference loading, residual construction, normalization, CWT, FFT, serialization and validation. Original function and directory names are retained because executable code resolves `docs/`, `data/` and Pilot paths relative to them.
 
 The frozen scientific specification is declared by commit `5b4d09994fae40e2992d0e118cc9b31cd6cf90a1`, but that commit is not a complete self-contained source distribution: the generator in its readable tree differs from the generator bound to production. The copied generator matches every source hash in the qualified trajectory receipt; see `provenance/generator_identity.json`. Do not replace it with the old Git blob.

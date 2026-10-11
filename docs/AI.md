@@ -1,5 +1,7 @@
 # AI workflow
 
+The new [source/seed workflow](FROM_SEEDS.md) prepares the complete recorded configuration matrix with new paths and explicit commands for indexing, training, evaluation, fresh E4 calibration and analysis. Nothing executes by default. This route generates clean data first and never rebinds the historical calibration receipt.
+
 The package stays at `Fault_Diagnosis/shape_ai`. This depth is executable: E4 resolves the MATLAB directory using `Path(__file__).resolve().parents[4] / 'Code_Image'`. Its source is the inspected working-tree snapshot, including changes after `f7f183f`; source hashes and normalized comparisons are in `provenance/`.
 
 The six representations are `shape_cwt`, `torque_cwt`, `gmo_cwt`, `energy_cwt`, `shape_temporal`, `shape_fft`. The source uses a shared encoder with fixed-order concatenation in `MultiJointClassifier`; parameter sharing does not establish permutation equivariance/invariance of the complete classifier.

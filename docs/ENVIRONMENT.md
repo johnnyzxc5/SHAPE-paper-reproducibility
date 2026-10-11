@@ -1,5 +1,7 @@
 # Environment evidence
 
+The 2026-10-11 addition supplies `requirements/reproduction-win64-py312.lock` as a prospective observed version profile and `tools/setup_reproduction.ps1` as an explicit installation helper. The default prints a plan. The profile is not a reconstructed complete historical lock; see [FROM_SEEDS.md](FROM_SEEDS.md).
+
 | Evidence scope | Verified record | Interpretation |
 |---|---|---|
 | All 30 training runs | `metadata/AI/runs/*/seed_*/provenance.json` | One consistent environment: Windows 11 build 26200, Python 3.12.3 AMD64, PyTorch 2.14.0+cu130, CUDA runtime 13.0, cuDNN 92400, one NVIDIA RTX 4090 |

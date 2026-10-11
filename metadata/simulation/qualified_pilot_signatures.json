@@ -1,0 +1,488 @@
+{
+  "schema_version": "shape-qualified-pilot-numerical-signatures-v1",
+  "source_receipt": "q2_controlled_physical_receipt.json",
+  "source_receipt_sha256": "b552f2619588e0ea19b93efc13b9594211ce2129d264aa5b06c69cf25317635d",
+  "source_scope": "Existing 96-run Q2, 96 canonical validations, zero failures",
+  "encoding": "shape.sha256_canonical(NUM); MATLAB dimensions; little-endian column-major",
+  "qualification_scope": "Two contrasting Pilot LoE runs, all 25 datasets; serial reproduction only",
+  "cases": [
+    {
+      "run_uid": "8167b058-dc6e-3b0a-b6b0-0478265cd56a",
+      "source_hdf5_sha256": "a5a989d605533aec1d832561c7d351d742c32039d7f6892acc1a45861f3cfbe4",
+      "datasets": [
+        {
+          "path": "/coordinates/cwt_frequency_hz",
+          "matlab_class": "single",
+          "matlab_size": [
+            1,
+            224
+          ],
+          "sha256": "76cd142f8584cb2d54bc04a2fb5f55ddb526a69156cd4d27bdd5bf51d86b16a7"
+        },
+        {
+          "path": "/coordinates/cwt_time_s",
+          "matlab_class": "single",
+          "matlab_size": [
+            1,
+            448
+          ],
+          "sha256": "4a362c479db12baa9d0080e77b3f45688c0ab924e6138b6fb35755e5e99d91ca"
+        },
+        {
+          "path": "/coordinates/fft_frequency_hz",
+          "matlab_class": "single",
+          "matlab_size": [
+            1,
+            1001
+          ],
+          "sha256": "90655b8a7d7e8b216bb981eea2730a22a5bf86e714883640e58c6ce0a448ee0c"
+        },
+        {
+          "path": "/coordinates/telemetry_time_s",
+          "matlab_class": "single",
+          "matlab_size": [
+            1,
+            10001
+          ],
+          "sha256": "9604865372f0df3a8452731f4130199ee41fc0dae9c9e6c3c6d507128a287911"
+        },
+        {
+          "path": "/cwt/energy_log",
+          "matlab_class": "single",
+          "matlab_size": [
+            1,
+            224,
+            448
+          ],
+          "sha256": "2441d0630779d9a00e8271dd25f67fbda0867b936d4ff609e52dec427a8c432f"
+        },
+        {
+          "path": "/cwt/energy_magnitude",
+          "matlab_class": "single",
+          "matlab_size": [
+            1,
+            224,
+            448
+          ],
+          "sha256": "737da84ed5ac3a3e85f61bfd98bfa0889ac24b7dc0fb1f42a35944ba12d39052"
+        },
+        {
+          "path": "/cwt/gmo_log",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            224,
+            448
+          ],
+          "sha256": "a861717434a8a73ad0ae22440e0ad9c5017d2bde01071dd1e908320b93e14271"
+        },
+        {
+          "path": "/cwt/gmo_magnitude",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            224,
+            448
+          ],
+          "sha256": "94fb28a2f1c3cf4e0bf3802aa64968282e2b7d280c3ff3b606526598f29a0708"
+        },
+        {
+          "path": "/cwt/shape_log",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            224,
+            448
+          ],
+          "sha256": "d2f6398fab6878cfaed3d420cc1bb50d97661d3985cd676954f14f35027251f1"
+        },
+        {
+          "path": "/cwt/shape_magnitude",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            224,
+            448
+          ],
+          "sha256": "a55526846d08a47fc3e7f3ea9c669a2467328d09c7338d7da7194c9943c3241f"
+        },
+        {
+          "path": "/cwt/torque_log",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            224,
+            448
+          ],
+          "sha256": "7b868d911d7820ff0749621aad60ef54006ab7794b1fa0165c514c9df311e9ac"
+        },
+        {
+          "path": "/cwt/torque_magnitude",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            224,
+            448
+          ],
+          "sha256": "bf4e3a6b2b24a58999e140d0b157b76e7103899c47c5859684121c14fd442b51"
+        },
+        {
+          "path": "/quality/coi_valid_mask",
+          "matlab_class": "uint8",
+          "matlab_size": [
+            224,
+            448
+          ],
+          "sha256": "4739a29f14c435944773e9aebb57d38466b312916d678a9b598f649544bb2807"
+        },
+        {
+          "path": "/reference/ddq_ref",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "f941ae0e89262dac42bf1241a230d1af16064f01afd7f0ad0303b9b8c5ebe239"
+        },
+        {
+          "path": "/reference/dq_ref",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "2c63c4bbf43e4d4c1a34bf2d0183c5d44c7892789e2dfb15d49a4a8ba79f3032"
+        },
+        {
+          "path": "/reference/q_ref",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "1971ff467853ea8c5b4aab11f470094905eb941aeac32955596e0a93fcaca7f0"
+        },
+        {
+          "path": "/reference/tau_nom",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "9372e732374e8915db6419be69da0c44e87f6f11947da641dee6992d31678e3b"
+        },
+        {
+          "path": "/telemetry/dq_meas",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "aeb88e3a78b08dbd9d420bfbce3d64fd87d81eb366379cbfabd5fc6eab731cbc"
+        },
+        {
+          "path": "/telemetry/q_meas",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "f65bb7f443cedd1a395e89e63374373eb395a473439d0f391ce37ffc734cd5d5"
+        },
+        {
+          "path": "/telemetry/tau_cmd",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "e34c150c51313624fe6cfd70313ea3a1a0940b245febcda5ab485d11a5f5c9cd"
+        },
+        {
+          "path": "/temporal/energy",
+          "matlab_class": "single",
+          "matlab_size": [
+            1,
+            10001
+          ],
+          "sha256": "a2cf7bd27a748e3c40a597ef9193a8cd2c8dd2dd2a43561cf6e558933992495a"
+        },
+        {
+          "path": "/temporal/gmo",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "dad0b118d4e2aabbb2fd243f92e9fccac55453120c138ea7233e39199308c9e4"
+        },
+        {
+          "path": "/temporal/shape",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "caa9cfeb61a39e1fca9ec06cc967d43576cf70035f82a86d99c51e251fa4fd93"
+        },
+        {
+          "path": "/temporal/torque",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "4a3b1f2d5903fe943641d19fb3f4bc603f41826e671c234ea2cdfac1c690d53d"
+        },
+        {
+          "path": "/views/shape_fft_amplitude",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            1001
+          ],
+          "sha256": "63d15e0262a5f090eabb0e0ae86477ab65babcf9bd21ae1aacc0b334b5fe299f"
+        }
+      ]
+    },
+    {
+      "run_uid": "216a0075-20d7-34a6-aded-c2198b018f7d",
+      "source_hdf5_sha256": "65f81ccdeeeb32033d18837fbaa1d0c6fb50eb3b4a1b6f7b483e99fa6c301583",
+      "datasets": [
+        {
+          "path": "/coordinates/cwt_frequency_hz",
+          "matlab_class": "single",
+          "matlab_size": [
+            1,
+            224
+          ],
+          "sha256": "76cd142f8584cb2d54bc04a2fb5f55ddb526a69156cd4d27bdd5bf51d86b16a7"
+        },
+        {
+          "path": "/coordinates/cwt_time_s",
+          "matlab_class": "single",
+          "matlab_size": [
+            1,
+            448
+          ],
+          "sha256": "4a362c479db12baa9d0080e77b3f45688c0ab924e6138b6fb35755e5e99d91ca"
+        },
+        {
+          "path": "/coordinates/fft_frequency_hz",
+          "matlab_class": "single",
+          "matlab_size": [
+            1,
+            1001
+          ],
+          "sha256": "90655b8a7d7e8b216bb981eea2730a22a5bf86e714883640e58c6ce0a448ee0c"
+        },
+        {
+          "path": "/coordinates/telemetry_time_s",
+          "matlab_class": "single",
+          "matlab_size": [
+            1,
+            10001
+          ],
+          "sha256": "9604865372f0df3a8452731f4130199ee41fc0dae9c9e6c3c6d507128a287911"
+        },
+        {
+          "path": "/cwt/energy_log",
+          "matlab_class": "single",
+          "matlab_size": [
+            1,
+            224,
+            448
+          ],
+          "sha256": "7033c55234d609d45b3dd9f4d9802193f7e791f6bc992657368188db8db15ed5"
+        },
+        {
+          "path": "/cwt/energy_magnitude",
+          "matlab_class": "single",
+          "matlab_size": [
+            1,
+            224,
+            448
+          ],
+          "sha256": "b0e480cd5d9ba0caa8f1aee665613fdaa1ee08041d0fc1f70b97c6d142d35e2f"
+        },
+        {
+          "path": "/cwt/gmo_log",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            224,
+            448
+          ],
+          "sha256": "b173921e21659e477fe108645cf741fb1b6ca51f76e39f307480efa28b2f4c1b"
+        },
+        {
+          "path": "/cwt/gmo_magnitude",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            224,
+            448
+          ],
+          "sha256": "e307af0bfdfc9d07b2077d90ec55dbe2d259539c232a0e2e17d57e9f1da2c65d"
+        },
+        {
+          "path": "/cwt/shape_log",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            224,
+            448
+          ],
+          "sha256": "8889dd8fc643e442527066c5fca479c3496b9c2ff92a584eb8738fe18d66c8eb"
+        },
+        {
+          "path": "/cwt/shape_magnitude",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            224,
+            448
+          ],
+          "sha256": "a987694b0e82b093b09bea00edba4dd0090a47c484f5327bbbaeefc7107decd5"
+        },
+        {
+          "path": "/cwt/torque_log",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            224,
+            448
+          ],
+          "sha256": "d1561c5a7d554036358bd5030ee224baa04de693668954ee3a7f7d6443d0574e"
+        },
+        {
+          "path": "/cwt/torque_magnitude",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            224,
+            448
+          ],
+          "sha256": "781eb0d190cb9c8ca6a8fb943c96d7e087ef4d9266299160c5c49ff644ff6a6d"
+        },
+        {
+          "path": "/quality/coi_valid_mask",
+          "matlab_class": "uint8",
+          "matlab_size": [
+            224,
+            448
+          ],
+          "sha256": "4739a29f14c435944773e9aebb57d38466b312916d678a9b598f649544bb2807"
+        },
+        {
+          "path": "/reference/ddq_ref",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "9658aaf7575e48258427fd37ed672193bcaf1d9407dec07171b37cd5b953a3fb"
+        },
+        {
+          "path": "/reference/dq_ref",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "5ae78894ac5aba3b4b4ba9cf27b0aca8cc6d8ce3c1e97c5d27a27fdab73acf42"
+        },
+        {
+          "path": "/reference/q_ref",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "15452703db3f95c45a9ebc4ef90ad762ca1495a0137fad002ba08bd125095e19"
+        },
+        {
+          "path": "/reference/tau_nom",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "0a0134293b61e84f6fe57dc2c1438e76cd2344b7e24c1f505d458550201c80e0"
+        },
+        {
+          "path": "/telemetry/dq_meas",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "80bd5a607088bb19f9ef481323552a5ce9cdc380af5fff192719cf6ea8a853ea"
+        },
+        {
+          "path": "/telemetry/q_meas",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "bb470a48b9d8c8cf42cad5e455a242cc128b3493c14a73bd518027ba5e37e4d1"
+        },
+        {
+          "path": "/telemetry/tau_cmd",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "3179e50802170890bea6db6fbfab6822675e62a18f4312bbe01c7b9e1958f6a8"
+        },
+        {
+          "path": "/temporal/energy",
+          "matlab_class": "single",
+          "matlab_size": [
+            1,
+            10001
+          ],
+          "sha256": "4be18341e29f7f19be435119caca3bf23be06c72848905dcf02f6731aae119d9"
+        },
+        {
+          "path": "/temporal/gmo",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "d3b363aaec43c1f2d4026181f6ebb5fb6a510ea59c02e4c67b8af66942b998db"
+        },
+        {
+          "path": "/temporal/shape",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "119f03731e7147966c64294609511e5b87af8ddd4e31b7d34fd86c10ce8b3995"
+        },
+        {
+          "path": "/temporal/torque",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            10001
+          ],
+          "sha256": "3f65e99c6098efa91d2419fb6bad697074e2aac0e0d2de04b8247e37e767091c"
+        },
+        {
+          "path": "/views/shape_fft_amplitude",
+          "matlab_class": "single",
+          "matlab_size": [
+            6,
+            1001
+          ],
+          "sha256": "f3fdb9f741a6e614a26580505414b5f13ce3aa46fa8ecc79e22d3a95a423b291"
+        }
+      ]
+    }
+  ]
+}

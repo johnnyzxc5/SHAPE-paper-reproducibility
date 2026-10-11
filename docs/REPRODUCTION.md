@@ -12,6 +12,8 @@ The source and model identities are included, but checkpoints and HDF5 inputs ar
 
 ## C — complete regeneration/training, conditional
 
+**2026-10-11 addition:** [FROM_SEEDS.md](FROM_SEEDS.md) describes a new standalone route that generates production/Pilot trajectories from packaged seeds and uses numerical fingerprints instead of external Pilot HDF5. It prepares all 30 recorded training configurations, new E4 calibration and core analysis paths. Static checks passed; no scientific stage was executed. The restoration instructions below describe the preserved historical launchers, which remain available separately.
+
 Restore trajectories and Pilot fixtures, qualify the host, verify manifests/binding, run the clean campaign, index outputs, train the 30 configurations, evaluate and perform the offline E4 stage. See simulation and AI guides. Source supplements for generation are included, but prospective regeneration must use a new writable copy because it writes binding/receipts. Frozen trajectories are the reliable replay inputs; seeds alone do not guarantee identical files or acceptance on another environment. No universal hardware, runtime, or bit-for-bit guarantee is made.
 
 ## Analysis scripts

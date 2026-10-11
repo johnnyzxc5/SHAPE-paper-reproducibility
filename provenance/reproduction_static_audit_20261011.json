@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-11",
+  "scope": "Source and dependency completeness; no scientific execution",
+  "baseline_commit": "ba129999a4242c89894cd599e7908df6caf0574d",
+  "baseline_sealed_files": 682,
+  "original_scientific_files_checked_unchanged": 630,
+  "changed_baseline_files": [
+    "README.md",
+    "analysis/README.md",
+    "docs/AI.md",
+    "docs/ENVIRONMENT.md",
+    "docs/REPRODUCTION.md",
+    "docs/SIMULATION.md"
+  ],
+  "matlab_code_analyzer": "ZERO_ISSUES",
+  "existing_qualified_dataset_fingerprints_verified_with_matlab": 50,
+  "planning_and_protection_tests": 5,
+  "python_dependency_consistency": "pip check PASS, current observed environment",
+  "manifest_rows": {
+    "PRIMARY": 20000,
+    "E2B": 300,
+    "PILOT": 116
+  },
+  "production_parents_and_content_bindings": 5030,
+  "pilot_parents": 24,
+  "resolved_training_configurations": 30,
+  "all_manifest_seed_fields_present": true,
+  "trajectory_generation": "NOT_RUN",
+  "physical_simulations": 0,
+  "training_runs": 0,
+  "inference": "NOT_RUN",
+  "e4_restaging": "NOT_RUN",
+  "analysis_aggregation": "NOT_RUN",
+  "numerical_campaign_equivalence": "NOT_RUN",
+  "new_route_scope": "One Process worker; fresh two-case/25-dataset fingerprint check; no historical Q2 authority",
+  "version_profile": "Observed 2026-10-11, not a recovered historical full lock",
+  "clean_source_copy": {
+    "status": "PASS",
+    "external_trajectories_supplied": false,
+    "external_simulation_hdf5_supplied": false,
+    "external_checkpoints_supplied": false,
+    "integrity_files": 693,
+    "planning_tests": 5,
+    "temporary_copy_cleanup": "Sent to Windows Recycle Bin"
+  }
+}
