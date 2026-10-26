@@ -1,6 +1,6 @@
 # SHAPE paper reproducibility — local assembly
 
-Companion code and frozen evidence for *Energy-Based Fault Detection and Isolation Framework for Flat Port-Hamiltonian Mechanical Systems*. This independently initialized repository was assembled on 2026-10-05 and delivered to a private GitHub repository. No public release or DOI has been issued. The author has not selected a project license.
+Companion code and frozen evidence for *Energy-Based Fault Detection and Isolation Framework for Flat Port-Hamiltonian Mechanical Systems*. This independently initialized repository was assembled on 2026-10-05 and initially delivered to a private GitHub repository; the repository is now public. No public release or DOI has been issued. Original software is MIT licensed; manuscript, research-artifact and third-party exclusions are defined in [LICENSING.md](LICENSING.md).
 
 Start with [reproduction scope](docs/REPRODUCTION.md) and the [paper-to-artifact map](docs/PAPER_MAP.md).
 
@@ -35,3 +35,8 @@ This checks packaged bytes only. It does not run MATLAB, infer predictions or re
 Frozen code is preserved byte for byte. Historical path defaults and upstream host guides remain inside it; use the new guides before invoking an upstream launcher. Installing the Python package does not start a campaign. Original analysis scripts may execute work on import and contain absolute paths: do not import/run them unchanged.
 
 The [evidence completion note](docs/EVIDENCE_COMPLETION.md) documents the added canonical predictions and historical solver comparison/ratification records. The original assembly report remains a dated record; this addition does not qualify a new host or claim that the scientific campaign has been rerun.
+
+
+## License
+
+Original software is licensed under [MIT](LICENSE). See [LICENSING.md](LICENSING.md) for the covered paths and exclusions for manuscripts, research artifacts and third-party materials.
